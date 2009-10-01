@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="718" width="1024" x="0" y="25">
 <fastViewData fastViewLocation="1024">
@@ -75,7 +75,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS_eclipse_workspace_3.4/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
 <editorState selectionLength="0" selectionOffset="1649"/>
 </editor>
@@ -1011,7 +1011,6 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 </trimArea>
 </trimLayout>
 </window>

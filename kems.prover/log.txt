@@ -1,1 +1,27 @@
-2009-10-01 12:13:39.557 - INFO: Prover interface started.
+2009-10-01 16:06:51.342 - INFO: Prover interface started.
+2009-10-01 16:07:31.374 - INFO: Starting run procedure
+2009-10-01 16:07:31.377 - INFO: Starting analysis procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_02.prove
+2009-10-01 16:07:31.566 - INFO: Finished with success analysis procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_02.prove
+2009-10-01 16:07:31.568 - INFO: Starting proof and verify procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_02.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+2009-10-01 16:07:34.669 - INFO: Additional information about proof procedure for /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_02.prove: closed with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator in 1.044 seconds
+proof size: 157
+number of nodes: 30
+verification result: verified
+2009-10-01 16:07:34.677 - INFO: Finished with success proof and verify procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_02.prove
+2009-10-01 16:07:34.828 - INFO: Starting analysis procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_03.prove
+2009-10-01 16:07:34.869 - INFO: Finished with success analysis procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_03.prove
+2009-10-01 16:07:34.872 - INFO: Starting proof and verify procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_03.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+2009-10-01 16:07:38.408 - INFO: Additional information about proof procedure for /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_03.prove: closed with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator in 1.15 seconds
+proof size: 279
+number of nodes: 44
+verification result: verified
+2009-10-01 16:07:38.41 - INFO: Finished with success proof and verify procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_03.prove
+2009-10-01 16:07:38.423 - INFO: Starting analysis procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_04.prove
+2009-10-01 16:07:38.447 - INFO: Finished with success analysis procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_04.prove
+2009-10-01 16:07:38.45 - INFO: Starting proof and verify procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_04.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+2009-10-01 16:07:42.5 - INFO: Additional information about proof procedure for /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_04.prove: closed with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator in 1.434 seconds
+proof size: 425
+number of nodes: 57
+verification result: verified
+2009-10-01 16:07:42.502 - INFO: Finished with success proof and verify procedure for problem /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.problems/problems/generated/lfiProblems/family5/family5_04.prove
+2009-10-01 16:07:42.735 - INFO: Finished  run procedure
