@@ -1,0 +1,9 @@
+# A test for mCi exclusive rules
+# INCONSISTENCY
+# this one will produce T INC1 and T!INC1
+T *INC1
+# this one will produce nothing
+F *INC2
+# NEGATION AND CONSISTENCY
+T A->!(@!@X)
+# End

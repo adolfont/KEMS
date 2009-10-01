@@ -1,0 +1,122 @@
+import Factory.AloFactory;
+import Factory.IAloMundo;
+import Factory2.CriaFactory2;
+import Factory2.IFact2;
+import Singleton.SingletonImpl;
+
+
+public class main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Estudo de Padrões de Projeto");
+		
+		menu();
+		int escolha;
+		do {
+			System.out.print("Escolha uma opção: ");
+			escolha = Integer.valueOf(Consolegambijava.leia());
+			switch (escolha) {
+				case 1:
+					estudoFactory();
+					break;
+				case 2:
+					estudoFactory2();
+					break;
+				case 3:
+					estudoSingleton();
+					break;
+				case 5:
+					System.out.println("Sair.");
+					break;
+				default:
+					System.err.println("Opção Inválida.");
+					break;
+			}
+		} while (escolha!=5);
+		
+		
+	}
+	
+	private static void estudoSingleton(){
+		SingletonImpl sing1 = SingletonImpl.getReference();
+		SingletonImpl sing2 = SingletonImpl.getReference();
+		// SingletonImpl sing3 = new SingletonImpl(); --> ERRO !!
+		
+		System.out.print("sing1: ");
+		sing1.metodo();
+		System.out.print("sing2: ");
+		sing2.metodo();
+	}
+	
+	private static void estudoFactory2(){
+		int opcao = 1;
+		CriaFactory2 alo = new CriaFactory2();
+		IFact2 iFact;
+		
+		System.out.print("Escolha: [1] - concrete1, [2] - concrete2, [3] - concrete3: ");
+		opcao = Integer.valueOf(Consolegambijava.leia());
+		
+		switch (opcao) {
+			case 1:
+				iFact = alo.CriaInterface(CriaFactory2.classesConcretas.concrete1);
+				break;
+			case 2:
+				iFact = alo.CriaInterface(CriaFactory2.classesConcretas.concrete2);
+				break;
+			case 3:
+				iFact = alo.CriaInterface(CriaFactory2.classesConcretas.concrete3);
+				break;
+			default:
+				iFact = alo.CriaInterface(CriaFactory2.classesConcretas.concrete1);
+				System.err.println("Opcao invalida.");
+				break;
+		}
+		iFact.print();
+	}
+	
+	private static void estudoFactory(){
+		int opcao = 1;
+		AloFactory alo = new AloFactory();
+		IAloMundo iAlo;
+		
+		System.out.print("Escolha: [1] - inglês, [2] - espanhol, [3] - alemao: ");
+		opcao = Integer.valueOf(Consolegambijava.leia());
+		
+		switch (opcao) {
+			case 1:
+				iAlo = alo.CriaAloMundo(AloFactory.idiomas.ingles);
+				break;
+			case 2:
+				iAlo = alo.CriaAloMundo(AloFactory.idiomas.espanhol);
+				break;
+			case 3:
+				iAlo = alo.CriaAloMundo(AloFactory.idiomas.alemao);
+				break;
+			default:
+				iAlo = alo.CriaAloMundo(AloFactory.idiomas.ingles);
+				System.err.println("Opcao invalida.");
+				break;
+		}
+		iAlo.falaAlo();
+	}
+	
+	
+	private static void menu(){
+		String m = "";
+		m = "1) Para Factory\n";
+		m += "2) Para Factory2\n";
+		m += "3) Para Sigleton\n";
+		//m += "4) Para Facade\n";
+		m += "5) para sair";
+		System.out.println(m);
+	}
+	
+}
+
+
+/* Referências:
+ * Factory: http://www.macoratti.net/vbn5_dp1.htm
+*/

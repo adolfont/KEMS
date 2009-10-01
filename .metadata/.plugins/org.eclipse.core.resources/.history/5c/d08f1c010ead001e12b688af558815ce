@@ -1,0 +1,12 @@
+package Factory;
+
+public class AloFactory {
+	public enum idiomas {
+		ingles = 0;
+		espenhol = 1;
+		alemao = 2;
+	}
+	public void CriaAloMundo(){
+		
+	}
+}

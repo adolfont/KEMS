@@ -1,0 +1,16 @@
+package Factory;
+
+public class AloFactory {
+	public enum idiomas {
+		ingles,
+		espanhol,
+		alemao;
+	}
+	public IAloMundo CriaAloMundo(idiomas tipo){
+		if (tipo.equals(idiomas.ingles)) {
+			return new EnglishAloMundo();
+		} else if (tipo.equals(idioma.espanhol)) {
+			return new SpanishAloMundo();
+		} 
+	}
+}

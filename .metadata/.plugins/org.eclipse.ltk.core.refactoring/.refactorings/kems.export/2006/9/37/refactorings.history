@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource '/kems.export/problems/README.txt' to 'instructions.txt'&#10;- Original element: 'README.txt'" description="Rename resource 'README.txt'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="problems/README.txt" name="instructions.txt" stamp="1157652273380" version="1.0"/>
+</session>

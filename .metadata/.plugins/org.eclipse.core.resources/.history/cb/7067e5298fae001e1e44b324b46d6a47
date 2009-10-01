@@ -1,0 +1,7 @@
+package Factory2;
+
+public class clsConcrete2 extends clsImplementInterface {
+	public void print(){
+		System.out.println("Concrete 1");
+	}
+}

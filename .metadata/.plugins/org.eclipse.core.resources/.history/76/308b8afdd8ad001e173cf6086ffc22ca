@@ -1,0 +1,88 @@
+package Facade;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+//Exemplo de implementação do padrão Facade
+//A classe SistemaAcademico é uma classe de Facade
+class SistemaAcademico {
+	// Este método implementa a Facade, ou seja, ele expõe uma interface
+	// simplificada
+	// e "esconde" os procedimentos que são realizados através das interfaces dos
+	// outros
+	// objetos envolvidos do subsistema (classes Aluno, Turma e Disciplina)
+
+	public boolean matriculaAluno(Aluno a, Turma t) {
+		// se a matrícula ultrapassa o máximo (30 créditos)
+		if (a.getCreditosMatriculados() + t.getCreditos() >= 30) {
+			return false;
+		}
+		int numCurs = a.getNumDeDisciplinasCursadas();
+		Disciplina d = t.getDisciplina();
+		int numPreReq = d.getNumDePreReqs();
+		int preReqEncontrados = 0;
+		for (int i = 0; i < numCurs; i++) {
+			for (int j = 0; j < numPreReq; j++) {
+				// se encontrou o pré-requisito nas cursadas
+				if (d.getPreReq(j).getNome().equals(a.getDisciplinaCursada(i).getNome())) {
+					preReqEncontrados++;
+				}
+			}
+		}
+		// se não cursou ainda todos os pré-requisitos
+		if (preReqEncontrados < numPreReq) {
+			return false;
+		}
+		// se não tem mais vagas
+		if (t.getMatriculados() == t.getNumeroDeVagas()) {
+			return false;
+		}
+		// matricula
+		t.matricula(a);
+		return true;
+	}
+}
+
+class Aluno {
+	public int getCreditosMatriculados() {
+	}
+
+	public int getNumDeDisciplinasCursadas() {
+	}
+
+	public Disciplina getDisciplinaCursada(int indice) {
+	}
+
+}
+
+class Turma {
+	Disciplina _dis = new Disciplina();
+	int _creditos = 100;
+	ArrayList<Aluno> _alunos;
+	public Disciplina getDisciplina() { return _dis;	}
+	public int getCreditos() { return _creditos;	}
+	public void matricula(Aluno a) {
+		_alunos.add(a);
+	}
+	public int getMatriculados() {
+		int count = 0;
+		Iterator<Aluno> it = _alunos.iterator();
+		
+		while (it.hasNext()) {  
+		  it.next();
+		  count++;
+		}
+		return count;
+	}
+
+	public int getNumeroDeVagas() {
+	}
+}
+
+class Disciplina {
+	public int getNumDePreReqs() {
+	}
+
+	public Disciplina getPreReq() {
+	}
+}

@@ -1,0 +1,16 @@
+1240860598622	Copy compilation unit
+1240870326997	Copy compilation unit
+1240871367894	Rename field 'mainPremise'
+1240871385119	Rename local variable 'auxPremise'
+1240873867867	Copy compilation unit
+1240873883600	Rename type 'PBRuleApplicator'
+1241098890101	Copy compilation unit
+1241105993257	Rename type 'TernarySignedFormulaPattern'
+1241106007479	Rename type 'FormulaPattern'
+1241106039233	Rename type 'UnarySignedFormulaPattern'
+1241106059003	Rename type 'SubformulaPattern'
+1241106077863	Rename type 'BinarySignedFormulaPattern'
+1241119347930	Copy compilation unit
+1241122546889	Copy compilation unit
+1241122563267	Rename type 'TwoPremiseRuleApplicator'
+1241123600625	Rename method 'tryToApplyTwoPremiseRule'

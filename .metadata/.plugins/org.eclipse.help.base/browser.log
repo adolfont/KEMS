@@ -1,0 +1,17 @@
+
+set 06, 2006 22:39:52.43 NEW SESSION
+set 06, 2006 22:39:52.43 /usr/bin/mozilla
+set 06, 2006 22:39:52.60 /usr/bin/firefox
+
+set 07, 2006 24:00:43.47 NEW SESSION
+set 07, 2006 24:00:43.47 /usr/bin/mozilla
+set 07, 2006 24:00:43.85 /usr/bin/firefox
+
+out 04, 2006 22:11:07.29 NEW SESSION
+out 04, 2006 22:11:07.29 /usr/bin/mozilla
+out 04, 2006 22:11:07.46 /usr/bin/firefox
+
+Sep 17, 2009 10:02:19.07 NEW SESSION
+Sep 17, 2009 10:02:19.08 which: no mozilla in (/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/emerson/bin)
+Sep 17, 2009 10:02:19.16 which: no netscape in (/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/emerson/bin)
+Sep 17, 2009 10:02:19.25 /usr/bin/firefox

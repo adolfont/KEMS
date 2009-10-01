@@ -1,0 +1,4 @@
+1163038524309	Rename method 'drawString'
+1163039986143	Extract method 'showRightBranch'
+1163039969753	Extract method 'showLeftBranch'
+1163039952033	Extract method 'showOpenCompletedMark'

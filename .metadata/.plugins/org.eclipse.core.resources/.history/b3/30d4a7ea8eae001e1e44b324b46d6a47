@@ -1,0 +1,23 @@
+package Factory2;
+
+public class CriaFactory2 {
+	public enum idiomas {
+		ingles,
+		espanhol,
+		alemao;
+	}
+	
+	public IFact2 CriaAloMundo(idiomas tipo){
+		/*if (tipo.equals(idiomas.ingles)) {
+			return new EnglishAloMundo();
+		} else if (tipo.equals(idiomas.espanhol)) {
+			return new SpanishAloMundo();
+		} else if (tipo.equals(idiomas.alemao)) {
+			return new GermanAloMundo();
+		}*/
+		return null;
+
+	}
+	
+}
+

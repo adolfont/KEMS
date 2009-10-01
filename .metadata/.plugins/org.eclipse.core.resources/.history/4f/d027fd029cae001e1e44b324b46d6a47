@@ -1,0 +1,16 @@
+package Observer;
+
+interface ITelefoneListener extends java.util.EventListener {
+	void telefoneTocou(TelefoneEvent e);
+	void telefoneAtendido(TelefoneEvent e);
+}
+
+class TelefoneEvent extends java.util.EventObject {
+	public TelefoneEvent(Telefone source) {
+		super(source);
+	}
+}
+
+public class ExemploObserver {
+
+}

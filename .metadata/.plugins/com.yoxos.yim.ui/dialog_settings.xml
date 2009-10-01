@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.yoxos.yim.ui.internal.update.dialog.UpdateDialog">
+		<item value="true" key="HIDE_SECONDARY"/>
+		<item value="true" key="EXPAND_YIM"/>
+		<item value="false" key="HIDE_REMOVED"/>
+		<item value="true" key="EXPAND_YFES"/>
+		<item value="false" key="HIDE_NEW"/>
+		<item value="false" key="HIDE_UPDATED"/>
+	</section>
+</section>

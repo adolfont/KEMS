@@ -1,0 +1,14 @@
+# Example 2: Belief revision: diamonds again
+# Source: How to build your own paraconsistent logic: 
+# an Introduction to the Logics of Formal (In)Consistency
+# Walter Carnielli
+T !A
+T !B
+T A|B
+# First conclusion
+# F A
+# Second conclusion
+# F B
+T @(!B)
+# Third conclusion
+#F *(!A)

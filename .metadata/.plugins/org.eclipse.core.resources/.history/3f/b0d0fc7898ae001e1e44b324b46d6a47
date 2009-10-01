@@ -1,0 +1,30 @@
+package Proxy;
+
+//interface
+interface IPessoa {
+  public String getNome();
+  public String getId();
+}
+
+//objeto real
+class PessoaReal implements IPessoa{
+	private String _nome, _id;
+	public String getId() {	return this._id; }
+	public String getNome() {	return this._nome;	}
+	
+	public PessoaReal(String id, String nome){
+		this._id = id;
+		this._nome = nome;
+		System.out.println("Obj real - " + this._id + " - " + this._nome);
+	}
+}
+
+class ProxyPessoa implements IPessoa{
+	private String _id;
+	public String getId() {	return null; }
+	public String getNome() {	return null;	}
+}
+
+public class ExemploProxy {
+
+}

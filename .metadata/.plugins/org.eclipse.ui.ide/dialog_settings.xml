@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="ResourceListSelectionDialog.showDerived"/>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="510" key="DIALOG_WIDTH"/>
+		<item value="237" key="DIALOG_Y_ORIGIN"/>
+		<item value="249" key="DIALOG_X_ORIGIN"/>
+		<item value="244" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="false" key="ShowDerived"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet isWindowWorkingSet=&quot;false&quot; workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/kems.prover/implementing_c1.txt&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.export/problems/generated/lfiProblems/family7/family7_01.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/created/lfi/lfi_samples/C1/valid/C1_sample_11.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/generated/lfiProblems/family7/C1/family7_01.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/generated/lfiProblems/family5/family5_03.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/generated/lfiProblems/family5/family5_02.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/generated/lfiProblems/family5/family5_01.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/generated/lfiProblems/third/C1/family3_01.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.problems/problems/generated/lfiProblems/fourth/C1/family4_01.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.export/problems/generated/cpl/php_several_formulas/PHP_03.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/kems.export/problems/generated/classicFamilies/php_one_formula/php_3.prove&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="94" key="DIALOG_Y_ORIGIN"/>
+			<item value="425" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1159540445685" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="ResourceListSelectionDialogSettings">
+		<item value="371" key="DIALOG_WIDTH"/>
+		<item value="72" key="DIALOG_Y_ORIGIN"/>
+		<item value="326" key="DIALOG_X_ORIGIN"/>
+		<item value="593" key="DIALOG_HEIGHT"/>
+		<item value="1|Bitstream Vera Sans|11|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.views.problem">
+	</section>
+	<section name="org.eclipse.ui.views.task">
+	</section>
+	<section name="DialogMarkerPropertiesDialogSettings">
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="254" key="DIALOG_Y_ORIGIN"/>
+		<item value="416" key="DIALOG_X_ORIGIN"/>
+		<item value="278" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="535" key="DIALOG_WIDTH"/>
+		<item value="101" key="DIALOG_Y_ORIGIN"/>
+		<item value="467" key="DIALOG_X_ORIGIN"/>
+		<item value="601" key="DIALOG_HEIGHT"/>
+		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.ajdt.wizards"/>
+			<item value="org.eclipse.team.cvs.ui.newWizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="621" key="DIALOG_WIDTH"/>
+		<item value="false" key="BUILD_NOW"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="157" key="DIALOG_Y_ORIGIN"/>
+		<item value="242" key="DIALOG_X_ORIGIN"/>
+		<item value="472" key="DIALOG_HEIGHT"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

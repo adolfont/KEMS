@@ -1,0 +1,17 @@
+
+public class main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Estudo de Padrões de Projeto");
+		
+	}
+
+}
+
+
+/* Referências:
+ * Factory: http://www.macoratti.net/vbn5_dp1.htm
+*/

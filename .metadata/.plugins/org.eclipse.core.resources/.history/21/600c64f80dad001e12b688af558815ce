@@ -1,0 +1,7 @@
+package Factory;
+
+public class AloFactory {
+	public void CriaAloMundo(){
+		
+	}
+}

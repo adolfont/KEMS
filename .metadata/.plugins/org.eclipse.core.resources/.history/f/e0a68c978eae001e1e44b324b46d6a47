@@ -1,0 +1,7 @@
+package Factory2;
+
+public class clsImplementInterface implements IFact2  {
+	public void print(){
+		
+	}
+}

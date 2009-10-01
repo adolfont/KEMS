@@ -1,0 +1,4 @@
+#Wed Oct 04 22:13:43 BRT 2006
+org.eclipse.contribution.visualiser.preferences.provider=AspectJ Provider
+eclipse.preferences.version=1
+org.eclipse.contribution.visualiser.preferences.renderer=Default

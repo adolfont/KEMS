@@ -1,0 +1,12 @@
+package Proxy;
+
+interface Pessoa {
+  public String getNome();
+  public String getId();
+}
+
+
+
+public class ExemploProxy {
+
+}

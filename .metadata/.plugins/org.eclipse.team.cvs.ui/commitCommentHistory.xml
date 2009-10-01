@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>Some small changes in kems.export</CommitComment>
+	<CommitComment>Some small modifications for the next version of KEMS (with a strategy for C1)</CommitComment>
+	<CommitComment>New problems for C1</CommitComment>
+	<CommitComment>Origin refactored. C1 Simple Strategy incorporated into ProverInterface.
+Still to do: C1Valuation and ProofVerifier
+</CommitComment>
+	<CommitComment>Most important part of C1 Simple Strategy implemented. Next step is to refactor Origin. </CommitComment>
+	<CommitComment>Several tests added for the C1 Simple Strategy. Seems to be working.</CommitComment>
+	<CommitComment>A generator for the sixth LFI family</CommitComment>
+	<CommitComment>First apparently correct version of C1SimpleStrategy (with a lot of other classes used to implement the system) as well as tests</CommitComment>
+	<CommitComment>Several new classes and tests for implementing C1. Still incomplete</CommitComment>
+	<CommitComment>No significant change</CommitComment>
+</CommitComments>

@@ -1,0 +1,5 @@
+package Factory2;
+
+public interface IFact2 {
+	void print();
+}

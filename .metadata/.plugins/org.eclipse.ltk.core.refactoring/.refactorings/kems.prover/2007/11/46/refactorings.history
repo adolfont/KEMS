@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="Rename field 'AFFILIATION' in 'proverinterface.ProverInterface' to 'SITE'&#13;&#10;- Original element: 'proverinterface.ProverInterface.AFFILIATION'&#13;&#10;- Renamed element: 'proverinterface.ProverInterface.SITE'&#13;&#10;- Update references to refactored element&#13;&#10;- Update textual occurrences in comments and strings" delegate="false" deprecate="true" description="Rename field 'AFFILIATION'" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;proverinterface{ProverInterface.java[ProverInterface^AFFILIATION" name="SITE" references="true" setter="false" stamp="1194955836171" textual="false" version="1.0"/>
+</session>

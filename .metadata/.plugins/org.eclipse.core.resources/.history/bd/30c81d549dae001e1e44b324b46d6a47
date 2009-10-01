@@ -1,0 +1,109 @@
+package Observer;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+//interface
+interface ITelefoneListener extends java.util.EventListener {
+	void telefoneTocou(TelefoneEvent e);
+	void telefoneAtendido(TelefoneEvent e);
+}
+
+class TelefoneEvent extends java.util.EventObject {
+	public TelefoneEvent(Telefone source) {
+		super(source);
+	}
+}
+
+class TelefoneAdapter implements ITelefoneListener {
+	public void telefoneTocou(TelefoneEvent e) {	}
+	public void telefoneAtendido(TelefoneEvent e) {}
+}
+
+class Telefone {
+  private Collection <ITelefoneListener> telefoneListeners = new ArrayList<ITelefoneListener>();
+
+  // método de suporte para testar a solução
+  public void tocaFone() {
+      disparaTelefoneTocou();
+  }
+
+  // método de suporte para testar a solução
+  public void atendeFone() {
+      disparaTelefoneAtendido();
+  }
+
+  public synchronized void addTelefoneListener(ITelefoneListener l) {
+      if(!telefoneListeners.contains(l)) {
+          telefoneListeners.add(l);
+      }
+  }
+
+  public synchronized void removeTelefoneListener(ITelefoneListener l) {
+      telefoneListeners.remove(l);
+  }
+
+  private void disparaTelefoneTocou() {
+      Collection <ITelefoneListener> tl;
+      synchronized (this) {
+          // Clonar para evitar problemas de sincronização
+          // durante a propagação
+          tl = (Collection)(((ArrayList)telefoneListeners).clone());
+      }
+      TelefoneEvent evento = new TelefoneEvent(this);
+      //foreach em java !!!
+      for (ITelefoneListener t : tl) {
+      	t.telefoneTocou(evento);
+      }
+  }
+          
+
+  // disparaTelefoneAtendido() é semelhante a disparaTelefoneTocou()
+  // Exercício: Que design pattern poderia ser usado para fatorar
+  // o código comum?
+  private void disparaTelefoneAtendido() {
+      Collection <ITelefoneListener> tl;
+      synchronized (this) {
+          tl = (Collection)(((ArrayList)telefoneListeners).clone());
+      }
+      TelefoneEvent evento = new TelefoneEvent(this);
+      for (ITelefoneListener t : tl) {
+      	t.telefoneAtendido(evento);
+      }        
+  }
+}
+
+class SecretariaEletronica implements ITelefoneListener {
+	public void telefoneTocou(TelefoneEvent e) {
+	    System.out.println("Secretaria escuta o telefone tocando.");
+	}
+	public void telefoneAtendido(TelefoneEvent e) {
+	    System.out.println("Secretaria sabe que o telefone foi atendido.");
+	}
+}
+
+class Pessoa {
+  public void escutaTelefone(Telefone t) {
+      t.addTelefoneListener(
+          new TelefoneAdapter() {
+              public void telefoneTocou(TelefoneEvent e) {
+                  System.out.println("Fulano diz: Eu pego!");
+                  ((Telefone)(e.getSource())).atendeFone();
+              }
+          }
+      );
+  }
+}
+
+public class ExemploObserver {
+	public void testeObserver(){
+    Telefone fone = new Telefone();
+    Pessoa fulano = new Pessoa();
+    SecretariaEletronica se = new SecretariaEletronica();
+
+    fone.addTelefoneListener(se);
+    fulano.escutaTelefone(fone);
+
+    fone.tocaFone(); // começa a brincadeira
+	}
+}

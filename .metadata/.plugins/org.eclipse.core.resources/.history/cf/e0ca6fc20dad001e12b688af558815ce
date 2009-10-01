@@ -1,0 +1,8 @@
+package Factory;
+
+public class GermanAloMundo implements IAloMundo {
+
+	public void falaAlo() {
+		System.out.println("Hola Mundo - versao em espanhol");
+	}
+}

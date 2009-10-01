@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0" version="1.6.0_0">
+<bootpath>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/resources.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rt.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/jsse.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/jce.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/charsets.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rhino.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/lib/jvm/java-6-openjdk" version="1.6.0_0">
+<bootpath>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/lib/jvm/java-1.5.0-gcj-4.3-1.5.0.0/jre" version="1.5.0">
+<bootpath>
+<entry path="/usr/lib/jvm/java-1.5.0-gcj-4.3-1.5.0.0/jre/lib/rt.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/share/java/ext"/>
+</extensionDirs>
+</libraryInfo>
+<libraryInfo home="C:\Arquivos de programas\Java\jre1.6.0_07" version="1.6.0_07">
+<bootpath>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\resources.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\rt.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\sunrsasign.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\jsse.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\jce.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\charsets.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_07\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/lib/jre1.5.0" version="1.5.0">
+<bootpath>
+<entry path="/usr/lib/jre1.5.0/lib/rt.jar"/>
+<entry path="/usr/lib/jre1.5.0/lib/i18n.jar"/>
+<entry path="/usr/lib/jre1.5.0/lib/sunrsasign.jar"/>
+<entry path="/usr/lib/jre1.5.0/lib/jsse.jar"/>
+<entry path="/usr/lib/jre1.5.0/lib/jce.jar"/>
+<entry path="/usr/lib/jre1.5.0/lib/charsets.jar"/>
+<entry path="/usr/lib/jre1.5.0/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/jre1.5.0/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/jre1.5.0/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/opt/SDK/jdk" version="1.6.0_14">
+<bootpath>
+<entry path="/opt/SDK/jdk/jre/lib/resources.jar"/>
+<entry path="/opt/SDK/jdk/jre/lib/rt.jar"/>
+<entry path="/opt/SDK/jdk/jre/lib/sunrsasign.jar"/>
+<entry path="/opt/SDK/jdk/jre/lib/jsse.jar"/>
+<entry path="/opt/SDK/jdk/jre/lib/jce.jar"/>
+<entry path="/opt/SDK/jdk/jre/lib/charsets.jar"/>
+<entry path="/opt/SDK/jdk/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/opt/SDK/jdk/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/opt/SDK/jdk/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre" version="1.6.0_0">
+<bootpath>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/resources.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rt.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/jsse.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/jce.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/charsets.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rhino.jar"/>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/lib/jvm/java-1.5.0-gcj-4.3-1.5.0.0" version="1.5.0">
+<bootpath>
+<entry path="/usr/lib/jvm/java-1.5.0-gcj-4.3-1.5.0.0/jre/lib/rt.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/share/java/ext"/>
+</extensionDirs>
+</libraryInfo>
+<libraryInfo home="C:\Arquivos de programas\Java\jre1.6.0_01" version="1.6.0_01">
+<bootpath>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\resources.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\rt.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\sunrsasign.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\jsse.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\jce.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\charsets.jar"/>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Arquivos de programas\Java\jre1.6.0_01\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

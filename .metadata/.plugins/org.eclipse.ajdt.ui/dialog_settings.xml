@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="InPathPropertyPage">
+		<item key="pageIndex" value="1"/>
+	</section>
+	<section name="AspectPathPropertyPage">
+		<item key="pageIndex" value="1"/>
+	</section>
+</section>

@@ -1,0 +1,28 @@
+1241454102993	Rename type 'ThreePrem'
+1241461159781	Rename type 'ThreePremiseRuleApplicator'
+1241461407560	Rename type 'ThreePremiseRuleApplicatorTest'
+1241463011876	Delete element
+1241464014284	Rename local variable 'x'
+1241473554299	Rename method 'applyPBOnce'
+1241473606981	Extract method 'applyPB'
+1241473910445	Copy compilation unit
+1241473925717	Rename type 'C1PBRuleApplicatorTest'
+1241474752622	Move compilation unit
+1241474761514	Delete element
+1241481778173	Rename type 'C1PBRuleApplicatorTest'
+1241534191279	Copy compilation unit
+1241534322954	Rename type 'C1_Sign_T_NOT_ANY_Pattern'
+1241534603918	Rename type 'C1_Sign_T_NOT_ANY_LEFT_Pattern'
+1241534746800	Rename type 'C1_T_NOT_ANY_LEFT_Pattern'
+1241539009774	Extract method 'getMainSubformula'
+1241545624948	Copy compilation unit
+1241545693867	Rename compilation unit 'MBCSimpleStrategy.java'
+1241545915242	Rename type 'MBCPBRuleChooser'
+1241551709269	Rename type 'C1_PBRuleApplicator'
+1241551723601	Copy compilation unit
+1241552000872	Rename local variable 'special_pbr'
+1241626146276	Copy compilation unit
+1241628546279	Delete element
+1241628592100	Copy compilation unit
+1241693422036	Rename type 'ConsistencyConversor'
+1241750350043	Rename field 'T_NOT_1'

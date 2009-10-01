@@ -1,0 +1,14 @@
+package Singleton;
+
+public class SingletonImpl {
+	private static SingletonImpl ref = null;
+	//contrutor privado
+	private SingletonImpl(){}
+	
+	public static SingletonImpl getReference(){
+		if (ref == null) { ref = new SingletonImpl();}
+		return ref;
+	}
+	
+	
+}
