@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="718" width="1024" x="0" y="25">
+<window height="718" maximized="true" width="1024" x="0" y="25">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ve.internal.java.codegen.editorpart.XMLViewPart"/>
 </fastViewData>
@@ -27,7 +27,7 @@
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="46" y="28"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="155" y="28"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="66" y="28"/>
 <coolItem id="org.sangam.actionSet" itemType="typeToolBarContribution" x="69" y="26"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="182" y="28"/>
@@ -75,9 +75,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
-<editorState selectionLength="0" selectionOffset="1649"/>
+<editorState selectionLength="0" selectionOffset="27"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1SimpleStrategy.java" partName="C1SimpleStrategy.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java" title="C1SimpleStrategy.java" tooltip="kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java"/>
@@ -314,7 +314,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Java_Adolfo">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="Java_Adolfo">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
