@@ -1,0 +1,275 @@
+/*
+
+  Adolfo Gustavo Serra Seca Neto, November 2003
+  Syntactical analyser for classical propositional logic formulas
+  SATLIB format with signs, implication and without headers
+
+  What to change (in case you want to change the file format):
+	name of the parser and of the symbols class
+	  - SATSLexer, SATSsym (several references!)
+      productions and states (obviously)
+
+  How to produce the parser:
+
+  - Run the command:
+
+  	java java_cup.Main -parser SATSParser -symbols SATSsym satlib-sat-s.cup
+
+  	which will create the following files:
+
+	  	SATSParser.java
+  		SATSsym.java
+
+*/
+
+
+//import simpleKE.*;
+package SATS;
+import formulas.*;
+import signedFormulas.*;
+import connectives.*;
+import java.util.*;
+import java_cup.runtime.*;
+   
+parser code {:
+    
+    public void report_error(String message, Object info){
+
+        StringBuffer m = new StringBuffer("Error");
+
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+
+            if (s.left >= 0) {
+                m.append(" in line "+(s.left+1));
+                if (s.right >= 0)
+                    m.append(", column "+(s.right+1));
+            }
+        }
+
+        m.append(" : "+message);
+
+//      System.err.println(m);
+	throw new Error (m.toString());
+    }
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+        //System.exit(1);
+    }
+:};
+
+action code {:
+
+	String operator;
+	
+	FormulaFactory ff = new FormulaFactory();
+	SignedFormulaFactory sff = new SignedFormulaFactory();
+	SignedFormulaList sfl = new SignedFormulaList();
+
+	public Formula createNary (FormulaFactory ff, String operator, List l){
+    
+   		NaryConnective connective;
+   						
+   		if (operator.equals("And")){
+   			connective = ClassicalConnectives.ANDN;
+   		}
+   		else if (operator.equals("Or")){
+   			connective = ClassicalConnectives.ORN;
+   		}
+   		else {
+				return null;
+   		}
+
+   		return ff.createNaryFormula (connective, l);
+    }
+
+	public Formula createBinary (FormulaFactory ff, String operator, List l){
+    
+   		BinaryConnective connective;
+   						
+   		if (operator.equals("And")){
+   			connective = ClassicalConnectives.AND;
+   		}
+   		else if (operator.equals("Or")){
+   			connective = ClassicalConnectives.OR;
+   		}
+   		else if (operator.equals("Implies")){
+   			connective = ClassicalConnectives.IMPLIES;
+   		}
+   		else{
+   			// Error
+   			connective = ClassicalConnectives.IMPLIES;
+   			System.exit(1);
+   		}
+
+		return ff.createBinaryFormula (connective, 
+   								(Formula) (l.get(0)), (Formula) (l.get(1)) );
+    }
+
+
+	public SignedFormula createSignedFormula (SignedFormulaFactory sff, 
+			String sign, Formula f){
+    
+    	FormulaSign fs;
+    	
+    	if (sign.equals("T")){
+    		fs = ClassicalSigns.TRUE;
+    	}
+    	else if (sign.equals("F")){
+    		fs = ClassicalSigns.FALSE;
+    	}
+    	else { 	// Error
+	    		fs = ClassicalSigns.FALSE;
+   		        System.exit(1);
+    	}
+    	
+		return sff.createSignedFormula (fs, f);
+    }
+    
+:};
+
+   
+   
+/* ------------Declaration of Terminals and Non Terminals Section----------- */
+   
+terminal           NEG, AND, OR, IMPLIES, LPAREN, RPAREN, EOL;
+terminal String    STRING, SIGN;
+   
+non terminal end;   
+non terminal SATSResult 		file;
+non terminal Formula   			formula, term;
+non terminal SignedFormula  	signed_formula;
+non terminal SignedFormulaList  formula_list;					   
+non terminal List      			listOfFormulas;					   
+non terminal String    			oper;
+   
+
+/* -------------Precedence and Associatively of Terminals Section----------- */
+   
+   file ::= formula_list:sfl
+   		{: 
+   			SATSResult ps = new SATSResult();
+   			
+   			ps.setFormulaFactory(ff);
+   			ps.setSignedFormulaFactory(sff);
+   			ps.setSignedFormulaList (sfl);
+   		
+   			RESULT = ps;  
+   		:};
+
+                 
+   formula_list ::= signed_formula:sf formula_list:sfl 
+   				{: 
+               		SignedFormulaList auxFormulas = new SignedFormulaList();
+               		auxFormulas.add(sf);
+               		auxFormulas.addAll(sfl);
+               		RESULT = auxFormulas; 
+   				:}
+                 |
+                 signed_formula:sf
+                 {: 
+               		SignedFormulaList auxFormulas = new SignedFormulaList();
+               		auxFormulas.add(sf);
+               		RESULT = auxFormulas; 
+                 :}
+                 ;                 
+                 
+   signed_formula ::= SIGN:s formula:f end
+                 {: 
+                 	RESULT = createSignedFormula (sff, s, f);
+                 :}
+                 ;
+                 
+   end ::= EOL | ;     
+   
+   formula      ::=
+           oper:o LPAREN listOfFormulas:l RPAREN
+                 {: 
+            		operator = o; 
+
+	   				if (l.size() >2)
+	   					{
+	    						RESULT = createNary (ff, operator, l);
+	   					}
+	   				else if (l.size()==2)
+	   					{
+	   						RESULT = createBinary (ff, operator, l);
+	   					}
+	   				else {
+	   						RESULT = (Formula) (l.get(0));
+	   					 }	
+	             :}
+           |
+           oper:o LPAREN RPAREN
+                 {: 
+                 	if (o == "And"){
+                 		RESULT = ff.createZeroaryFormula ( 
+                 					ClassicalConnectives.TRUE);
+                 	}
+                 	else {
+                 		RESULT = ff.createZeroaryFormula (
+                 					ClassicalConnectives.FALSE);
+                 	}
+                 :}
+	     |
+           NEG LPAREN formula:f RPAREN 
+                 {: 
+                 	RESULT = ff.createUnaryFormula(ClassicalConnectives.NOT, f );
+                 :}
+           |
+           term:t
+                 {: 
+                 	RESULT = t; 
+                 :}
+           ;
+
+
+   listOfFormulas ::= formula:f listOfFormulas:l 
+                 {: 	
+                 		List auxFormulas = new ArrayList();
+                 		auxFormulas.add(f);
+                 		auxFormulas.addAll(l);
+                 		RESULT = auxFormulas; 
+                 :}
+			|
+			formula:f 
+                 	{: 
+                 		List auxFormulas = new ArrayList();
+                 		auxFormulas.add(f);
+                 		RESULT = auxFormulas; 
+                 	:}
+			 ;
+
+   term      ::= LPAREN formula:f RPAREN
+                 {: 
+                 	RESULT = f; 
+                 :}
+                  |
+                 STRING:n
+                 {: 
+                 	RESULT = ff.createAtomicFormula(n);
+                 :}
+				|
+				NEG STRING:n
+                 {: 
+                 	RESULT = ff.createUnaryFormula(ClassicalConnectives.NOT,
+                 						  ff.createAtomicFormula(n) );
+                  :} ;
+
+   oper ::= AND 
+                 {: 
+                 	RESULT = "And";
+                  :}
+		| 
+		OR
+                 {: 
+                 	RESULT = "Or"; 
+                 :}
+		| 
+		IMPLIES
+                 {: 
+                 	RESULT = "Implies"; 
+                 :}
+		; 
+

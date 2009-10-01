@@ -1,0 +1,127 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mbc_2_b.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,ins,SO,ND,NSD> ; 13205 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,rev,SO,ND,NSD> ; 5481 ; closed ; verified ; 123824 ; 11535 ; 7462 ; 13
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,&,SO,ND,NSD> ; 12665 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,|,SO,ND,NSD> ; 5674 ; closed ; verified ; 62056 ; 16311 ; 10270 ; 57
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,->,SO,ND,NSD> ; 10584 ; closed ; verified ; 360515 ; 34226 ; 21026 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,T,SO,ND,NSD> ; 12734 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,F,SO,ND,NSD> ; 12544 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,inc,SO,ND,NSD> ; 4465 ; closed ; verified ; 52226 ; 13864 ; 11304 ; 12
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,dec,SO,ND,NSD> ; 10230 ; closed ; verified ; 150246 ; 29223 ; 17440 ; 41
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,ins,SO,ND,NSD> ; 14128 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,rev,SO,ND,NSD> ; 6566 ; closed ; verified ; 123824 ; 11535 ; 7462 ; 13
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,&,SO,ND,NSD> ; 14133 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,|,SO,ND,NSD> ; 7191 ; closed ; verified ; 62056 ; 16311 ; 10270 ; 57
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,->,SO,ND,NSD> ; 13195 ; closed ; verified ; 360515 ; 34226 ; 21026 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,T,SO,ND,NSD> ; 14007 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,F,SO,ND,NSD> ; 14081 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,inc,SO,ND,NSD> ; 5274 ; closed ; verified ; 52226 ; 13864 ; 11304 ; 12
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,dec,SO,ND,NSD> ; 12411 ; closed ; verified ; 150246 ; 29223 ; 17440 ; 41
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,ins,SO,ND,NSD> ; 35170 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,rev,SO,ND,NSD> ; 12092 ; closed ; verified ; 252886 ; 20753 ; 13096 ; 14
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,&,SO,ND,NSD> ; 35718 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,|,SO,ND,NSD> ; 15123 ; closed ; verified ; 123615 ; 32677 ; 20513 ; 68
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,->,SO,ND,NSD> ; 30900 ; closed ; verified ; 858549 ; 74038 ; 44581 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,T,SO,ND,NSD> ; 35083 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,F,SO,ND,NSD> ; 35002 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,inc,SO,ND,NSD> ; 11323 ; closed ; verified ; 103278 ; 27692 ; 22572 ; 13
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,dec,SO,ND,NSD> ; 25077 ; closed ; verified ; 314112 ; 59789 ; 35443 ; 48
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,ins,SO,ND,NSD> ; 38456 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,rev,SO,ND,NSD> ; 14529 ; closed ; verified ; 252886 ; 20753 ; 13096 ; 14
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,&,SO,ND,NSD> ; 38548 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,|,SO,ND,NSD> ; 18340 ; closed ; verified ; 123615 ; 32677 ; 20513 ; 68
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,->,SO,ND,NSD> ; 35618 ; closed ; verified ; 858549 ; 74038 ; 44581 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,T,SO,ND,NSD> ; 39066 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,F,SO,ND,NSD> ; 38068 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,inc,SO,ND,NSD> ; 13292 ; closed ; verified ; 103278 ; 27692 ; 22572 ; 13
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,dec,SO,ND,NSD> ; 29816 ; closed ; verified ; 314112 ; 59789 ; 35443 ; 48
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,ins,SO,ND,NSD> ; 84279 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,rev,SO,ND,NSD> ; 27283 ; closed ; verified ; 528424 ; 39187 ; 23595 ; 15
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,&,SO,ND,NSD> ; 84678 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,|,SO,ND,NSD> ; 35998 ; closed ; verified ; 246624 ; 65425 ; 40996 ; 80
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,->,SO,ND,NSD> ; 70902 ; closed ; verified ; 2020697 ; 159290 ; 94248 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,T,SO,ND,NSD> ; 84309 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,F,SO,ND,NSD> ; 84814 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,inc,SO,ND,NSD> ; 26399 ; closed ; verified ; 205068 ; 55344 ; 45104 ; 14
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,dec,SO,ND,NSD> ; 63188 ; closed ; verified ; 647526 ; 121311 ; 71566 ; 55
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,ins,SO,ND,NSD> ; 91375 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,rev,SO,ND,NSD> ; 32271 ; closed ; verified ; 528424 ; 39187 ; 23595 ; 15
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,&,SO,ND,NSD> ; 92349 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,|,SO,ND,NSD> ; 44032 ; closed ; verified ; 246624 ; 65425 ; 40996 ; 80
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,->,SO,ND,NSD> ; 84236 ; closed ; verified ; 2020697 ; 159290 ; 94248 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,T,SO,ND,NSD> ; 91721 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,F,SO,ND,NSD> ; 91535 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,inc,SO,ND,NSD> ; 30453 ; closed ; verified ; 205068 ; 55344 ; 45104 ; 14
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,dec,SO,ND,NSD> ; 73681 ; closed ; verified ; 647526 ; 121311 ; 71566 ; 55
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSS,rev,SO,ND,NSD> ; 59679 ; closed ; verified ; 1115305 ; 76053 ; 43824 ; 16
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSS,|,SO,ND,NSD> ; 87828 ; closed ; verified ; 492523 ; 130939 ; 81959 ; 93
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSS,inc,SO,ND,NSD> ; 64062 ; closed ; verified ; 408287 ; 110644 ; 90164 ; 15
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSWORS,rev,SO,ND,NSD> ; 70376 ; closed ; verified ; 1115305 ; 76053 ; 43824 ; 16
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSWORS,|,SO,ND,NSD> ; 106351 ; closed ; verified ; 492523 ; 130939 ; 81959 ; 93
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSWORS,inc,SO,ND,NSD> ; 73007 ; closed ; verified ; 408287 ; 110644 ; 90164 ; 15
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_15.prove ; 15 ; 528 ; <MBCSS,rev,SO,ND,NSD> ; 141383 ; closed ; verified ; 2361692 ; 149783 ; 83513 ; 17
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_15.prove ; 15 ; 528 ; <MBCSWORS,rev,SO,ND,NSD> ; 161619 ; closed ; verified ; 2361692 ; 149783 ; 83513 ; 17
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : 10 minute(s) 1 second(s)  time limit exceeded

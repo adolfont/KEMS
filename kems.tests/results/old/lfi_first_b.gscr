@@ -1,0 +1,17 @@
+set terminal jpeg
+set grid
+set palette color
+
+set xrange [10:50]
+set xtics 10
+set ylabel 'time spent (ms)'
+set xlabel 'problem instance number'
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+set output "xxx.jpg"
+plot "MBCSS_INS.out" using 2:5 with linespoints  title '<MBCSS,ins>' 
+set output "yyy.jpg"
+plot "MBCSS_REV.out" using 2:5 with linespoints title '<MBCSS,rev>' 

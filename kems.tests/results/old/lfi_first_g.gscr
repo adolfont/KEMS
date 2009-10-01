@@ -1,0 +1,27 @@
+set terminal jpeg
+set grid
+set palette color
+
+#set pm3d
+set xrange [6:44]
+set yrange [0:6000]
+set xtics 10
+set ylabel 'time spent (ms)'
+set xlabel 'problem instance number'
+
+#set boxwidth 0.9 relative
+set style fill solid
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+set data style boxes
+set boxwidth 1.5
+set output "MBCBOXES3.jpg"
+plot \
+     "MBCSS_IMP.out" using 2:5 with linespoints title '<MBCSS,imp>'   ,\
+     "MBCSWORS_IMP.out" using 2:5 with linespoints title '<MBCSWORS,imp>'   ,\
+     "MBCSS_DEC.out" using 2:5 with linespoints title '<MBCSS,dec>' ,\
+     "MBCSWORS_DEC.out" using 2:5 with linespoints  title '<MBCSWORS,dec>'   
+

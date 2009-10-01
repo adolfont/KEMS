@@ -1,0 +1,641 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_6.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+bphp2_2.prove ; 2 ; 33 ; <MSS,ins,SO,ND,NSD> ; 50 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,rev,SO,ND,NSD> ; 6 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,->,SO,ND,NSD> ; 13 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,<=>,SO,ND,NSD> ; 12 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,+,SO,ND,NSD> ; 10 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,T,SO,ND,NSD> ; 12 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,F,SO,ND,NSD> ; 5 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,inc,SO,ND,NSD> ; 13 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <MSS,dec,SO,ND,NSD> ; 8 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,ins,SO,ND,NSD> ; 19 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,|,SO,ND,NSD> ; 3 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,->,SO,ND,NSD> ; 8 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,<=>,SO,ND,NSD> ; 15 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,+,SO,ND,NSD> ; 8 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,T,SO,ND,NSD> ; 8 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,F,SO,ND,NSD> ; 3 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,inc,SO,ND,NSD> ; 12 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <SS,dec,SO,ND,NSD> ; 6 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,ins,SO,ND,NSD> ; 8 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 58 ; 29 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 58 ; 29 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 58 ; 29 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,->,SO,ND,NSD> ; 6 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,<=>,SO,ND,NSD> ; 9 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,+,SO,ND,NSD> ; 9 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 58 ; 29 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,inc,SO,ND,NSD> ; 7 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <NLSS,dec,SO,ND,NSD> ; 6 ; closed ; verified ; 148 ; 89 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,ins,SO,ND,NSD> ; 12 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,rev,SO,ND,NSD> ; 8 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,|,SO,ND,NSD> ; 3 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,->,SO,ND,NSD> ; 8 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,<=>,SO,ND,NSD> ; 6 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,+,SO,ND,NSD> ; 13 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,inc,SO,ND,NSD> ; 5 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <CSS,dec,SO,ND,NSD> ; 6 ; closed ; verified ; 108 ; 78 ; 61 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,->,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <LSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 51 ; 27 ; 22 ; 1 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_2.prove ; 2 ; 33 ; <BSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 61 ; 35 ; 25 ; 3 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,ins,SO,ND,NSD> ; 42 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,rev,SO,ND,NSD> ; 31 ; closed ; verified ; 499 ; 331 ; 274 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,&,SO,ND,NSD> ; 12 ; closed ; verified ; 226 ; 133 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 184 ; 100 ; 85 ; 3 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,->,SO,ND,NSD> ; 28 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,<=>,SO,ND,NSD> ; 29 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,+,SO,ND,NSD> ; 29 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,T,SO,ND,NSD> ; 24 ; closed ; verified ; 499 ; 331 ; 274 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,F,SO,ND,NSD> ; 13 ; closed ; verified ; 226 ; 133 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,inc,SO,ND,NSD> ; 56 ; closed ; verified ; 667 ; 463 ; 338 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <MSS,dec,SO,ND,NSD> ; 12 ; closed ; verified ; 291 ; 191 ; 148 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,ins,SO,ND,NSD> ; 27 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,rev,SO,ND,NSD> ; 28 ; closed ; verified ; 499 ; 331 ; 274 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 226 ; 133 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 184 ; 100 ; 85 ; 3 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,->,SO,ND,NSD> ; 25 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,<=>,SO,ND,NSD> ; 26 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,+,SO,ND,NSD> ; 31 ; closed ; verified ; 539 ; 367 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,T,SO,ND,NSD> ; 22 ; closed ; verified ; 499 ; 331 ; 274 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,F,SO,ND,NSD> ; 10 ; closed ; verified ; 226 ; 133 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,inc,SO,ND,NSD> ; 43 ; closed ; verified ; 667 ; 463 ; 338 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <SS,dec,SO,ND,NSD> ; 15 ; closed ; verified ; 291 ; 191 ; 148 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,ins,SO,ND,NSD> ; 28 ; closed ; verified ; 703 ; 414 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,rev,SO,ND,NSD> ; 29 ; closed ; verified ; 627 ; 366 ; 274 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 275 ; 147 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 213 ; 108 ; 85 ; 3 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,->,SO,ND,NSD> ; 28 ; closed ; verified ; 703 ; 414 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,<=>,SO,ND,NSD> ; 38 ; closed ; verified ; 703 ; 414 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,+,SO,ND,NSD> ; 28 ; closed ; verified ; 703 ; 414 ; 298 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,T,SO,ND,NSD> ; 24 ; closed ; verified ; 627 ; 366 ; 274 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,F,SO,ND,NSD> ; 12 ; closed ; verified ; 275 ; 147 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,inc,SO,ND,NSD> ; 48 ; closed ; verified ; 875 ; 522 ; 338 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <NLSS,dec,SO,ND,NSD> ; 13 ; closed ; verified ; 375 ; 214 ; 148 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,ins,SO,ND,NSD> ; 61 ; closed ; verified ; 611 ; 371 ; 306 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,rev,SO,ND,NSD> ; 82 ; closed ; verified ; 611 ; 371 ; 306 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,&,SO,ND,NSD> ; 65 ; closed ; verified ; 605 ; 330 ; 215 ; 7 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,|,SO,ND,NSD> ; 14 ; closed ; verified ; 212 ; 110 ; 93 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,->,SO,ND,NSD> ; 62 ; closed ; verified ; 611 ; 371 ; 306 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,<=>,SO,ND,NSD> ; 62 ; closed ; verified ; 611 ; 371 ; 306 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,+,SO,ND,NSD> ; 61 ; closed ; verified ; 611 ; 371 ; 306 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,T,SO,ND,NSD> ; 49 ; closed ; verified ; 611 ; 371 ; 306 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,F,SO,ND,NSD> ; 63 ; closed ; verified ; 605 ; 330 ; 215 ; 7 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,inc,SO,ND,NSD> ; 266 ; closed ; verified ; 1847 ; 1139 ; 794 ; 9 ; Success
+bphp2_3.prove ; 3 ; 80 ; <CSS,dec,SO,ND,NSD> ; 32 ; closed ; verified ; 287 ; 187 ; 150 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,ins,SO,ND,NSD> ; 16 ; closed ; verified ; 239 ; 130 ; 105 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,rev,SO,ND,NSD> ; 18 ; closed ; verified ; 232 ; 122 ; 101 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,&,SO,ND,NSD> ; 22 ; closed ; verified ; 335 ; 176 ; 133 ; 8 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,|,SO,ND,NSD> ; 10 ; closed ; verified ; 232 ; 122 ; 101 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,->,SO,ND,NSD> ; 19 ; closed ; verified ; 239 ; 130 ; 105 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,<=>,SO,ND,NSD> ; 14 ; closed ; verified ; 239 ; 130 ; 105 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,+,SO,ND,NSD> ; 16 ; closed ; verified ; 239 ; 130 ; 105 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,T,SO,ND,NSD> ; 12 ; closed ; verified ; 232 ; 122 ; 101 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,F,SO,ND,NSD> ; 19 ; closed ; verified ; 335 ; 176 ; 133 ; 8 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,inc,SO,ND,NSD> ; 33 ; closed ; verified ; 351 ; 184 ; 141 ; 8 ; Success
+bphp2_3.prove ; 3 ; 80 ; <LSS,dec,SO,ND,NSD> ; 10 ; closed ; verified ; 233 ; 126 ; 100 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,ins,SO,ND,NSD> ; 7 ; closed ; verified ; 204 ; 117 ; 94 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,rev,SO,ND,NSD> ; 7 ; closed ; verified ; 194 ; 108 ; 88 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 226 ; 133 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,|,SO,ND,NSD> ; 5 ; closed ; verified ; 184 ; 100 ; 85 ; 3 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,->,SO,ND,NSD> ; 7 ; closed ; verified ; 204 ; 117 ; 94 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,<=>,SO,ND,NSD> ; 7 ; closed ; verified ; 204 ; 117 ; 94 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,+,SO,ND,NSD> ; 8 ; closed ; verified ; 204 ; 117 ; 94 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 194 ; 108 ; 88 ; 5 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,F,SO,ND,NSD> ; 11 ; closed ; verified ; 226 ; 133 ; 101 ; 4 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,inc,SO,ND,NSD> ; 11 ; closed ; verified ; 236 ; 141 ; 104 ; 6 ; Success
+bphp2_3.prove ; 3 ; 80 ; <BSS,dec,SO,ND,NSD> ; 8 ; closed ; verified ; 224 ; 129 ; 99 ; 5 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,ins,SO,ND,NSD> ; 556 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,rev,SO,ND,NSD> ; 267 ; closed ; verified ; 2424 ; 1550 ; 1217 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,&,SO,ND,NSD> ; 205 ; closed ; verified ; 1414 ; 955 ; 593 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,|,SO,ND,NSD> ; 57 ; closed ; verified ; 726 ; 422 ; 338 ; 6 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,->,SO,ND,NSD> ; 551 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,<=>,SO,ND,NSD> ; 553 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,+,SO,ND,NSD> ; 547 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,T,SO,ND,NSD> ; 229 ; closed ; verified ; 2424 ; 1550 ; 1217 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,F,SO,ND,NSD> ; 207 ; closed ; verified ; 1414 ; 955 ; 593 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,inc,SO,ND,NSD> ; 899 ; closed ; verified ; 5176 ; 3682 ; 2237 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <MSS,dec,SO,ND,NSD> ; 160 ; closed ; verified ; 1671 ; 1189 ; 852 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,ins,SO,ND,NSD> ; 538 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,rev,SO,ND,NSD> ; 261 ; closed ; verified ; 2424 ; 1550 ; 1217 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,&,SO,ND,NSD> ; 185 ; closed ; verified ; 1414 ; 955 ; 593 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,|,SO,ND,NSD> ; 50 ; closed ; verified ; 726 ; 422 ; 338 ; 6 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,->,SO,ND,NSD> ; 537 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,<=>,SO,ND,NSD> ; 541 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,+,SO,ND,NSD> ; 534 ; closed ; verified ; 3784 ; 2674 ; 1769 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,T,SO,ND,NSD> ; 226 ; closed ; verified ; 2424 ; 1550 ; 1217 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,F,SO,ND,NSD> ; 185 ; closed ; verified ; 1414 ; 955 ; 593 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,inc,SO,ND,NSD> ; 792 ; closed ; verified ; 5176 ; 3682 ; 2237 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <SS,dec,SO,ND,NSD> ; 162 ; closed ; verified ; 1671 ; 1189 ; 852 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,ins,SO,ND,NSD> ; 563 ; closed ; verified ; 4948 ; 3025 ; 1778 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,rev,SO,ND,NSD> ; 272 ; closed ; verified ; 2948 ; 1693 ; 1217 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,&,SO,ND,NSD> ; 194 ; closed ; verified ; 1772 ; 1060 ; 596 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,|,SO,ND,NSD> ; 50 ; closed ; verified ; 854 ; 457 ; 338 ; 6 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,->,SO,ND,NSD> ; 563 ; closed ; verified ; 4948 ; 3025 ; 1778 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,<=>,SO,ND,NSD> ; 564 ; closed ; verified ; 4948 ; 3025 ; 1778 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,+,SO,ND,NSD> ; 567 ; closed ; verified ; 4948 ; 3025 ; 1778 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,T,SO,ND,NSD> ; 236 ; closed ; verified ; 2948 ; 1693 ; 1217 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,F,SO,ND,NSD> ; 193 ; closed ; verified ; 1772 ; 1060 ; 596 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,inc,SO,ND,NSD> ; 832 ; closed ; verified ; 6620 ; 4105 ; 2246 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <NLSS,dec,SO,ND,NSD> ; 177 ; closed ; verified ; 2206 ; 1335 ; 852 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,ins,SO,ND,NSD> ; 1947 ; closed ; verified ; 6456 ; 3470 ; 2369 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,rev,SO,ND,NSD> ; 1000 ; closed ; verified ; 3988 ; 1970 ; 1529 ; 10 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,&,SO,ND,NSD> ; 2441 ; closed ; verified ; 9695 ; 3856 ; 1942 ; 13 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,|,SO,ND,NSD> ; 185 ; closed ; verified ; 1111 ; 549 ; 426 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,->,SO,ND,NSD> ; 1920 ; closed ; verified ; 6456 ; 3470 ; 2369 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,<=>,SO,ND,NSD> ; 1922 ; closed ; verified ; 6456 ; 3470 ; 2369 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,+,SO,ND,NSD> ; 1967 ; closed ; verified ; 6456 ; 3470 ; 2369 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,T,SO,ND,NSD> ; 773 ; closed ; verified ; 3964 ; 2058 ; 1569 ; 10 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,F,SO,ND,NSD> ; 2487 ; closed ; verified ; 9695 ; 3856 ; 1942 ; 13 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,inc,SO,ND,NSD> ; 8196 ; closed ; verified ; 26676 ; 12462 ; 7633 ; 15 ; Success
+bphp2_4.prove ; 4 ; 161 ; <CSS,dec,SO,ND,NSD> ; 534 ; closed ; verified ; 1634 ; 1152 ; 856 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,ins,SO,ND,NSD> ; 997 ; closed ; verified ; 3651 ; 1659 ; 1011 ; 51 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,rev,SO,ND,NSD> ; 301 ; closed ; verified ; 1790 ; 798 ; 564 ; 23 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,&,SO,ND,NSD> ; 1269 ; closed ; verified ; 4729 ; 2078 ; 1186 ; 58 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,|,SO,ND,NSD> ; 202 ; closed ; verified ; 1790 ; 798 ; 564 ; 23 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,->,SO,ND,NSD> ; 1049 ; closed ; verified ; 3663 ; 1665 ; 1016 ; 51 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,<=>,SO,ND,NSD> ; 990 ; closed ; verified ; 3651 ; 1659 ; 1011 ; 51 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,+,SO,ND,NSD> ; 989 ; closed ; verified ; 3651 ; 1659 ; 1011 ; 51 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,T,SO,ND,NSD> ; 266 ; closed ; verified ; 1790 ; 798 ; 564 ; 23 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,F,SO,ND,NSD> ; 1266 ; closed ; verified ; 4729 ; 2078 ; 1186 ; 58 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,inc,SO,ND,NSD> ; 1735 ; closed ; verified ; 4757 ; 2092 ; 1200 ; 58 ; Success
+bphp2_4.prove ; 4 ; 161 ; <LSS,dec,SO,ND,NSD> ; 297 ; closed ; verified ; 2196 ; 979 ; 609 ; 32 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,ins,SO,ND,NSD> ; 127 ; closed ; verified ; 1076 ; 711 ; 479 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,rev,SO,ND,NSD> ; 61 ; closed ; verified ; 736 ; 430 ; 341 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,&,SO,ND,NSD> ; 184 ; closed ; verified ; 1377 ; 929 ; 580 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,|,SO,ND,NSD> ; 49 ; closed ; verified ; 726 ; 422 ; 338 ; 6 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,->,SO,ND,NSD> ; 128 ; closed ; verified ; 1076 ; 711 ; 479 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,<=>,SO,ND,NSD> ; 128 ; closed ; verified ; 1076 ; 711 ; 479 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,+,SO,ND,NSD> ; 127 ; closed ; verified ; 1076 ; 711 ; 479 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,T,SO,ND,NSD> ; 52 ; closed ; verified ; 736 ; 430 ; 341 ; 8 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,F,SO,ND,NSD> ; 185 ; closed ; verified ; 1377 ; 929 ; 580 ; 9 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,inc,SO,ND,NSD> ; 197 ; closed ; verified ; 1387 ; 937 ; 582 ; 11 ; Success
+bphp2_4.prove ; 4 ; 161 ; <BSS,dec,SO,ND,NSD> ; 98 ; closed ; verified ; 1030 ; 630 ; 459 ; 10 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,ins,SO,ND,NSD> ; 12014 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,rev,SO,ND,NSD> ; 2774 ; closed ; verified ; 13220 ; 8490 ; 6189 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,&,SO,ND,NSD> ; 4387 ; closed ; verified ; 13226 ; 9715 ; 4958 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,|,SO,ND,NSD> ; 639 ; closed ; verified ; 3518 ; 2184 ; 1608 ; 10 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,->,SO,ND,NSD> ; 12144 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,<=>,SO,ND,NSD> ; 12358 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,+,SO,ND,NSD> ; 11856 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,T,SO,ND,NSD> ; 2512 ; closed ; verified ; 13220 ; 8490 ; 6189 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,F,SO,ND,NSD> ; 4384 ; closed ; verified ; 13226 ; 9715 ; 4958 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,inc,SO,ND,NSD> ; 18038 ; closed ; verified ; 52052 ; 38614 ; 19589 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <MSS,dec,SO,ND,NSD> ; 2376 ; closed ; verified ; 12111 ; 8961 ; 6035 ; 19 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,ins,SO,ND,NSD> ; 11814 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,rev,SO,ND,NSD> ; 2683 ; closed ; verified ; 13220 ; 8490 ; 6189 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,&,SO,ND,NSD> ; 4142 ; closed ; verified ; 13226 ; 9715 ; 4958 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,|,SO,ND,NSD> ; 620 ; closed ; verified ; 3518 ; 2184 ; 1608 ; 10 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,->,SO,ND,NSD> ; 11935 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,<=>,SO,ND,NSD> ; 12004 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,+,SO,ND,NSD> ; 11894 ; closed ; verified ; 36996 ; 27734 ; 14825 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,T,SO,ND,NSD> ; 2468 ; closed ; verified ; 13220 ; 8490 ; 6189 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,F,SO,ND,NSD> ; 4090 ; closed ; verified ; 13226 ; 9715 ; 4958 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,inc,SO,ND,NSD> ; 17062 ; closed ; verified ; 52052 ; 38614 ; 19589 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <SS,dec,SO,ND,NSD> ; 2620 ; closed ; verified ; 12111 ; 8961 ; 6035 ; 19 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,ins,SO,ND,NSD> ; 12340 ; closed ; verified ; 47600 ; 31053 ; 14962 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,rev,SO,ND,NSD> ; 2812 ; closed ; verified ; 15856 ; 9209 ; 6189 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,&,SO,ND,NSD> ; 4254 ; closed ; verified ; 16525 ; 10707 ; 4989 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,|,SO,ND,NSD> ; 628 ; closed ; verified ; 4174 ; 2363 ; 1608 ; 10 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,->,SO,ND,NSD> ; 12231 ; closed ; verified ; 47600 ; 31053 ; 14962 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,<=>,SO,ND,NSD> ; 12193 ; closed ; verified ; 47600 ; 31053 ; 14962 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,+,SO,ND,NSD> ; 12228 ; closed ; verified ; 47600 ; 31053 ; 14962 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,T,SO,ND,NSD> ; 2521 ; closed ; verified ; 15856 ; 9209 ; 6189 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,F,SO,ND,NSD> ; 4213 ; closed ; verified ; 16525 ; 10707 ; 4989 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,inc,SO,ND,NSD> ; 17425 ; closed ; verified ; 65260 ; 42585 ; 19710 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <NLSS,dec,SO,ND,NSD> ; 2712 ; closed ; verified ; 16045 ; 10034 ; 6035 ; 19 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,ins,SO,ND,NSD> ; 82625 ; closed ; verified ; 109580 ; 47718 ; 26137 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,rev,SO,ND,NSD> ; 13059 ; closed ; verified ; 29992 ; 12126 ; 8797 ; 15 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,&,SO,ND,NSD> ; 104139 ; closed ; verified ; 199991 ; 58114 ; 23810 ; 21 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,|,SO,ND,NSD> ; 2794 ; closed ; verified ; 7650 ; 3540 ; 2499 ; 14 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,->,SO,ND,NSD> ; 82426 ; closed ; verified ; 109580 ; 47718 ; 26137 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,<=>,SO,ND,NSD> ; 82508 ; closed ; verified ; 109580 ; 47718 ; 26137 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,+,SO,ND,NSD> ; 82228 ; closed ; verified ; 109580 ; 47718 ; 26137 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,T,SO,ND,NSD> ; 11168 ; closed ; verified ; 29748 ; 13914 ; 9753 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,F,SO,ND,NSD> ; 104361 ; closed ; verified ; 199991 ; 58114 ; 23810 ; 21 ; Success
+bphp2_5.prove ; 5 ; 285 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <CSS,dec,SO,ND,NSD> ; 9044 ; closed ; verified ; 11691 ; 8541 ; 6055 ; 19 ; Success
+bphp2_5.prove ; 5 ; 285 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,rev,SO,ND,NSD> ; 10025 ; closed ; verified ; 27142 ; 7896 ; 3960 ; 119 ; Success
+bphp2_5.prove ; 5 ; 285 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,|,SO,ND,NSD> ; 7478 ; closed ; verified ; 27181 ; 7913 ; 3960 ; 119 ; Success
+bphp2_5.prove ; 5 ; 285 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,T,SO,ND,NSD> ; 9493 ; closed ; verified ; 27181 ; 7913 ; 3960 ; 119 ; Success
+bphp2_5.prove ; 5 ; 285 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_5.prove ; 5 ; 285 ; <LSS,dec,SO,ND,NSD> ; 18039 ; closed ; verified ; 44749 ; 11602 ; 4764 ; 204 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,ins,SO,ND,NSD> ; 2939 ; closed ; verified ; 9213 ; 6814 ; 3682 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,rev,SO,ND,NSD> ; 696 ; closed ; verified ; 3528 ; 2192 ; 1611 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,&,SO,ND,NSD> ; 3968 ; closed ; verified ; 12299 ; 9070 ; 4670 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,|,SO,ND,NSD> ; 628 ; closed ; verified ; 3518 ; 2184 ; 1608 ; 10 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,->,SO,ND,NSD> ; 2910 ; closed ; verified ; 9213 ; 6814 ; 3682 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,<=>,SO,ND,NSD> ; 2918 ; closed ; verified ; 9213 ; 6814 ; 3682 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,+,SO,ND,NSD> ; 2963 ; closed ; verified ; 9213 ; 6814 ; 3682 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,T,SO,ND,NSD> ; 633 ; closed ; verified ; 3528 ; 2192 ; 1611 ; 12 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,F,SO,ND,NSD> ; 3912 ; closed ; verified ; 12299 ; 9070 ; 4670 ; 16 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,inc,SO,ND,NSD> ; 4080 ; closed ; verified ; 12309 ; 9078 ; 4672 ; 18 ; Success
+bphp2_5.prove ; 5 ; 285 ; <BSS,dec,SO,ND,NSD> ; 1116 ; closed ; verified ; 5788 ; 3671 ; 2606 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,ins,SO,ND,NSD> ; 25123 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,rev,SO,ND,NSD> ; 5690 ; closed ; verified ; 26159 ; 16899 ; 12297 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,&,SO,ND,NSD> ; 4516 ; closed ; verified ; 13229 ; 9716 ; 4958 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,|,SO,ND,NSD> ; 662 ; closed ; verified ; 3521 ; 2185 ; 1608 ; 10 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,->,SO,ND,NSD> ; 25592 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,<=>,SO,ND,NSD> ; 25175 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,+,SO,ND,NSD> ; 25047 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,T,SO,ND,NSD> ; 5246 ; closed ; verified ; 26159 ; 16899 ; 12297 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,F,SO,ND,NSD> ; 4532 ; closed ; verified ; 13229 ; 9716 ; 4958 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,inc,SO,ND,NSD> ; 38174 ; closed ; verified ; 103823 ; 77147 ; 39097 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <MSS,dec,SO,ND,NSD> ; 3123 ; closed ; verified ; 15718 ; 12222 ; 8271 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,ins,SO,ND,NSD> ; 25437 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,rev,SO,ND,NSD> ; 5447 ; closed ; verified ; 26159 ; 16899 ; 12297 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,&,SO,ND,NSD> ; 4147 ; closed ; verified ; 13229 ; 9716 ; 4958 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,|,SO,ND,NSD> ; 618 ; closed ; verified ; 3521 ; 2185 ; 1608 ; 10 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,->,SO,ND,NSD> ; 25887 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,<=>,SO,ND,NSD> ; 25757 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,+,SO,ND,NSD> ; 25959 ; closed ; verified ; 73711 ; 55387 ; 29569 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,T,SO,ND,NSD> ; 5051 ; closed ; verified ; 26159 ; 16899 ; 12297 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,F,SO,ND,NSD> ; 4147 ; closed ; verified ; 13229 ; 9716 ; 4958 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,inc,SO,ND,NSD> ; 38539 ; closed ; verified ; 103823 ; 77147 ; 39097 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <SS,dec,SO,ND,NSD> ; 3565 ; closed ; verified ; 15718 ; 12222 ; 8271 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,ins,SO,ND,NSD> ; 26135 ; closed ; verified ; 94923 ; 62026 ; 29842 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,rev,SO,ND,NSD> ; 5584 ; closed ; verified ; 31435 ; 18338 ; 12297 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,&,SO,ND,NSD> ; 4228 ; closed ; verified ; 16528 ; 10708 ; 4989 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,|,SO,ND,NSD> ; 636 ; closed ; verified ; 4177 ; 2364 ; 1608 ; 10 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,->,SO,ND,NSD> ; 26403 ; closed ; verified ; 94923 ; 62026 ; 29842 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,<=>,SO,ND,NSD> ; 26514 ; closed ; verified ; 94923 ; 62026 ; 29842 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,+,SO,ND,NSD> ; 26548 ; closed ; verified ; 94923 ; 62026 ; 29842 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,T,SO,ND,NSD> ; 5213 ; closed ; verified ; 31435 ; 18338 ; 12297 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,F,SO,ND,NSD> ; 4331 ; closed ; verified ; 16528 ; 10708 ; 4989 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,inc,SO,ND,NSD> ; 39138 ; closed ; verified ; 130243 ; 85090 ; 39338 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <NLSS,dec,SO,ND,NSD> ; 3695 ; closed ; verified ; 21544 ; 13811 ; 8271 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,ins,SO,ND,NSD> ; 167613 ; closed ; verified ; 218879 ; 95355 ; 52193 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,rev,SO,ND,NSD> ; 26796 ; closed ; verified ; 59703 ; 24171 ; 17513 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,&,SO,ND,NSD> ; 105479 ; closed ; verified ; 199994 ; 58115 ; 23810 ; 21 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,|,SO,ND,NSD> ; 2832 ; closed ; verified ; 7653 ; 3541 ; 2499 ; 14 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,->,SO,ND,NSD> ; 168633 ; closed ; verified ; 218879 ; 95355 ; 52193 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,<=>,SO,ND,NSD> ; 167374 ; closed ; verified ; 218879 ; 95355 ; 52193 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,+,SO,ND,NSD> ; 168119 ; closed ; verified ; 218879 ; 95355 ; 52193 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,T,SO,ND,NSD> ; 22873 ; closed ; verified ; 59215 ; 27747 ; 19425 ; 17 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,F,SO,ND,NSD> ; 106666 ; closed ; verified ; 199994 ; 58115 ; 23810 ; 21 ; Success
+bphp3_5.prove ; 5 ; 288 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <CSS,dec,SO,ND,NSD> ; 13532 ; closed ; verified ; 15186 ; 11690 ; 8291 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,rev,SO,ND,NSD> ; 11104 ; closed ; verified ; 27145 ; 7897 ; 3960 ; 119 ; Success
+bphp3_5.prove ; 5 ; 288 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,|,SO,ND,NSD> ; 7644 ; closed ; verified ; 27184 ; 7914 ; 3960 ; 119 ; Success
+bphp3_5.prove ; 5 ; 288 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,T,SO,ND,NSD> ; 10591 ; closed ; verified ; 27184 ; 7914 ; 3960 ; 119 ; Success
+bphp3_5.prove ; 5 ; 288 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_5.prove ; 5 ; 288 ; <LSS,dec,SO,ND,NSD> ; 18860 ; closed ; verified ; 44752 ; 11603 ; 4764 ; 204 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,ins,SO,ND,NSD> ; 3017 ; closed ; verified ; 9221 ; 6819 ; 3683 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,rev,SO,ND,NSD> ; 707 ; closed ; verified ; 3536 ; 2197 ; 1612 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,&,SO,ND,NSD> ; 3968 ; closed ; verified ; 12302 ; 9071 ; 4670 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,|,SO,ND,NSD> ; 633 ; closed ; verified ; 3521 ; 2185 ; 1608 ; 10 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,->,SO,ND,NSD> ; 2976 ; closed ; verified ; 9221 ; 6819 ; 3683 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,<=>,SO,ND,NSD> ; 3016 ; closed ; verified ; 9221 ; 6819 ; 3683 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,+,SO,ND,NSD> ; 2970 ; closed ; verified ; 9221 ; 6819 ; 3683 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,T,SO,ND,NSD> ; 641 ; closed ; verified ; 3536 ; 2197 ; 1612 ; 13 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,F,SO,ND,NSD> ; 3945 ; closed ; verified ; 12302 ; 9071 ; 4670 ; 16 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,inc,SO,ND,NSD> ; 4161 ; closed ; verified ; 12317 ; 9083 ; 4673 ; 19 ; Success
+bphp3_5.prove ; 5 ; 288 ; <BSS,dec,SO,ND,NSD> ; 1194 ; closed ; verified ; 5941 ; 3792 ; 2636 ; 16 ; Success
+bphp2_6.prove ; 6 ; 461 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <MSS,rev,SO,ND,NSD> ; 29658 ; closed ; verified ; 83736 ; 54850 ; 37129 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <MSS,&,SO,ND,NSD> ; 109170 ; closed ; verified ; 165873 ; 127214 ; 55207 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <MSS,|,SO,ND,NSD> ; 7172 ; closed ; verified ; 21279 ; 13813 ; 9382 ; 15 ; Success
+bphp2_6.prove ; 6 ; 461 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <MSS,T,SO,ND,NSD> ; 28174 ; closed ; verified ; 83736 ; 54850 ; 37129 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <MSS,F,SO,ND,NSD> ; 107682 ; closed ; verified ; 165873 ; 127214 ; 55207 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <MSS,dec,SO,ND,NSD> ; 40621 ; closed ; verified ; 105257 ; 79121 ; 50794 ; 29 ; Success
+bphp2_6.prove ; 6 ; 461 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <SS,rev,SO,ND,NSD> ; 32792 ; closed ; verified ; 83736 ; 54850 ; 37129 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <SS,&,SO,ND,NSD> ; 109275 ; closed ; verified ; 165873 ; 127214 ; 55207 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <SS,|,SO,ND,NSD> ; 7405 ; closed ; verified ; 21279 ; 13813 ; 9382 ; 15 ; Success
+bphp2_6.prove ; 6 ; 461 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <SS,T,SO,ND,NSD> ; 30961 ; closed ; verified ; 83736 ; 54850 ; 37129 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <SS,F,SO,ND,NSD> ; 109324 ; closed ; verified ; 165873 ; 127214 ; 55207 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <SS,dec,SO,ND,NSD> ; 49946 ; closed ; verified ; 105257 ; 79121 ; 50794 ; 29 ; Success
+bphp2_6.prove ; 6 ; 461 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <NLSS,rev,SO,ND,NSD> ; 35169 ; closed ; verified ; 99572 ; 59169 ; 37129 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <NLSS,&,SO,ND,NSD> ; 111175 ; closed ; verified ; 203995 ; 138911 ; 55642 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <NLSS,|,SO,ND,NSD> ; 7439 ; closed ; verified ; 25235 ; 14892 ; 9382 ; 15 ; Success
+bphp2_6.prove ; 6 ; 461 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <NLSS,T,SO,ND,NSD> ; 33032 ; closed ; verified ; 99572 ; 59169 ; 37129 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <NLSS,F,SO,ND,NSD> ; 110781 ; closed ; verified ; 203995 ; 138911 ; 55642 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <NLSS,dec,SO,ND,NSD> ; 51006 ; closed ; verified ; 138638 ; 88225 ; 50794 ; 29 ; Success
+bphp2_6.prove ; 6 ; 461 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,|,SO,ND,NSD> ; 47184 ; closed ; verified ; 63279 ; 27511 ; 18225 ; 23 ; Success
+bphp2_6.prove ; 6 ; 461 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <CSS,dec,SO,ND,NSD> ; 170792 ; closed ; verified ; 100647 ; 74511 ; 50772 ; 29 ; Success
+bphp2_6.prove ; 6 ; 461 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_6.prove ; 6 ; 461 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_6.prove ; 6 ; 461 ; <BSS,ins,SO,ND,NSD> ; 78037 ; closed ; verified ; 110299 ; 86417 ; 39054 ; 27 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,rev,SO,ND,NSD> ; 8105 ; closed ; verified ; 21289 ; 13821 ; 9385 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,&,SO,ND,NSD> ; 101138 ; closed ; verified ; 147417 ; 114171 ; 50120 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,|,SO,ND,NSD> ; 7521 ; closed ; verified ; 21279 ; 13813 ; 9382 ; 15 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,->,SO,ND,NSD> ; 75347 ; closed ; verified ; 110299 ; 86417 ; 39054 ; 27 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,<=>,SO,ND,NSD> ; 75468 ; closed ; verified ; 110299 ; 86417 ; 39054 ; 27 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,+,SO,ND,NSD> ; 75535 ; closed ; verified ; 110299 ; 86417 ; 39054 ; 27 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,T,SO,ND,NSD> ; 7638 ; closed ; verified ; 21289 ; 13821 ; 9385 ; 17 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,F,SO,ND,NSD> ; 101441 ; closed ; verified ; 147417 ; 114171 ; 50120 ; 25 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,inc,SO,ND,NSD> ; 102914 ; closed ; verified ; 147427 ; 114179 ; 50122 ; 27 ; Success
+bphp2_6.prove ; 6 ; 461 ; <BSS,dec,SO,ND,NSD> ; 14786 ; closed ; verified ; 39476 ; 25380 ; 17863 ; 23 ; Success
+bphp3_6.prove ; 6 ; 464 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <MSS,rev,SO,ND,NSD> ; 62431 ; closed ; verified ; 167015 ; 109567 ; 74125 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <MSS,&,SO,ND,NSD> ; 106878 ; closed ; verified ; 165876 ; 127215 ; 55207 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <MSS,|,SO,ND,NSD> ; 7227 ; closed ; verified ; 21282 ; 13814 ; 9382 ; 15 ; Success
+bphp3_6.prove ; 6 ; 464 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <MSS,T,SO,ND,NSD> ; 58909 ; closed ; verified ; 167015 ; 109567 ; 74125 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <MSS,F,SO,ND,NSD> ; 107114 ; closed ; verified ; 165876 ; 127215 ; 55207 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <MSS,dec,SO,ND,NSD> ; 56283 ; closed ; verified ; 136572 ; 107570 ; 69410 ; 29 ; Success
+bphp3_6.prove ; 6 ; 464 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <SS,rev,SO,ND,NSD> ; 70836 ; closed ; verified ; 167015 ; 109567 ; 74125 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <SS,&,SO,ND,NSD> ; 110223 ; closed ; verified ; 165876 ; 127215 ; 55207 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <SS,|,SO,ND,NSD> ; 7429 ; closed ; verified ; 21282 ; 13814 ; 9382 ; 15 ; Success
+bphp3_6.prove ; 6 ; 464 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <SS,T,SO,ND,NSD> ; 66874 ; closed ; verified ; 167015 ; 109567 ; 74125 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <SS,F,SO,ND,NSD> ; 110385 ; closed ; verified ; 165876 ; 127215 ; 55207 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <SS,dec,SO,ND,NSD> ; 70106 ; closed ; verified ; 136572 ; 107570 ; 69410 ; 29 ; Success
+bphp3_6.prove ; 6 ; 464 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <NLSS,rev,SO,ND,NSD> ; 71652 ; closed ; verified ; 198691 ; 118206 ; 74125 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <NLSS,&,SO,ND,NSD> ; 112187 ; closed ; verified ; 203998 ; 138912 ; 55642 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <NLSS,|,SO,ND,NSD> ; 7467 ; closed ; verified ; 25238 ; 14893 ; 9382 ; 15 ; Success
+bphp3_6.prove ; 6 ; 464 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <NLSS,T,SO,ND,NSD> ; 67786 ; closed ; verified ; 198691 ; 118206 ; 74125 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <NLSS,F,SO,ND,NSD> ; 111793 ; closed ; verified ; 203998 ; 138912 ; 55642 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <NLSS,dec,SO,ND,NSD> ; 70779 ; closed ; verified ; 185705 ; 120970 ; 69410 ; 29 ; Success
+bphp3_6.prove ; 6 ; 464 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,|,SO,ND,NSD> ; 47937 ; closed ; verified ; 63282 ; 27512 ; 18225 ; 23 ; Success
+bphp3_6.prove ; 6 ; 464 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp3_6.prove ; 6 ; 464 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_6.prove ; 6 ; 464 ; <BSS,ins,SO,ND,NSD> ; 75679 ; closed ; verified ; 110307 ; 86422 ; 39055 ; 28 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,rev,SO,ND,NSD> ; 8144 ; closed ; verified ; 21297 ; 13826 ; 9386 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,&,SO,ND,NSD> ; 102382 ; closed ; verified ; 147420 ; 114172 ; 50120 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,|,SO,ND,NSD> ; 7577 ; closed ; verified ; 21282 ; 13814 ; 9382 ; 15 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,->,SO,ND,NSD> ; 75644 ; closed ; verified ; 110307 ; 86422 ; 39055 ; 28 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,<=>,SO,ND,NSD> ; 76326 ; closed ; verified ; 110307 ; 86422 ; 39055 ; 28 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,+,SO,ND,NSD> ; 76282 ; closed ; verified ; 110307 ; 86422 ; 39055 ; 28 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,T,SO,ND,NSD> ; 7675 ; closed ; verified ; 21297 ; 13826 ; 9386 ; 18 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,F,SO,ND,NSD> ; 102119 ; closed ; verified ; 147420 ; 114172 ; 50120 ; 25 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,inc,SO,ND,NSD> ; 103982 ; closed ; verified ; 147435 ; 114184 ; 50123 ; 28 ; Success
+bphp3_6.prove ; 6 ; 464 ; <BSS,dec,SO,ND,NSD> ; 15734 ; closed ; verified ; 40529 ; 26221 ; 18073 ; 23 ; Success
+bphp2_7.prove ; 7 ; 698 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <MSS,|,SO,ND,NSD> ; 84979 ; closed ; verified ; 153994 ; 102932 ; 65063 ; 21 ; Success
+bphp2_7.prove ; 7 ; 698 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <SS,|,SO,ND,NSD> ; 102525 ; closed ; verified ; 153994 ; 102932 ; 65063 ; 21 ; Success
+bphp2_7.prove ; 7 ; 698 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <NLSS,|,SO,ND,NSD> ; 103279 ; closed ; verified ; 181710 ; 110491 ; 65063 ; 21 ; Success
+bphp2_7.prove ; 7 ; 698 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp2_7.prove ; 7 ; 698 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,rev,SO,ND,NSD> ; 110246 ; closed ; verified ; 154004 ; 102940 ; 65066 ; 23 ; Success
+bphp2_7.prove ; 7 ; 698 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,|,SO,ND,NSD> ; 106739 ; closed ; verified ; 153994 ; 102932 ; 65063 ; 21 ; Success
+bphp2_7.prove ; 7 ; 698 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,T,SO,ND,NSD> ; 107079 ; closed ; verified ; 154004 ; 102940 ; 65066 ; 23 ; Success
+bphp2_7.prove ; 7 ; 698 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp2_7.prove ; 7 ; 698 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp3_7.prove ; 7 ; 701 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,|,SO,ND,NSD> ; 86905 ; closed ; verified ; 153997 ; 102933 ; 65063 ; 21 ; Success
+bphp3_7.prove ; 7 ; 701 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,|,SO,ND,NSD> ; 103241 ; closed ; verified ; 153997 ; 102933 ; 65063 ; 21 ; Success
+bphp3_7.prove ; 7 ; 701 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,|,SO,ND,NSD> ; 103158 ; closed ; verified ; 181713 ; 110492 ; 65063 ; 21 ; Success
+bphp3_7.prove ; 7 ; 701 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,rev,SO,ND,NSD> ; 112070 ; closed ; verified ; 154012 ; 102945 ; 65067 ; 24 ; Success
+bphp3_7.prove ; 7 ; 701 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,|,SO,ND,NSD> ; 107591 ; closed ; verified ; 153997 ; 102933 ; 65063 ; 21 ; Success
+bphp3_7.prove ; 7 ; 701 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,T,SO,ND,NSD> ; 108116 ; closed ; verified ; 154012 ; 102945 ; 65067 ; 24 ; Success
+bphp3_7.prove ; 7 ; 701 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp3_7.prove ; 7 ; 701 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,rev,SO,ND,NSD> ; 113204 ; closed ; verified ; 154007 ; 102941 ; 65066 ; 23 ; Success
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,|,SO,ND,NSD> ; 113523 ; closed ; verified ; 154002 ; 102937 ; 65065 ; 22 ; Success
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,T,SO,ND,NSD> ; 109633 ; closed ; verified ; 154007 ; 102941 ; 65066 ; 23 ; Success
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+bphp_b_3_7.prove ; 7 ; 701 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+Finished!

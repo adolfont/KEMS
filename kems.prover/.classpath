@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="logic/aspects/FactoriesXMLAspect.aj|main/strategy/AbstractStrategy.java|main/strategy/MyHashMap.java|main/strategy/memorySaver/AbstractMemorySaverStrategy.java|main/strategy/memorySaver/MemorySaverStrategy.java|main/strategy/simple/AbstractSimpleStrategy.java|main/strategy/simple/MemorySaverSimpleStrategy.java|main/strategy/simple/SimpleStrategy.java|main/strategy/simple/SimpleStrategyAspect.aj|main/strategy/simple/mbc/MBCSimpleStrategy.java|main/strategy/simple/mbc/MBCSimpleStrategyAspect.aj|main/tableau/Execution.java|main/tableau/RulesUsage.java|util/XMLViewer.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry kind="src" path="/kems.ext.lib"/>
+	<classpathentry kind="src" path="/kems.generated.lib"/>
+	<classpathentry kind="lib" path="/kems.ext.lib/ext/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="/kems.ext.lib/ext/java_cup.jar"/>
+	<classpathentry kind="lib" path="/kems.ext.lib/ext/JFlex.jar"/>
+	<classpathentry kind="lib" path="/kems.generated.lib/generated/cw.jar"/>
+	<classpathentry kind="lib" path="/kems.generated.lib/generated/satcnf2.jar"/>
+	<classpathentry kind="lib" path="/kems.generated.lib/generated/satlfiinconsdef.jar"/>
+	<classpathentry kind="lib" path="/kems.generated.lib/generated/sats5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

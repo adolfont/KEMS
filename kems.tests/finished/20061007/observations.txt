@@ -1,0 +1,49 @@
+
+-Xms200m -Xmx800m
+
+adolfo@doncovim:~/kems.tests$ cat /proc/cpuinfo
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Pentium(R) 4 CPU 3.20GHz
+stepping        : 3
+cpu MHz         : 3207.954
+cache size      : 2048 KB
+fdiv_bug        : no
+hlt_bug         : no
+f00f_bug        : no
+coma_bug        : no
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe lm pni monitor ds_cpl est cid cx16 xtpr
+bogomips        : 6420.66
+
+
+adolfo@doncovim:~/kems.tests$ cat /proc/meminfo
+MemTotal:      3831844 kB
+MemFree:        186016 kB
+Buffers:        228852 kB
+Cached:         450392 kB
+SwapCached:     240912 kB
+Active:        3178708 kB
+Inactive:       347852 kB
+HighTotal:     2948800 kB
+HighFree:        76840 kB
+LowTotal:       883044 kB
+LowFree:        109176 kB
+SwapTotal:     7831648 kB
+SwapFree:      6153940 kB
+Dirty:              52 kB
+Writeback:           0 kB
+Mapped:        2842568 kB
+Slab:            96576 kB
+CommitLimit:   9747568 kB
+Committed_AS:  4753492 kB
+PageTables:       6472 kB
+VmallocTotal:   114680 kB
+VmallocUsed:     11764 kB
+VmallocChunk:   102744 kB
+

@@ -1,0 +1,18 @@
+/Action.java/1.1/Thu Sep  7 02:24:24 2006//
+/ActionType.java/1.1/Thu Sep  7 02:24:24 2006//
+/C1_F_CONS_ANY_Rule.java/1.1/Thu Apr 30 19:39:53 2009//
+/IRule.java/1.1/Thu Sep  7 02:24:24 2006//
+/KEAction.java/1.2/Tue May  5 17:01:12 2009//
+/KERuleRole.java/1.2/Mon Apr  6 22:14:06 2009//
+/NamedRule.java/1.1/Thu Sep  7 02:24:24 2006//
+/NullRule.java/1.1/Thu Sep  7 02:24:24 2006//
+/OneConclusionRule.java/1.1/Thu Sep  7 02:24:24 2006//
+/OnePremiseOneConclusionRule.java/1.2/Thu Apr 30 15:40:38 2009//
+/OnePremissTwoConclusionsRule.java/1.2/Thu Apr 30 15:40:38 2009//
+/Rule.java/1.1/Thu Sep  7 02:24:24 2006//
+/RuleCode.java/1.1/Thu Sep  7 02:24:24 2006//
+/ThreePremisesOneConclusionRule.java/1.2/Thu Apr 30 20:50:40 2009//
+/TwoPremisesOneConclusionRule.java/1.2/Tue May  5 00:52:24 2009//
+D/getters////
+D/patterns////
+D/structures////

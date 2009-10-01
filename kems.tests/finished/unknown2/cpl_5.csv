@@ -1,0 +1,663 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_5.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+U_11.prove ; 11 ; 43 ; <MSS,ins,SO,ND,NSD> ; 1736 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,rev,SO,ND,NSD> ; 1423 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,&,SO,ND,NSD> ; 1351 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,|,SO,ND,NSD> ; 1350 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,->,SO,ND,NSD> ; 1350 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,<=>,SO,ND,NSD> ; 1355 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,+,SO,ND,NSD> ; 1352 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,T,SO,ND,NSD> ; 1353 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,F,SO,ND,NSD> ; 1349 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,inc,SO,ND,NSD> ; 1347 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,dec,SO,ND,NSD> ; 1348 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,ins,SO,ND,NSD> ; 2141 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,rev,SO,ND,NSD> ; 2029 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,&,SO,ND,NSD> ; 1997 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,|,SO,ND,NSD> ; 1984 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,->,SO,ND,NSD> ; 2007 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,<=>,SO,ND,NSD> ; 1991 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,+,SO,ND,NSD> ; 1993 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,T,SO,ND,NSD> ; 1990 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,F,SO,ND,NSD> ; 2000 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,inc,SO,ND,NSD> ; 1987 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,dec,SO,ND,NSD> ; 1997 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,ins,SO,ND,NSD> ; 2030 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,rev,SO,ND,NSD> ; 2004 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,&,SO,ND,NSD> ; 2011 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,|,SO,ND,NSD> ; 2000 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,->,SO,ND,NSD> ; 1997 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,<=>,SO,ND,NSD> ; 2006 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,+,SO,ND,NSD> ; 2025 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,T,SO,ND,NSD> ; 2009 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,F,SO,ND,NSD> ; 2001 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,inc,SO,ND,NSD> ; 2017 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,dec,SO,ND,NSD> ; 2014 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,ins,SO,ND,NSD> ; 2919 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,rev,SO,ND,NSD> ; 2866 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,&,SO,ND,NSD> ; 2859 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,|,SO,ND,NSD> ; 2963 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,->,SO,ND,NSD> ; 2851 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,<=>,SO,ND,NSD> ; 2867 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,+,SO,ND,NSD> ; 2897 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,T,SO,ND,NSD> ; 2935 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,F,SO,ND,NSD> ; 2864 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,inc,SO,ND,NSD> ; 2885 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,dec,SO,ND,NSD> ; 2855 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_11.prove ; 11 ; 43 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <MSS,ins,SO,ND,NSD> ; 3812 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,rev,SO,ND,NSD> ; 3787 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,&,SO,ND,NSD> ; 3818 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,|,SO,ND,NSD> ; 3774 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,->,SO,ND,NSD> ; 3775 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,<=>,SO,ND,NSD> ; 3776 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,+,SO,ND,NSD> ; 3770 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,T,SO,ND,NSD> ; 3824 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,F,SO,ND,NSD> ; 3783 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,inc,SO,ND,NSD> ; 3790 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,dec,SO,ND,NSD> ; 3780 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,ins,SO,ND,NSD> ; 4533 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,rev,SO,ND,NSD> ; 4516 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,&,SO,ND,NSD> ; 4523 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,|,SO,ND,NSD> ; 4534 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,->,SO,ND,NSD> ; 4513 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,<=>,SO,ND,NSD> ; 4577 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,+,SO,ND,NSD> ; 4614 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,T,SO,ND,NSD> ; 4520 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,F,SO,ND,NSD> ; 4559 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,inc,SO,ND,NSD> ; 4594 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,dec,SO,ND,NSD> ; 4517 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,ins,SO,ND,NSD> ; 4521 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,rev,SO,ND,NSD> ; 4542 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,&,SO,ND,NSD> ; 4580 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,|,SO,ND,NSD> ; 4618 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,->,SO,ND,NSD> ; 4589 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,<=>,SO,ND,NSD> ; 4559 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,+,SO,ND,NSD> ; 4565 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,T,SO,ND,NSD> ; 4541 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,F,SO,ND,NSD> ; 4540 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,inc,SO,ND,NSD> ; 4537 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,dec,SO,ND,NSD> ; 4519 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,ins,SO,ND,NSD> ; 7890 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,rev,SO,ND,NSD> ; 7634 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,&,SO,ND,NSD> ; 7633 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,|,SO,ND,NSD> ; 7665 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,->,SO,ND,NSD> ; 7767 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,<=>,SO,ND,NSD> ; 7721 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,+,SO,ND,NSD> ; 7682 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,T,SO,ND,NSD> ; 7737 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,F,SO,ND,NSD> ; 7819 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,inc,SO,ND,NSD> ; 7624 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,dec,SO,ND,NSD> ; 7633 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <MSS,ins,SO,ND,NSD> ; 14812 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,rev,SO,ND,NSD> ; 14927 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,&,SO,ND,NSD> ; 14854 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,|,SO,ND,NSD> ; 14899 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,->,SO,ND,NSD> ; 14795 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,<=>,SO,ND,NSD> ; 14847 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,+,SO,ND,NSD> ; 14964 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,T,SO,ND,NSD> ; 14975 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,F,SO,ND,NSD> ; 14719 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,inc,SO,ND,NSD> ; 14921 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,dec,SO,ND,NSD> ; 14838 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,ins,SO,ND,NSD> ; 11615 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,rev,SO,ND,NSD> ; 11672 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,&,SO,ND,NSD> ; 11581 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,|,SO,ND,NSD> ; 11613 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,->,SO,ND,NSD> ; 11637 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,<=>,SO,ND,NSD> ; 11695 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,+,SO,ND,NSD> ; 11536 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,T,SO,ND,NSD> ; 11582 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,F,SO,ND,NSD> ; 11586 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,inc,SO,ND,NSD> ; 11660 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,dec,SO,ND,NSD> ; 11583 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,ins,SO,ND,NSD> ; 11720 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,rev,SO,ND,NSD> ; 11574 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,&,SO,ND,NSD> ; 11524 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,|,SO,ND,NSD> ; 11630 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,->,SO,ND,NSD> ; 11541 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,<=>,SO,ND,NSD> ; 11532 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,+,SO,ND,NSD> ; 11554 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,T,SO,ND,NSD> ; 11598 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,F,SO,ND,NSD> ; 11545 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,inc,SO,ND,NSD> ; 11526 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,dec,SO,ND,NSD> ; 11646 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,ins,SO,ND,NSD> ; 18494 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,rev,SO,ND,NSD> ; 18404 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,&,SO,ND,NSD> ; 18172 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,|,SO,ND,NSD> ; 18513 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,->,SO,ND,NSD> ; 18425 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,<=>,SO,ND,NSD> ; 18083 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,+,SO,ND,NSD> ; 18205 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,T,SO,ND,NSD> ; 18596 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,F,SO,ND,NSD> ; 18423 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,inc,SO,ND,NSD> ; 18490 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,dec,SO,ND,NSD> ; 18257 ; closed ; verified ; 1646537 ; 131071 ; 131069 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <MSS,ins,SO,ND,NSD> ; 54196 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,rev,SO,ND,NSD> ; 54477 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,&,SO,ND,NSD> ; 54905 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,|,SO,ND,NSD> ; 54849 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,->,SO,ND,NSD> ; 54993 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,<=>,SO,ND,NSD> ; 54623 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,+,SO,ND,NSD> ; 54942 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,T,SO,ND,NSD> ; 54687 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,F,SO,ND,NSD> ; 54785 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,inc,SO,ND,NSD> ; 54092 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,dec,SO,ND,NSD> ; 54392 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,ins,SO,ND,NSD> ; 29551 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,rev,SO,ND,NSD> ; 29766 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,&,SO,ND,NSD> ; 29833 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,|,SO,ND,NSD> ; 29525 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,->,SO,ND,NSD> ; 29692 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,<=>,SO,ND,NSD> ; 29502 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,+,SO,ND,NSD> ; 29431 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,T,SO,ND,NSD> ; 29193 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,F,SO,ND,NSD> ; 29786 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,inc,SO,ND,NSD> ; 29640 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,dec,SO,ND,NSD> ; 29430 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,ins,SO,ND,NSD> ; 29478 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,rev,SO,ND,NSD> ; 29910 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,&,SO,ND,NSD> ; 29801 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,|,SO,ND,NSD> ; 30059 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,->,SO,ND,NSD> ; 29395 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,<=>,SO,ND,NSD> ; 29715 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,+,SO,ND,NSD> ; 29666 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,T,SO,ND,NSD> ; 29588 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,F,SO,ND,NSD> ; 29419 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,inc,SO,ND,NSD> ; 29743 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <NLSS,dec,SO,ND,NSD> ; 29776 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,ins,SO,ND,NSD> ; 46063 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,rev,SO,ND,NSD> ; 46037 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,&,SO,ND,NSD> ; 45902 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,|,SO,ND,NSD> ; 46759 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,->,SO,ND,NSD> ; 45908 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,<=>,SO,ND,NSD> ; 46253 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,+,SO,ND,NSD> ; 46056 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,T,SO,ND,NSD> ; 46309 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,F,SO,ND,NSD> ; 46360 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,inc,SO,ND,NSD> ; 46241 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <CSS,dec,SO,ND,NSD> ; 45958 ; closed ; verified ; 3768261 ; 278527 ; 278525 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <SS,ins,SO,ND,NSD> ; 63287 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,rev,SO,ND,NSD> ; 63561 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,&,SO,ND,NSD> ; 63173 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,|,SO,ND,NSD> ; 63358 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,->,SO,ND,NSD> ; 63305 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,<=>,SO,ND,NSD> ; 63320 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,+,SO,ND,NSD> ; 63349 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,T,SO,ND,NSD> ; 63445 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,F,SO,ND,NSD> ; 63356 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,inc,SO,ND,NSD> ; 63330 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <SS,dec,SO,ND,NSD> ; 63599 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,ins,SO,ND,NSD> ; 63348 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,rev,SO,ND,NSD> ; 63948 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,&,SO,ND,NSD> ; 64113 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,|,SO,ND,NSD> ; 64030 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,->,SO,ND,NSD> ; 63737 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,<=>,SO,ND,NSD> ; 63741 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,+,SO,ND,NSD> ; 63728 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,T,SO,ND,NSD> ; 63694 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,F,SO,ND,NSD> ; 63419 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,inc,SO,ND,NSD> ; 63778 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <NLSS,dec,SO,ND,NSD> ; 63305 ; closed ; verified ; 2268990 ; 393213 ; 393211 ; 15 ; Success
+U_15.prove ; 15 ; 59 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_16.prove ; 16 ; 63 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

@@ -1,0 +1,5 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_10.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+PHP_08.prove ; 08 ; 999 ; <MSS,rev,SO,D,NSD> ; 1069352 ; closed ; not verified ; 1507 ; 454 ; 144 ; 28 ; Success
+PHP_08.prove ; 08 ; 999 ; <MSS,|,SO,D,NSD> ; 1001011 ; closed ; not verified ; 1507 ; 454 ; 144 ; 28 ; Success
+PHP_08.prove ; 08 ; 999 ; <MSS,T,SO,D,NSD> ; 999701 ; closed ; not verified ; 1507 ; 454 ; 144 ; 28 ; Success

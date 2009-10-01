@@ -1,0 +1,39 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mci_7.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+family7_15.prove ; 15 ; 251 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISS,&,SO,ND,NSD> ; 47 ; closed ; verified ; 2099 ; 194 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 251 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISS,F,SO,ND,NSD> ; 45 ; closed ; verified ; 2099 ; 194 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 251 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISS,dec,SO,ND,NSD> ; 224 ; closed ; verified ; 3713 ; 563 ; 527 ; 25 ; Success
+family7_15.prove ; 15 ; 251 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISWORS,&,SO,ND,NSD> ; 33 ; closed ; verified ; 2114 ; 194 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 251 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISWORS,F,SO,ND,NSD> ; 33 ; closed ; verified ; 2114 ; 194 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 251 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 251 ; <MCISWORS,dec,SO,ND,NSD> ; 198 ; closed ; verified ; 3802 ; 585 ; 527 ; 25 ; Success
+family7_20.prove ; 20 ; 336 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISS,&,SO,ND,NSD> ; 106 ; closed ; verified ; 3504 ; 259 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 336 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISS,F,SO,ND,NSD> ; 105 ; closed ; verified ; 3504 ; 259 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 336 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISS,dec,SO,ND,NSD> ; 607 ; closed ; verified ; 6952 ; 952 ; 901 ; 35 ; Success
+family7_20.prove ; 20 ; 336 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISWORS,&,SO,ND,NSD> ; 67 ; closed ; verified ; 3524 ; 259 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 336 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISWORS,F,SO,ND,NSD> ; 68 ; closed ; verified ; 3524 ; 259 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 336 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 336 ; <MCISWORS,dec,SO,ND,NSD> ; 514 ; closed ; verified ; 7097 ; 984 ; 901 ; 35 ; Success
+Finished!

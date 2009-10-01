@@ -1,0 +1,60 @@
+
+refactoring all code
+  there was too much generic types without <T>
+  done!
+  
+implementing tests:
+  C1RulesTest.java
+  
+classes implemented:
+
+C1ConsistencyPattern
+  for !(X&!X)
+C1SignConsistencyPattern
+  for T !(X&!X)
+C1ConsistencyAnyBinaryConnectivePattern
+  for !((X%Y)&!(X%Y))
+C1SignConsistencyAnyBinaryConnectivePattern
+  for T!((X%Y)&!(X%Y))
+C1SignConnectiveConsistencyPattern
+  for T!X, T!(X&!X)
+C1_F_CONS_ANY_Getter
+C1_Sign_T_NOT_1_Pattern
+
+C1RuleStructures
+C1SpecialTwoPremiseRuleAppicator
+
+necessary modifications in main.newstrategy.mbc.simple.TwoPremiseRuleApplicator (there was a bug)
+
+necessary modifications in proverinterface.RuleStructureFactory 
+  had to include an option to construct a C1RuleStructures
+
+several tests...
+
+C1PBRuleApplicatorTest
+  tests only CPL KE 2 premise rules
+  six tests, always on the left side!!
+  
+*** 27/04/2009: Now implementing special PB rule applications: C1SpecialPBRuleApplicatorTest
+
+***** Remember that PB in C1 is used to find a counter-valuation for a sequent
+
+*** Decided to implement several 3 premise rules: 
+T !(A%B)
+T (A%B)
+T oA
+--------
+F oB
+
+and
+
+T !(A%B)
+T (A%B)
+T oB
+--------
+F oA
+
+
+  
+
+    

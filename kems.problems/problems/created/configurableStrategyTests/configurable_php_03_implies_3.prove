@@ -1,0 +1,15 @@
+# This instance will take more time and produce a bigger proof tree 
+# with configurable strategy if a -> comparator is used
+# because it will first branch on the last formulas
+T (p0,0|p0,1)
+T (p1,0|p1,1)
+T (p2,0|p2,1)
+F (p0,0&p1,0)
+F (p0,0&p2,0)
+F (p1,0&p2,0)
+F (p0,1&p1,1)
+F (p0,1&p2,1)
+F (p1,1&p2,1)
+T A1->B1
+T A2->B2
+T A3->B3

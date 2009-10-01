@@ -1,0 +1,41 @@
+# this one for pdflatex
+#set terminal jpeg
+
+# and this for latex
+set term post eps enhanced color
+set grid
+set palette color
+
+set key top left
+
+#set pm3d
+#set xrange [6:44]
+#set yrange [0:6000]
+#set xtics 10
+#set ylabel 'time spent (ms)'
+#set xlabel 'problem instance number'
+#set ylabel 'proof size'
+
+#set boxwidth 0.9 relative
+#set style fill solid
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+#set data style boxes
+#set boxwidth 1.5
+
+#set parametric
+#set contour base
+#set hidden3d
+
+# .eps for latex
+# .jpg for pdlfatex
+set output "MBCBOXES_H.eps"
+splot \
+     "MBCSS_IMP.out" using 5:2:8 w lp title '<MBCSS,imp>'   ,\
+     "MBCSWORS_IMP.out" using 5:2:8 w lp title '<MBCSWORS,imp>'   ,\
+     "MBCSS_DEC.out" using 5:2:8 w lp title '<MBCSS,dec>' ,\
+     "MBCSWORS_DEC.out" using 5:2:8 w lp title '<MBCSWORS,dec>'   
+

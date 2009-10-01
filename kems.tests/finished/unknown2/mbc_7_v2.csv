@@ -1,0 +1,39 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mbc_7_v2.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+family7_15.prove ; 15 ; 207 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,&,SO,ND,NSD> ; 44 ; closed ; verified ; 2055 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,F,SO,ND,NSD> ; 40 ; closed ; verified ; 2055 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,dec,SO,ND,NSD> ; 44 ; closed ; verified ; 2055 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,&,SO,ND,NSD> ; 31 ; closed ; verified ; 2070 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,F,SO,ND,NSD> ; 31 ; closed ; verified ; 2070 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,dec,SO,ND,NSD> ; 34 ; closed ; verified ; 2070 ; 193 ; 191 ; 14 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,&,SO,ND,NSD> ; 85 ; closed ; verified ; 3445 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,F,SO,ND,NSD> ; 85 ; closed ; verified ; 3445 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,dec,SO,ND,NSD> ; 90 ; closed ; verified ; 3445 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,&,SO,ND,NSD> ; 64 ; closed ; verified ; 3465 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,F,SO,ND,NSD> ; 63 ; closed ; verified ; 3465 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,dec,SO,ND,NSD> ; 68 ; closed ; verified ; 3465 ; 258 ; 256 ; 19 ; Success
+Finished!

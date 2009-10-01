@@ -1,0 +1,2 @@
+Here the script for creating an export version puts the libraries needed by KEMS, described in kems.jar manifest.
+Only aspectjrt.jar is stored here because it may not be available in some environments.

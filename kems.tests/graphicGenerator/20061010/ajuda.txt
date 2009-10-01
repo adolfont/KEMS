@@ -1,0 +1,114 @@
+# Observação: funcionaram em doncovim e em kurumin.
+Mas em kurumin tive que corrigir os caracteres escondidos.
+
+Ajuda sobre os shell scripts
+
+clean.sh
+  remove os scripts e os arquivos jpg gerados, sem perguntar nada
+  só remove os .csv se o usuário quiser
+
+generateJpgGenerators.sh
+  -> gera um .sh que deve ser rodado depois - este gera gráficos jpg
+  -> sugestão de nome para o arquivo gerado: generated_genAll_jpg.sh
+  -> ./generateJpgGenerators.sh > generated_genAll_jpg.sh
+  -> é o mesmo que:
+  -> ./generateJpgGenerators.sh 3 0 0 3 > generated_genAll_jpg.sh
+  -> obtém as três melhores que provaram o maior provado e as três piores
+  -> que provaram o maior que foi provado por todos
+  ->
+  -> outra possibilidade:
+  -> ./generateJpgGenerators.sh 2 2 2 2 > generated_genAll_jpg.sh
+  -> obtém as duas melhores e as duas piores que provaram o maior provado e 
+  -> as duas melhores e as duas piores que provaram o maior que foi provado por todos
+
+generateEpsGenerators.sh
+  -> gera um .sh que deve ser rodado depois - este gera gráficos eps
+  -> sugestão de nome: generated_genAll_eps.sh
+  -> ./generateEpsGenerators.sh > generated_genAll_eps.sh
+  -> o resto do anterior vale aqui
+
+
+sortTmSz.sh  <arquivoDeResultadosKEMS.csv>
+  ordena os resultados - excluindo os não provados
+  primeira chave: número da instância (crescente)
+  segunda chave: tamanho da prova (crescente)
+  terceira chave: tempo gasto (crescente)
+  
+sortSzTm.sh <arquivoDeResultadosKEMS.csv>
+  ordena os resultados - excluindo os não provados
+  primeira chave: número da instância (crescente)
+  segunda chave: tempo gasto (crescente)
+  terceira chave: tamanho da prova (crescente)
+
+getBestSizeStrategies.onlylimit.sh <arquivoDeResultadosKEMS.csv>
+  only the best and worst 
+
+getBestSizeStrategies.sh  <n1> <n2> <n3> <n4>
+ n1=3 n2=3 n3=3 n4=3 is the default
+  n1 best for the most difficult solved
+  n2 worst for the most difficult solved
+  n3 best for the most difficult that all solved
+  n4 worst for the most difficult that all solved
+
+getBestTimeStrategies.sh
+  n1 best for the most difficult solved
+  n2 worst for the most difficult solved
+  n3 best for the most difficult that all solved
+  n4 worst for the most difficult that all solved
+
+getBestTimeStrategiesTex.sh
+
+genTex.sh <jpgPathForTex>
+# gera os includes para as figuras disponíveis
+
+getBiggerInstanceProved.sh <csvFile> <strategy>
+
+getAllBiggerInstancesProved.sh  <strategy> <csvFile>
+
+getAllBiggerInstancesProved_Fight.sh  <strategy1> <strategy2> <csvFiles>
+
+getAllBiggerInstancesProved_All.sh <csvFiles>
+Obs.: The first csv file must contain all strategies
+
+
+getAllTimeSize.sh
+getAllTimeSizeTex.sh
+
+
+
+# os abaixo são mais internos
+# podem gerar scripts gnuplot com comentarios que serao removidos pelos outros scripts
+gensize.sh <csvFile>
+  gera o script gnuplot para gerar o grafico de tamanho
+
+gentime.sh <csvFile>
+  gera o script gnuplot para gerar o grafico de tempo
+    
+gen1.sh
+  script usado pelos scripts geradores de scripts gnuplot
+  gera o script principal
+
+gen2.sh
+  script usado pelos scripts geradores de scripts gnuplot
+  gera os plot/replot
+
+gen_size_gnup.sh
+  gera script gnuplot usando info de melhores estratégias
+  para tamanho
+
+gen_time_gnup.sh
+  gera script gnuplot usando info de melhores estratégias
+  para tempo
+
+getStrats.sh
+
+readLineByLine.sh
+
+sortTmSz.sh
+
+sortSzTm.sh
+
+trocaCaracteresParaTex.sh
+
+
+stratCount.sh

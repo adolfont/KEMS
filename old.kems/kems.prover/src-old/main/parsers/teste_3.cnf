@@ -1,0 +1,5 @@
+c Formulas: [0 1]
+c FormulaFactory: Formula Factory:{1=1}{}
+c SignedFormulaFactory: [0 1]
+p cnf 1 1
+1

@@ -1,0 +1,108 @@
+# a one problem sequence to be run with -problem name.problem -showProof
+parser=sats5
+saveOrigin=true
+discardClosedBranches=false
+saveDiscardedBranches=false
+times=1
+timeLimit=3
+
+problem=
+#F B1&C1&D1&E1
+#T (A2|B2)+C2
+#F A3&B3
+#T Q4+(R4|F4)
+
+#test for insertion and reverse
+T A1->B1->C1
+T (((p0,0|p0,1)|p0,2)|p0,3)
+T (((p1,0|p1,1)|p1,2)|p1,3)
+T (((p2,0|p2,1)|p2,2)|p2,3)
+T (((p3,0|p3,1)|p3,2)|p3,3)
+T (((p4,0|p4,1)|p4,2)|p4,3)
+F (p0,0&p1,0)
+F (p0,0&p2,0)
+F (p0,0&p3,0)
+F (p0,0&p4,0)
+F (p1,0&p2,0)
+F (p1,0&p3,0)
+F (p1,0&p4,0)
+F (p2,0&p3,0)
+F (p2,0&p4,0)
+F (p3,0&p4,0)
+T C2->D2
+F (p0,1&p1,1)
+F (p0,1&p2,1)
+F (p0,1&p3,1)
+F (p0,1&p4,1)
+F (p1,1&p2,1)
+F (p1,1&p3,1)
+F (p1,1&p4,1)
+F (p2,1&p3,1)
+F (p2,1&p4,1)
+F (p3,1&p4,1)
+F (p0,2&p1,2)
+F (p0,2&p2,2)
+F (p0,2&p3,2)
+F (p0,2&p4,2)
+F (p1,2&p2,2)
+F (p1,2&p3,2)
+F (p1,2&p4,2)
+F (p2,2&p3,2)
+F (p2,2&p4,2)
+F (p3,2&p4,2)
+F (p0,3&p1,3)
+F (p0,3&p2,3)
+F (p0,3&p3,3)
+F (p0,3&p4,3)
+F (p1,3&p2,3)
+F (p1,3&p3,3)
+F (p1,3&p4,3)
+F (p2,3&p3,3)
+F (p2,3&p4,3)
+F (p3,3&p4,3)
+F A3&B3&C3
+
+
+# test for connectives
+#F A1&B1
+#T A2|B2
+#T A3->B3
+#T A4->B4
+#F A5&B5
+#T A6+B6
+#F A7<=>B7
+#T A8|B8
+#T A9<=>B9
+#F A10+B10
+
+#test for normal and reverse formula order
+#T AC2->(D2->E2)
+#T AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1->(BB1->CC1)
+
+
+
+
+strategies=
+MemorySaverStrategy
+SimpleStrategy
+NewLearningSimpleStrategy
+ConfigurableSimpleStrategy
+LearningSimpleStrategy
+BackjumpingSimpleStrategy
+
+comparators=
+InsertionOrderComparator
+ReverseInsertionOrderComparator
+AndComparator
+OrComparator
+ImpliesComparator
+BiimpliesComparator
+XorComparator
+TrueComparator
+FalseComparator
+AscendingComparator
+DescendingComparator
+NormalFormulaComparator
+ReverseFormulaComparator
+
+run

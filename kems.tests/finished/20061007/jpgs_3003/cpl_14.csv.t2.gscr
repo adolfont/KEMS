@@ -1,0 +1,26 @@
+set title 'Data from cpl_14.csv'
+set term jpeg
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel 'time spent (ms)'
+
+
+set out "/dev/null"
+
+
+
+plot "cpl_14.csv" every 78::3 using 2:5 w lp title '<MSS,rev,SO,ND,NSD>'
+replot "cpl_14.csv" every 78::8 using 2:5 w lp title '<MSS,+,SO,ND,NSD>'
+replot "cpl_14.csv" every 78::12 using 2:5 w lp title '<MSS,dec,SO,ND,NSD>'
+replot "cpl_14.csv" every 78::48 using 2:5 w lp title '<CSS,T,SO,ND,NSD>'
+replot "cpl_14.csv" every 78::64 using 2:5 w lp title '<LSS,dec,SO,ND,NSD>'
+replot "cpl_14.csv" every 78::77 using 2:5 w lp title '<BSS,dec,SO,ND,NSD>'
+set output "cpl_14.csv.jpg"
+replot

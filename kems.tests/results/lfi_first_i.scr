@@ -1,0 +1,37 @@
+# this one for pdflatex
+#set terminal jpeg
+
+# and this for latex
+set term post eps enhanced color
+
+set grid
+set palette color
+set datafile separator ";"
+
+set key top left
+
+set xrange [6:44]
+set yrange [0:6000]
+set xtics 10
+set xlabel 'problem instance number'
+set ylabel 'time spent (ms)'
+
+
+# .eps for latex
+# .jpg for pdlfatex
+
+set output "MBCBOXES_I1.eps"
+plot \
+     "MBCSS_IMP.out" using 2:5 w lp title '<MBCSS,imp>'   ,\
+     "MBCSWORS_IMP.out" using 2:5 w lp title '<MBCSWORS,imp>'   ,\
+     "MBCSS_DEC.out" using 2:5 w lp title '<MBCSS,dec>' ,\
+     "MBCSWORS_DEC.out" using 2:5 w lp title '<MBCSWORS,dec>'   
+
+
+set output "MBCBOXES_I2.eps"
+replot \
+     "MBCSS_AND.out" using 2:5 w lp title '<MBCSS,and>'   ,\
+     "MBCSWORS_AND.out" using 2:5 w lp title '<MBCSWORS,and>'   ,\
+     "MBCSS_OR.out" using 2:5 w lp title '<MBCSS,or>' ,\
+     "MBCSWORS_OR.out" using 2:5 w lp title '<MBCSWORS,or>'   
+

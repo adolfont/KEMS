@@ -1,0 +1,8 @@
+cp ../*.sh .
+cp ../*.scr .
+chmod +x *.sh
+rm -rf generated_genAll.sh
+./generateJpgGenerators.sh > generated_genAll.sh
+chmod +x *.sh
+./generated_genAll.sh 2>erros.txt
+cat erros.txt

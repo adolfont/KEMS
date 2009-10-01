@@ -1,0 +1,27 @@
+set terminal jpeg
+set grid
+set palette color
+
+#set pm3d
+set xrange [10:50]
+#set yrange [0:6000]
+set xtics 10
+set ylabel 'proof size'
+set xlabel 'problem instance number'
+
+#set boxwidth 0.9 relative
+set style fill solid
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+set data style boxes
+set boxwidth 1.5
+set output "MBCBOXES2.jpg"
+plot \
+     "MBCSS_IMP.out" using ($2+1):8  title '<MBCSS,imp>'   ,\
+     "MBCSWORS_IMP.out" using ($2+3.5):8  title '<MBCSWORS,imp>'   ,\
+     "MBCSS_DEC.out" using ($2+6):8 title '<MBCSS,dec>' ,\
+     "MBCSWORS_DEC.out" using ($2+8.5):8  title '<MBCSWORS,dec>'   
+

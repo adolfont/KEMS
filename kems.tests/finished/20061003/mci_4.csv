@@ -1,0 +1,619 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mci_4.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,ins,SO,ND,NSD> ; 1417 ; closed ; verified ; 5953 ; 197 ; 79 ; 3 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,rev,SO,ND,NSD> ; 1246 ; closed ; verified ; 5773 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,&,SO,ND,NSD> ; 1326 ; closed ; verified ; 5953 ; 197 ; 79 ; 3 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,|,SO,ND,NSD> ; 1367 ; closed ; verified ; 5953 ; 197 ; 79 ; 3 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,->,SO,ND,NSD> ; 2009 ; closed ; verified ; 6180 ; 336 ; 190 ; 31 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,T,SO,ND,NSD> ; 1305 ; closed ; verified ; 5953 ; 197 ; 79 ; 3 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,F,SO,ND,NSD> ; 1301 ; closed ; verified ; 5953 ; 197 ; 79 ; 3 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,inc,SO,ND,NSD> ; 1215 ; closed ; verified ; 5772 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,dec,SO,ND,NSD> ; 1681 ; closed ; verified ; 6262 ; 337 ; 191 ; 31 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,nfo,SO,ND,NSD> ; 1221 ; closed ; verified ; 5772 ; 189 ; 83 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISS,rfo,SO,ND,NSD> ; 1307 ; closed ; verified ; 4845 ; 171 ; 102 ; 8 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,ins,SO,ND,NSD> ; 1266 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,rev,SO,ND,NSD> ; 1231 ; closed ; verified ; 5773 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,&,SO,ND,NSD> ; 1271 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,|,SO,ND,NSD> ; 1269 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,->,SO,ND,NSD> ; 1257 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,T,SO,ND,NSD> ; 1270 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,F,SO,ND,NSD> ; 1269 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,inc,SO,ND,NSD> ; 1221 ; closed ; verified ; 5772 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,dec,SO,ND,NSD> ; 1312 ; closed ; verified ; 5856 ; 189 ; 74 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,nfo,SO,ND,NSD> ; 1222 ; closed ; verified ; 5772 ; 189 ; 83 ; 1 ; Success
+FourthLFIFamily_030.prove ; 030 ; 359 ; <MCISWORS,rfo,SO,ND,NSD> ; 1487 ; closed ; verified ; 4859 ; 178 ; 102 ; 8 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,ins,SO,ND,NSD> ; 3417 ; closed ; verified ; 10333 ; 257 ; 99 ; 3 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,rev,SO,ND,NSD> ; 3232 ; closed ; verified ; 10093 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,&,SO,ND,NSD> ; 3388 ; closed ; verified ; 10333 ; 257 ; 99 ; 3 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,|,SO,ND,NSD> ; 3396 ; closed ; verified ; 10333 ; 257 ; 99 ; 3 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,->,SO,ND,NSD> ; 5142 ; closed ; verified ; 10640 ; 446 ; 250 ; 41 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,T,SO,ND,NSD> ; 3382 ; closed ; verified ; 10333 ; 257 ; 99 ; 3 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,F,SO,ND,NSD> ; 3370 ; closed ; verified ; 10333 ; 257 ; 99 ; 3 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,inc,SO,ND,NSD> ; 3221 ; closed ; verified ; 10092 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,dec,SO,ND,NSD> ; 4325 ; closed ; verified ; 10752 ; 447 ; 251 ; 41 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,nfo,SO,ND,NSD> ; 3224 ; closed ; verified ; 10092 ; 249 ; 103 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISS,rfo,SO,ND,NSD> ; 3257 ; closed ; verified ; 8335 ; 208 ; 119 ; 7 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,ins,SO,ND,NSD> ; 3310 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,rev,SO,ND,NSD> ; 3231 ; closed ; verified ; 10093 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,&,SO,ND,NSD> ; 3403 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,|,SO,ND,NSD> ; 3309 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,->,SO,ND,NSD> ; 3303 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,T,SO,ND,NSD> ; 3374 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,F,SO,ND,NSD> ; 3317 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,inc,SO,ND,NSD> ; 3203 ; closed ; verified ; 10092 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,dec,SO,ND,NSD> ; 3317 ; closed ; verified ; 10206 ; 249 ; 94 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,nfo,SO,ND,NSD> ; 3531 ; closed ; verified ; 10092 ; 249 ; 103 ; 1 ; Success
+FourthLFIFamily_040.prove ; 040 ; 479 ; <MCISWORS,rfo,SO,ND,NSD> ; 3537 ; closed ; verified ; 8347 ; 214 ; 119 ; 7 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,ins,SO,ND,NSD> ; 7465 ; closed ; verified ; 15913 ; 317 ; 119 ; 3 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,rev,SO,ND,NSD> ; 6871 ; closed ; verified ; 15613 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,&,SO,ND,NSD> ; 7096 ; closed ; verified ; 15913 ; 317 ; 119 ; 3 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,|,SO,ND,NSD> ; 7226 ; closed ; verified ; 15913 ; 317 ; 119 ; 3 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,->,SO,ND,NSD> ; 10838 ; closed ; verified ; 16300 ; 556 ; 310 ; 51 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,T,SO,ND,NSD> ; 7155 ; closed ; verified ; 15913 ; 317 ; 119 ; 3 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,F,SO,ND,NSD> ; 7106 ; closed ; verified ; 15913 ; 317 ; 119 ; 3 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,inc,SO,ND,NSD> ; 6823 ; closed ; verified ; 15612 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,dec,SO,ND,NSD> ; 9057 ; closed ; verified ; 16442 ; 557 ; 311 ; 51 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,nfo,SO,ND,NSD> ; 6898 ; closed ; verified ; 15612 ; 309 ; 123 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISS,rfo,SO,ND,NSD> ; 6777 ; closed ; verified ; 12782 ; 245 ; 136 ; 6 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,ins,SO,ND,NSD> ; 7117 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,rev,SO,ND,NSD> ; 6865 ; closed ; verified ; 15613 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,&,SO,ND,NSD> ; 7027 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,|,SO,ND,NSD> ; 7039 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,->,SO,ND,NSD> ; 6982 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,T,SO,ND,NSD> ; 6997 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,F,SO,ND,NSD> ; 7099 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,inc,SO,ND,NSD> ; 6871 ; closed ; verified ; 15612 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,dec,SO,ND,NSD> ; 7014 ; closed ; verified ; 15756 ; 309 ; 114 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,nfo,SO,ND,NSD> ; 6866 ; closed ; verified ; 15612 ; 309 ; 123 ; 1 ; Success
+FourthLFIFamily_050.prove ; 050 ; 599 ; <MCISWORS,rfo,SO,ND,NSD> ; 7116 ; closed ; verified ; 12792 ; 250 ; 136 ; 6 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,ins,SO,ND,NSD> ; 13350 ; closed ; verified ; 22693 ; 377 ; 139 ; 3 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,rev,SO,ND,NSD> ; 12869 ; closed ; verified ; 22333 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,&,SO,ND,NSD> ; 13340 ; closed ; verified ; 22693 ; 377 ; 139 ; 3 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,|,SO,ND,NSD> ; 13311 ; closed ; verified ; 22693 ; 377 ; 139 ; 3 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,->,SO,ND,NSD> ; 19942 ; closed ; verified ; 23160 ; 666 ; 370 ; 61 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,T,SO,ND,NSD> ; 13263 ; closed ; verified ; 22693 ; 377 ; 139 ; 3 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,F,SO,ND,NSD> ; 13253 ; closed ; verified ; 22693 ; 377 ; 139 ; 3 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,inc,SO,ND,NSD> ; 12883 ; closed ; verified ; 22332 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,dec,SO,ND,NSD> ; 16782 ; closed ; verified ; 23332 ; 667 ; 371 ; 61 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,nfo,SO,ND,NSD> ; 12939 ; closed ; verified ; 22332 ; 369 ; 143 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISS,rfo,SO,ND,NSD> ; 12343 ; closed ; verified ; 18186 ; 282 ; 153 ; 5 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,ins,SO,ND,NSD> ; 13298 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,rev,SO,ND,NSD> ; 13049 ; closed ; verified ; 22333 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,&,SO,ND,NSD> ; 13115 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,|,SO,ND,NSD> ; 13180 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,->,SO,ND,NSD> ; 13050 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,T,SO,ND,NSD> ; 13265 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,F,SO,ND,NSD> ; 13118 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,inc,SO,ND,NSD> ; 12808 ; closed ; verified ; 22332 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,dec,SO,ND,NSD> ; 13266 ; closed ; verified ; 22506 ; 369 ; 134 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,nfo,SO,ND,NSD> ; 12881 ; closed ; verified ; 22332 ; 369 ; 143 ; 1 ; Success
+FourthLFIFamily_060.prove ; 060 ; 719 ; <MCISWORS,rfo,SO,ND,NSD> ; 12899 ; closed ; verified ; 18194 ; 286 ; 153 ; 5 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,ins,SO,ND,NSD> ; 22785 ; closed ; verified ; 30673 ; 437 ; 159 ; 3 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,rev,SO,ND,NSD> ; 22123 ; closed ; verified ; 30253 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,&,SO,ND,NSD> ; 22850 ; closed ; verified ; 30673 ; 437 ; 159 ; 3 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,|,SO,ND,NSD> ; 22778 ; closed ; verified ; 30673 ; 437 ; 159 ; 3 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,->,SO,ND,NSD> ; 34134 ; closed ; verified ; 31220 ; 776 ; 430 ; 71 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,T,SO,ND,NSD> ; 22781 ; closed ; verified ; 30673 ; 437 ; 159 ; 3 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,F,SO,ND,NSD> ; 22618 ; closed ; verified ; 30673 ; 437 ; 159 ; 3 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,inc,SO,ND,NSD> ; 21971 ; closed ; verified ; 30252 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,dec,SO,ND,NSD> ; 28670 ; closed ; verified ; 31422 ; 777 ; 431 ; 71 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,nfo,SO,ND,NSD> ; 22110 ; closed ; verified ; 30252 ; 429 ; 163 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISS,rfo,SO,ND,NSD> ; 20913 ; closed ; verified ; 24547 ; 319 ; 170 ; 4 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,ins,SO,ND,NSD> ; 22646 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,rev,SO,ND,NSD> ; 22086 ; closed ; verified ; 30253 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,&,SO,ND,NSD> ; 22541 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,|,SO,ND,NSD> ; 22603 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,->,SO,ND,NSD> ; 22424 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,T,SO,ND,NSD> ; 22458 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,F,SO,ND,NSD> ; 22684 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,inc,SO,ND,NSD> ; 22040 ; closed ; verified ; 30252 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,dec,SO,ND,NSD> ; 22503 ; closed ; verified ; 30456 ; 429 ; 154 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,nfo,SO,ND,NSD> ; 22301 ; closed ; verified ; 30252 ; 429 ; 163 ; 1 ; Success
+FourthLFIFamily_070.prove ; 070 ; 839 ; <MCISWORS,rfo,SO,ND,NSD> ; 21458 ; closed ; verified ; 24553 ; 322 ; 170 ; 4 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,ins,SO,ND,NSD> ; 36692 ; closed ; verified ; 39853 ; 497 ; 179 ; 3 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,rev,SO,ND,NSD> ; 36025 ; closed ; verified ; 39373 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,&,SO,ND,NSD> ; 36804 ; closed ; verified ; 39853 ; 497 ; 179 ; 3 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,|,SO,ND,NSD> ; 36944 ; closed ; verified ; 39853 ; 497 ; 179 ; 3 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,->,SO,ND,NSD> ; 55056 ; closed ; verified ; 40480 ; 886 ; 490 ; 81 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,T,SO,ND,NSD> ; 36763 ; closed ; verified ; 39853 ; 497 ; 179 ; 3 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,F,SO,ND,NSD> ; 36910 ; closed ; verified ; 39853 ; 497 ; 179 ; 3 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,inc,SO,ND,NSD> ; 35840 ; closed ; verified ; 39372 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,dec,SO,ND,NSD> ; 46070 ; closed ; verified ; 40712 ; 887 ; 491 ; 81 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,nfo,SO,ND,NSD> ; 35875 ; closed ; verified ; 39372 ; 489 ; 183 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISS,rfo,SO,ND,NSD> ; 33621 ; closed ; verified ; 31865 ; 356 ; 187 ; 3 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,ins,SO,ND,NSD> ; 36418 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,rev,SO,ND,NSD> ; 35956 ; closed ; verified ; 39373 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,&,SO,ND,NSD> ; 36474 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,|,SO,ND,NSD> ; 36415 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,->,SO,ND,NSD> ; 36343 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,T,SO,ND,NSD> ; 36437 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,F,SO,ND,NSD> ; 36673 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,inc,SO,ND,NSD> ; 35761 ; closed ; verified ; 39372 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,dec,SO,ND,NSD> ; 36492 ; closed ; verified ; 39606 ; 489 ; 174 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,nfo,SO,ND,NSD> ; 35901 ; closed ; verified ; 39372 ; 489 ; 183 ; 1 ; Success
+FourthLFIFamily_080.prove ; 080 ; 959 ; <MCISWORS,rfo,SO,ND,NSD> ; 34246 ; closed ; verified ; 31869 ; 358 ; 187 ; 3 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,ins,SO,ND,NSD> ; 57111 ; closed ; verified ; 50233 ; 557 ; 199 ; 3 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,rev,SO,ND,NSD> ; 55875 ; closed ; verified ; 49693 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,&,SO,ND,NSD> ; 57468 ; closed ; verified ; 50233 ; 557 ; 199 ; 3 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,|,SO,ND,NSD> ; 57241 ; closed ; verified ; 50233 ; 557 ; 199 ; 3 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,->,SO,ND,NSD> ; 85463 ; closed ; verified ; 50940 ; 996 ; 550 ; 91 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,T,SO,ND,NSD> ; 57103 ; closed ; verified ; 50233 ; 557 ; 199 ; 3 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,F,SO,ND,NSD> ; 56964 ; closed ; verified ; 50233 ; 557 ; 199 ; 3 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,inc,SO,ND,NSD> ; 55779 ; closed ; verified ; 49692 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,dec,SO,ND,NSD> ; 71009 ; closed ; verified ; 51202 ; 997 ; 551 ; 91 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,nfo,SO,ND,NSD> ; 56146 ; closed ; verified ; 49692 ; 549 ; 203 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISS,rfo,SO,ND,NSD> ; 52293 ; closed ; verified ; 40140 ; 393 ; 204 ; 2 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,ins,SO,ND,NSD> ; 56736 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,rev,SO,ND,NSD> ; 56179 ; closed ; verified ; 49693 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,&,SO,ND,NSD> ; 56935 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,|,SO,ND,NSD> ; 57031 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,->,SO,ND,NSD> ; 56529 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,T,SO,ND,NSD> ; 56727 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,F,SO,ND,NSD> ; 56746 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,inc,SO,ND,NSD> ; 55930 ; closed ; verified ; 49692 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,dec,SO,ND,NSD> ; 56733 ; closed ; verified ; 49956 ; 549 ; 194 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,nfo,SO,ND,NSD> ; 55945 ; closed ; verified ; 49692 ; 549 ; 203 ; 1 ; Success
+FourthLFIFamily_090.prove ; 090 ; 1079 ; <MCISWORS,rfo,SO,ND,NSD> ; 52406 ; closed ; verified ; 40142 ; 394 ; 204 ; 2 ; Success
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_100.prove ; 100 ; 1199 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_110.prove ; 110 ; 1319 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_120.prove ; 120 ; 1439 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_130.prove ; 130 ; 1559 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_140.prove ; 140 ; 1679 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_150.prove ; 150 ; 1799 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_160.prove ; 160 ; 1919 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_170.prove ; 170 ; 2039 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_180.prove ; 180 ; 2159 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_190.prove ; 190 ; 2279 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_200.prove ; 200 ; 2399 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_210.prove ; 210 ; 2519 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_220.prove ; 220 ; 2639 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_230.prove ; 230 ; 2759 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_240.prove ; 240 ; 2879 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_250.prove ; 250 ; 2999 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_260.prove ; 260 ; 3119 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_270.prove ; 270 ; 3239 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_280.prove ; 280 ; 3359 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_290.prove ; 290 ; 3479 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FourthLFIFamily_300.prove ; 300 ; 3599 ; <MCISWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

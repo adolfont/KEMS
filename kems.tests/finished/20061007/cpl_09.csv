@@ -1,0 +1,315 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_09.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+cnf_2.cnf ; 2 ; 526 ; <MSS,ins,SO,ND,NSD> ; 8669 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,rev,SO,ND,NSD> ; 8368 ; closed ; verified ; 19702 ; 356 ; 137 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,&,SO,ND,NSD> ; 8612 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,|,SO,ND,NSD> ; 8455 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,->,SO,ND,NSD> ; 8573 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,<=>,SO,ND,NSD> ; 8448 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,+,SO,ND,NSD> ; 8556 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,T,SO,ND,NSD> ; 8455 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,F,SO,ND,NSD> ; 8609 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,inc,SO,ND,NSD> ; 8365 ; closed ; verified ; 20211 ; 462 ; 159 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,dec,SO,ND,NSD> ; 8446 ; closed ; verified ; 19967 ; 448 ; 184 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,nfo,SO,ND,NSD> ; 8727 ; closed ; verified ; 19438 ; 304 ; 131 ; 2 ; Success
+cnf_2.cnf ; 2 ; 526 ; <MSS,rfo,SO,ND,NSD> ; 8664 ; closed ; verified ; 20592 ; 546 ; 191 ; 4 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,ins,SO,ND,NSD> ; 19128 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,rev,SO,ND,NSD> ; 17744 ; closed ; verified ; 19702 ; 356 ; 137 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,&,SO,ND,NSD> ; 17866 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,|,SO,ND,NSD> ; 18031 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,->,SO,ND,NSD> ; 18830 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,<=>,SO,ND,NSD> ; 18367 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,+,SO,ND,NSD> ; 21389 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,T,SO,ND,NSD> ; 25201 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,F,SO,ND,NSD> ; 23873 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,inc,SO,ND,NSD> ; 18007 ; closed ; verified ; 20211 ; 462 ; 159 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,dec,SO,ND,NSD> ; 18262 ; closed ; verified ; 19967 ; 448 ; 192 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,nfo,SO,ND,NSD> ; 17660 ; closed ; verified ; 19438 ; 304 ; 131 ; 2 ; Success
+cnf_2.cnf ; 2 ; 526 ; <SS,rfo,SO,ND,NSD> ; 18484 ; closed ; verified ; 20592 ; 546 ; 191 ; 4 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,ins,SO,ND,NSD> ; 18265 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,rev,SO,ND,NSD> ; 18468 ; closed ; verified ; 19709 ; 357 ; 137 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,&,SO,ND,NSD> ; 18328 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,|,SO,ND,NSD> ; 17782 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,->,SO,ND,NSD> ; 17821 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,<=>,SO,ND,NSD> ; 17981 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,+,SO,ND,NSD> ; 17750 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,T,SO,ND,NSD> ; 17737 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,F,SO,ND,NSD> ; 19192 ; closed ; verified ; 20499 ; 522 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,inc,SO,ND,NSD> ; 17977 ; closed ; verified ; 20221 ; 464 ; 159 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,dec,SO,ND,NSD> ; 17879 ; closed ; verified ; 19996 ; 454 ; 192 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,nfo,SO,ND,NSD> ; 17555 ; closed ; verified ; 19438 ; 304 ; 131 ; 2 ; Success
+cnf_2.cnf ; 2 ; 526 ; <NLSS,rfo,SO,ND,NSD> ; 18470 ; closed ; verified ; 20592 ; 546 ; 191 ; 4 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,ins,SO,ND,NSD> ; 24490 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,rev,SO,ND,NSD> ; 20572 ; closed ; verified ; 20027 ; 550 ; 339 ; 9 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,&,SO,ND,NSD> ; 24578 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,|,SO,ND,NSD> ; 24448 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,->,SO,ND,NSD> ; 24347 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,<=>,SO,ND,NSD> ; 24472 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,+,SO,ND,NSD> ; 24458 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,T,SO,ND,NSD> ; 26486 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,F,SO,ND,NSD> ; 46570 ; closed ; verified ; 22787 ; 1471 ; 633 ; 11 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,inc,SO,ND,NSD> ; 38631 ; closed ; verified ; 20061 ; 599 ; 381 ; 10 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,dec,SO,ND,NSD> ; 35752 ; closed ; verified ; 19895 ; 462 ; 249 ; 8 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,nfo,SO,ND,NSD> ; 33800 ; closed ; verified ; 19540 ; 365 ; 187 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_2.cnf ; 2 ; 526 ; <LSS,ins,SO,ND,NSD> ; 33704 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: null
+cnf_2.cnf ; 2 ; 526 ; <LSS,&,SO,ND,NSD> ; 32700 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,|,SO,ND,NSD> ; 32588 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,->,SO,ND,NSD> ; 32167 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,<=>,SO,ND,NSD> ; 32259 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,+,SO,ND,NSD> ; 33347 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,T,SO,ND,NSD> ; 18495 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,F,SO,ND,NSD> ; 18382 ; closed ; verified ; 20929 ; 626 ; 179 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,inc,SO,ND,NSD> ; 17798 ; closed ; verified ; 20368 ; 497 ; 161 ; 4 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,dec,SO,ND,NSD> ; 18202 ; closed ; verified ; 20096 ; 483 ; 196 ; 5 ; Success
+cnf_2.cnf ; 2 ; 526 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: null
+cnf_2.cnf ; 2 ; 526 ; <LSS,rfo,SO,ND,NSD> ; 19437 ; closed ; verified ; 21114 ; 668 ; 206 ; 7 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,ins,SO,ND,NSD> ; 17908 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,rev,SO,ND,NSD> ; 18399 ; closed ; verified ; 19702 ; 356 ; 137 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,&,SO,ND,NSD> ; 20941 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,|,SO,ND,NSD> ; 18354 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,->,SO,ND,NSD> ; 17925 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,<=>,SO,ND,NSD> ; 17944 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,+,SO,ND,NSD> ; 18038 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,T,SO,ND,NSD> ; 18003 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,F,SO,ND,NSD> ; 17961 ; closed ; verified ; 20489 ; 520 ; 171 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,inc,SO,ND,NSD> ; 17598 ; closed ; verified ; 20211 ; 462 ; 159 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,dec,SO,ND,NSD> ; 17908 ; closed ; verified ; 19967 ; 448 ; 192 ; 3 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,nfo,SO,ND,NSD> ; 17573 ; closed ; verified ; 19438 ; 304 ; 131 ; 2 ; Success
+cnf_2.cnf ; 2 ; 526 ; <BSS,rfo,SO,ND,NSD> ; 18155 ; closed ; verified ; 20592 ; 546 ; 191 ; 4 ; Success
+cnf_4.cnf ; 4 ; 1042 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_4.cnf ; 4 ; 1042 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_4.cnf ; 4 ; 1042 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_4.cnf ; 4 ; 1042 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_4.cnf ; 4 ; 1042 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+cnf_5.cnf ; 5 ; 1043 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_5.cnf ; 5 ; 1043 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+cnf_6.cnf ; 6 ; 1066 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

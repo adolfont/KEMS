@@ -1,0 +1,267 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_3.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+tseitin_02.prove ; 02 ; 12 ; <MSS,ins,SO,ND,NSD> ; 28 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,<=>,SO,ND,NSD> ; 4 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,F,SO,ND,NSD> ; 5 ; closed ; verified ; 33 ; 19 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <MSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,ins,SO,ND,NSD> ; 5 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,->,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,+,SO,ND,NSD> ; 4 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,F,SO,ND,NSD> ; 3 ; closed ; verified ; 33 ; 19 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <SS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,<=>,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 33 ; 19 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <NLSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,->,SO,ND,NSD> ; 2 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,<=>,SO,ND,NSD> ; 4 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,T,SO,ND,NSD> ; 4 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <CSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 26 ; 16 ; 14 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 33 ; 19 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <LSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 33 ; 19 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_02.prove ; 02 ; 12 ; <BSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 30 ; 18 ; 17 ; 1 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,ins,SO,ND,NSD> ; 34 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,rev,SO,ND,NSD> ; 24 ; closed ; verified ; 413 ; 208 ; 202 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,&,SO,ND,NSD> ; 20 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,|,SO,ND,NSD> ; 21 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,->,SO,ND,NSD> ; 14 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,<=>,SO,ND,NSD> ; 15 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,+,SO,ND,NSD> ; 16 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,T,SO,ND,NSD> ; 14 ; closed ; verified ; 407 ; 203 ; 201 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,F,SO,ND,NSD> ; 17 ; closed ; verified ; 409 ; 203 ; 198 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,inc,SO,ND,NSD> ; 17 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <MSS,dec,SO,ND,NSD> ; 16 ; closed ; verified ; 393 ; 222 ; 220 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,ins,SO,ND,NSD> ; 22 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,rev,SO,ND,NSD> ; 20 ; closed ; verified ; 413 ; 208 ; 202 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,&,SO,ND,NSD> ; 18 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,|,SO,ND,NSD> ; 15 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,->,SO,ND,NSD> ; 19 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,<=>,SO,ND,NSD> ; 21 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,+,SO,ND,NSD> ; 13 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,T,SO,ND,NSD> ; 18 ; closed ; verified ; 407 ; 203 ; 201 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,F,SO,ND,NSD> ; 13 ; closed ; verified ; 409 ; 203 ; 198 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,inc,SO,ND,NSD> ; 16 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <SS,dec,SO,ND,NSD> ; 14 ; closed ; verified ; 393 ; 222 ; 220 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,ins,SO,ND,NSD> ; 17 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,rev,SO,ND,NSD> ; 16 ; closed ; verified ; 413 ; 208 ; 202 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,&,SO,ND,NSD> ; 13 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,|,SO,ND,NSD> ; 13 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,->,SO,ND,NSD> ; 13 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,<=>,SO,ND,NSD> ; 13 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,+,SO,ND,NSD> ; 13 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,T,SO,ND,NSD> ; 15 ; closed ; verified ; 413 ; 204 ; 201 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,F,SO,ND,NSD> ; 14 ; closed ; verified ; 434 ; 208 ; 198 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,inc,SO,ND,NSD> ; 14 ; closed ; verified ; 450 ; 211 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <NLSS,dec,SO,ND,NSD> ; 13 ; closed ; verified ; 426 ; 229 ; 220 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,ins,SO,ND,NSD> ; 22 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,rev,SO,ND,NSD> ; 34 ; closed ; verified ; 597 ; 291 ; 265 ; 6 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,&,SO,ND,NSD> ; 19 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,|,SO,ND,NSD> ; 16 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,->,SO,ND,NSD> ; 15 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,<=>,SO,ND,NSD> ; 16 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,+,SO,ND,NSD> ; 18 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,T,SO,ND,NSD> ; 15 ; closed ; verified ; 397 ; 203 ; 195 ; 5 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,F,SO,ND,NSD> ; 16 ; closed ; verified ; 367 ; 189 ; 187 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,inc,SO,ND,NSD> ; 31 ; closed ; verified ; 631 ; 309 ; 275 ; 6 ; Success
+tseitin_03.prove ; 03 ; 39 ; <CSS,dec,SO,ND,NSD> ; 14 ; closed ; verified ; 283 ; 177 ; 175 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,ins,SO,ND,NSD> ; 65 ; closed ; verified ; 1064 ; 437 ; 409 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,rev,SO,ND,NSD> ; 60 ; closed ; verified ; 1068 ; 438 ; 410 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,&,SO,ND,NSD> ; 61 ; closed ; verified ; 1062 ; 437 ; 409 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,|,SO,ND,NSD> ; 51 ; closed ; verified ; 1064 ; 437 ; 409 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,->,SO,ND,NSD> ; 53 ; closed ; verified ; 1064 ; 437 ; 409 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,<=>,SO,ND,NSD> ; 51 ; closed ; verified ; 1064 ; 437 ; 409 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,+,SO,ND,NSD> ; 48 ; closed ; verified ; 1064 ; 437 ; 409 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,T,SO,ND,NSD> ; 48 ; closed ; verified ; 1074 ; 442 ; 415 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,F,SO,ND,NSD> ; 49 ; closed ; verified ; 1085 ; 442 ; 414 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,inc,SO,ND,NSD> ; 50 ; closed ; verified ; 1048 ; 432 ; 403 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <LSS,dec,SO,ND,NSD> ; 53 ; closed ; verified ; 1096 ; 452 ; 430 ; 15 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,ins,SO,ND,NSD> ; 12 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,rev,SO,ND,NSD> ; 14 ; closed ; verified ; 413 ; 208 ; 202 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,&,SO,ND,NSD> ; 12 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,|,SO,ND,NSD> ; 12 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,->,SO,ND,NSD> ; 11 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,<=>,SO,ND,NSD> ; 11 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,+,SO,ND,NSD> ; 12 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,T,SO,ND,NSD> ; 11 ; closed ; verified ; 407 ; 203 ; 201 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,F,SO,ND,NSD> ; 12 ; closed ; verified ; 409 ; 203 ; 198 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,inc,SO,ND,NSD> ; 12 ; closed ; verified ; 410 ; 203 ; 199 ; 4 ; Success
+tseitin_03.prove ; 03 ; 39 ; <BSS,dec,SO,ND,NSD> ; 13 ; closed ; verified ; 393 ; 222 ; 220 ; 4 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,ins,SO,ND,NSD> ; 1060 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,rev,SO,ND,NSD> ; 856 ; closed ; verified ; 14190 ; 7307 ; 6910 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,&,SO,ND,NSD> ; 1038 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,|,SO,ND,NSD> ; 1038 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,->,SO,ND,NSD> ; 1038 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,<=>,SO,ND,NSD> ; 1038 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,+,SO,ND,NSD> ; 1032 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,T,SO,ND,NSD> ; 971 ; closed ; verified ; 15207 ; 8413 ; 8248 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,F,SO,ND,NSD> ; 1031 ; closed ; verified ; 14859 ; 8377 ; 8073 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,inc,SO,ND,NSD> ; 853 ; closed ; verified ; 14661 ; 7062 ; 6624 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <MSS,dec,SO,ND,NSD> ; 1004 ; closed ; verified ; 13836 ; 8443 ; 8395 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,ins,SO,ND,NSD> ; 1194 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,rev,SO,ND,NSD> ; 1070 ; closed ; verified ; 14190 ; 7307 ; 6910 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,&,SO,ND,NSD> ; 1177 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,|,SO,ND,NSD> ; 1176 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,->,SO,ND,NSD> ; 1184 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,<=>,SO,ND,NSD> ; 1183 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,+,SO,ND,NSD> ; 1192 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,T,SO,ND,NSD> ; 1185 ; closed ; verified ; 15207 ; 8413 ; 8248 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,F,SO,ND,NSD> ; 1167 ; closed ; verified ; 14859 ; 8377 ; 8073 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,inc,SO,ND,NSD> ; 1014 ; closed ; verified ; 14661 ; 7062 ; 6624 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <SS,dec,SO,ND,NSD> ; 1188 ; closed ; verified ; 13836 ; 8443 ; 8395 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,ins,SO,ND,NSD> ; 1198 ; closed ; verified ; 15776 ; 8552 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,rev,SO,ND,NSD> ; 1079 ; closed ; verified ; 14382 ; 7339 ; 6910 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,&,SO,ND,NSD> ; 1198 ; closed ; verified ; 15776 ; 8552 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,|,SO,ND,NSD> ; 1214 ; closed ; verified ; 15776 ; 8552 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,->,SO,ND,NSD> ; 1211 ; closed ; verified ; 15776 ; 8552 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,<=>,SO,ND,NSD> ; 1198 ; closed ; verified ; 15776 ; 8552 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,+,SO,ND,NSD> ; 1201 ; closed ; verified ; 15776 ; 8552 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,T,SO,ND,NSD> ; 1187 ; closed ; verified ; 15549 ; 8473 ; 8248 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,F,SO,ND,NSD> ; 1190 ; closed ; verified ; 15478 ; 8496 ; 8073 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,inc,SO,ND,NSD> ; 1026 ; closed ; verified ; 15504 ; 7207 ; 6624 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <NLSS,dec,SO,ND,NSD> ; 1215 ; closed ; verified ; 14639 ; 8610 ; 8395 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,ins,SO,ND,NSD> ; 1037 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,rev,SO,ND,NSD> ; 2100 ; closed ; verified ; 27724 ; 11940 ; 10786 ; 12 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,&,SO,ND,NSD> ; 1032 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,|,SO,ND,NSD> ; 1030 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,->,SO,ND,NSD> ; 1032 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,<=>,SO,ND,NSD> ; 1033 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,+,SO,ND,NSD> ; 1028 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,T,SO,ND,NSD> ; 1078 ; closed ; verified ; 15256 ; 7500 ; 7066 ; 11 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,F,SO,ND,NSD> ; 1023 ; closed ; verified ; 12712 ; 6460 ; 6458 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,inc,SO,ND,NSD> ; 2311 ; closed ; verified ; 27116 ; 11736 ; 10710 ; 12 ; Success
+tseitin_04.prove ; 04 ; 80 ; <CSS,dec,SO,ND,NSD> ; 1054 ; closed ; verified ; 9216 ; 6540 ; 6538 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_04.prove ; 04 ; 80 ; <BSS,ins,SO,ND,NSD> ; 1203 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,rev,SO,ND,NSD> ; 1126 ; closed ; verified ; 14190 ; 7307 ; 6910 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,&,SO,ND,NSD> ; 1209 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,|,SO,ND,NSD> ; 1199 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,->,SO,ND,NSD> ; 1194 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,<=>,SO,ND,NSD> ; 1211 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,+,SO,ND,NSD> ; 1196 ; closed ; verified ; 14837 ; 8377 ; 8097 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,T,SO,ND,NSD> ; 1202 ; closed ; verified ; 15207 ; 8413 ; 8248 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,F,SO,ND,NSD> ; 1191 ; closed ; verified ; 14859 ; 8377 ; 8073 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,inc,SO,ND,NSD> ; 1032 ; closed ; verified ; 14661 ; 7062 ; 6624 ; 9 ; Success
+tseitin_04.prove ; 04 ; 80 ; <BSS,dec,SO,ND,NSD> ; 1208 ; closed ; verified ; 13836 ; 8443 ; 8395 ; 9 ; Success
+tseitin_05.prove ; 05 ; 135 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+tseitin_05.prove ; 05 ; 135 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+tseitin_05.prove ; 05 ; 135 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+Finished!

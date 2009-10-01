@@ -1,0 +1,20 @@
+set terminal jpeg
+set grid
+set palette color
+
+set xrange [1:7]
+set xtics 1
+set ylabel 'time spent (ms)'
+set xlabel 'problem instance number'
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+plot "SS_INS.out" using 2:5 with linespoints  title '<SS,ins>'    ,\
+     "MSS_INS.out" using 2:5 with linespoints title '<MSS,ins>'   ,\
+     "NLSS_INS.out" using 2:5 with linespoints title '<NLSS,ins>' ,\
+     "SS_REV.out" using 2:5 with linespoints  title '<SS,rev>'    ,\
+     "MSS_REV.out" using 2:5 with linespoints title '<MSS,rev>'   ,\
+     "NLSS_REV.out" using 2:5 with linespoints title '<NLSS,rev>' 
+

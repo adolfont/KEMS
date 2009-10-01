@@ -1,0 +1,1563 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_05.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+U_01.prove ; 01 ; 3 ; <MSS,ins,SO,ND,NSD> ; 28 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <MSS,rfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,ins,SO,ND,NSD> ; 6 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,nfo,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <SS,rfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,ins,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <NLSS,rfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,nfo,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <CSS,rfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <LSS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_01.prove ; 01 ; 3 ; <BSS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 11 ; 7 ; 5 ; 1 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,|,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,nfo,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <MSS,rfo,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,|,SO,ND,NSD> ; 5 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,->,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,+,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,dec,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,nfo,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <SS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,ins,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,rev,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,&,SO,ND,NSD> ; 6 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,|,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,->,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,<=>,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,nfo,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <NLSS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,ins,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,<=>,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,nfo,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <CSS,rfo,SO,ND,NSD> ; 6 ; closed ; verified ; 45 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,ins,SO,ND,NSD> ; 5 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,rev,SO,ND,NSD> ; 7 ; closed ; verified ; 76 ; 28 ; 26 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,&,SO,ND,NSD> ; 8 ; closed ; verified ; 76 ; 28 ; 26 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,|,SO,ND,NSD> ; 8 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,->,SO,ND,NSD> ; 10 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,<=>,SO,ND,NSD> ; 5 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,+,SO,ND,NSD> ; 5 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,F,SO,ND,NSD> ; 5 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,inc,SO,ND,NSD> ; 5 ; closed ; verified ; 76 ; 28 ; 26 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,dec,SO,ND,NSD> ; 4 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,nfo,SO,ND,NSD> ; 5 ; closed ; verified ; 76 ; 28 ; 26 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <LSS,rfo,SO,ND,NSD> ; 5 ; closed ; verified ; 69 ; 27 ; 25 ; 3 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,->,SO,ND,NSD> ; 4 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_02.prove ; 02 ; 7 ; <BSS,rfo,SO,ND,NSD> ; 2 ; closed ; verified ; 44 ; 19 ; 17 ; 2 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,rev,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,->,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,<=>,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,+,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,inc,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,nfo,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <MSS,rfo,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,ins,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,rev,SO,ND,NSD> ; 8 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,->,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,<=>,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,+,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,T,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,F,SO,ND,NSD> ; 7 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,inc,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,nfo,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <SS,rfo,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,ins,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,rev,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,->,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,<=>,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,+,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,T,SO,ND,NSD> ; 6 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,F,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,inc,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,dec,SO,ND,NSD> ; 7 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,nfo,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <NLSS,rfo,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,ins,SO,ND,NSD> ; 6 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,rev,SO,ND,NSD> ; 8 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,&,SO,ND,NSD> ; 7 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,->,SO,ND,NSD> ; 9 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,<=>,SO,ND,NSD> ; 6 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,+,SO,ND,NSD> ; 6 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,T,SO,ND,NSD> ; 7 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,F,SO,ND,NSD> ; 6 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,inc,SO,ND,NSD> ; 7 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,dec,SO,ND,NSD> ; 6 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,nfo,SO,ND,NSD> ; 5 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <CSS,rfo,SO,ND,NSD> ; 9 ; closed ; verified ; 153 ; 47 ; 45 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,ins,SO,ND,NSD> ; 24 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,rev,SO,ND,NSD> ; 23 ; closed ; verified ; 331 ; 89 ; 86 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,&,SO,ND,NSD> ; 21 ; closed ; verified ; 331 ; 89 ; 86 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,|,SO,ND,NSD> ; 22 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,->,SO,ND,NSD> ; 23 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,<=>,SO,ND,NSD> ; 27 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,+,SO,ND,NSD> ; 19 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,T,SO,ND,NSD> ; 16 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,F,SO,ND,NSD> ; 17 ; closed ; verified ; 319 ; 88 ; 85 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,inc,SO,ND,NSD> ; 16 ; closed ; verified ; 331 ; 89 ; 86 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,dec,SO,ND,NSD> ; 16 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,nfo,SO,ND,NSD> ; 17 ; closed ; verified ; 331 ; 89 ; 86 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <LSS,rfo,SO,ND,NSD> ; 17 ; closed ; verified ; 311 ; 87 ; 84 ; 7 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,|,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,->,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,<=>,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,+,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,T,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,inc,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,nfo,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_03.prove ; 03 ; 11 ; <BSS,rfo,SO,ND,NSD> ; 4 ; closed ; verified ; 132 ; 45 ; 43 ; 3 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,ins,SO,ND,NSD> ; 8 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,rev,SO,ND,NSD> ; 30 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,&,SO,ND,NSD> ; 7 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,|,SO,ND,NSD> ; 8 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,->,SO,ND,NSD> ; 9 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,<=>,SO,ND,NSD> ; 8 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,+,SO,ND,NSD> ; 8 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,T,SO,ND,NSD> ; 8 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,F,SO,ND,NSD> ; 7 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,inc,SO,ND,NSD> ; 7 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,dec,SO,ND,NSD> ; 7 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,nfo,SO,ND,NSD> ; 7 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <MSS,rfo,SO,ND,NSD> ; 7 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,ins,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,rev,SO,ND,NSD> ; 12 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,&,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,|,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,->,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,<=>,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,+,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,T,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,F,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,inc,SO,ND,NSD> ; 12 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,dec,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,nfo,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <SS,rfo,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,ins,SO,ND,NSD> ; 21 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,rev,SO,ND,NSD> ; 12 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,&,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,|,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,->,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,<=>,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,+,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,T,SO,ND,NSD> ; 12 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,F,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,inc,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,dec,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,nfo,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <NLSS,rfo,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,ins,SO,ND,NSD> ; 14 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,rev,SO,ND,NSD> ; 18 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,&,SO,ND,NSD> ; 16 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,|,SO,ND,NSD> ; 15 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,->,SO,ND,NSD> ; 15 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,<=>,SO,ND,NSD> ; 16 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,+,SO,ND,NSD> ; 16 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,T,SO,ND,NSD> ; 17 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,F,SO,ND,NSD> ; 15 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,inc,SO,ND,NSD> ; 15 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,dec,SO,ND,NSD> ; 21 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,nfo,SO,ND,NSD> ; 15 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <CSS,rfo,SO,ND,NSD> ; 13 ; closed ; verified ; 461 ; 111 ; 109 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,ins,SO,ND,NSD> ; 91 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,rev,SO,ND,NSD> ; 93 ; closed ; verified ; 1229 ; 264 ; 242 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,&,SO,ND,NSD> ; 79 ; closed ; verified ; 1226 ; 263 ; 242 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,|,SO,ND,NSD> ; 81 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,->,SO,ND,NSD> ; 78 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,<=>,SO,ND,NSD> ; 81 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,+,SO,ND,NSD> ; 80 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,T,SO,ND,NSD> ; 80 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,F,SO,ND,NSD> ; 80 ; closed ; verified ; 1200 ; 261 ; 240 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,inc,SO,ND,NSD> ; 76 ; closed ; verified ; 1226 ; 263 ; 242 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,dec,SO,ND,NSD> ; 74 ; closed ; verified ; 1187 ; 260 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,nfo,SO,ND,NSD> ; 77 ; closed ; verified ; 1226 ; 263 ; 242 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <LSS,rfo,SO,ND,NSD> ; 77 ; closed ; verified ; 1190 ; 261 ; 239 ; 15 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,ins,SO,ND,NSD> ; 9 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,rev,SO,ND,NSD> ; 11 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,|,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,->,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,<=>,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,+,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,T,SO,ND,NSD> ; 9 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,F,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,inc,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,dec,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,nfo,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_04.prove ; 04 ; 15 ; <BSS,rfo,SO,ND,NSD> ; 10 ; closed ; verified ; 342 ; 101 ; 99 ; 4 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,ins,SO,ND,NSD> ; 15 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,rev,SO,ND,NSD> ; 17 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,&,SO,ND,NSD> ; 16 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,|,SO,ND,NSD> ; 16 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,->,SO,ND,NSD> ; 15 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,<=>,SO,ND,NSD> ; 15 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,+,SO,ND,NSD> ; 15 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,T,SO,ND,NSD> ; 15 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,F,SO,ND,NSD> ; 16 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,inc,SO,ND,NSD> ; 15 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,dec,SO,ND,NSD> ; 16 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,nfo,SO,ND,NSD> ; 16 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <MSS,rfo,SO,ND,NSD> ; 17 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,ins,SO,ND,NSD> ; 25 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,rev,SO,ND,NSD> ; 28 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,&,SO,ND,NSD> ; 25 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,|,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,->,SO,ND,NSD> ; 25 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,<=>,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,+,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,T,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,F,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,inc,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,dec,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,nfo,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <SS,rfo,SO,ND,NSD> ; 25 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,ins,SO,ND,NSD> ; 23 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,rev,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,&,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,|,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,->,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,<=>,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,+,SO,ND,NSD> ; 25 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,T,SO,ND,NSD> ; 25 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,F,SO,ND,NSD> ; 31 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,inc,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,dec,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,nfo,SO,ND,NSD> ; 24 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <NLSS,rfo,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,ins,SO,ND,NSD> ; 49 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,rev,SO,ND,NSD> ; 48 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,&,SO,ND,NSD> ; 45 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,|,SO,ND,NSD> ; 44 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,->,SO,ND,NSD> ; 46 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,<=>,SO,ND,NSD> ; 43 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,+,SO,ND,NSD> ; 47 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,T,SO,ND,NSD> ; 45 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,F,SO,ND,NSD> ; 47 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,inc,SO,ND,NSD> ; 43 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,dec,SO,ND,NSD> ; 44 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,nfo,SO,ND,NSD> ; 45 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <CSS,rfo,SO,ND,NSD> ; 44 ; closed ; verified ; 1289 ; 255 ; 253 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,ins,SO,ND,NSD> ; 392 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,rev,SO,ND,NSD> ; 451 ; closed ; verified ; 4248 ; 771 ; 636 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,&,SO,ND,NSD> ; 428 ; closed ; verified ; 4228 ; 765 ; 636 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,|,SO,ND,NSD> ; 394 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,->,SO,ND,NSD> ; 395 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,<=>,SO,ND,NSD> ; 444 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,+,SO,ND,NSD> ; 390 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,T,SO,ND,NSD> ; 397 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,F,SO,ND,NSD> ; 385 ; closed ; verified ; 4192 ; 763 ; 634 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,inc,SO,ND,NSD> ; 387 ; closed ; verified ; 4228 ; 765 ; 636 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,dec,SO,ND,NSD> ; 404 ; closed ; verified ; 4164 ; 761 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,nfo,SO,ND,NSD> ; 391 ; closed ; verified ; 4228 ; 765 ; 636 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <LSS,rfo,SO,ND,NSD> ; 458 ; closed ; verified ; 4187 ; 768 ; 632 ; 31 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,ins,SO,ND,NSD> ; 27 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,rev,SO,ND,NSD> ; 28 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,&,SO,ND,NSD> ; 27 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,|,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,->,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,<=>,SO,ND,NSD> ; 27 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,+,SO,ND,NSD> ; 28 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,T,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,F,SO,ND,NSD> ; 28 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,inc,SO,ND,NSD> ; 27 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,dec,SO,ND,NSD> ; 27 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,nfo,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_05.prove ; 05 ; 19 ; <BSS,rfo,SO,ND,NSD> ; 26 ; closed ; verified ; 822 ; 221 ; 219 ; 5 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,ins,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,rev,SO,ND,NSD> ; 38 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,&,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,|,SO,ND,NSD> ; 36 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,->,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,<=>,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,+,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,T,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,F,SO,ND,NSD> ; 36 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,inc,SO,ND,NSD> ; 36 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,dec,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,nfo,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <MSS,rfo,SO,ND,NSD> ; 35 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,ins,SO,ND,NSD> ; 64 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,rev,SO,ND,NSD> ; 68 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,&,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,|,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,->,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,<=>,SO,ND,NSD> ; 64 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,+,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,T,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,F,SO,ND,NSD> ; 107 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,inc,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,dec,SO,ND,NSD> ; 64 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,nfo,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <SS,rfo,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,ins,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,rev,SO,ND,NSD> ; 71 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,&,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,|,SO,ND,NSD> ; 66 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,->,SO,ND,NSD> ; 128 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,<=>,SO,ND,NSD> ; 65 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,+,SO,ND,NSD> ; 66 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,T,SO,ND,NSD> ; 68 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,F,SO,ND,NSD> ; 70 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,inc,SO,ND,NSD> ; 66 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,dec,SO,ND,NSD> ; 67 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,nfo,SO,ND,NSD> ; 67 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <NLSS,rfo,SO,ND,NSD> ; 66 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,ins,SO,ND,NSD> ; 128 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,rev,SO,ND,NSD> ; 140 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,&,SO,ND,NSD> ; 144 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,|,SO,ND,NSD> ; 135 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,->,SO,ND,NSD> ; 138 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,<=>,SO,ND,NSD> ; 129 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,+,SO,ND,NSD> ; 131 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,T,SO,ND,NSD> ; 127 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,F,SO,ND,NSD> ; 126 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,inc,SO,ND,NSD> ; 130 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,dec,SO,ND,NSD> ; 131 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,nfo,SO,ND,NSD> ; 128 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <CSS,rfo,SO,ND,NSD> ; 133 ; closed ; verified ; 3429 ; 575 ; 573 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,ins,SO,ND,NSD> ; 2310 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,rev,SO,ND,NSD> ; 2377 ; closed ; verified ; 14339 ; 2295 ; 1598 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,&,SO,ND,NSD> ; 2184 ; closed ; verified ; 14251 ; 2271 ; 1598 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,|,SO,ND,NSD> ; 2266 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,->,SO,ND,NSD> ; 2358 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,<=>,SO,ND,NSD> ; 2269 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,+,SO,ND,NSD> ; 2262 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,T,SO,ND,NSD> ; 2297 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,F,SO,ND,NSD> ; 2149 ; closed ; verified ; 14194 ; 2268 ; 1595 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,inc,SO,ND,NSD> ; 2733 ; closed ; verified ; 14251 ; 2271 ; 1598 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,dec,SO,ND,NSD> ; 2217 ; closed ; verified ; 14156 ; 2266 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,nfo,SO,ND,NSD> ; 3000 ; closed ; verified ; 14251 ; 2271 ; 1598 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <LSS,rfo,SO,ND,NSD> ; 2306 ; closed ; verified ; 14267 ; 2297 ; 1593 ; 63 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,ins,SO,ND,NSD> ; 86 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,rev,SO,ND,NSD> ; 89 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,&,SO,ND,NSD> ; 92 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,|,SO,ND,NSD> ; 87 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,->,SO,ND,NSD> ; 88 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,<=>,SO,ND,NSD> ; 93 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,+,SO,ND,NSD> ; 88 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,T,SO,ND,NSD> ; 87 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,F,SO,ND,NSD> ; 87 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,inc,SO,ND,NSD> ; 87 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,dec,SO,ND,NSD> ; 86 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,nfo,SO,ND,NSD> ; 87 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_06.prove ; 06 ; 23 ; <BSS,rfo,SO,ND,NSD> ; 92 ; closed ; verified ; 1898 ; 477 ; 475 ; 6 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,ins,SO,ND,NSD> ; 92 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,rev,SO,ND,NSD> ; 96 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,&,SO,ND,NSD> ; 100 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,|,SO,ND,NSD> ; 93 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,->,SO,ND,NSD> ; 97 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,<=>,SO,ND,NSD> ; 97 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,+,SO,ND,NSD> ; 92 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,T,SO,ND,NSD> ; 140 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,F,SO,ND,NSD> ; 93 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,inc,SO,ND,NSD> ; 92 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,dec,SO,ND,NSD> ; 95 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,nfo,SO,ND,NSD> ; 92 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <MSS,rfo,SO,ND,NSD> ; 92 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,ins,SO,ND,NSD> ; 181 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,rev,SO,ND,NSD> ; 182 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,&,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,|,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,->,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,<=>,SO,ND,NSD> ; 184 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,+,SO,ND,NSD> ; 179 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,T,SO,ND,NSD> ; 186 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,F,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,inc,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,dec,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,nfo,SO,ND,NSD> ; 183 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <SS,rfo,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,ins,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,rev,SO,ND,NSD> ; 184 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,&,SO,ND,NSD> ; 179 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,|,SO,ND,NSD> ; 182 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,->,SO,ND,NSD> ; 181 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,<=>,SO,ND,NSD> ; 181 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,+,SO,ND,NSD> ; 194 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,T,SO,ND,NSD> ; 180 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,F,SO,ND,NSD> ; 179 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,inc,SO,ND,NSD> ; 181 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,dec,SO,ND,NSD> ; 181 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,nfo,SO,ND,NSD> ; 181 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <NLSS,rfo,SO,ND,NSD> ; 183 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,ins,SO,ND,NSD> ; 372 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,rev,SO,ND,NSD> ; 394 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,&,SO,ND,NSD> ; 376 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,|,SO,ND,NSD> ; 376 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,->,SO,ND,NSD> ; 374 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,<=>,SO,ND,NSD> ; 378 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,+,SO,ND,NSD> ; 375 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,T,SO,ND,NSD> ; 375 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,F,SO,ND,NSD> ; 376 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,inc,SO,ND,NSD> ; 376 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,dec,SO,ND,NSD> ; 375 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,nfo,SO,ND,NSD> ; 375 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <CSS,rfo,SO,ND,NSD> ; 378 ; closed ; verified ; 8801 ; 1279 ; 1277 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,ins,SO,ND,NSD> ; 13255 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,rev,SO,ND,NSD> ; 14161 ; closed ; verified ; 49039 ; 7137 ; 3888 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,&,SO,ND,NSD> ; 13011 ; closed ; verified ; 48719 ; 7057 ; 3888 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,|,SO,ND,NSD> ; 13406 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,->,SO,ND,NSD> ; 13428 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,<=>,SO,ND,NSD> ; 13484 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,+,SO,ND,NSD> ; 13242 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,T,SO,ND,NSD> ; 13414 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,F,SO,ND,NSD> ; 13136 ; closed ; verified ; 48647 ; 7054 ; 3885 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,inc,SO,ND,NSD> ; 13339 ; closed ; verified ; 48719 ; 7057 ; 3888 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,dec,SO,ND,NSD> ; 13333 ; closed ; verified ; 48587 ; 7051 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,nfo,SO,ND,NSD> ; 13279 ; closed ; verified ; 48719 ; 7057 ; 3888 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <LSS,rfo,SO,ND,NSD> ; 13889 ; closed ; verified ; 49018 ; 7162 ; 3882 ; 127 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,ins,SO,ND,NSD> ; 319 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,rev,SO,ND,NSD> ; 328 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,&,SO,ND,NSD> ; 320 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,|,SO,ND,NSD> ; 321 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,->,SO,ND,NSD> ; 320 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,<=>,SO,ND,NSD> ; 322 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,+,SO,ND,NSD> ; 324 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,T,SO,ND,NSD> ; 324 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,F,SO,ND,NSD> ; 320 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,inc,SO,ND,NSD> ; 323 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,dec,SO,ND,NSD> ; 321 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,nfo,SO,ND,NSD> ; 320 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_07.prove ; 07 ; 27 ; <BSS,rfo,SO,ND,NSD> ; 321 ; closed ; verified ; 4286 ; 1021 ; 1019 ; 7 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,ins,SO,ND,NSD> ; 220 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,rev,SO,ND,NSD> ; 229 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,&,SO,ND,NSD> ; 223 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,|,SO,ND,NSD> ; 222 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,->,SO,ND,NSD> ; 223 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,<=>,SO,ND,NSD> ; 268 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,+,SO,ND,NSD> ; 224 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,T,SO,ND,NSD> ; 222 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,F,SO,ND,NSD> ; 221 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,inc,SO,ND,NSD> ; 222 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,dec,SO,ND,NSD> ; 221 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,nfo,SO,ND,NSD> ; 221 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <MSS,rfo,SO,ND,NSD> ; 223 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,ins,SO,ND,NSD> ; 452 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,rev,SO,ND,NSD> ; 466 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,&,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,|,SO,ND,NSD> ; 454 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,->,SO,ND,NSD> ; 456 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,<=>,SO,ND,NSD> ; 454 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,+,SO,ND,NSD> ; 455 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,T,SO,ND,NSD> ; 455 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,F,SO,ND,NSD> ; 459 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,inc,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,dec,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,nfo,SO,ND,NSD> ; 455 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <SS,rfo,SO,ND,NSD> ; 455 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,ins,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,rev,SO,ND,NSD> ; 465 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,&,SO,ND,NSD> ; 456 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,|,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,->,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,<=>,SO,ND,NSD> ; 456 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,+,SO,ND,NSD> ; 459 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,T,SO,ND,NSD> ; 461 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,F,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,inc,SO,ND,NSD> ; 460 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,dec,SO,ND,NSD> ; 457 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,nfo,SO,ND,NSD> ; 456 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <NLSS,rfo,SO,ND,NSD> ; 464 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,ins,SO,ND,NSD> ; 1027 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,rev,SO,ND,NSD> ; 1081 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,&,SO,ND,NSD> ; 1033 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,|,SO,ND,NSD> ; 1036 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,->,SO,ND,NSD> ; 1033 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,<=>,SO,ND,NSD> ; 1034 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,+,SO,ND,NSD> ; 1034 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,T,SO,ND,NSD> ; 1033 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,F,SO,ND,NSD> ; 1033 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,inc,SO,ND,NSD> ; 1034 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,dec,SO,ND,NSD> ; 1042 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,nfo,SO,ND,NSD> ; 1031 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <CSS,rfo,SO,ND,NSD> ; 1041 ; closed ; verified ; 21981 ; 2815 ; 2813 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,ins,SO,ND,NSD> ; 90715 ; closed ; verified ; 173409 ; 23244 ; 9227 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,rev,SO,ND,NSD> ; 99419 ; closed ; verified ; 174624 ; 23491 ; 9234 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,&,SO,ND,NSD> ; 96589 ; closed ; verified ; 173584 ; 23251 ; 9234 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,|,SO,ND,NSD> ; 91431 ; closed ; verified ; 173409 ; 23244 ; 9227 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,->,SO,ND,NSD> ; 92075 ; closed ; verified ; 173409 ; 23244 ; 9227 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,<=>,SO,ND,NSD> ; 91282 ; closed ; verified ; 173409 ; 23244 ; 9227 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,+,SO,ND,NSD> ; 91639 ; closed ; verified ; 173409 ; 23244 ; 9227 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,T,SO,ND,NSD> ; 90951 ; closed ; verified ; 173409 ; 23244 ; 9227 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,F,SO,ND,NSD> ; 89970 ; closed ; verified ; 173484 ; 23247 ; 9230 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,inc,SO,ND,NSD> ; 89720 ; closed ; verified ; 173584 ; 23251 ; 9234 ; 255 ; Success
+U_08.prove ; 08 ; 31 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_08.prove ; 08 ; 31 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_08.prove ; 08 ; 31 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_08.prove ; 08 ; 31 ; <BSS,ins,SO,ND,NSD> ; 1293 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,rev,SO,ND,NSD> ; 1391 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,&,SO,ND,NSD> ; 1305 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,|,SO,ND,NSD> ; 1316 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,->,SO,ND,NSD> ; 1296 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,<=>,SO,ND,NSD> ; 1301 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,+,SO,ND,NSD> ; 1298 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,T,SO,ND,NSD> ; 1298 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,F,SO,ND,NSD> ; 1294 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,inc,SO,ND,NSD> ; 1339 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,dec,SO,ND,NSD> ; 1249 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,nfo,SO,ND,NSD> ; 1185 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_08.prove ; 08 ; 31 ; <BSS,rfo,SO,ND,NSD> ; 1189 ; closed ; verified ; 9554 ; 2173 ; 2171 ; 8 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,ins,SO,ND,NSD> ; 521 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,rev,SO,ND,NSD> ; 545 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,&,SO,ND,NSD> ; 523 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,|,SO,ND,NSD> ; 526 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,->,SO,ND,NSD> ; 524 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,<=>,SO,ND,NSD> ; 523 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,+,SO,ND,NSD> ; 523 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,T,SO,ND,NSD> ; 525 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,F,SO,ND,NSD> ; 525 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,inc,SO,ND,NSD> ; 588 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,dec,SO,ND,NSD> ; 524 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,nfo,SO,ND,NSD> ; 523 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <MSS,rfo,SO,ND,NSD> ; 555 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,ins,SO,ND,NSD> ; 1129 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,rev,SO,ND,NSD> ; 1109 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,&,SO,ND,NSD> ; 1092 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,|,SO,ND,NSD> ; 1092 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,->,SO,ND,NSD> ; 1092 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,<=>,SO,ND,NSD> ; 1094 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,+,SO,ND,NSD> ; 1094 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,T,SO,ND,NSD> ; 1094 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,F,SO,ND,NSD> ; 1092 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,inc,SO,ND,NSD> ; 1090 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,dec,SO,ND,NSD> ; 1195 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,nfo,SO,ND,NSD> ; 1097 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <SS,rfo,SO,ND,NSD> ; 1094 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,ins,SO,ND,NSD> ; 1088 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,rev,SO,ND,NSD> ; 1174 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,&,SO,ND,NSD> ; 1096 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,|,SO,ND,NSD> ; 1095 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,->,SO,ND,NSD> ; 1096 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,<=>,SO,ND,NSD> ; 1097 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,+,SO,ND,NSD> ; 1097 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,T,SO,ND,NSD> ; 1097 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,F,SO,ND,NSD> ; 1098 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,inc,SO,ND,NSD> ; 1104 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,dec,SO,ND,NSD> ; 1159 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,nfo,SO,ND,NSD> ; 1099 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <NLSS,rfo,SO,ND,NSD> ; 1100 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,ins,SO,ND,NSD> ; 2808 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,rev,SO,ND,NSD> ; 2886 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,&,SO,ND,NSD> ; 2786 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,|,SO,ND,NSD> ; 2785 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,->,SO,ND,NSD> ; 2789 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,<=>,SO,ND,NSD> ; 2780 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,+,SO,ND,NSD> ; 2786 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,T,SO,ND,NSD> ; 2803 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,F,SO,ND,NSD> ; 2781 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,inc,SO,ND,NSD> ; 2779 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,dec,SO,ND,NSD> ; 2790 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,nfo,SO,ND,NSD> ; 2785 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <CSS,rfo,SO,ND,NSD> ; 2779 ; closed ; verified ; 53721 ; 6143 ; 6141 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_09.prove ; 09 ; 35 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_09.prove ; 09 ; 35 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_09.prove ; 09 ; 35 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_09.prove ; 09 ; 35 ; <BSS,ins,SO,ND,NSD> ; 5554 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,rev,SO,ND,NSD> ; 5530 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,&,SO,ND,NSD> ; 5510 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,|,SO,ND,NSD> ; 5549 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,->,SO,ND,NSD> ; 5549 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,<=>,SO,ND,NSD> ; 5550 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,+,SO,ND,NSD> ; 5559 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,T,SO,ND,NSD> ; 5548 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,F,SO,ND,NSD> ; 5507 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,inc,SO,ND,NSD> ; 5567 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,dec,SO,ND,NSD> ; 5508 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,nfo,SO,ND,NSD> ; 5503 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_09.prove ; 09 ; 35 ; <BSS,rfo,SO,ND,NSD> ; 5514 ; closed ; verified ; 21126 ; 4605 ; 4603 ; 9 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,ins,SO,ND,NSD> ; 1236 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,rev,SO,ND,NSD> ; 1288 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,&,SO,ND,NSD> ; 1247 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,|,SO,ND,NSD> ; 1246 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,->,SO,ND,NSD> ; 1293 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,<=>,SO,ND,NSD> ; 1309 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,+,SO,ND,NSD> ; 1299 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,T,SO,ND,NSD> ; 1246 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,F,SO,ND,NSD> ; 1248 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,inc,SO,ND,NSD> ; 1249 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,dec,SO,ND,NSD> ; 1249 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,nfo,SO,ND,NSD> ; 1248 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <MSS,rfo,SO,ND,NSD> ; 1293 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,ins,SO,ND,NSD> ; 2620 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,rev,SO,ND,NSD> ; 2677 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,&,SO,ND,NSD> ; 2688 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,|,SO,ND,NSD> ; 2679 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,->,SO,ND,NSD> ; 2632 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,<=>,SO,ND,NSD> ; 2630 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,+,SO,ND,NSD> ; 2628 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,T,SO,ND,NSD> ; 2683 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,F,SO,ND,NSD> ; 2674 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,inc,SO,ND,NSD> ; 2675 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,dec,SO,ND,NSD> ; 2629 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,nfo,SO,ND,NSD> ; 2633 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <SS,rfo,SO,ND,NSD> ; 2629 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,ins,SO,ND,NSD> ; 2626 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,rev,SO,ND,NSD> ; 2679 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,&,SO,ND,NSD> ; 2637 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,|,SO,ND,NSD> ; 2636 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,->,SO,ND,NSD> ; 2641 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,<=>,SO,ND,NSD> ; 2674 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,+,SO,ND,NSD> ; 2629 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,T,SO,ND,NSD> ; 2678 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,F,SO,ND,NSD> ; 2641 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,inc,SO,ND,NSD> ; 2677 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,dec,SO,ND,NSD> ; 2635 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,nfo,SO,ND,NSD> ; 2677 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <NLSS,rfo,SO,ND,NSD> ; 2635 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,ins,SO,ND,NSD> ; 7265 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,rev,SO,ND,NSD> ; 7552 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,&,SO,ND,NSD> ; 7297 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,|,SO,ND,NSD> ; 7273 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,->,SO,ND,NSD> ; 7236 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,<=>,SO,ND,NSD> ; 7319 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,+,SO,ND,NSD> ; 7258 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,T,SO,ND,NSD> ; 7232 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,F,SO,ND,NSD> ; 7225 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,inc,SO,ND,NSD> ; 7268 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,dec,SO,ND,NSD> ; 7234 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,nfo,SO,ND,NSD> ; 7270 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <CSS,rfo,SO,ND,NSD> ; 7286 ; closed ; verified ; 128981 ; 13311 ; 13309 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_10.prove ; 10 ; 39 ; <BSS,ins,SO,ND,NSD> ; 29126 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,rev,SO,ND,NSD> ; 28793 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,&,SO,ND,NSD> ; 28883 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,|,SO,ND,NSD> ; 28864 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,->,SO,ND,NSD> ; 28974 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,<=>,SO,ND,NSD> ; 28776 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,+,SO,ND,NSD> ; 28913 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,T,SO,ND,NSD> ; 29089 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,F,SO,ND,NSD> ; 28781 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,inc,SO,ND,NSD> ; 28782 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,dec,SO,ND,NSD> ; 28765 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,nfo,SO,ND,NSD> ; 29116 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_10.prove ; 10 ; 39 ; <BSS,rfo,SO,ND,NSD> ; 28867 ; closed ; verified ; 46458 ; 9725 ; 9723 ; 10 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,ins,SO,ND,NSD> ; 3055 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,rev,SO,ND,NSD> ; 3123 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,&,SO,ND,NSD> ; 3033 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,|,SO,ND,NSD> ; 3033 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,->,SO,ND,NSD> ; 3035 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,<=>,SO,ND,NSD> ; 3037 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,+,SO,ND,NSD> ; 3119 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,T,SO,ND,NSD> ; 3073 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,F,SO,ND,NSD> ; 3033 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,inc,SO,ND,NSD> ; 3032 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,dec,SO,ND,NSD> ; 3101 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,nfo,SO,ND,NSD> ; 3033 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <MSS,rfo,SO,ND,NSD> ; 3030 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,ins,SO,ND,NSD> ; 6346 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,rev,SO,ND,NSD> ; 6466 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,&,SO,ND,NSD> ; 6383 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,|,SO,ND,NSD> ; 6371 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,->,SO,ND,NSD> ; 6393 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,<=>,SO,ND,NSD> ; 6458 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,+,SO,ND,NSD> ; 6458 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,T,SO,ND,NSD> ; 6462 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,F,SO,ND,NSD> ; 6478 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,inc,SO,ND,NSD> ; 6434 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,dec,SO,ND,NSD> ; 6438 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,nfo,SO,ND,NSD> ; 6392 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <SS,rfo,SO,ND,NSD> ; 6380 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,ins,SO,ND,NSD> ; 6373 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,rev,SO,ND,NSD> ; 6508 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,&,SO,ND,NSD> ; 6402 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,|,SO,ND,NSD> ; 6481 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,->,SO,ND,NSD> ; 6398 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,<=>,SO,ND,NSD> ; 6621 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,+,SO,ND,NSD> ; 6401 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,T,SO,ND,NSD> ; 6376 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,F,SO,ND,NSD> ; 6385 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,inc,SO,ND,NSD> ; 6461 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,dec,SO,ND,NSD> ; 6398 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,nfo,SO,ND,NSD> ; 6380 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <NLSS,rfo,SO,ND,NSD> ; 6490 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,ins,SO,ND,NSD> ; 19132 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,rev,SO,ND,NSD> ; 19743 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,&,SO,ND,NSD> ; 19278 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,|,SO,ND,NSD> ; 19329 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,->,SO,ND,NSD> ; 19419 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,<=>,SO,ND,NSD> ; 19348 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,+,SO,ND,NSD> ; 19429 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,T,SO,ND,NSD> ; 19347 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,F,SO,ND,NSD> ; 19195 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,inc,SO,ND,NSD> ; 19368 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,dec,SO,ND,NSD> ; 19316 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,nfo,SO,ND,NSD> ; 19210 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <CSS,rfo,SO,ND,NSD> ; 19278 ; closed ; verified ; 305105 ; 28671 ; 28669 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_11.prove ; 11 ; 43 ; <BSS,ins,SO,ND,NSD> ; 164961 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,rev,SO,ND,NSD> ; 165171 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,&,SO,ND,NSD> ; 164916 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,|,SO,ND,NSD> ; 165174 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,->,SO,ND,NSD> ; 164974 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,<=>,SO,ND,NSD> ; 165429 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,+,SO,ND,NSD> ; 165118 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,T,SO,ND,NSD> ; 164862 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,F,SO,ND,NSD> ; 164943 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,inc,SO,ND,NSD> ; 165180 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,dec,SO,ND,NSD> ; 164838 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,nfo,SO,ND,NSD> ; 165977 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_11.prove ; 11 ; 43 ; <BSS,rfo,SO,ND,NSD> ; 165285 ; closed ; verified ; 101742 ; 20477 ; 20475 ; 11 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,ins,SO,ND,NSD> ; 7736 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,rev,SO,ND,NSD> ; 7801 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,&,SO,ND,NSD> ; 7757 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,|,SO,ND,NSD> ; 7746 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,->,SO,ND,NSD> ; 7739 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,<=>,SO,ND,NSD> ; 7821 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,+,SO,ND,NSD> ; 7783 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,T,SO,ND,NSD> ; 7755 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,F,SO,ND,NSD> ; 7759 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,inc,SO,ND,NSD> ; 7752 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,dec,SO,ND,NSD> ; 7928 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,nfo,SO,ND,NSD> ; 7756 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <MSS,rfo,SO,ND,NSD> ; 7806 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,ins,SO,ND,NSD> ; 14884 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,rev,SO,ND,NSD> ; 15069 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,&,SO,ND,NSD> ; 14999 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,|,SO,ND,NSD> ; 14855 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,->,SO,ND,NSD> ; 14991 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,<=>,SO,ND,NSD> ; 15051 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,+,SO,ND,NSD> ; 15334 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,T,SO,ND,NSD> ; 15070 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,F,SO,ND,NSD> ; 15096 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,inc,SO,ND,NSD> ; 14977 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,dec,SO,ND,NSD> ; 15005 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,nfo,SO,ND,NSD> ; 14947 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <SS,rfo,SO,ND,NSD> ; 14901 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,ins,SO,ND,NSD> ; 15034 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,rev,SO,ND,NSD> ; 15192 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,&,SO,ND,NSD> ; 14979 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,|,SO,ND,NSD> ; 15059 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,->,SO,ND,NSD> ; 14881 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,<=>,SO,ND,NSD> ; 15004 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,+,SO,ND,NSD> ; 15126 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,T,SO,ND,NSD> ; 15093 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,F,SO,ND,NSD> ; 14966 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,inc,SO,ND,NSD> ; 15144 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,dec,SO,ND,NSD> ; 14966 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,nfo,SO,ND,NSD> ; 15006 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <NLSS,rfo,SO,ND,NSD> ; 15044 ; closed ; verified ; 222050 ; 43005 ; 43003 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,ins,SO,ND,NSD> ; 49992 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,rev,SO,ND,NSD> ; 51551 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,&,SO,ND,NSD> ; 50549 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,|,SO,ND,NSD> ; 50328 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,->,SO,ND,NSD> ; 50580 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,<=>,SO,ND,NSD> ; 50639 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,+,SO,ND,NSD> ; 50884 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,T,SO,ND,NSD> ; 50526 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,F,SO,ND,NSD> ; 50574 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,inc,SO,ND,NSD> ; 50762 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,dec,SO,ND,NSD> ; 50440 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,nfo,SO,ND,NSD> ; 50411 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <CSS,rfo,SO,ND,NSD> ; 50543 ; closed ; verified ; 712653 ; 61439 ; 61437 ; 12 ; Success
+U_12.prove ; 12 ; 47 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_12.prove ; 12 ; 47 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_12.prove ; 12 ; 47 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <MSS,ins,SO,ND,NSD> ; 24147 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,rev,SO,ND,NSD> ; 24476 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,&,SO,ND,NSD> ; 24214 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,|,SO,ND,NSD> ; 24152 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,->,SO,ND,NSD> ; 24032 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,<=>,SO,ND,NSD> ; 24086 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,+,SO,ND,NSD> ; 24148 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,T,SO,ND,NSD> ; 24077 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,F,SO,ND,NSD> ; 24042 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,inc,SO,ND,NSD> ; 24123 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,dec,SO,ND,NSD> ; 24166 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,nfo,SO,ND,NSD> ; 24067 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <MSS,rfo,SO,ND,NSD> ; 24268 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,ins,SO,ND,NSD> ; 35855 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,rev,SO,ND,NSD> ; 36482 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,&,SO,ND,NSD> ; 36106 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,|,SO,ND,NSD> ; 35982 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,->,SO,ND,NSD> ; 35965 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,<=>,SO,ND,NSD> ; 36062 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,+,SO,ND,NSD> ; 36208 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,T,SO,ND,NSD> ; 36043 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,F,SO,ND,NSD> ; 36020 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,inc,SO,ND,NSD> ; 35852 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,dec,SO,ND,NSD> ; 36190 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,nfo,SO,ND,NSD> ; 35879 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <SS,rfo,SO,ND,NSD> ; 36085 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,ins,SO,ND,NSD> ; 35819 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,rev,SO,ND,NSD> ; 36344 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,&,SO,ND,NSD> ; 35941 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,|,SO,ND,NSD> ; 35866 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,->,SO,ND,NSD> ; 36061 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,<=>,SO,ND,NSD> ; 36171 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,+,SO,ND,NSD> ; 36141 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,T,SO,ND,NSD> ; 36081 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,F,SO,ND,NSD> ; 36045 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,inc,SO,ND,NSD> ; 36197 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,dec,SO,ND,NSD> ; 35858 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,nfo,SO,ND,NSD> ; 35948 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <NLSS,rfo,SO,ND,NSD> ; 35998 ; closed ; verified ; 483158 ; 90109 ; 90107 ; 13 ; Success
+U_13.prove ; 13 ; 51 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_13.prove ; 13 ; 51 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_13.prove ; 13 ; 51 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <MSS,ins,SO,ND,NSD> ; 77373 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,rev,SO,ND,NSD> ; 78644 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,&,SO,ND,NSD> ; 77205 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,|,SO,ND,NSD> ; 77399 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,->,SO,ND,NSD> ; 77591 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,<=>,SO,ND,NSD> ; 77436 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,+,SO,ND,NSD> ; 77445 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,T,SO,ND,NSD> ; 77325 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,F,SO,ND,NSD> ; 77306 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,inc,SO,ND,NSD> ; 77389 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,dec,SO,ND,NSD> ; 77505 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,nfo,SO,ND,NSD> ; 77148 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <MSS,rfo,SO,ND,NSD> ; 77509 ; closed ; verified ; 1048394 ; 188413 ; 188411 ; 14 ; Success
+U_14.prove ; 14 ; 55 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_14.prove ; 14 ; 55 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_14.prove ; 14 ; 55 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+U_15.prove ; 15 ; 59 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_15.prove ; 15 ; 59 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_16.prove ; 16 ; 63 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_17.prove ; 17 ; 67 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_18.prove ; 18 ; 71 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_19.prove ; 19 ; 75 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+U_20.prove ; 20 ; 79 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

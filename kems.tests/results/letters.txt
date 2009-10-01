@@ -1,0 +1,4 @@
+a - time results for all pairs
+b - size results for all pairs
+c - time results for best and worst
+d - size results for best and worst

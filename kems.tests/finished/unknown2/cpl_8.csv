@@ -1,0 +1,223 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_8.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+PHP_06.prove ; 06 ; 455 ; <MSS,ins,SO,ND,NSD> ; 67997 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,rev,SO,ND,NSD> ; 7139 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,&,SO,ND,NSD> ; 97906 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,|,SO,ND,NSD> ; 6460 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,->,SO,ND,NSD> ; 68726 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,<=>,SO,ND,NSD> ; 66820 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,+,SO,ND,NSD> ; 66925 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,T,SO,ND,NSD> ; 6447 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,F,SO,ND,NSD> ; 97952 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,inc,SO,ND,NSD> ; 99664 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <MSS,dec,SO,ND,NSD> ; 27115 ; closed ; verified ; 81767 ; 57783 ; 36832 ; 29 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,ins,SO,ND,NSD> ; 74465 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,rev,SO,ND,NSD> ; 7408 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,&,SO,ND,NSD> ; 105069 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,|,SO,ND,NSD> ; 6958 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,->,SO,ND,NSD> ; 74431 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,<=>,SO,ND,NSD> ; 74859 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,+,SO,ND,NSD> ; 74595 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,T,SO,ND,NSD> ; 6944 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,F,SO,ND,NSD> ; 105343 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,inc,SO,ND,NSD> ; 106397 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <SS,dec,SO,ND,NSD> ; 33820 ; closed ; verified ; 81767 ; 57783 ; 36832 ; 29 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,ins,SO,ND,NSD> ; 78906 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,rev,SO,ND,NSD> ; 7526 ; closed ; verified ; 25229 ; 14890 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,&,SO,ND,NSD> ; 106332 ; closed ; verified ; 203989 ; 138909 ; 55642 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,|,SO,ND,NSD> ; 7037 ; closed ; verified ; 25229 ; 14890 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,->,SO,ND,NSD> ; 79317 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,<=>,SO,ND,NSD> ; 79168 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,+,SO,ND,NSD> ; 78991 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,T,SO,ND,NSD> ; 7032 ; closed ; verified ; 25229 ; 14890 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,F,SO,ND,NSD> ; 105989 ; closed ; verified ; 203989 ; 138909 ; 55642 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,inc,SO,ND,NSD> ; 108064 ; closed ; verified ; 203989 ; 138909 ; 55642 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <NLSS,dec,SO,ND,NSD> ; 34570 ; closed ; verified ; 103334 ; 63665 ; 36832 ; 29 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,ins,SO,ND,NSD> ; 71284 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,rev,SO,ND,NSD> ; 7624 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,&,SO,ND,NSD> ; 97108 ; closed ; verified ; 147411 ; 114169 ; 50120 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,|,SO,ND,NSD> ; 7169 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,->,SO,ND,NSD> ; 71170 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,<=>,SO,ND,NSD> ; 71740 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,+,SO,ND,NSD> ; 72816 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,T,SO,ND,NSD> ; 7175 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,F,SO,ND,NSD> ; 96886 ; closed ; verified ; 147411 ; 114169 ; 50120 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,inc,SO,ND,NSD> ; 98832 ; closed ; verified ; 147411 ; 114169 ; 50120 ; 25 ; Success
+PHP_06.prove ; 06 ; 455 ; <BSS,dec,SO,ND,NSD> ; 12631 ; closed ; verified ; 37370 ; 23698 ; 17443 ; 23 ; Success
+PHP_07.prove ; 07 ; 692 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,rev,SO,ND,NSD> ; 84065 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,|,SO,ND,NSD> ; 80591 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,T,SO,ND,NSD> ; 80250 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,dec,SO,ND,NSD> ; 686201 ; closed ; verified ; 817432 ; 583830 ; 357511 ; 41 ; Success
+PHP_07.prove ; 07 ; 692 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,rev,SO,ND,NSD> ; 101985 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,|,SO,ND,NSD> ; 99111 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,T,SO,ND,NSD> ; 98374 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_07.prove ; 07 ; 692 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,rev,SO,ND,NSD> ; 102168 ; closed ; verified ; 181704 ; 110489 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,|,SO,ND,NSD> ; 99978 ; closed ; verified ; 181704 ; 110489 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,T,SO,ND,NSD> ; 98592 ; closed ; verified ; 181704 ; 110489 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_07.prove ; 07 ; 692 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,rev,SO,ND,NSD> ; 105878 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,|,SO,ND,NSD> ; 103101 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,T,SO,ND,NSD> ; 103156 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21 ; Success
+PHP_07.prove ; 07 ; 692 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 20 minute(s) 1 second(s)  time limit exceeded
+PHP_08.prove ; 08 ; 999 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_08.prove ; 08 ; 999 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_09.prove ; 09 ; 1385 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

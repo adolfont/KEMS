@@ -1,0 +1,48 @@
+# this one for pdflatex
+set terminal jpeg
+
+# and this for latex
+#set term post eps enhanced color
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "prove"
+
+set key top left
+
+#set xrange [0:200]
+#set yrange [11500:12500]
+#set xtics 10
+set xlabel 'problem instance number'
+set ylabel 'proof size'
+
+
+# .eps for latex
+# .jpg for pdlfatex
+set out "aux.eps"
+
+#plot  "mbc_2.csv" every 18::2 using 2:8 w lp title '<MBCSS,ins>'  
+plot  "mbc_2.csv" every 18::3 using 2:8 w lp title '<MBCSS,rev>'  
+#replot  "mbc_2.csv" every 18::4 using 2:8 w lp title '<MBCSS,and>'  
+replot  "mbc_2.csv" every 18::5 using 2:8 w lp title '<MBCSS,or>'  
+replot  "mbc_2.csv" every 18::6 using 2:8 w lp title '<MBCSS,imp>'  
+#replot  "mbc_2.csv" every 18::7 using 2:8 w lp title '<MBCSS,T>'  
+#replot  "mbc_2.csv" every 18::8 using 2:8 w lp title '<MBCSS,F>'  
+replot  "mbc_2.csv" every 18::9 using 2:8 w lp title '<MBCSS,inc>'  
+#replot  "mbc_2.csv" every 18::10 using 2:8 w lp title '<MBCSS,dec>'  
+#replot  "mbc_2.csv" every 18::11 using 2:8 w lp title '<MBCSWORS,ins>'  
+#replot  "mbc_2.csv" every 18::12 using 2:8 w lp title '<MBCSWORS,rev>'  
+#replot  "mbc_2.csv" every 18::13 using 2:8 w lp title '<MBCSWORS,and>'  
+#replot  "mbc_2.csv" every 18::14 using 2:8 w lp title '<MBCSWORS,or>'  
+replot  "mbc_2.csv" every 18::15 using 2:8 w lp title '<MBCSWORS,imp>'  
+#replot  "mbc_2.csv" every 18::16 using 2:8 w lp title '<MBCSWORS,T>'  
+#replot  "mbc_2.csv" every 18::17 using 2:8 w lp title '<MBCSWORS,F>'  
+replot  "mbc_2.csv" every 18::18 using 2:8 w lp title '<MBCSWORS,inc>'  
+#replot  "mbc_2.csv" every 18::19 using 2:8 w lp title '<MBCSWORS,dec>'  
+
+set output "mbc_2_d.jpg"
+replot
+#set term x11
+#replot
+#pause -3

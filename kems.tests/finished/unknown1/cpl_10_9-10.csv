@@ -1,0 +1,15 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_10.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+PHP_09.prove ; 09 ; 1385 ; <MSS,|,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_09.prove ; 09 ; 1385 ; <MSS,T,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_09.prove ; 09 ; 1385 ; <MSS,rev,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_09.prove ; 09 ; 1385 ; <SS,|,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_09.prove ; 09 ; 1385 ; <SS,T,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_09.prove ; 09 ; 1385 ; <SS,rev,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_10.prove ; 10 ; 1859 ; <MSS,|,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,T,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <MSS,rev,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,|,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,T,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+PHP_10.prove ; 10 ; 1859 ; <SS,rev,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

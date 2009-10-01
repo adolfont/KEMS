@@ -1,0 +1,1 @@
+java -jar lib/generated/tf.jar -r sequence -n gamma -b40 -e400 -s40 -m400 -t normal -u -h -l -f -i3

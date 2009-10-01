@@ -1,0 +1,26 @@
+set title 'Data from mci_7_v2.csv'
+set term jpeg
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel 'proof size'
+
+
+set out "/dev/null"
+
+
+
+plot "mci_7_v2.csv" every 22::6 using 2:8 w lp title '<MCISS,->,SO,ND,NSD>'
+replot "mci_7_v2.csv" every 22::7 using 2:8 w lp title '<MCISS,T,SO,ND,NSD>'
+replot "mci_7_v2.csv" every 22::8 using 2:8 w lp title '<MCISS,F,SO,ND,NSD>'
+replot "mci_7_v2.csv" every 22::10 using 2:8 w lp title '<MCISS,dec,SO,ND,NSD>'
+replot "mci_7_v2.csv" every 22::11 using 2:8 w lp title '<MCISS,nfo,SO,ND,NSD>'
+replot "mci_7_v2.csv" every 22::12 using 2:8 w lp title '<MCISS,rfo,SO,ND,NSD>'
+set output "mci_7_v2.csv.jpg"
+replot

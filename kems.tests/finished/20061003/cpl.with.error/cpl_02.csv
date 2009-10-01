@@ -1,0 +1,627 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_02.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+statman_1.prove ; 1 ; 6 ; <MSS,ins,SO,ND,NSD> ; 22 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,&,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,|,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,<=>,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,+,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <MSS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,rev,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,&,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,|,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,<=>,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,+,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <SS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,ins,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,<=>,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,+,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,nfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <NLSS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,&,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,|,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,->,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,<=>,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,+,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,nfo,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <CSS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,ins,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,rev,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,<=>,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,+,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,nfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <LSS,rfo,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,rev,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,&,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,|,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,->,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,<=>,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,+,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,nfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_1.prove ; 1 ; 6 ; <BSS,rfo,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 4 ; 2 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,ins,SO,ND,NSD> ; 22 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,rev,SO,ND,NSD> ; 15 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,&,SO,ND,NSD> ; 8 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,|,SO,ND,NSD> ; 7 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,->,SO,ND,NSD> ; 8 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,<=>,SO,ND,NSD> ; 6 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,+,SO,ND,NSD> ; 6 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,T,SO,ND,NSD> ; 7 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,F,SO,ND,NSD> ; 5 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,inc,SO,ND,NSD> ; 7 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,nfo,SO,ND,NSD> ; 6 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <MSS,rfo,SO,ND,NSD> ; 5 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,ins,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,rev,SO,ND,NSD> ; 12 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,&,SO,ND,NSD> ; 14 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,|,SO,ND,NSD> ; 13 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,->,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,<=>,SO,ND,NSD> ; 12 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,+,SO,ND,NSD> ; 11 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,T,SO,ND,NSD> ; 12 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,F,SO,ND,NSD> ; 14 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,inc,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,dec,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,nfo,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <SS,rfo,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,ins,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,rev,SO,ND,NSD> ; 12 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,&,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,|,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,->,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,<=>,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,+,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,T,SO,ND,NSD> ; 11 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,F,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,inc,SO,ND,NSD> ; 10 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,dec,SO,ND,NSD> ; 11 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,nfo,SO,ND,NSD> ; 11 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <NLSS,rfo,SO,ND,NSD> ; 11 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,ins,SO,ND,NSD> ; 249 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,rev,SO,ND,NSD> ; 117 ; closed ; verified ; 1667 ; 253 ; 172 ; 9 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,&,SO,ND,NSD> ; 207 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,|,SO,ND,NSD> ; 184 ; closed ; verified ; 3379 ; 451 ; 354 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,->,SO,ND,NSD> ; 186 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,<=>,SO,ND,NSD> ; 186 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,+,SO,ND,NSD> ; 185 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,T,SO,ND,NSD> ; 191 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,F,SO,ND,NSD> ; 177 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,inc,SO,ND,NSD> ; 181 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,dec,SO,ND,NSD> ; 23 ; closed ; verified ; 534 ; 89 ; 72 ; 6 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,nfo,SO,ND,NSD> ; 30 ; closed ; verified ; 627 ; 87 ; 65 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <CSS,rfo,SO,ND,NSD> ; 197 ; closed ; verified ; 3291 ; 427 ; 346 ; 7 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,ins,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,rev,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,&,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,|,SO,ND,NSD> ; 8 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,->,SO,ND,NSD> ; 8 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,<=>,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,+,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,T,SO,ND,NSD> ; 8 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,F,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,inc,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,dec,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,nfo,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <LSS,rfo,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,ins,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,rev,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,&,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,|,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,->,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,<=>,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,+,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,T,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,F,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,inc,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,dec,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,nfo,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_5.prove ; 5 ; 98 ; <BSS,rfo,SO,ND,NSD> ; 9 ; closed ; verified ; 282 ; 26 ; 25 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,ins,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,rev,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,&,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,|,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,->,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,<=>,SO,ND,NSD> ; 35 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,+,SO,ND,NSD> ; 37 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,T,SO,ND,NSD> ; 35 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,F,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,inc,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,dec,SO,ND,NSD> ; 36 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,nfo,SO,ND,NSD> ; 37 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <MSS,rfo,SO,ND,NSD> ; 37 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,ins,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,rev,SO,ND,NSD> ; 85 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,&,SO,ND,NSD> ; 82 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,|,SO,ND,NSD> ; 83 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,->,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,<=>,SO,ND,NSD> ; 83 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,+,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,T,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,F,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,inc,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,dec,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,nfo,SO,ND,NSD> ; 83 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <SS,rfo,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,ins,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,rev,SO,ND,NSD> ; 83 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,&,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,|,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,->,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,<=>,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,+,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,T,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,F,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,inc,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,dec,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,nfo,SO,ND,NSD> ; 83 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <NLSS,rfo,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,ins,SO,ND,NSD> ; 20500 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,rev,SO,ND,NSD> ; 14371 ; closed ; verified ; 128031 ; 9617 ; 5726 ; 19 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,&,SO,ND,NSD> ; 17034 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,|,SO,ND,NSD> ; 20302 ; closed ; verified ; 192983 ; 14363 ; 11018 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,->,SO,ND,NSD> ; 19417 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,<=>,SO,ND,NSD> ; 20434 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,+,SO,ND,NSD> ; 20385 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,T,SO,ND,NSD> ; 21283 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,F,SO,ND,NSD> ; 16765 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,inc,SO,ND,NSD> ; 16739 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,dec,SO,ND,NSD> ; 677 ; closed ; verified ; 7189 ; 699 ; 523 ; 14 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,nfo,SO,ND,NSD> ; 607 ; closed ; verified ; 4947 ; 373 ; 249 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <CSS,rfo,SO,ND,NSD> ; 21831 ; closed ; verified ; 179991 ; 12031 ; 9726 ; 15 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,ins,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,rev,SO,ND,NSD> ; 83 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,&,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,|,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,->,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,<=>,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,+,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,T,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,F,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,inc,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,dec,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,nfo,SO,ND,NSD> ; 82 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <LSS,rfo,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,ins,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,rev,SO,ND,NSD> ; 84 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,&,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,|,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,->,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,<=>,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,+,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,T,SO,ND,NSD> ; 79 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,F,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,inc,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,dec,SO,ND,NSD> ; 80 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,nfo,SO,ND,NSD> ; 81 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_9.prove ; 9 ; 318 ; <BSS,rfo,SO,ND,NSD> ; 82 ; closed ; verified ; 1256 ; 60 ; 59 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,ins,SO,ND,NSD> ; 161 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,rev,SO,ND,NSD> ; 162 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,&,SO,ND,NSD> ; 164 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,|,SO,ND,NSD> ; 160 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,->,SO,ND,NSD> ; 161 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,<=>,SO,ND,NSD> ; 163 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,+,SO,ND,NSD> ; 166 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,T,SO,ND,NSD> ; 162 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,F,SO,ND,NSD> ; 160 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,inc,SO,ND,NSD> ; 161 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,dec,SO,ND,NSD> ; 162 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,nfo,SO,ND,NSD> ; 162 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <MSS,rfo,SO,ND,NSD> ; 161 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,ins,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,rev,SO,ND,NSD> ; 412 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,&,SO,ND,NSD> ; 380 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,|,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,->,SO,ND,NSD> ; 380 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,<=>,SO,ND,NSD> ; 379 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,+,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,T,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,F,SO,ND,NSD> ; 380 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,inc,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,dec,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,nfo,SO,ND,NSD> ; 435 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <SS,rfo,SO,ND,NSD> ; 386 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,ins,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,rev,SO,ND,NSD> ; 396 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,&,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,|,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,->,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,<=>,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,+,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,T,SO,ND,NSD> ; 428 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,F,SO,ND,NSD> ; 383 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,inc,SO,ND,NSD> ; 440 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,dec,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,nfo,SO,ND,NSD> ; 392 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <NLSS,rfo,SO,ND,NSD> ; 385 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <CSS,dec,SO,ND,NSD> ; 10813 ; closed ; verified ; 62724 ; 3962 ; 2915 ; 22 ; Success
+statman_13.prove ; 13 ; 666 ; <CSS,nfo,SO,ND,NSD> ; 3483 ; closed ; verified ; 18275 ; 915 ; 609 ; 23 ; Success
+statman_13.prove ; 13 ; 666 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_13.prove ; 13 ; 666 ; <LSS,ins,SO,ND,NSD> ; 383 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,rev,SO,ND,NSD> ; 397 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,&,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,|,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,->,SO,ND,NSD> ; 385 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,<=>,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,+,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,T,SO,ND,NSD> ; 385 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,F,SO,ND,NSD> ; 383 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,inc,SO,ND,NSD> ; 384 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,dec,SO,ND,NSD> ; 385 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,nfo,SO,ND,NSD> ; 392 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <LSS,rfo,SO,ND,NSD> ; 389 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,ins,SO,ND,NSD> ; 424 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,rev,SO,ND,NSD> ; 397 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,&,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,|,SO,ND,NSD> ; 383 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,->,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,<=>,SO,ND,NSD> ; 385 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,+,SO,ND,NSD> ; 382 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,T,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,F,SO,ND,NSD> ; 381 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,inc,SO,ND,NSD> ; 383 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,dec,SO,ND,NSD> ; 383 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,nfo,SO,ND,NSD> ; 392 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_13.prove ; 13 ; 666 ; <BSS,rfo,SO,ND,NSD> ; 387 ; closed ; verified ; 3430 ; 110 ; 109 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,ins,SO,ND,NSD> ; 522 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,rev,SO,ND,NSD> ; 526 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,&,SO,ND,NSD> ; 524 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,|,SO,ND,NSD> ; 524 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,->,SO,ND,NSD> ; 565 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,<=>,SO,ND,NSD> ; 527 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,+,SO,ND,NSD> ; 523 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,T,SO,ND,NSD> ; 525 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,F,SO,ND,NSD> ; 524 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,inc,SO,ND,NSD> ; 526 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,dec,SO,ND,NSD> ; 528 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,nfo,SO,ND,NSD> ; 531 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <MSS,rfo,SO,ND,NSD> ; 527 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,ins,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,rev,SO,ND,NSD> ; 1326 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,&,SO,ND,NSD> ; 1270 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,|,SO,ND,NSD> ; 1270 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,->,SO,ND,NSD> ; 1272 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,<=>,SO,ND,NSD> ; 1313 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,+,SO,ND,NSD> ; 1270 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,T,SO,ND,NSD> ; 1273 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,F,SO,ND,NSD> ; 1272 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,inc,SO,ND,NSD> ; 1277 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,dec,SO,ND,NSD> ; 1276 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,nfo,SO,ND,NSD> ; 1290 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <SS,rfo,SO,ND,NSD> ; 1289 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,ins,SO,ND,NSD> ; 1280 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,rev,SO,ND,NSD> ; 1345 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,&,SO,ND,NSD> ; 1316 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,|,SO,ND,NSD> ; 1271 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,->,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,<=>,SO,ND,NSD> ; 1268 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,+,SO,ND,NSD> ; 1271 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,T,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,F,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,inc,SO,ND,NSD> ; 1320 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,dec,SO,ND,NSD> ; 1276 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,nfo,SO,ND,NSD> ; 1288 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <NLSS,rfo,SO,ND,NSD> ; 1284 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <CSS,dec,SO,ND,NSD> ; 126658 ; closed ; verified ; 450148 ; 20468 ; 15249 ; 30 ; Success
+statman_17.prove ; 17 ; 1142 ; <CSS,nfo,SO,ND,NSD> ; 13180 ; closed ; verified ; 47971 ; 1777 ; 1209 ; 31 ; Success
+statman_17.prove ; 17 ; 1142 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_17.prove ; 17 ; 1142 ; <LSS,ins,SO,ND,NSD> ; 1272 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,rev,SO,ND,NSD> ; 1328 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,&,SO,ND,NSD> ; 1271 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,|,SO,ND,NSD> ; 1270 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,->,SO,ND,NSD> ; 1280 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,<=>,SO,ND,NSD> ; 1270 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,+,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,T,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,F,SO,ND,NSD> ; 1269 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,inc,SO,ND,NSD> ; 1273 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,dec,SO,ND,NSD> ; 1271 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,nfo,SO,ND,NSD> ; 1287 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <LSS,rfo,SO,ND,NSD> ; 1284 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,ins,SO,ND,NSD> ; 1274 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,rev,SO,ND,NSD> ; 1327 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,&,SO,ND,NSD> ; 1274 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,|,SO,ND,NSD> ; 1271 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,->,SO,ND,NSD> ; 1274 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,<=>,SO,ND,NSD> ; 1275 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,+,SO,ND,NSD> ; 1316 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,T,SO,ND,NSD> ; 1276 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,F,SO,ND,NSD> ; 1274 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,inc,SO,ND,NSD> ; 1273 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,dec,SO,ND,NSD> ; 1274 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,nfo,SO,ND,NSD> ; 1288 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_17.prove ; 17 ; 1142 ; <BSS,rfo,SO,ND,NSD> ; 1285 ; closed ; verified ; 7316 ; 176 ; 175 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,ins,SO,ND,NSD> ; 1347 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,rev,SO,ND,NSD> ; 1348 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,&,SO,ND,NSD> ; 1347 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,|,SO,ND,NSD> ; 1344 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,->,SO,ND,NSD> ; 1345 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,<=>,SO,ND,NSD> ; 1346 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,+,SO,ND,NSD> ; 1345 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,T,SO,ND,NSD> ; 1339 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,F,SO,ND,NSD> ; 1342 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,inc,SO,ND,NSD> ; 1346 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,dec,SO,ND,NSD> ; 1350 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,nfo,SO,ND,NSD> ; 1348 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <MSS,rfo,SO,ND,NSD> ; 1343 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,ins,SO,ND,NSD> ; 3279 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,rev,SO,ND,NSD> ; 3462 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,&,SO,ND,NSD> ; 3280 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,|,SO,ND,NSD> ; 3281 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,->,SO,ND,NSD> ; 3286 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,<=>,SO,ND,NSD> ; 3278 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,+,SO,ND,NSD> ; 3278 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,T,SO,ND,NSD> ; 3366 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,F,SO,ND,NSD> ; 3368 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,inc,SO,ND,NSD> ; 3329 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,dec,SO,ND,NSD> ; 3282 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,nfo,SO,ND,NSD> ; 3313 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <SS,rfo,SO,ND,NSD> ; 3355 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,ins,SO,ND,NSD> ; 3281 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,rev,SO,ND,NSD> ; 3448 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,&,SO,ND,NSD> ; 3322 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,|,SO,ND,NSD> ; 3282 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,->,SO,ND,NSD> ; 3293 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,<=>,SO,ND,NSD> ; 3344 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,+,SO,ND,NSD> ; 3286 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,T,SO,ND,NSD> ; 3281 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,F,SO,ND,NSD> ; 3280 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,inc,SO,ND,NSD> ; 3287 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,dec,SO,ND,NSD> ; 3326 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,nfo,SO,ND,NSD> ; 3313 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <NLSS,rfo,SO,ND,NSD> ; 3314 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_21.prove ; 21 ; 1746 ; <CSS,nfo,SO,ND,NSD> ; 37898 ; closed ; verified ; 103443 ; 3023 ; 2113 ; 39 ; Success
+statman_21.prove ; 21 ; 1746 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_21.prove ; 21 ; 1746 ; <LSS,ins,SO,ND,NSD> ; 3274 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,rev,SO,ND,NSD> ; 3463 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,&,SO,ND,NSD> ; 3278 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,|,SO,ND,NSD> ; 3320 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,->,SO,ND,NSD> ; 3282 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,<=>,SO,ND,NSD> ; 3277 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,+,SO,ND,NSD> ; 3282 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,T,SO,ND,NSD> ; 3278 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,F,SO,ND,NSD> ; 3280 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,inc,SO,ND,NSD> ; 3284 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,dec,SO,ND,NSD> ; 3366 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,nfo,SO,ND,NSD> ; 3310 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <LSS,rfo,SO,ND,NSD> ; 3371 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,ins,SO,ND,NSD> ; 3275 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,rev,SO,ND,NSD> ; 3398 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,&,SO,ND,NSD> ; 3280 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,|,SO,ND,NSD> ; 3324 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,->,SO,ND,NSD> ; 3369 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,<=>,SO,ND,NSD> ; 3278 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,+,SO,ND,NSD> ; 3281 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,T,SO,ND,NSD> ; 3284 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,F,SO,ND,NSD> ; 3278 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,inc,SO,ND,NSD> ; 3284 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,dec,SO,ND,NSD> ; 3283 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,nfo,SO,ND,NSD> ; 3316 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_21.prove ; 21 ; 1746 ; <BSS,rfo,SO,ND,NSD> ; 3309 ; closed ; verified ; 13426 ; 258 ; 257 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,ins,SO,ND,NSD> ; 2908 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,rev,SO,ND,NSD> ; 2875 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,&,SO,ND,NSD> ; 2859 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,|,SO,ND,NSD> ; 2851 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,->,SO,ND,NSD> ; 2935 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,<=>,SO,ND,NSD> ; 2850 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,+,SO,ND,NSD> ; 2866 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,T,SO,ND,NSD> ; 2894 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,F,SO,ND,NSD> ; 2851 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,inc,SO,ND,NSD> ; 2853 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,dec,SO,ND,NSD> ; 2868 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,nfo,SO,ND,NSD> ; 2868 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <MSS,rfo,SO,ND,NSD> ; 2860 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,ins,SO,ND,NSD> ; 7154 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,rev,SO,ND,NSD> ; 7364 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,&,SO,ND,NSD> ; 7101 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,|,SO,ND,NSD> ; 7151 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,->,SO,ND,NSD> ; 7149 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,<=>,SO,ND,NSD> ; 7174 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,+,SO,ND,NSD> ; 7171 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,T,SO,ND,NSD> ; 7118 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,F,SO,ND,NSD> ; 7117 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,inc,SO,ND,NSD> ; 7143 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,dec,SO,ND,NSD> ; 7160 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,nfo,SO,ND,NSD> ; 7158 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <SS,rfo,SO,ND,NSD> ; 7182 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,ins,SO,ND,NSD> ; 7162 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,rev,SO,ND,NSD> ; 7359 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,&,SO,ND,NSD> ; 7163 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,|,SO,ND,NSD> ; 7176 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,->,SO,ND,NSD> ; 7119 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,<=>,SO,ND,NSD> ; 7116 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,+,SO,ND,NSD> ; 7159 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,T,SO,ND,NSD> ; 7154 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,F,SO,ND,NSD> ; 7123 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,inc,SO,ND,NSD> ; 7162 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,dec,SO,ND,NSD> ; 7142 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,nfo,SO,ND,NSD> ; 7176 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <NLSS,rfo,SO,ND,NSD> ; 7202 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <CSS,nfo,SO,ND,NSD> ; 89170 ; closed ; verified ; 196147 ; 4717 ; 3385 ; 47 ; Success
+statman_25.prove ; 25 ; 2478 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_25.prove ; 25 ; 2478 ; <LSS,ins,SO,ND,NSD> ; 7088 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,rev,SO,ND,NSD> ; 7408 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,&,SO,ND,NSD> ; 7092 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,|,SO,ND,NSD> ; 7103 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,->,SO,ND,NSD> ; 7113 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,<=>,SO,ND,NSD> ; 7181 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,+,SO,ND,NSD> ; 7156 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,T,SO,ND,NSD> ; 7109 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,F,SO,ND,NSD> ; 7112 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,inc,SO,ND,NSD> ; 7157 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,dec,SO,ND,NSD> ; 7115 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,nfo,SO,ND,NSD> ; 7230 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <LSS,rfo,SO,ND,NSD> ; 7162 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,ins,SO,ND,NSD> ; 7097 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,rev,SO,ND,NSD> ; 7361 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,&,SO,ND,NSD> ; 7151 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,|,SO,ND,NSD> ; 7157 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,->,SO,ND,NSD> ; 7145 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,<=>,SO,ND,NSD> ; 7111 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,+,SO,ND,NSD> ; 7119 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,T,SO,ND,NSD> ; 7115 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,F,SO,ND,NSD> ; 7254 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,inc,SO,ND,NSD> ; 7136 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,dec,SO,ND,NSD> ; 7117 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,nfo,SO,ND,NSD> ; 7154 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_25.prove ; 25 ; 2478 ; <BSS,rfo,SO,ND,NSD> ; 7251 ; closed ; verified ; 22272 ; 356 ; 355 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,ins,SO,ND,NSD> ; 5585 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,rev,SO,ND,NSD> ; 5502 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,&,SO,ND,NSD> ; 5521 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,|,SO,ND,NSD> ; 5558 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,->,SO,ND,NSD> ; 5482 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,<=>,SO,ND,NSD> ; 5770 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,+,SO,ND,NSD> ; 5469 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,T,SO,ND,NSD> ; 5474 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,F,SO,ND,NSD> ; 5476 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,inc,SO,ND,NSD> ; 5515 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,dec,SO,ND,NSD> ; 5492 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,nfo,SO,ND,NSD> ; 5581 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <MSS,rfo,SO,ND,NSD> ; 5571 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,ins,SO,ND,NSD> ; 13830 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,rev,SO,ND,NSD> ; 14361 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,&,SO,ND,NSD> ; 13819 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,|,SO,ND,NSD> ; 13812 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,->,SO,ND,NSD> ; 13804 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,<=>,SO,ND,NSD> ; 13857 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,+,SO,ND,NSD> ; 13824 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,T,SO,ND,NSD> ; 13901 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,F,SO,ND,NSD> ; 13819 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,inc,SO,ND,NSD> ; 13907 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,dec,SO,ND,NSD> ; 13925 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,nfo,SO,ND,NSD> ; 14194 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <SS,rfo,SO,ND,NSD> ; 13977 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,ins,SO,ND,NSD> ; 13907 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,rev,SO,ND,NSD> ; 14300 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,&,SO,ND,NSD> ; 13884 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,|,SO,ND,NSD> ; 13951 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,->,SO,ND,NSD> ; 13857 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,<=>,SO,ND,NSD> ; 13894 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,+,SO,ND,NSD> ; 13958 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,T,SO,ND,NSD> ; 13854 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,F,SO,ND,NSD> ; 13926 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,inc,SO,ND,NSD> ; 14010 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,dec,SO,ND,NSD> ; 14217 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,nfo,SO,ND,NSD> ; 14019 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <NLSS,rfo,SO,ND,NSD> ; 13964 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+statman_29.prove ; 29 ; 3338 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+statman_29.prove ; 29 ; 3338 ; <LSS,ins,SO,ND,NSD> ; 13833 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,rev,SO,ND,NSD> ; 14301 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,&,SO,ND,NSD> ; 13897 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,|,SO,ND,NSD> ; 13886 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,->,SO,ND,NSD> ; 13806 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,<=>,SO,ND,NSD> ; 13802 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,+,SO,ND,NSD> ; 13890 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,T,SO,ND,NSD> ; 13975 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,F,SO,ND,NSD> ; 13851 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,inc,SO,ND,NSD> ; 13948 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,dec,SO,ND,NSD> ; 13853 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,nfo,SO,ND,NSD> ; 13971 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <LSS,rfo,SO,ND,NSD> ; 14014 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,ins,SO,ND,NSD> ; 13836 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,rev,SO,ND,NSD> ; 14325 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,&,SO,ND,NSD> ; 13935 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,|,SO,ND,NSD> ; 13875 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,->,SO,ND,NSD> ; 13844 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,<=>,SO,ND,NSD> ; 13803 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,+,SO,ND,NSD> ; 13890 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,T,SO,ND,NSD> ; 13810 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,F,SO,ND,NSD> ; 13864 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,inc,SO,ND,NSD> ; 13907 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,dec,SO,ND,NSD> ; 13933 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,nfo,SO,ND,NSD> ; 13948 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+statman_29.prove ; 29 ; 3338 ; <BSS,rfo,SO,ND,NSD> ; 13938 ; closed ; verified ; 34366 ; 470 ; 469 ; 0 ; Success
+Finished!

@@ -1,0 +1,861 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_04.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,ins,SO,ND,NSD> ; 32 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,rev,SO,ND,NSD> ; 8 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,&,SO,ND,NSD> ; 8 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,<=>,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,F,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,inc,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,dec,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,nfo,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <MSS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,ins,SO,ND,NSD> ; 7 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,rev,SO,ND,NSD> ; 6 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,->,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,<=>,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,T,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,F,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,nfo,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <SS,rfo,SO,ND,NSD> ; 4 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,ins,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,rev,SO,ND,NSD> ; 4 ; closed ; verified ; 77 ; 25 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,<=>,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,inc,SO,ND,NSD> ; 6 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,nfo,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <NLSS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 77 ; 25 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,ins,SO,ND,NSD> ; 5 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,rev,SO,ND,NSD> ; 8 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,&,SO,ND,NSD> ; 7 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,|,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,<=>,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,dec,SO,ND,NSD> ; 4 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,nfo,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <CSS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 59 ; 19 ; 17 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,rev,SO,ND,NSD> ; 5 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,<=>,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,+,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,T,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,nfo,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <LSS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,rev,SO,ND,NSD> ; 3 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,<=>,SO,ND,NSD> ; 6 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,+,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,T,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,nfo,SO,ND,NSD> ; 2 ; closed ; verified ; 63 ; 21 ; 20 ; 1 ; Success
+SquareTseitin_01.prove ; 01 ; 15 ; <BSS,rfo,SO,ND,NSD> ; 3 ; closed ; verified ; 65 ; 22 ; 21 ; 1 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,ins,SO,ND,NSD> ; 45 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,rev,SO,ND,NSD> ; 42 ; closed ; verified ; 633 ; 214 ; 208 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,&,SO,ND,NSD> ; 34 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,|,SO,ND,NSD> ; 30 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,->,SO,ND,NSD> ; 30 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,<=>,SO,ND,NSD> ; 25 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,+,SO,ND,NSD> ; 25 ; closed ; verified ; 611 ; 207 ; 203 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,T,SO,ND,NSD> ; 26 ; closed ; verified ; 616 ; 207 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,F,SO,ND,NSD> ; 25 ; closed ; verified ; 619 ; 205 ; 200 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,inc,SO,ND,NSD> ; 25 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,dec,SO,ND,NSD> ; 30 ; closed ; verified ; 621 ; 230 ; 228 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,nfo,SO,ND,NSD> ; 25 ; closed ; verified ; 613 ; 211 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <MSS,rfo,SO,ND,NSD> ; 26 ; closed ; verified ; 640 ; 216 ; 212 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,ins,SO,ND,NSD> ; 46 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,rev,SO,ND,NSD> ; 43 ; closed ; verified ; 633 ; 214 ; 208 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,&,SO,ND,NSD> ; 42 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,|,SO,ND,NSD> ; 39 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,->,SO,ND,NSD> ; 38 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,<=>,SO,ND,NSD> ; 37 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,+,SO,ND,NSD> ; 37 ; closed ; verified ; 611 ; 207 ; 203 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,T,SO,ND,NSD> ; 39 ; closed ; verified ; 616 ; 207 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,F,SO,ND,NSD> ; 39 ; closed ; verified ; 619 ; 205 ; 200 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,inc,SO,ND,NSD> ; 36 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,dec,SO,ND,NSD> ; 43 ; closed ; verified ; 621 ; 230 ; 228 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,nfo,SO,ND,NSD> ; 37 ; closed ; verified ; 613 ; 211 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <SS,rfo,SO,ND,NSD> ; 38 ; closed ; verified ; 640 ; 216 ; 212 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,ins,SO,ND,NSD> ; 37 ; closed ; verified ; 658 ; 213 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,rev,SO,ND,NSD> ; 39 ; closed ; verified ; 633 ; 214 ; 208 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,&,SO,ND,NSD> ; 37 ; closed ; verified ; 658 ; 213 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,|,SO,ND,NSD> ; 37 ; closed ; verified ; 658 ; 213 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,->,SO,ND,NSD> ; 38 ; closed ; verified ; 658 ; 213 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,<=>,SO,ND,NSD> ; 36 ; closed ; verified ; 658 ; 213 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,+,SO,ND,NSD> ; 38 ; closed ; verified ; 656 ; 216 ; 203 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,T,SO,ND,NSD> ; 36 ; closed ; verified ; 622 ; 208 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,F,SO,ND,NSD> ; 36 ; closed ; verified ; 644 ; 210 ; 200 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,inc,SO,ND,NSD> ; 37 ; closed ; verified ; 658 ; 213 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,dec,SO,ND,NSD> ; 44 ; closed ; verified ; 654 ; 237 ; 228 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,nfo,SO,ND,NSD> ; 36 ; closed ; verified ; 613 ; 211 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <NLSS,rfo,SO,ND,NSD> ; 38 ; closed ; verified ; 666 ; 221 ; 212 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,ins,SO,ND,NSD> ; 41 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,rev,SO,ND,NSD> ; 78 ; closed ; verified ; 797 ; 283 ; 265 ; 5 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,&,SO,ND,NSD> ; 44 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,|,SO,ND,NSD> ; 39 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,->,SO,ND,NSD> ; 36 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,<=>,SO,ND,NSD> ; 39 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,+,SO,ND,NSD> ; 36 ; closed ; verified ; 543 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,T,SO,ND,NSD> ; 38 ; closed ; verified ; 595 ; 205 ; 197 ; 5 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,F,SO,ND,NSD> ; 36 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,inc,SO,ND,NSD> ; 70 ; closed ; verified ; 851 ; 317 ; 283 ; 6 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,dec,SO,ND,NSD> ; 37 ; closed ; verified ; 511 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,nfo,SO,ND,NSD> ; 39 ; closed ; verified ; 551 ; 185 ; 183 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <CSS,rfo,SO,ND,NSD> ; 43 ; closed ; verified ; 665 ; 215 ; 213 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,ins,SO,ND,NSD> ; 139 ; closed ; verified ; 1265 ; 434 ; 406 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,rev,SO,ND,NSD> ; 143 ; closed ; verified ; 1338 ; 456 ; 433 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,&,SO,ND,NSD> ; 130 ; closed ; verified ; 1261 ; 433 ; 405 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,|,SO,ND,NSD> ; 127 ; closed ; verified ; 1265 ; 434 ; 406 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,->,SO,ND,NSD> ; 127 ; closed ; verified ; 1265 ; 434 ; 406 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,<=>,SO,ND,NSD> ; 124 ; closed ; verified ; 1265 ; 434 ; 406 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,+,SO,ND,NSD> ; 124 ; closed ; verified ; 1306 ; 451 ; 425 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,T,SO,ND,NSD> ; 117 ; closed ; verified ; 1264 ; 437 ; 411 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,F,SO,ND,NSD> ; 134 ; closed ; verified ; 1265 ; 434 ; 406 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,inc,SO,ND,NSD> ; 118 ; closed ; verified ; 1250 ; 429 ; 400 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,dec,SO,ND,NSD> ; 126 ; closed ; verified ; 1317 ; 457 ; 433 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,nfo,SO,ND,NSD> ; 126 ; closed ; verified ; 1306 ; 446 ; 422 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <LSS,rfo,SO,ND,NSD> ; 124 ; closed ; verified ; 1337 ; 461 ; 440 ; 15 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,ins,SO,ND,NSD> ; 34 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,rev,SO,ND,NSD> ; 36 ; closed ; verified ; 633 ; 214 ; 208 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,&,SO,ND,NSD> ; 33 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,|,SO,ND,NSD> ; 35 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,->,SO,ND,NSD> ; 33 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,<=>,SO,ND,NSD> ; 34 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,+,SO,ND,NSD> ; 33 ; closed ; verified ; 611 ; 207 ; 203 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,T,SO,ND,NSD> ; 33 ; closed ; verified ; 616 ; 207 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,F,SO,ND,NSD> ; 34 ; closed ; verified ; 619 ; 205 ; 200 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,inc,SO,ND,NSD> ; 34 ; closed ; verified ; 618 ; 205 ; 201 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,dec,SO,ND,NSD> ; 35 ; closed ; verified ; 621 ; 230 ; 228 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,nfo,SO,ND,NSD> ; 34 ; closed ; verified ; 613 ; 211 ; 206 ; 4 ; Success
+SquareTseitin_02.prove ; 02 ; 47 ; <BSS,rfo,SO,ND,NSD> ; 35 ; closed ; verified ; 640 ; 216 ; 212 ; 4 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,ins,SO,ND,NSD> ; 1209 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,rev,SO,ND,NSD> ; 1195 ; closed ; verified ; 14473 ; 7291 ; 7074 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,&,SO,ND,NSD> ; 1211 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,|,SO,ND,NSD> ; 1203 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,->,SO,ND,NSD> ; 1201 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,<=>,SO,ND,NSD> ; 1204 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,+,SO,ND,NSD> ; 1212 ; closed ; verified ; 13407 ; 7138 ; 6954 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,T,SO,ND,NSD> ; 1240 ; closed ; verified ; 13832 ; 7201 ; 7109 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,F,SO,ND,NSD> ; 1204 ; closed ; verified ; 13442 ; 7130 ; 6920 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,inc,SO,ND,NSD> ; 1292 ; closed ; verified ; 15334 ; 7031 ; 6606 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,dec,SO,ND,NSD> ; 1522 ; closed ; verified ; 14633 ; 8458 ; 8410 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,nfo,SO,ND,NSD> ; 1133 ; closed ; verified ; 12916 ; 6718 ; 6558 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <MSS,rfo,SO,ND,NSD> ; 1175 ; closed ; verified ; 14457 ; 7067 ; 6946 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,ins,SO,ND,NSD> ; 2411 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,rev,SO,ND,NSD> ; 2466 ; closed ; verified ; 14473 ; 7291 ; 7074 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,&,SO,ND,NSD> ; 2411 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,|,SO,ND,NSD> ; 2408 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,->,SO,ND,NSD> ; 2411 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,<=>,SO,ND,NSD> ; 2408 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,+,SO,ND,NSD> ; 2419 ; closed ; verified ; 13407 ; 7138 ; 6954 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,T,SO,ND,NSD> ; 2550 ; closed ; verified ; 13832 ; 7201 ; 7109 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,F,SO,ND,NSD> ; 2408 ; closed ; verified ; 13442 ; 7130 ; 6920 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,inc,SO,ND,NSD> ; 2502 ; closed ; verified ; 15334 ; 7031 ; 6606 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,dec,SO,ND,NSD> ; 2802 ; closed ; verified ; 14633 ; 8458 ; 8410 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,nfo,SO,ND,NSD> ; 2325 ; closed ; verified ; 12916 ; 6718 ; 6558 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <SS,rfo,SO,ND,NSD> ; 2460 ; closed ; verified ; 14457 ; 7067 ; 6946 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,ins,SO,ND,NSD> ; 2438 ; closed ; verified ; 14362 ; 7306 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,rev,SO,ND,NSD> ; 2533 ; closed ; verified ; 16681 ; 7771 ; 7074 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,&,SO,ND,NSD> ; 2468 ; closed ; verified ; 14362 ; 7306 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,|,SO,ND,NSD> ; 2444 ; closed ; verified ; 14362 ; 7306 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,->,SO,ND,NSD> ; 2454 ; closed ; verified ; 14362 ; 7306 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,<=>,SO,ND,NSD> ; 2448 ; closed ; verified ; 14362 ; 7306 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,+,SO,ND,NSD> ; 2454 ; closed ; verified ; 14351 ; 7314 ; 6954 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,T,SO,ND,NSD> ; 2595 ; closed ; verified ; 14168 ; 7262 ; 7109 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,F,SO,ND,NSD> ; 2481 ; closed ; verified ; 14066 ; 7250 ; 6920 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,inc,SO,ND,NSD> ; 2537 ; closed ; verified ; 16144 ; 7169 ; 6606 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,dec,SO,ND,NSD> ; 2878 ; closed ; verified ; 15436 ; 8625 ; 8410 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,nfo,SO,ND,NSD> ; 2335 ; closed ; verified ; 13071 ; 6749 ; 6558 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <NLSS,rfo,SO,ND,NSD> ; 2552 ; closed ; verified ; 15289 ; 7227 ; 6946 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,ins,SO,ND,NSD> ; 2029 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,rev,SO,ND,NSD> ; 4523 ; closed ; verified ; 24575 ; 10585 ; 9687 ; 11 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,&,SO,ND,NSD> ; 2040 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,|,SO,ND,NSD> ; 2041 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,->,SO,ND,NSD> ; 2039 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,<=>,SO,ND,NSD> ; 2038 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,+,SO,ND,NSD> ; 2087 ; closed ; verified ; 11149 ; 5915 ; 5913 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,T,SO,ND,NSD> ; 3139 ; closed ; verified ; 16559 ; 8109 ; 7459 ; 11 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,F,SO,ND,NSD> ; 2030 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,inc,SO,ND,NSD> ; 5128 ; closed ; verified ; 25981 ; 10979 ; 10081 ; 12 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,dec,SO,ND,NSD> ; 2191 ; closed ; verified ; 10013 ; 6555 ; 6553 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,nfo,SO,ND,NSD> ; 1976 ; closed ; verified ; 11169 ; 5911 ; 5909 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <CSS,rfo,SO,ND,NSD> ; 2798 ; closed ; verified ; 17223 ; 7489 ; 7423 ; 10 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: null
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: null
+SquareTseitin_03.prove ; 03 ; 95 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: null
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,ins,SO,ND,NSD> ; 2501 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,rev,SO,ND,NSD> ; 5846 ; closed ; verified ; 14473 ; 7291 ; 7074 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,&,SO,ND,NSD> ; 2461 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,|,SO,ND,NSD> ; 2460 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,->,SO,ND,NSD> ; 2467 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,<=>,SO,ND,NSD> ; 2515 ; closed ; verified ; 13418 ; 7130 ; 6944 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,+,SO,ND,NSD> ; 2469 ; closed ; verified ; 13407 ; 7138 ; 6954 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,T,SO,ND,NSD> ; 2659 ; closed ; verified ; 13832 ; 7201 ; 7109 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,F,SO,ND,NSD> ; 2530 ; closed ; verified ; 13442 ; 7130 ; 6920 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,inc,SO,ND,NSD> ; 2614 ; closed ; verified ; 15334 ; 7031 ; 6606 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,dec,SO,ND,NSD> ; 2845 ; closed ; verified ; 14633 ; 8458 ; 8410 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,nfo,SO,ND,NSD> ; 2477 ; closed ; verified ; 12916 ; 6718 ; 6558 ; 9 ; Success
+SquareTseitin_03.prove ; 03 ; 95 ; <BSS,rfo,SO,ND,NSD> ; 2714 ; closed ; verified ; 14457 ; 7067 ; 6946 ; 9 ; Success
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_04.prove ; 04 ; 159 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_05.prove ; 05 ; 239 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_06.prove ; 06 ; 335 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_07.prove ; 07 ; 447 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_08.prove ; 08 ; 575 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_09.prove ; 09 ; 719 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <MSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <SS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <NLSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <CSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <LSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,<=>,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,+,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+SquareTseitin_10.prove ; 10 ; 879 ; <BSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

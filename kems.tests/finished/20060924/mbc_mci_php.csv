@@ -1,0 +1,219 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mbc_mci_php.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+PHP_01.prove ; 01 ; 5 ; <MBCSS,ins,SO,ND,NSD> ; 31 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,rev,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,&,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MBCSWORS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,ins,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,rev,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,&,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,|,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,inc,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,rev,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,|,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,->,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,T,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,F,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_01.prove ; 01 ; 5 ; <MCISWORS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 9 ; 6 ; 4 ; 0 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,ins,SO,ND,NSD> ; 11 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,rev,SO,ND,NSD> ; 8 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,|,SO,ND,NSD> ; 6 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,->,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,T,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,inc,SO,ND,NSD> ; 7 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,ins,SO,ND,NSD> ; 6 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,rev,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,T,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MBCSWORS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,rev,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,->,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,T,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,ins,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,|,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,->,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,inc,SO,ND,NSD> ; 3 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_02.prove ; 02 ; 27 ; <MCISWORS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 45 ; 25 ; 22 ; 1 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,ins,SO,ND,NSD> ; 18 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,rev,SO,ND,NSD> ; 19 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,&,SO,ND,NSD> ; 68 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,|,SO,ND,NSD> ; 11 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,->,SO,ND,NSD> ; 13 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,T,SO,ND,NSD> ; 13 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,F,SO,ND,NSD> ; 58 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,inc,SO,ND,NSD> ; 55 ; closed ; verified ; 515 ; 300 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSS,dec,SO,ND,NSD> ; 17 ; closed ; verified ; 224 ; 134 ; 111 ; 5 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,ins,SO,ND,NSD> ; 12 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,rev,SO,ND,NSD> ; 15 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,&,SO,ND,NSD> ; 54 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,|,SO,ND,NSD> ; 12 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,->,SO,ND,NSD> ; 13 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,T,SO,ND,NSD> ; 13 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,F,SO,ND,NSD> ; 60 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,inc,SO,ND,NSD> ; 49 ; closed ; verified ; 515 ; 300 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MBCSWORS,dec,SO,ND,NSD> ; 18 ; closed ; verified ; 224 ; 134 ; 111 ; 5 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,ins,SO,ND,NSD> ; 11 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,rev,SO,ND,NSD> ; 13 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,&,SO,ND,NSD> ; 49 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,|,SO,ND,NSD> ; 10 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,->,SO,ND,NSD> ; 13 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,T,SO,ND,NSD> ; 10 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,F,SO,ND,NSD> ; 49 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,inc,SO,ND,NSD> ; 46 ; closed ; verified ; 515 ; 300 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISS,dec,SO,ND,NSD> ; 15 ; closed ; verified ; 224 ; 134 ; 111 ; 5 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,ins,SO,ND,NSD> ; 12 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,rev,SO,ND,NSD> ; 14 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,&,SO,ND,NSD> ; 51 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,|,SO,ND,NSD> ; 11 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,->,SO,ND,NSD> ; 12 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,T,SO,ND,NSD> ; 11 ; closed ; verified ; 206 ; 108 ; 93 ; 4 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,F,SO,ND,NSD> ; 50 ; closed ; verified ; 599 ; 328 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,inc,SO,ND,NSD> ; 48 ; closed ; verified ; 515 ; 300 ; 215 ; 7 ; Success
+PHP_03.prove ; 03 ; 74 ; <MCISWORS,dec,SO,ND,NSD> ; 19 ; closed ; verified ; 224 ; 134 ; 111 ; 5 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,ins,SO,ND,NSD> ; 409 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,rev,SO,ND,NSD> ; 171 ; closed ; verified ; 1111 ; 525 ; 416 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,&,SO,ND,NSD> ; 2017 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,|,SO,ND,NSD> ; 151 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,->,SO,ND,NSD> ; 394 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,T,SO,ND,NSD> ; 153 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,F,SO,ND,NSD> ; 2000 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,inc,SO,ND,NSD> ; 1578 ; closed ; verified ; 6783 ; 3148 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSS,dec,SO,ND,NSD> ; 262 ; closed ; verified ; 1274 ; 832 ; 622 ; 11 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,ins,SO,ND,NSD> ; 409 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,rev,SO,ND,NSD> ; 189 ; closed ; verified ; 1111 ; 525 ; 416 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,&,SO,ND,NSD> ; 2045 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,|,SO,ND,NSD> ; 158 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,->,SO,ND,NSD> ; 406 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,T,SO,ND,NSD> ; 157 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,F,SO,ND,NSD> ; 2042 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,inc,SO,ND,NSD> ; 1642 ; closed ; verified ; 6783 ; 3148 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MBCSWORS,dec,SO,ND,NSD> ; 281 ; closed ; verified ; 1274 ; 832 ; 622 ; 11 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,ins,SO,ND,NSD> ; 393 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,rev,SO,ND,NSD> ; 170 ; closed ; verified ; 1111 ; 525 ; 416 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,&,SO,ND,NSD> ; 1993 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,|,SO,ND,NSD> ; 151 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,->,SO,ND,NSD> ; 393 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,T,SO,ND,NSD> ; 150 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,F,SO,ND,NSD> ; 1990 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,inc,SO,ND,NSD> ; 1577 ; closed ; verified ; 6783 ; 3148 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISS,dec,SO,ND,NSD> ; 264 ; closed ; verified ; 1274 ; 832 ; 622 ; 11 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,ins,SO,ND,NSD> ; 403 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,rev,SO,ND,NSD> ; 187 ; closed ; verified ; 1111 ; 525 ; 416 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,&,SO,ND,NSD> ; 2051 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,|,SO,ND,NSD> ; 161 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,->,SO,ND,NSD> ; 406 ; closed ; verified ; 1728 ; 900 ; 626 ; 9 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,T,SO,ND,NSD> ; 159 ; closed ; verified ; 1105 ; 547 ; 426 ; 8 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,F,SO,ND,NSD> ; 2057 ; closed ; verified ; 9689 ; 3854 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,inc,SO,ND,NSD> ; 1650 ; closed ; verified ; 6783 ; 3148 ; 1942 ; 13 ; Success
+PHP_04.prove ; 04 ; 155 ; <MCISWORS,dec,SO,ND,NSD> ; 285 ; closed ; verified ; 1274 ; 832 ; 622 ; 11 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,ins,SO,ND,NSD> ; 16043 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,rev,SO,ND,NSD> ; 2319 ; closed ; verified ; 7705 ; 3091 ; 2260 ; 13 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,&,SO,ND,NSD> ; 88314 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,|,SO,ND,NSD> ; 2325 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,->,SO,ND,NSD> ; 16085 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,T,SO,ND,NSD> ; 2318 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,F,SO,ND,NSD> ; 87813 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,inc,SO,ND,NSD> ; 60804 ; closed ; verified ; 117651 ; 42406 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSS,dec,SO,ND,NSD> ; 4592 ; closed ; verified ; 9066 ; 6178 ; 4378 ; 19 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,ins,SO,ND,NSD> ; 16413 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,rev,SO,ND,NSD> ; 2541 ; closed ; verified ; 7705 ; 3091 ; 2260 ; 13 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,&,SO,ND,NSD> ; 88995 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,|,SO,ND,NSD> ; 2406 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,->,SO,ND,NSD> ; 16286 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,T,SO,ND,NSD> ; 2384 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,F,SO,ND,NSD> ; 88395 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,inc,SO,ND,NSD> ; 62090 ; closed ; verified ; 117651 ; 42406 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MBCSWORS,dec,SO,ND,NSD> ; 4844 ; closed ; verified ; 9066 ; 6178 ; 4378 ; 19 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,ins,SO,ND,NSD> ; 16013 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,rev,SO,ND,NSD> ; 2326 ; closed ; verified ; 7705 ; 3091 ; 2260 ; 13 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,&,SO,ND,NSD> ; 87930 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,|,SO,ND,NSD> ; 2316 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,->,SO,ND,NSD> ; 15982 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,T,SO,ND,NSD> ; 2312 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,F,SO,ND,NSD> ; 87621 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,inc,SO,ND,NSD> ; 60486 ; closed ; verified ; 117651 ; 42406 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISS,dec,SO,ND,NSD> ; 4553 ; closed ; verified ; 9066 ; 6178 ; 4378 ; 19 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,ins,SO,ND,NSD> ; 16362 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,rev,SO,ND,NSD> ; 2560 ; closed ; verified ; 7705 ; 3091 ; 2260 ; 13 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,&,SO,ND,NSD> ; 89488 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,|,SO,ND,NSD> ; 2408 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,->,SO,ND,NSD> ; 16325 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,T,SO,ND,NSD> ; 2401 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,F,SO,ND,NSD> ; 88633 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,inc,SO,ND,NSD> ; 62150 ; closed ; verified ; 117651 ; 42406 ; 23810 ; 21 ; Success
+PHP_05.prove ; 05 ; 279 ; <MCISWORS,dec,SO,ND,NSD> ; 4841 ; closed ; verified ; 9066 ; 6178 ; 4378 ; 19 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSS,rev,SO,ND,NSD> ; 34305 ; closed ; verified ; 64161 ; 21681 ; 14898 ; 19 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSS,|,SO,ND,NSD> ; 40202 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSS,T,SO,ND,NSD> ; 40058 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSS,dec,SO,ND,NSD> ; 87530 ; closed ; verified ; 78183 ; 54199 ; 36810 ; 29 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,rev,SO,ND,NSD> ; 37653 ; closed ; verified ; 64161 ; 21681 ; 14898 ; 19 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,|,SO,ND,NSD> ; 41156 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,T,SO,ND,NSD> ; 41308 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MBCSWORS,dec,SO,ND,NSD> ; 91797 ; closed ; verified ; 78183 ; 54199 ; 36810 ; 29 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISS,rev,SO,ND,NSD> ; 34667 ; closed ; verified ; 64161 ; 21681 ; 14898 ; 19 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISS,|,SO,ND,NSD> ; 40317 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISS,T,SO,ND,NSD> ; 39954 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISS,dec,SO,ND,NSD> ; 88016 ; closed ; verified ; 78183 ; 54199 ; 36810 ; 29 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,rev,SO,ND,NSD> ; 37570 ; closed ; verified ; 64161 ; 21681 ; 14898 ; 19 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,|,SO,ND,NSD> ; 41181 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,T,SO,ND,NSD> ; 41510 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23 ; Success
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <MCISWORS,dec,SO,ND,NSD> ; 91967 ; closed ; verified ; 78183 ; 54199 ; 36810 ; 29 ; Success
+Finished!

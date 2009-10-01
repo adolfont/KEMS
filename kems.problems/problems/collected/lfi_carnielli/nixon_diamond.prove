@@ -1,0 +1,8 @@
+# Nixon Diamond
+# Source: How to build your own paraconsistent logic: 
+# an Introduction to the Logics of Formal (In)Consistency
+# Walter Carnielli
+T N
+T N->Q
+T Q->P
+T N->!P

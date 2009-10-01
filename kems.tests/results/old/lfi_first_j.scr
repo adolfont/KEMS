@@ -1,0 +1,30 @@
+# this one for pdflatex
+#set terminal jpeg
+
+# and this for latex
+set term post eps enhanced color
+
+set grid
+set palette color
+set datafile separator ";"
+
+set key top left
+
+set xrange [6:84]
+set yrange [0:6000]
+set xtics 10
+set xlabel 'problem instance number'
+set ylabel 'time spent (ms)'
+
+
+# .eps for latex
+# .jpg for pdlfatex
+
+set output "MBCBOXES_J.eps"
+plot  "lfi_3.csv" every 18::2 using 2:5 w lp title '<MBCSS,ins>'  
+replot  "lfi_3.csv" every 18::3 using 2:5 w lp title '<MBCSS,rev>'  
+replot  "lfi_3.csv" every 18::4 using 2:5 w lp title '<MBCSS,and>'  
+replot  "lfi_3.csv" every 18::5 using 2:5 w lp title '<MBCSS,or>'  
+set output "MBCBOXES_J.eps"
+replot  "lfi_3.csv" every 18::6 using 2:5 w lp title '<MBCSS,imp>'  
+

@@ -1,0 +1,72 @@
+set title 'Data from cpl_08.csv'
+set term jpeg
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel 'proof size'
+
+
+set out "/dev/null"
+
+
+
+#replot "cpl_08.csv" every 52::2 using 2:8 w lp title '<MSS,ins,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::3 using 2:8 w lp title '<MSS,rev,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::4 using 2:8 w lp title '<MSS,&,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::5 using 2:8 w lp title '<MSS,|,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::6 using 2:8 w lp title '<MSS,->,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::7 using 2:8 w lp title '<MSS,<=>,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::8 using 2:8 w lp title '<MSS,+,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::9 using 2:8 w lp title '<MSS,T,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::10 using 2:8 w lp title '<MSS,F,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::11 using 2:8 w lp title '<MSS,inc,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::12 using 2:8 w lp title '<MSS,dec,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::13 using 2:8 w lp title '<MSS,nfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::14 using 2:8 w lp title '<MSS,rfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::15 using 2:8 w lp title '<SS,ins,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::16 using 2:8 w lp title '<SS,rev,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::17 using 2:8 w lp title '<SS,&,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::18 using 2:8 w lp title '<SS,|,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::19 using 2:8 w lp title '<SS,->,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::20 using 2:8 w lp title '<SS,<=>,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::21 using 2:8 w lp title '<SS,+,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::22 using 2:8 w lp title '<SS,T,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::23 using 2:8 w lp title '<SS,F,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::24 using 2:8 w lp title '<SS,inc,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::25 using 2:8 w lp title '<SS,dec,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::26 using 2:8 w lp title '<SS,nfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::27 using 2:8 w lp title '<SS,rfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::28 using 2:8 w lp title '<NLSS,ins,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::29 using 2:8 w lp title '<NLSS,rev,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::30 using 2:8 w lp title '<NLSS,&,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::31 using 2:8 w lp title '<NLSS,|,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::32 using 2:8 w lp title '<NLSS,->,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::33 using 2:8 w lp title '<NLSS,<=>,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::34 using 2:8 w lp title '<NLSS,+,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::35 using 2:8 w lp title '<NLSS,T,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::36 using 2:8 w lp title '<NLSS,F,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::37 using 2:8 w lp title '<NLSS,inc,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::38 using 2:8 w lp title '<NLSS,dec,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::39 using 2:8 w lp title '<NLSS,nfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::40 using 2:8 w lp title '<NLSS,rfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::41 using 2:8 w lp title '<BSS,ins,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::42 using 2:8 w lp title '<BSS,rev,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::43 using 2:8 w lp title '<BSS,&,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::44 using 2:8 w lp title '<BSS,|,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::45 using 2:8 w lp title '<BSS,->,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::46 using 2:8 w lp title '<BSS,<=>,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::47 using 2:8 w lp title '<BSS,+,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::48 using 2:8 w lp title '<BSS,T,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::49 using 2:8 w lp title '<BSS,F,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::50 using 2:8 w lp title '<BSS,inc,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::51 using 2:8 w lp title '<BSS,dec,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::52 using 2:8 w lp title '<BSS,nfo,SO,ND,NSD>'
+#replot "cpl_08.csv" every 52::53 using 2:8 w lp title '<BSS,rfo,SO,ND,NSD>'
+set output "cpl_08.csv.jpg"
+replot

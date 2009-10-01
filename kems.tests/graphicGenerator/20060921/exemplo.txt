@@ -1,0 +1,7 @@
+./gen1.sh jpg time cpl_1.csv cpl_1 > cpl_1.gscr
+gnuplot cpl_1.gscr
+kuickshow cpl_1.jpg
+
+###
+ou
+./view.sh cpl_1

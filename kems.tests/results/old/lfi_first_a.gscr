@@ -1,0 +1,33 @@
+set terminal jpeg
+set grid
+set palette color
+
+set xrange [10:50]
+set xtics 10
+set ylabel 'time spent (ms)'
+set xlabel 'problem instance number'
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+plot \
+     "MBCSS_INS.out" using 2:5 with linespoints  title '<MBCSS,ins>'    ,\
+     "MBCSS_REV.out" using 2:5 with linespoints title '<MBCSS,rev>' ,\
+     "MBCSS_AND.out" using 2:5 with linespoints title '<MBCSS,and>' ,\
+     "MBCSS_OR.out" using 2:5 with linespoints title '<MBCSS,or>' ,\
+     "MBCSS_IMP.out" using 2:5 with linespoints title '<MBCSS,imp>' ,\
+     "MBCSS_T.out" using 2:5 with linespoints title '<MBCSS,T>' ,\
+     "MBCSS_F.out" using 2:5 with linespoints title '<MBCSS,F>' ,\
+     "MBCSS_INS.out" using 2:5 with linespoints title '<MBCSS,inc>' ,\
+     "MBCSS_DEC.out" using 2:5 with linespoints title '<MBCSS,dec>'   ,\
+     "MBCSWORS_INS.out" using 2:5 with linespoints  title '<MBCSWORS,ins>'    ,\
+     "MBCSWORS_REV.out" using 2:5 with linespoints title '<MBCSWORS,rev>' ,\
+     "MBCSWORS_AND.out" using 2:5 with linespoints title '<MBCSWORS,and>' ,\
+     "MBCSWORS_OR.out" using 2:5 with linespoints title '<MBCSWORS,or>' ,\
+     "MBCSWORS_IMP.out" using 2:5 with linespoints title '<MBCSWORS,imp>' ,\
+     "MBCSWORS_T.out" using 2:5 with linespoints title '<MBCSWORS,T>' ,\
+     "MBCSWORS_F.out" using 2:5 with linespoints title '<MBCSWORS,F>' ,\
+     "MBCSWORS_INS.out" using 2:5 with linespoints title '<MBCSWORS,inc>' ,\
+     "MBCSWORS_DEC.out" using 2:5 with linespoints title '<MBCSWORS,dec>'   
+

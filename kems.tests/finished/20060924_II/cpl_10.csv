@@ -1,0 +1,9 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/cpl_10.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+PHP_08.prove ; 08 ; 999 ; <MSS,|,NSO,D,NSD> ; 1008255 ; closed ; not verified ; 1507 ; 454 ; null ; 28 ; Success
+PHP_08.prove ; 08 ; 999 ; <MSS,T,NSO,D,NSD> ; 1003219 ; closed ; not verified ; 1507 ; 454 ; null ; 28 ; Success
+PHP_08.prove ; 08 ; 999 ; <MSS,rev,NSO,D,NSD> ; 1038177 ; closed ; not verified ; 1507 ; 454 ; null ; 28 ; Success
+PHP_08.prove ; 08 ; 999 ; <SS,|,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <SS,T,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+PHP_08.prove ; 08 ; 999 ; <SS,rev,NSO,D,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: Java heap space
+Finished

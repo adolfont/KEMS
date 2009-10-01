@@ -1,0 +1,255 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mbc_7_v2.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+family7_01.prove ; 01 ; 11 ; <MBCSS,ins,SO,ND,NSD> ; 31 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,rev,SO,ND,NSD> ; 2 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,|,SO,ND,NSD> ; 1 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,inc,SO,ND,NSD> ; 2 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSS,dec,SO,ND,NSD> ; 1 ; closed ; verified ; 25 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,ins,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,rev,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,&,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,->,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,T,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,F,SO,ND,NSD> ; 1 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,inc,SO,ND,NSD> ; 0 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_01.prove ; 01 ; 11 ; <MBCSWORS,dec,SO,ND,NSD> ; 0 ; closed ; verified ; 26 ; 11 ; 9 ; 0 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,ins,SO,ND,NSD> ; 4 ; closed ; verified ; 79 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,rev,SO,ND,NSD> ; 15 ; closed ; verified ; 213 ; 70 ; 56 ; 5 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 79 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,|,SO,ND,NSD> ; 4 ; closed ; verified ; 79 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,->,SO,ND,NSD> ; 9 ; closed ; verified ; 193 ; 62 ; 48 ; 3 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,T,SO,ND,NSD> ; 11 ; closed ; verified ; 213 ; 70 ; 56 ; 5 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,F,SO,ND,NSD> ; 3 ; closed ; verified ; 79 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,inc,SO,ND,NSD> ; 9 ; closed ; verified ; 207 ; 67 ; 53 ; 5 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 79 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,ins,SO,ND,NSD> ; 3 ; closed ; verified ; 81 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,rev,SO,ND,NSD> ; 6 ; closed ; verified ; 195 ; 61 ; 47 ; 3 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 81 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,|,SO,ND,NSD> ; 2 ; closed ; verified ; 81 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,->,SO,ND,NSD> ; 10 ; closed ; verified ; 195 ; 61 ; 47 ; 3 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,T,SO,ND,NSD> ; 5 ; closed ; verified ; 195 ; 61 ; 47 ; 3 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 81 ; 24 ; 22 ; 1 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,inc,SO,ND,NSD> ; 9 ; closed ; verified ; 195 ; 61 ; 47 ; 3 ; Success
+family7_02.prove ; 02 ; 25 ; <MBCSWORS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 81 ; 24 ; 22 ; 1 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,ins,SO,ND,NSD> ; 27 ; closed ; verified ; 593 ; 192 ; 148 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,rev,SO,ND,NSD> ; 24 ; closed ; verified ; 940 ; 274 ; 200 ; 9 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 147 ; 37 ; 35 ; 2 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,|,SO,ND,NSD> ; 16 ; closed ; verified ; 593 ; 192 ; 148 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,->,SO,ND,NSD> ; 24 ; closed ; verified ; 972 ; 294 ; 216 ; 9 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,T,SO,ND,NSD> ; 21 ; closed ; verified ; 940 ; 274 ; 200 ; 9 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 147 ; 37 ; 35 ; 2 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,inc,SO,ND,NSD> ; 15 ; closed ; verified ; 910 ; 259 ; 185 ; 9 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 147 ; 37 ; 35 ; 2 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,ins,SO,ND,NSD> ; 12 ; closed ; verified ; 599 ; 188 ; 140 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,rev,SO,ND,NSD> ; 19 ; closed ; verified ; 890 ; 249 ; 171 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,&,SO,ND,NSD> ; 2 ; closed ; verified ; 150 ; 37 ; 35 ; 2 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,|,SO,ND,NSD> ; 14 ; closed ; verified ; 599 ; 188 ; 140 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,->,SO,ND,NSD> ; 12 ; closed ; verified ; 890 ; 249 ; 171 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,T,SO,ND,NSD> ; 14 ; closed ; verified ; 890 ; 249 ; 171 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 150 ; 37 ; 35 ; 2 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,inc,SO,ND,NSD> ; 15 ; closed ; verified ; 890 ; 249 ; 171 ; 6 ; Success
+family7_03.prove ; 03 ; 39 ; <MBCSWORS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 150 ; 37 ; 35 ; 2 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,ins,SO,ND,NSD> ; 80 ; closed ; verified ; 2954 ; 916 ; 670 ; 13 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,rev,SO,ND,NSD> ; 64 ; closed ; verified ; 3490 ; 938 ; 648 ; 13 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,&,SO,ND,NSD> ; 6 ; closed ; verified ; 229 ; 50 ; 48 ; 3 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,|,SO,ND,NSD> ; 60 ; closed ; verified ; 2954 ; 916 ; 670 ; 13 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,->,SO,ND,NSD> ; 53 ; closed ; verified ; 3578 ; 990 ; 692 ; 13 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,T,SO,ND,NSD> ; 50 ; closed ; verified ; 3490 ; 938 ; 648 ; 13 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 229 ; 50 ; 48 ; 3 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,inc,SO,ND,NSD> ; 49 ; closed ; verified ; 3388 ; 887 ; 597 ; 13 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSS,dec,SO,ND,NSD> ; 3 ; closed ; verified ; 229 ; 50 ; 48 ; 3 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,ins,SO,ND,NSD> ; 45 ; closed ; verified ; 2636 ; 744 ; 504 ; 9 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,rev,SO,ND,NSD> ; 56 ; closed ; verified ; 3368 ; 877 ; 567 ; 9 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 233 ; 50 ; 48 ; 3 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,|,SO,ND,NSD> ; 42 ; closed ; verified ; 2636 ; 744 ; 504 ; 9 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,->,SO,ND,NSD> ; 48 ; closed ; verified ; 3368 ; 877 ; 567 ; 9 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,T,SO,ND,NSD> ; 48 ; closed ; verified ; 3368 ; 877 ; 567 ; 9 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,F,SO,ND,NSD> ; 2 ; closed ; verified ; 233 ; 50 ; 48 ; 3 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,inc,SO,ND,NSD> ; 51 ; closed ; verified ; 3368 ; 877 ; 567 ; 9 ; Success
+family7_04.prove ; 04 ; 53 ; <MBCSWORS,dec,SO,ND,NSD> ; 2 ; closed ; verified ; 233 ; 50 ; 48 ; 3 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,ins,SO,ND,NSD> ; 298 ; closed ; verified ; 10782 ; 3032 ; 2114 ; 17 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,rev,SO,ND,NSD> ; 312 ; closed ; verified ; 12007 ; 3030 ; 2020 ; 17 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,&,SO,ND,NSD> ; 3 ; closed ; verified ; 325 ; 63 ; 61 ; 4 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,|,SO,ND,NSD> ; 336 ; closed ; verified ; 10782 ; 3032 ; 2114 ; 17 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,->,SO,ND,NSD> ; 286 ; closed ; verified ; 12231 ; 3158 ; 2132 ; 17 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,T,SO,ND,NSD> ; 314 ; closed ; verified ; 12007 ; 3030 ; 2020 ; 17 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 325 ; 63 ; 61 ; 4 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,inc,SO,ND,NSD> ; 320 ; closed ; verified ; 11713 ; 2883 ; 1873 ; 17 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSS,dec,SO,ND,NSD> ; 4 ; closed ; verified ; 325 ; 63 ; 61 ; 4 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,ins,SO,ND,NSD> ; 268 ; closed ; verified ; 10008 ; 2620 ; 1684 ; 12 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,rev,SO,ND,NSD> ; 318 ; closed ; verified ; 11741 ; 2897 ; 1811 ; 12 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,&,SO,ND,NSD> ; 4 ; closed ; verified ; 330 ; 63 ; 61 ; 4 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,|,SO,ND,NSD> ; 308 ; closed ; verified ; 10008 ; 2620 ; 1684 ; 12 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,->,SO,ND,NSD> ; 283 ; closed ; verified ; 11741 ; 2897 ; 1811 ; 12 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,T,SO,ND,NSD> ; 286 ; closed ; verified ; 11741 ; 2897 ; 1811 ; 12 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 330 ; 63 ; 61 ; 4 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,inc,SO,ND,NSD> ; 296 ; closed ; verified ; 11741 ; 2897 ; 1811 ; 12 ; Success
+family7_05.prove ; 05 ; 67 ; <MBCSWORS,dec,SO,ND,NSD> ; 4 ; closed ; verified ; 330 ; 63 ; 61 ; 4 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,ins,SO,ND,NSD> ; 1197 ; closed ; verified ; 36809 ; 9600 ; 6474 ; 21 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,rev,SO,ND,NSD> ; 1236 ; closed ; verified ; 39523 ; 9490 ; 6176 ; 21 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,&,SO,ND,NSD> ; 6 ; closed ; verified ; 435 ; 76 ; 74 ; 5 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,|,SO,ND,NSD> ; 1166 ; closed ; verified ; 36809 ; 9600 ; 6474 ; 21 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,->,SO,ND,NSD> ; 1145 ; closed ; verified ; 40067 ; 9794 ; 6448 ; 21 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,T,SO,ND,NSD> ; 1119 ; closed ; verified ; 39523 ; 9490 ; 6176 ; 21 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,F,SO,ND,NSD> ; 5 ; closed ; verified ; 435 ; 76 ; 74 ; 5 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,inc,SO,ND,NSD> ; 1151 ; closed ; verified ; 38749 ; 9103 ; 5789 ; 21 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSS,dec,SO,ND,NSD> ; 6 ; closed ; verified ; 435 ; 76 ; 74 ; 5 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,ins,SO,ND,NSD> ; 1100 ; closed ; verified ; 35051 ; 8672 ; 5408 ; 15 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,rev,SO,ND,NSD> ; 1286 ; closed ; verified ; 39017 ; 9237 ; 5663 ; 15 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,&,SO,ND,NSD> ; 5 ; closed ; verified ; 441 ; 76 ; 74 ; 5 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,|,SO,ND,NSD> ; 1097 ; closed ; verified ; 35051 ; 8672 ; 5408 ; 15 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,->,SO,ND,NSD> ; 1152 ; closed ; verified ; 39017 ; 9237 ; 5663 ; 15 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,T,SO,ND,NSD> ; 1168 ; closed ; verified ; 39017 ; 9237 ; 5663 ; 15 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,F,SO,ND,NSD> ; 4 ; closed ; verified ; 441 ; 76 ; 74 ; 5 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,inc,SO,ND,NSD> ; 1264 ; closed ; verified ; 39017 ; 9237 ; 5663 ; 15 ; Success
+family7_06.prove ; 06 ; 81 ; <MBCSWORS,dec,SO,ND,NSD> ; 5 ; closed ; verified ; 441 ; 76 ; 74 ; 5 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,ins,SO,ND,NSD> ; 4414 ; closed ; verified ; 120515 ; 29644 ; 19510 ; 25 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,rev,SO,ND,NSD> ; 4527 ; closed ; verified ; 126422 ; 29198 ; 18684 ; 25 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,&,SO,ND,NSD> ; 7 ; closed ; verified ; 559 ; 89 ; 87 ; 6 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,|,SO,ND,NSD> ; 4345 ; closed ; verified ; 120515 ; 29644 ; 19510 ; 25 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,->,SO,ND,NSD> ; 4194 ; closed ; verified ; 127702 ; 29902 ; 19324 ; 25 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,T,SO,ND,NSD> ; 4105 ; closed ; verified ; 126422 ; 29198 ; 18684 ; 25 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,F,SO,ND,NSD> ; 7 ; closed ; verified ; 559 ; 89 ; 87 ; 6 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,inc,SO,ND,NSD> ; 4392 ; closed ; verified ; 124496 ; 28235 ; 17721 ; 25 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSS,dec,SO,ND,NSD> ; 8 ; closed ; verified ; 559 ; 89 ; 87 ; 6 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,ins,SO,ND,NSD> ; 4248 ; closed ; verified ; 116789 ; 27684 ; 16956 ; 18 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,rev,SO,ND,NSD> ; 4857 ; closed ; verified ; 125676 ; 28825 ; 17467 ; 18 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,&,SO,ND,NSD> ; 6 ; closed ; verified ; 566 ; 89 ; 87 ; 6 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,|,SO,ND,NSD> ; 4261 ; closed ; verified ; 116789 ; 27684 ; 16956 ; 18 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,->,SO,ND,NSD> ; 4408 ; closed ; verified ; 125676 ; 28825 ; 17467 ; 18 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,T,SO,ND,NSD> ; 4482 ; closed ; verified ; 125676 ; 28825 ; 17467 ; 18 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,F,SO,ND,NSD> ; 6 ; closed ; verified ; 566 ; 89 ; 87 ; 6 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,inc,SO,ND,NSD> ; 4870 ; closed ; verified ; 125676 ; 28825 ; 17467 ; 18 ; Success
+family7_07.prove ; 07 ; 95 ; <MBCSWORS,dec,SO,ND,NSD> ; 7 ; closed ; verified ; 566 ; 89 ; 87 ; 6 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,ins,SO,ND,NSD> ; 22028 ; closed ; verified ; 383892 ; 90248 ; 58322 ; 29 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,rev,SO,ND,NSD> ; 23395 ; closed ; verified ; 396608 ; 88890 ; 56200 ; 29 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 697 ; 102 ; 100 ; 7 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,|,SO,ND,NSD> ; 21958 ; closed ; verified ; 383892 ; 90248 ; 58322 ; 29 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,->,SO,ND,NSD> ; 21545 ; closed ; verified ; 399552 ; 90490 ; 57672 ; 29 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,T,SO,ND,NSD> ; 21805 ; closed ; verified ; 396608 ; 88890 ; 56200 ; 29 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,F,SO,ND,NSD> ; 10 ; closed ; verified ; 697 ; 102 ; 100 ; 7 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,inc,SO,ND,NSD> ; 23460 ; closed ; verified ; 391994 ; 86583 ; 53893 ; 29 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSS,dec,SO,ND,NSD> ; 10 ; closed ; verified ; 697 ; 102 ; 100 ; 7 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,ins,SO,ND,NSD> ; 23155 ; closed ; verified ; 376662 ; 86440 ; 52360 ; 21 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,rev,SO,ND,NSD> ; 24818 ; closed ; verified ; 396294 ; 88733 ; 53383 ; 21 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,&,SO,ND,NSD> ; 8 ; closed ; verified ; 705 ; 102 ; 100 ; 7 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,|,SO,ND,NSD> ; 22918 ; closed ; verified ; 376662 ; 86440 ; 52360 ; 21 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,->,SO,ND,NSD> ; 23037 ; closed ; verified ; 396294 ; 88733 ; 53383 ; 21 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,T,SO,ND,NSD> ; 22798 ; closed ; verified ; 396294 ; 88733 ; 53383 ; 21 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,F,SO,ND,NSD> ; 7 ; closed ; verified ; 705 ; 102 ; 100 ; 7 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,inc,SO,ND,NSD> ; 24825 ; closed ; verified ; 396294 ; 88733 ; 53383 ; 21 ; Success
+family7_08.prove ; 08 ; 109 ; <MBCSWORS,dec,SO,ND,NSD> ; 8 ; closed ; verified ; 705 ; 102 ; 100 ; 7 ; Success
+family7_09.prove ; 09 ; 123 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSS,&,SO,ND,NSD> ; 12 ; closed ; verified ; 849 ; 115 ; 113 ; 8 ; Success
+family7_09.prove ; 09 ; 123 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSS,F,SO,ND,NSD> ; 12 ; closed ; verified ; 849 ; 115 ; 113 ; 8 ; Success
+family7_09.prove ; 09 ; 123 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSS,dec,SO,ND,NSD> ; 13 ; closed ; verified ; 849 ; 115 ; 113 ; 8 ; Success
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,&,SO,ND,NSD> ; 10 ; closed ; verified ; 858 ; 115 ; 113 ; 8 ; Success
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,F,SO,ND,NSD> ; 10 ; closed ; verified ; 858 ; 115 ; 113 ; 8 ; Success
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_09.prove ; 09 ; 123 ; <MBCSWORS,dec,SO,ND,NSD> ; 11 ; closed ; verified ; 858 ; 115 ; 113 ; 8 ; Success
+family7_10.prove ; 10 ; 137 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSS,&,SO,ND,NSD> ; 15 ; closed ; verified ; 1015 ; 128 ; 126 ; 9 ; Success
+family7_10.prove ; 10 ; 137 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSS,F,SO,ND,NSD> ; 16 ; closed ; verified ; 1015 ; 128 ; 126 ; 9 ; Success
+family7_10.prove ; 10 ; 137 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSS,dec,SO,ND,NSD> ; 17 ; closed ; verified ; 1015 ; 128 ; 126 ; 9 ; Success
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,&,SO,ND,NSD> ; 12 ; closed ; verified ; 1025 ; 128 ; 126 ; 9 ; Success
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,F,SO,ND,NSD> ; 12 ; closed ; verified ; 1025 ; 128 ; 126 ; 9 ; Success
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_10.prove ; 10 ; 137 ; <MBCSWORS,dec,SO,ND,NSD> ; 14 ; closed ; verified ; 1025 ; 128 ; 126 ; 9 ; Success
+family7_11.prove ; 11 ; 151 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSS,&,SO,ND,NSD> ; 19 ; closed ; verified ; 1195 ; 141 ; 139 ; 10 ; Success
+family7_11.prove ; 11 ; 151 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSS,F,SO,ND,NSD> ; 19 ; closed ; verified ; 1195 ; 141 ; 139 ; 10 ; Success
+family7_11.prove ; 11 ; 151 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSS,dec,SO,ND,NSD> ; 21 ; closed ; verified ; 1195 ; 141 ; 139 ; 10 ; Success
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,&,SO,ND,NSD> ; 15 ; closed ; verified ; 1206 ; 141 ; 139 ; 10 ; Success
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,F,SO,ND,NSD> ; 16 ; closed ; verified ; 1206 ; 141 ; 139 ; 10 ; Success
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_11.prove ; 11 ; 151 ; <MBCSWORS,dec,SO,ND,NSD> ; 17 ; closed ; verified ; 1206 ; 141 ; 139 ; 10 ; Success
+family7_12.prove ; 12 ; 165 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSS,&,SO,ND,NSD> ; 24 ; closed ; verified ; 1389 ; 154 ; 152 ; 11 ; Success
+family7_12.prove ; 12 ; 165 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSS,F,SO,ND,NSD> ; 24 ; closed ; verified ; 1389 ; 154 ; 152 ; 11 ; Success
+family7_12.prove ; 12 ; 165 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSS,dec,SO,ND,NSD> ; 27 ; closed ; verified ; 1389 ; 154 ; 152 ; 11 ; Success
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,&,SO,ND,NSD> ; 19 ; closed ; verified ; 1401 ; 154 ; 152 ; 11 ; Success
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,F,SO,ND,NSD> ; 18 ; closed ; verified ; 1401 ; 154 ; 152 ; 11 ; Success
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_12.prove ; 12 ; 165 ; <MBCSWORS,dec,SO,ND,NSD> ; 20 ; closed ; verified ; 1401 ; 154 ; 152 ; 11 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,&,SO,ND,NSD> ; 44 ; closed ; verified ; 2055 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,F,SO,ND,NSD> ; 41 ; closed ; verified ; 2055 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSS,dec,SO,ND,NSD> ; 43 ; closed ; verified ; 2055 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,&,SO,ND,NSD> ; 31 ; closed ; verified ; 2070 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,F,SO,ND,NSD> ; 31 ; closed ; verified ; 2070 ; 193 ; 191 ; 14 ; Success
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+family7_15.prove ; 15 ; 207 ; <MBCSWORS,dec,SO,ND,NSD> ; 34 ; closed ; verified ; 2070 ; 193 ; 191 ; 14 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,&,SO,ND,NSD> ; 85 ; closed ; verified ; 3445 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,F,SO,ND,NSD> ; 84 ; closed ; verified ; 3445 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSS,dec,SO,ND,NSD> ; 90 ; closed ; verified ; 3445 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,&,SO,ND,NSD> ; 64 ; closed ; verified ; 3465 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,F,SO,ND,NSD> ; 63 ; closed ; verified ; 3465 ; 258 ; 256 ; 19 ; Success
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+family7_20.prove ; 20 ; 277 ; <MBCSWORS,dec,SO,ND,NSD> ; 68 ; closed ; verified ; 3465 ; 258 ; 256 ; 19 ; Success
+Finished!

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib/ext/java_cup.jar lib/ext/aspectjrt.jar lib/ext/log4j-1.2.12.jar lib/generated/cw.jar lib/generated/sats5.jar lib/generated/satcnf2.jar lib/generated/satlfiinconsdef.jar 
+Main-Class: proverinterface.ProverInterface
+

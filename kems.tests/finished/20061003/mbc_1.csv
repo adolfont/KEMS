@@ -1,0 +1,663 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mbc_1.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,ins,SO,ND,NSD> ; 179 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,rev,SO,ND,NSD> ; 111 ; closed ; verified ; 914 ; 112 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,&,SO,ND,NSD> ; 72 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,|,SO,ND,NSD> ; 62 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,->,SO,ND,NSD> ; 75 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,T,SO,ND,NSD> ; 61 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,F,SO,ND,NSD> ; 59 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,inc,SO,ND,NSD> ; 69 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,dec,SO,ND,NSD> ; 61 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,nfo,SO,ND,NSD> ; 80 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSS,rfo,SO,ND,NSD> ; 76 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,ins,SO,ND,NSD> ; 67 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,rev,SO,ND,NSD> ; 68 ; closed ; verified ; 918 ; 112 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,&,SO,ND,NSD> ; 59 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,|,SO,ND,NSD> ; 60 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,->,SO,ND,NSD> ; 74 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,T,SO,ND,NSD> ; 60 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,F,SO,ND,NSD> ; 59 ; closed ; verified ; 911 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,inc,SO,ND,NSD> ; 67 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,dec,SO,ND,NSD> ; 56 ; closed ; verified ; 921 ; 111 ; 91 ; 10 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,nfo,SO,ND,NSD> ; 78 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_10.prove ; 10 ; 113 ; <MBCSWORS,rfo,SO,ND,NSD> ; 76 ; closed ; verified ; 896 ; 103 ; 93 ; 11 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,ins,SO,ND,NSD> ; 477 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,rev,SO,ND,NSD> ; 527 ; closed ; verified ; 3224 ; 222 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,&,SO,ND,NSD> ; 468 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,|,SO,ND,NSD> ; 469 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,->,SO,ND,NSD> ; 615 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,T,SO,ND,NSD> ; 467 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,F,SO,ND,NSD> ; 465 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,inc,SO,ND,NSD> ; 540 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,dec,SO,ND,NSD> ; 474 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,nfo,SO,ND,NSD> ; 652 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSS,rfo,SO,ND,NSD> ; 627 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,ins,SO,ND,NSD> ; 478 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,rev,SO,ND,NSD> ; 541 ; closed ; verified ; 3233 ; 222 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,&,SO,ND,NSD> ; 477 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,|,SO,ND,NSD> ; 483 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,->,SO,ND,NSD> ; 626 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,T,SO,ND,NSD> ; 473 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,F,SO,ND,NSD> ; 475 ; closed ; verified ; 3221 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,inc,SO,ND,NSD> ; 542 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,dec,SO,ND,NSD> ; 463 ; closed ; verified ; 3241 ; 221 ; 181 ; 20 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,nfo,SO,ND,NSD> ; 657 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_20.prove ; 20 ; 223 ; <MBCSWORS,rfo,SO,ND,NSD> ; 642 ; closed ; verified ; 3186 ; 203 ; 183 ; 21 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,ins,SO,ND,NSD> ; 1663 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,rev,SO,ND,NSD> ; 1861 ; closed ; verified ; 6934 ; 332 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,&,SO,ND,NSD> ; 1667 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,|,SO,ND,NSD> ; 1676 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,->,SO,ND,NSD> ; 2224 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,T,SO,ND,NSD> ; 1670 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,F,SO,ND,NSD> ; 1663 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,inc,SO,ND,NSD> ; 1969 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,dec,SO,ND,NSD> ; 1692 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,nfo,SO,ND,NSD> ; 2323 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSS,rfo,SO,ND,NSD> ; 2239 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,ins,SO,ND,NSD> ; 1689 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,rev,SO,ND,NSD> ; 1948 ; closed ; verified ; 6948 ; 332 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,&,SO,ND,NSD> ; 1746 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,|,SO,ND,NSD> ; 1725 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,->,SO,ND,NSD> ; 2318 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,T,SO,ND,NSD> ; 1750 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,F,SO,ND,NSD> ; 1692 ; closed ; verified ; 6931 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,inc,SO,ND,NSD> ; 1942 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,dec,SO,ND,NSD> ; 1692 ; closed ; verified ; 6961 ; 331 ; 271 ; 30 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,nfo,SO,ND,NSD> ; 2344 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_30.prove ; 30 ; 333 ; <MBCSWORS,rfo,SO,ND,NSD> ; 2302 ; closed ; verified ; 6876 ; 303 ; 273 ; 31 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,ins,SO,ND,NSD> ; 4188 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,rev,SO,ND,NSD> ; 4636 ; closed ; verified ; 12044 ; 442 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,&,SO,ND,NSD> ; 4190 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,|,SO,ND,NSD> ; 4243 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,->,SO,ND,NSD> ; 5592 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,T,SO,ND,NSD> ; 4191 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,F,SO,ND,NSD> ; 4247 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,inc,SO,ND,NSD> ; 4867 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,dec,SO,ND,NSD> ; 4249 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,nfo,SO,ND,NSD> ; 5868 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSS,rfo,SO,ND,NSD> ; 5685 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,ins,SO,ND,NSD> ; 4257 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,rev,SO,ND,NSD> ; 4833 ; closed ; verified ; 12063 ; 442 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,&,SO,ND,NSD> ; 4267 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,|,SO,ND,NSD> ; 4348 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,->,SO,ND,NSD> ; 5721 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,T,SO,ND,NSD> ; 4264 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,F,SO,ND,NSD> ; 4294 ; closed ; verified ; 12041 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,inc,SO,ND,NSD> ; 4898 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,dec,SO,ND,NSD> ; 4218 ; closed ; verified ; 12081 ; 441 ; 361 ; 40 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,nfo,SO,ND,NSD> ; 5850 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_40.prove ; 40 ; 443 ; <MBCSWORS,rfo,SO,ND,NSD> ; 5807 ; closed ; verified ; 11966 ; 403 ; 363 ; 41 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,ins,SO,ND,NSD> ; 8919 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,rev,SO,ND,NSD> ; 9687 ; closed ; verified ; 18554 ; 552 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,&,SO,ND,NSD> ; 8797 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,|,SO,ND,NSD> ; 8884 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,->,SO,ND,NSD> ; 11957 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,T,SO,ND,NSD> ; 8781 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,F,SO,ND,NSD> ; 8875 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,inc,SO,ND,NSD> ; 10355 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,dec,SO,ND,NSD> ; 8938 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,nfo,SO,ND,NSD> ; 12243 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSS,rfo,SO,ND,NSD> ; 11827 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,ins,SO,ND,NSD> ; 8985 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,rev,SO,ND,NSD> ; 9911 ; closed ; verified ; 18578 ; 552 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,&,SO,ND,NSD> ; 9020 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,|,SO,ND,NSD> ; 9086 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,->,SO,ND,NSD> ; 11957 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,T,SO,ND,NSD> ; 8915 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,F,SO,ND,NSD> ; 8932 ; closed ; verified ; 18551 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,inc,SO,ND,NSD> ; 10191 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,dec,SO,ND,NSD> ; 8695 ; closed ; verified ; 18601 ; 551 ; 451 ; 50 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,nfo,SO,ND,NSD> ; 12302 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_50.prove ; 50 ; 553 ; <MBCSWORS,rfo,SO,ND,NSD> ; 11990 ; closed ; verified ; 18456 ; 503 ; 453 ; 51 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,ins,SO,ND,NSD> ; 15823 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,rev,SO,ND,NSD> ; 17209 ; closed ; verified ; 26464 ; 662 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,&,SO,ND,NSD> ; 15766 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,|,SO,ND,NSD> ; 16011 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,->,SO,ND,NSD> ; 21388 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,T,SO,ND,NSD> ; 15770 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,F,SO,ND,NSD> ; 15921 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,inc,SO,ND,NSD> ; 18341 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,dec,SO,ND,NSD> ; 15943 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,nfo,SO,ND,NSD> ; 22147 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSS,rfo,SO,ND,NSD> ; 21537 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,ins,SO,ND,NSD> ; 16043 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,rev,SO,ND,NSD> ; 17852 ; closed ; verified ; 26493 ; 662 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,&,SO,ND,NSD> ; 16022 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,|,SO,ND,NSD> ; 16387 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,->,SO,ND,NSD> ; 21701 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,T,SO,ND,NSD> ; 16020 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,F,SO,ND,NSD> ; 15945 ; closed ; verified ; 26461 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,inc,SO,ND,NSD> ; 18273 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,dec,SO,ND,NSD> ; 15683 ; closed ; verified ; 26521 ; 661 ; 541 ; 60 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,nfo,SO,ND,NSD> ; 22507 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_60.prove ; 60 ; 663 ; <MBCSWORS,rfo,SO,ND,NSD> ; 21800 ; closed ; verified ; 26346 ; 603 ; 543 ; 61 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,ins,SO,ND,NSD> ; 26655 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,rev,SO,ND,NSD> ; 28912 ; closed ; verified ; 35774 ; 772 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,&,SO,ND,NSD> ; 26585 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,|,SO,ND,NSD> ; 26781 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,->,SO,ND,NSD> ; 36614 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,T,SO,ND,NSD> ; 26559 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,F,SO,ND,NSD> ; 26725 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,inc,SO,ND,NSD> ; 30890 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,dec,SO,ND,NSD> ; 27151 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,nfo,SO,ND,NSD> ; 37522 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSS,rfo,SO,ND,NSD> ; 36352 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,ins,SO,ND,NSD> ; 26939 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,rev,SO,ND,NSD> ; 29560 ; closed ; verified ; 35808 ; 772 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,&,SO,ND,NSD> ; 26857 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,|,SO,ND,NSD> ; 27499 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,->,SO,ND,NSD> ; 37092 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,T,SO,ND,NSD> ; 26811 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,F,SO,ND,NSD> ; 26986 ; closed ; verified ; 35771 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,inc,SO,ND,NSD> ; 30894 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,dec,SO,ND,NSD> ; 26437 ; closed ; verified ; 35841 ; 771 ; 631 ; 70 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,nfo,SO,ND,NSD> ; 37973 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_70.prove ; 70 ; 773 ; <MBCSWORS,rfo,SO,ND,NSD> ; 37131 ; closed ; verified ; 35636 ; 703 ; 633 ; 71 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,ins,SO,ND,NSD> ; 42541 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,rev,SO,ND,NSD> ; 45779 ; closed ; verified ; 46484 ; 882 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,&,SO,ND,NSD> ; 42328 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,|,SO,ND,NSD> ; 42563 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,->,SO,ND,NSD> ; 58676 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,T,SO,ND,NSD> ; 42244 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,F,SO,ND,NSD> ; 42392 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,inc,SO,ND,NSD> ; 49207 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,dec,SO,ND,NSD> ; 42605 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,nfo,SO,ND,NSD> ; 60301 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSS,rfo,SO,ND,NSD> ; 58284 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,ins,SO,ND,NSD> ; 42957 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,rev,SO,ND,NSD> ; 46484 ; closed ; verified ; 46523 ; 882 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,&,SO,ND,NSD> ; 42924 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,|,SO,ND,NSD> ; 43510 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,->,SO,ND,NSD> ; 59370 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,T,SO,ND,NSD> ; 42941 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,F,SO,ND,NSD> ; 42720 ; closed ; verified ; 46481 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,inc,SO,ND,NSD> ; 49679 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,dec,SO,ND,NSD> ; 42062 ; closed ; verified ; 46561 ; 881 ; 721 ; 80 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,nfo,SO,ND,NSD> ; 60681 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_80.prove ; 80 ; 883 ; <MBCSWORS,rfo,SO,ND,NSD> ; 59321 ; closed ; verified ; 46326 ; 803 ; 723 ; 81 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,ins,SO,ND,NSD> ; 63398 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,rev,SO,ND,NSD> ; 68159 ; closed ; verified ; 58594 ; 992 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,&,SO,ND,NSD> ; 63691 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,|,SO,ND,NSD> ; 63782 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,->,SO,ND,NSD> ; 88348 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,T,SO,ND,NSD> ; 63430 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,F,SO,ND,NSD> ; 63742 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,inc,SO,ND,NSD> ; 74425 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,dec,SO,ND,NSD> ; 64147 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,nfo,SO,ND,NSD> ; 91356 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSS,rfo,SO,ND,NSD> ; 88290 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,ins,SO,ND,NSD> ; 63956 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,rev,SO,ND,NSD> ; 69308 ; closed ; verified ; 58638 ; 992 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,&,SO,ND,NSD> ; 64334 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,|,SO,ND,NSD> ; 65330 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,->,SO,ND,NSD> ; 89877 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,T,SO,ND,NSD> ; 64137 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,F,SO,ND,NSD> ; 64072 ; closed ; verified ; 58591 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,inc,SO,ND,NSD> ; 74485 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,dec,SO,ND,NSD> ; 63379 ; closed ; verified ; 58681 ; 991 ; 811 ; 90 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,nfo,SO,ND,NSD> ; 91849 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_090.prove ; 090 ; 993 ; <MBCSWORS,rfo,SO,ND,NSD> ; 90043 ; closed ; verified ; 58416 ; 903 ; 813 ; 91 ; Success
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_100.prove ; 100 ; 1103 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: 3 minute(s) 1 second(s)  time limit exceeded
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_110.prove ; 110 ; 1213 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_120.prove ; 120 ; 1323 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_130.prove ; 130 ; 1433 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_140.prove ; 140 ; 1543 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_150.prove ; 150 ; 1653 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_160.prove ; 160 ; 1763 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_170.prove ; 170 ; 1873 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_180.prove ; 180 ; 1983 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_190.prove ; 190 ; 2093 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_200.prove ; 200 ; 2203 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_210.prove ; 210 ; 2313 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_220.prove ; 220 ; 2423 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_230.prove ; 230 ; 2533 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_240.prove ; 240 ; 2643 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_250.prove ; 250 ; 2753 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_260.prove ; 260 ; 2863 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_270.prove ; 270 ; 2973 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_280.prove ; 280 ; 3083 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_290.prove ; 290 ; 3193 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,ins,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,rev,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,&,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,|,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,->,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,T,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,F,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,inc,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,dec,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,nfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+FirstLFIFamily_300.prove ; 300 ; 3303 ; <MBCSWORS,rfo,SO,ND,NSD> ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; n/a ; Error: This prover configuration has not finished a smaller problem
+Finished!

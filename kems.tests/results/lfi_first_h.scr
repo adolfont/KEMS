@@ -1,0 +1,43 @@
+# this one for pdflatex
+#set terminal jpeg
+
+# and this for latex
+set term post eps enhanced color
+
+set grid
+set palette color
+set datafile separator ";"
+
+set key top left
+
+set xrange [16:44]
+#set yrange [0000:5000]
+set xtics 10
+set xlabel 'problem instance number'
+set ylabel 'time spent (ms)'
+
+
+# .eps for latex
+# .jpg for pdlfatex
+
+set output "MBC_1_H.eps"
+plot  "lfi_1.csv" every 18::2 using 2:5 w lp title '<MBCSS,ins>'  
+replot  "lfi_1.csv" every 18::3 using 2:5 w lp title '<MBCSS,rev>'  
+replot  "lfi_1.csv" every 18::4 using 2:5 w lp title '<MBCSS,and>'  
+replot  "lfi_1.csv" every 18::5 using 2:5 w lp title '<MBCSS,or>'  
+replot  "lfi_1.csv" every 18::6 using 2:5 w lp title '<MBCSS,imp>'  
+replot  "lfi_1.csv" every 18::7 using 2:5 w lp title '<MBCSS,T>'  
+replot  "lfi_1.csv" every 18::8 using 2:5 w lp title '<MBCSS,F>'  
+replot  "lfi_1.csv" every 18::9 using 2:5 w lp title '<MBCSS,inc>'  
+replot  "lfi_1.csv" every 18::10 using 2:5 w lp title '<MBCSS,dec>'  
+replot  "lfi_1.csv" every 18::11 using 2:5 w lp title '<MBCSWORS,ins>'  
+replot  "lfi_1.csv" every 18::12 using 2:5 w lp title '<MBCSWORS,rev>'  
+replot  "lfi_1.csv" every 18::13 using 2:5 w lp title '<MBCSWORS,and>'  
+replot  "lfi_1.csv" every 18::14 using 2:5 w lp title '<MBCSWORS,or>'  
+replot  "lfi_1.csv" every 18::15 using 2:5 w lp title '<MBCSWORS,imp>'  
+replot  "lfi_1.csv" every 18::16 using 2:5 w lp title '<MBCSWORS,T>'  
+replot  "lfi_1.csv" every 18::17 using 2:5 w lp title '<MBCSWORS,F>'  
+replot  "lfi_1.csv" every 18::18 using 2:5 w lp title '<MBCSWORS,inc>'  
+set output "MBC_1_H.eps"
+replot  "lfi_1.csv" every 18::19 using 2:5 w lp title '<MBCSWORS,dec>'  
+

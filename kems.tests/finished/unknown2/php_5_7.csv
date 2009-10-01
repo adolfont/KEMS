@@ -1,0 +1,201 @@
+Processing file /home/adolfo/kems.tests/sequences/cpl/php/php_5_to_7.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height
+PHP_05.prove ; 05 ; 279 ; <MSS,ins,SO,ND,NSD> ; 3589 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,rev,SO,ND,NSD> ; 807 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,&,SO,ND,NSD> ; 4761 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,|,SO,ND,NSD> ; 702 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,->,SO,ND,NSD> ; 3194 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,<=>,SO,ND,NSD> ; 3235 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,+,SO,ND,NSD> ; 3211 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,T,SO,ND,NSD> ; 669 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,F,SO,ND,NSD> ; 4693 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,inc,SO,ND,NSD> ; 4894 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,dec,SO,ND,NSD> ; 2009 ; closed ; verified ; 9402 ; 6514 ; 4358 ; 19
+PHP_05.prove ; 05 ; 279 ; <SS,ins,SO,ND,NSD> ; 3370 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,rev,SO,ND,NSD> ; 796 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <SS,&,SO,ND,NSD> ; 4493 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,|,SO,ND,NSD> ; 651 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <SS,->,SO,ND,NSD> ; 3186 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,<=>,SO,ND,NSD> ; 3165 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,+,SO,ND,NSD> ; 3177 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,T,SO,ND,NSD> ; 657 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <SS,F,SO,ND,NSD> ; 4508 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,inc,SO,ND,NSD> ; 4616 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,dec,SO,ND,NSD> ; 2106 ; closed ; verified ; 9402 ; 6514 ; 4358 ; 19
+PHP_05.prove ; 05 ; 279 ; <NLSS,ins,SO,ND,NSD> ; 3274 ; closed ; verified ; 12104 ; 7822 ; 3802 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,rev,SO,ND,NSD> ; 738 ; closed ; verified ; 4168 ; 2361 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <NLSS,&,SO,ND,NSD> ; 4571 ; closed ; verified ; 16519 ; 10705 ; 4989 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,|,SO,ND,NSD> ; 682 ; closed ; verified ; 4168 ; 2361 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <NLSS,->,SO,ND,NSD> ; 3383 ; closed ; verified ; 12104 ; 7822 ; 3802 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,<=>,SO,ND,NSD> ; 3318 ; closed ; verified ; 12104 ; 7822 ; 3802 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,+,SO,ND,NSD> ; 3272 ; closed ; verified ; 12104 ; 7822 ; 3802 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,T,SO,ND,NSD> ; 680 ; closed ; verified ; 4168 ; 2361 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <NLSS,F,SO,ND,NSD> ; 4560 ; closed ; verified ; 16519 ; 10705 ; 4989 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,inc,SO,ND,NSD> ; 4681 ; closed ; verified ; 16519 ; 10705 ; 4989 ; 16
+PHP_05.prove ; 05 ; 279 ; <NLSS,dec,SO,ND,NSD> ; 2180 ; closed ; verified ; 11917 ; 7200 ; 4358 ; 19
+PHP_05.prove ; 05 ; 279 ; <CSS,ins,SO,ND,NSD> ; 20221 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,rev,SO,ND,NSD> ; 3479 ; closed ; verified ; 7705 ; 3091 ; 2260 ; 13
+PHP_05.prove ; 05 ; 279 ; <CSS,&,SO,ND,NSD> ; 110556 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21
+PHP_05.prove ; 05 ; 279 ; <CSS,|,SO,ND,NSD> ; 2880 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14
+PHP_05.prove ; 05 ; 279 ; <CSS,->,SO,ND,NSD> ; 20235 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,<=>,SO,ND,NSD> ; 20099 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,+,SO,ND,NSD> ; 20280 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,T,SO,ND,NSD> ; 2902 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14
+PHP_05.prove ; 05 ; 279 ; <CSS,F,SO,ND,NSD> ; 111646 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21
+PHP_05.prove ; 05 ; 279 ; <CSS,inc,SO,ND,NSD> ; 79637 ; closed ; verified ; 117651 ; 42406 ; 23810 ; 21
+PHP_05.prove ; 05 ; 279 ; <CSS,dec,SO,ND,NSD> ; 6200 ; closed ; verified ; 9066 ; 6178 ; 4378 ; 19
+PHP_05.prove ; 05 ; 279 ; <LSS,ins,SO,ND,NSD> ; 311656 ; closed ; verified ; 126669 ; 39747 ; 12822 ; 481
+PHP_05.prove ; 05 ; 279 ; <LSS,rev,SO,ND,NSD> ; 8876 ; closed ; verified ; 27136 ; 7894 ; 3960 ; 119
+PHP_05.prove ; 05 ; 279 ; <LSS,&,SO,ND,NSD> ; 412531 ; closed ; verified ; 160076 ; 48472 ; 14091 ; 519
+PHP_05.prove ; 05 ; 279 ; <LSS,|,SO,ND,NSD> ; 8242 ; closed ; verified ; 27175 ; 7911 ; 3960 ; 119
+PHP_05.prove ; 05 ; 279 ; <LSS,->,SO,ND,NSD> ; 311034 ; closed ; verified ; 126669 ; 39747 ; 12822 ; 481
+PHP_05.prove ; 05 ; 279 ; <LSS,<=>,SO,ND,NSD> ; 311349 ; closed ; verified ; 126669 ; 39747 ; 12822 ; 481
+PHP_05.prove ; 05 ; 279 ; <LSS,+,SO,ND,NSD> ; 311912 ; closed ; verified ; 126669 ; 39747 ; 12822 ; 481
+PHP_05.prove ; 05 ; 279 ; <LSS,T,SO,ND,NSD> ; 8292 ; closed ; verified ; 27175 ; 7911 ; 3960 ; 119
+PHP_05.prove ; 05 ; 279 ; <LSS,F,SO,ND,NSD> ; 413477 ; closed ; verified ; 160076 ; 48472 ; 14091 ; 519
+PHP_05.prove ; 05 ; 279 ; <LSS,inc,SO,ND,NSD> ; 413258 ; closed ; verified ; 160076 ; 48472 ; 14091 ; 519
+PHP_05.prove ; 05 ; 279 ; <LSS,dec,SO,ND,NSD> ; 18334 ; closed ; verified ; 44743 ; 11600 ; 4764 ; 204
+PHP_05.prove ; 05 ; 279 ; <BSS,ins,SO,ND,NSD> ; 3149 ; closed ; verified ; 9197 ; 6804 ; 3680 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,rev,SO,ND,NSD> ; 756 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <BSS,&,SO,ND,NSD> ; 4287 ; closed ; verified ; 12293 ; 9068 ; 4670 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,|,SO,ND,NSD> ; 680 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <BSS,->,SO,ND,NSD> ; 3134 ; closed ; verified ; 9197 ; 6804 ; 3680 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,<=>,SO,ND,NSD> ; 3172 ; closed ; verified ; 9197 ; 6804 ; 3680 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,+,SO,ND,NSD> ; 3134 ; closed ; verified ; 9197 ; 6804 ; 3680 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,T,SO,ND,NSD> ; 678 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <BSS,F,SO,ND,NSD> ; 4319 ; closed ; verified ; 12293 ; 9068 ; 4670 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,inc,SO,ND,NSD> ; 4370 ; closed ; verified ; 12293 ; 9068 ; 4670 ; 16
+PHP_05.prove ; 05 ; 279 ; <BSS,dec,SO,ND,NSD> ; 1078 ; closed ; verified ; 5482 ; 3429 ; 2546 ; 16
+PHP_06.prove ; 06 ; 455 ; <MSS,ins,SO,ND,NSD> ; 78975 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,rev,SO,ND,NSD> ; 8142 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <MSS,&,SO,ND,NSD> ; 114161 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,|,SO,ND,NSD> ; 7543 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <MSS,->,SO,ND,NSD> ; 79114 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,<=>,SO,ND,NSD> ; 78476 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,+,SO,ND,NSD> ; 78845 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,T,SO,ND,NSD> ; 7546 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <MSS,F,SO,ND,NSD> ; 114373 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,inc,SO,ND,NSD> ; 116253 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25
+PHP_06.prove ; 06 ; 455 ; <MSS,dec,SO,ND,NSD> ; 31819 ; closed ; verified ; 81767 ; 57783 ; 36832 ; 29
+PHP_06.prove ; 06 ; 455 ; <SS,ins,SO,ND,NSD> ; 86639 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,rev,SO,ND,NSD> ; 8581 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <SS,&,SO,ND,NSD> ; 121634 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,|,SO,ND,NSD> ; 8122 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <SS,->,SO,ND,NSD> ; 86340 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,<=>,SO,ND,NSD> ; 86883 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,+,SO,ND,NSD> ; 86521 ; closed ; verified ; 118271 ; 92210 ; 41355 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,T,SO,ND,NSD> ; 8070 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <SS,F,SO,ND,NSD> ; 122154 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,inc,SO,ND,NSD> ; 123291 ; closed ; verified ; 165867 ; 127212 ; 55207 ; 25
+PHP_06.prove ; 06 ; 455 ; <SS,dec,SO,ND,NSD> ; 39529 ; closed ; verified ; 81767 ; 57783 ; 36832 ; 29
+PHP_06.prove ; 06 ; 455 ; <NLSS,ins,SO,ND,NSD> ; 91371 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,rev,SO,ND,NSD> ; 8469 ; closed ; verified ; 25229 ; 14890 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <NLSS,&,SO,ND,NSD> ; 123398 ; closed ; verified ; 203989 ; 138909 ; 55642 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,|,SO,ND,NSD> ; 8098 ; closed ; verified ; 25229 ; 14890 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <NLSS,->,SO,ND,NSD> ; 91614 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,<=>,SO,ND,NSD> ; 91507 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,+,SO,ND,NSD> ; 91645 ; closed ; verified ; 148743 ; 102005 ; 41850 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,T,SO,ND,NSD> ; 8107 ; closed ; verified ; 25229 ; 14890 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <NLSS,F,SO,ND,NSD> ; 123045 ; closed ; verified ; 203989 ; 138909 ; 55642 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,inc,SO,ND,NSD> ; 124544 ; closed ; verified ; 203989 ; 138909 ; 55642 ; 25
+PHP_06.prove ; 06 ; 455 ; <NLSS,dec,SO,ND,NSD> ; 40628 ; closed ; verified ; 103334 ; 63665 ; 36832 ; 29
+PHP_06.prove ; 06 ; 455 ; <CSS,ins,SO,ND,NSD> ; 913069 ; closed ; verified ; 601896 ; 198482 ; 89538 ; 26
+PHP_06.prove ; 06 ; 455 ; <CSS,rev,SO,ND,NSD> ; 50963 ; closed ; verified ; 64161 ; 21681 ; 14898 ; 19
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <CSS,|,SO,ND,NSD> ; 50550 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23
+PHP_06.prove ; 06 ; 455 ; <CSS,->,SO,ND,NSD> ; 917893 ; closed ; verified ; 601896 ; 198482 ; 89538 ; 26
+PHP_06.prove ; 06 ; 455 ; <CSS,<=>,SO,ND,NSD> ; 914954 ; closed ; verified ; 601896 ; 198482 ; 89538 ; 26
+PHP_06.prove ; 06 ; 455 ; <CSS,+,SO,ND,NSD> ; 914324 ; closed ; verified ; 601896 ; 198482 ; 89538 ; 26
+PHP_06.prove ; 06 ; 455 ; <CSS,T,SO,ND,NSD> ; 50605 ; closed ; verified ; 63273 ; 27509 ; 18225 ; 23
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,SignSignedFormulaComparator: F : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator: increasing order : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <CSS,dec,SO,ND,NSD> ; 116217 ; closed ; verified ; 78183 ; 54199 ; 36810 ; 29
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <LSS,rev,SO,ND,NSD> ; 1069441 ; closed ; verified ; 990677 ; 146073 ; 32493 ; 719
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <LSS,|,SO,ND,NSD> ; 1064720 ; closed ; verified ; 993670 ; 146664 ; 32493 ; 719
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <LSS,T,SO,ND,NSD> ; 1058391 ; closed ; verified ; 993670 ; 146664 ; 32493 ; 719
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: F : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: increasing order : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_06.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: decreasing order : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_06.prove ; 06 ; 455 ; <BSS,ins,SO,ND,NSD> ; 85515 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,rev,SO,ND,NSD> ; 8877 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <BSS,&,SO,ND,NSD> ; 112943 ; closed ; verified ; 147411 ; 114169 ; 50120 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,|,SO,ND,NSD> ; 8292 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <BSS,->,SO,ND,NSD> ; 82621 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,<=>,SO,ND,NSD> ; 82798 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,+,SO,ND,NSD> ; 82882 ; closed ; verified ; 110283 ; 86407 ; 39052 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,T,SO,ND,NSD> ; 8376 ; closed ; verified ; 21273 ; 13811 ; 9382 ; 15
+PHP_06.prove ; 06 ; 455 ; <BSS,F,SO,ND,NSD> ; 112581 ; closed ; verified ; 147411 ; 114169 ; 50120 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,inc,SO,ND,NSD> ; 113816 ; closed ; verified ; 147411 ; 114169 ; 50120 ; 25
+PHP_06.prove ; 06 ; 455 ; <BSS,dec,SO,ND,NSD> ; 14521 ; closed ; verified ; 37370 ; 23698 ; 17443 ; 23
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,rev,SO,ND,NSD> ; 97715 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,|,SO,ND,NSD> ; 96047 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,T,SO,ND,NSD> ; 93074 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: F : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with MemorySaverStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: increasing order : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <MSS,dec,SO,ND,NSD> ; 778108 ; closed ; verified ; 817432 ; 583830 ; 357511 ; 41
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : Java heap space
+PHP_07.prove ; 07 ; 692 ; <SS,rev,SO,ND,NSD> ; 118510 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : Java heap space
+PHP_07.prove ; 07 ; 692 ; <SS,|,SO,ND,NSD> ; 114529 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : Java heap space
+PHP_07.prove ; 07 ; 692 ; <SS,T,SO,ND,NSD> ; 114492 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: F : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: decreasing order : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : Java heap space
+PHP_07.prove ; 07 ; 692 ; <NLSS,rev,SO,ND,NSD> ; 120185 ; closed ; verified ; 181704 ; 110489 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : Java heap space
+PHP_07.prove ; 07 ; 692 ; <NLSS,|,SO,ND,NSD> ; 115481 ; closed ; verified ; 181704 ; 110489 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : Java heap space
+PHP_07.prove ; 07 ; 692 ; <NLSS,T,SO,ND,NSD> ; 115138 ; closed ; verified ; 181704 ; 110489 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: F : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: decreasing order : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,InsertionOrderComparator : 60 minute(s) 1 second(s)  time limit exceeded
+PHP_07.prove ; 07 ; 692 ; <CSS,rev,SO,ND,NSD> ; 831552 ; closed ; verified ; 605004 ; 175098 ; 114755 ; 26
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,SignSignedFormulaComparator: T : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,SignSignedFormulaComparator: F : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator: increasing order : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator: decreasing order : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ReverseInsertionOrderComparator : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: T : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: F : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: increasing order : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with LearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: decreasing order : 60 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : Java heap space
+PHP_07.prove ; 07 ; 692 ; <BSS,rev,SO,ND,NSD> ; 124561 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : Java heap space
+PHP_07.prove ; 07 ; 692 ; <BSS,|,SO,ND,NSD> ; 120048 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: <=> : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ConnectiveSignedFormulaComparator: + : Java heap space
+PHP_07.prove ; 07 ; 692 ; <BSS,T,SO,ND,NSD> ; 120949 ; closed ; verified ; 153988 ; 102930 ; 65063 ; 21
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,SignSignedFormulaComparator: F : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_07.prove with BackjumpingSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator: decreasing order : Java heap space
+Finished!

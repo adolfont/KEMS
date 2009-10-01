@@ -1,0 +1,1 @@
+ ./genScr.sh mbc 1 2

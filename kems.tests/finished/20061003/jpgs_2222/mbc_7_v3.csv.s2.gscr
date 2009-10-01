@@ -1,0 +1,26 @@
+set title 'Data from mbc_7_v3.csv'
+set term jpeg
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel 'proof size'
+
+
+set out "/dev/null"
+
+
+
+plot "mbc_7_v3.csv" every 18::4 using 2:8 w lp title '<MBCSS,&,SO,ND,NSD>'
+replot "mbc_7_v3.csv" every 18::7 using 2:8 w lp title '<MBCSS,T,SO,ND,NSD>'
+replot "mbc_7_v3.csv" every 18::8 using 2:8 w lp title '<MBCSS,F,SO,ND,NSD>'
+replot "mbc_7_v3.csv" every 18::12 using 2:8 w lp title '<MBCSWORS,rev,SO,ND,NSD>'
+replot "mbc_7_v3.csv" every 18::18 using 2:8 w lp title '<MBCSWORS,inc,SO,ND,NSD>'
+replot "mbc_7_v3.csv" every 18::19 using 2:8 w lp title '<MBCSWORS,dec,SO,ND,NSD>'
+set output "mbc_7_v3.csv.jpg"
+replot

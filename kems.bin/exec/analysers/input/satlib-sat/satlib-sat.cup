@@ -1,0 +1,199 @@
+package parsers;
+import formulas.*;
+import connectives.*;
+import java.util.*;
+import java_cup.runtime.*;
+   
+parser code {:
+    
+    public void report_error(String message, Object info){
+
+        StringBuffer m = new StringBuffer("Error");
+
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+
+            if (s.left >= 0) {
+                m.append(" in line "+(s.left+1));
+                if (s.right >= 0)
+                    m.append(", column "+(s.right+1));
+            }
+        }
+
+        m.append(" : "+message);
+
+//      System.err.println(m);
+	throw new Error (m.toString());
+    }
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+        //System.exit(1);
+    }
+
+:};
+
+action code {:
+
+	String operator;
+	
+	FormulaFactory ff = new FormulaFactory();
+
+	public Formula createNary (FormulaFactory ff, String operator, List l){
+    
+   		NaryConnective connective;
+   						
+   		if (operator == "And"){
+   			connective = ClassicalConnectives.ANDN;
+   		}
+   		else if (operator == "Or"){
+   			connective = ClassicalConnectives.ORN;
+   		}
+   		else {
+				return null;
+   		}
+
+   		return ff.createNaryFormula (connective, l);
+    }
+
+	public Formula createBinary (FormulaFactory ff, String operator, List l){
+    
+   		BinaryConnective connective;
+   						
+   		if (operator == "And"){
+   			connective = ClassicalConnectives.AND;
+   		}
+   		else if (operator == "Or"){
+   			connective = ClassicalConnectives.OR;
+   		}
+   		else {
+   			connective = ClassicalConnectives.IMPLIES;
+   		}
+
+		return ff.createBinaryFormula (connective, 
+   								(Formula) (l.get(0)), (Formula) (l.get(1)) );
+    }
+    
+:};
+
+   
+   
+/* ------------Declaration of Terminals and Non Terminals Section----------- */
+   
+terminal           NEG, AND, OR, IMPLIES, LPAREN, RPAREN;
+terminal String    STRING;
+   
+non terminal ParserResult 	file;
+non terminal Formula   		theFormula, formula, term;
+non terminal List      		listOfFormulas;					   
+non terminal String    		oper;
+   
+
+/* -------------Precedence and Associatively of Terminals Section----------- */
+   
+   file ::= theFormula:f
+   		{: 
+   			ParserResult ps = new ParserResult();
+   			
+   			ps.setFormula (f);
+   			ps.setFormulaFactory(ff);
+   		
+   			RESULT = ps;  
+   		:};
+
+   theFormula ::= formula:f
+                 {: 
+                 	RESULT = f;
+                 :}
+                 ;
+   
+   formula      ::=
+           oper:o LPAREN listOfFormulas:l RPAREN
+                 {: 
+            		operator = o; 
+
+	   				if (l.size() >2)
+	   					{
+	    						RESULT = createNary (ff, operator, l);
+	   					}
+	   				else if (l.size()==2)
+	   					{
+	   						RESULT = createBinary (ff, operator, l);
+	   					}
+	   				else {
+	   						RESULT = (Formula) (l.get(0));
+	   					 }	
+	             :}
+           |
+           oper:o LPAREN RPAREN
+                 {: 
+                 	if (o == "And"){
+                 		RESULT = ff.createZeroaryFormula ( 
+                 					ClassicalConnectives.TRUE);
+                 	}
+                 	else {
+                 		RESULT = ff.createZeroaryFormula (
+                 					ClassicalConnectives.FALSE);
+                 	}
+                 :}
+	     |
+           NEG LPAREN formula:f RPAREN 
+                 {: 
+                 	RESULT = ff.createUnaryFormula(ClassicalConnectives.NOT, f );
+                 :}
+           |
+           term:t
+                 {: 
+                 	RESULT = t; 
+                 :}
+           ;
+
+
+   listOfFormulas ::= formula:f listOfFormulas:l 
+                 {: 	
+                 		List auxFormulas = new ArrayList();
+                 		auxFormulas.add(f);
+                 		auxFormulas.addAll(l);
+                 		RESULT = auxFormulas; 
+                 :}
+			|
+			formula:f 
+                 	{: 
+                 		List auxFormulas = new ArrayList();
+                 		auxFormulas.add(f);
+                 		RESULT = auxFormulas; 
+                 	:}
+			 ;
+
+   term      ::= LPAREN formula:f RPAREN
+                 {: 
+                 	RESULT = f; 
+                 :}
+                  |
+                 STRING:n
+                 {: 
+                 	RESULT = ff.createAtomicFormula(n);
+                 :}
+				|
+				NEG STRING:n
+                 {: 
+                 	RESULT = ff.createUnaryFormula(ClassicalConnectives.NOT,
+                 						  ff.createAtomicFormula(n) );
+                  :} ;
+
+   oper ::= AND 
+                 {: 
+                 	RESULT = "And";
+                  :}
+		| 
+		OR
+                 {: 
+                 	RESULT = "Or"; 
+                 :}
+		| 
+		IMPLIES
+                 {: 
+                 	RESULT = "Implies"; 
+                 :}
+		; 
+

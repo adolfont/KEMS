@@ -1,0 +1,1 @@
+sed 's/MBC/MCI/' < mbc_4.seq > mci_4.seq

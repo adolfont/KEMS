@@ -1,0 +1,35 @@
+Processing file /home/kurumin/workspace//kems.tests/sequences/cpl/php/php_5_to_7.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height
+PHP_05.prove ; 05 ; 279 ; <CSS,ins,SO,ND,NSD> ; 55185 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,rev,SO,ND,NSD> ; 10927 ; closed ; verified ; 7705 ; 3091 ; 2260 ; 13
+PHP_05.prove ; 05 ; 279 ; <CSS,&,SO,ND,NSD> ; 322166 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21
+PHP_05.prove ; 05 ; 279 ; <CSS,|,SO,ND,NSD> ; 8055 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14
+PHP_05.prove ; 05 ; 279 ; <CSS,->,SO,ND,NSD> ; 57761 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,<=>,SO,ND,NSD> ; 57915 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,+,SO,ND,NSD> ; 59066 ; closed ; verified ; 27602 ; 11989 ; 6595 ; 16
+PHP_05.prove ; 05 ; 279 ; <CSS,T,SO,ND,NSD> ; 7969 ; closed ; verified ; 7644 ; 3538 ; 2499 ; 14
+PHP_05.prove ; 05 ; 279 ; <CSS,F,SO,ND,NSD> ; 309123 ; closed ; verified ; 199985 ; 58112 ; 23810 ; 21
+PHP_05.prove ; 05 ; 279 ; <CSS,inc,SO,ND,NSD> ; 220276 ; closed ; verified ; 117651 ; 42406 ; 23810 ; 21
+PHP_05.prove ; 05 ; 279 ; <CSS,dec,SO,ND,NSD> ; 16029 ; closed ; verified ; 9066 ; 6178 ; 4378 ; 19
+PHP_05.prove ; 05 ; 279 ; <SS,ins,SO,ND,NSD> ; 10771 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,rev,SO,ND,NSD> ; 2070 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <SS,&,SO,ND,NSD> ; 12940 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,|,SO,ND,NSD> ; 1849 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <SS,->,SO,ND,NSD> ; 9240 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,<=>,SO,ND,NSD> ; 10433 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,+,SO,ND,NSD> ; 10241 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,T,SO,ND,NSD> ; 1898 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <SS,F,SO,ND,NSD> ; 12880 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,inc,SO,ND,NSD> ; 13128 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <SS,dec,SO,ND,NSD> ; 6241 ; closed ; verified ; 9402 ; 6514 ; 4358 ; 19
+PHP_05.prove ; 05 ; 279 ; <MSS,ins,SO,ND,NSD> ; 12730 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,rev,SO,ND,NSD> ; 2477 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,&,SO,ND,NSD> ; 16851 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,|,SO,ND,NSD> ; 2234 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,->,SO,ND,NSD> ; 11456 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,<=>,SO,ND,NSD> ; 12053 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,+,SO,ND,NSD> ; 11463 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,T,SO,ND,NSD> ; 2225 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,F,SO,ND,NSD> ; 16925 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,inc,SO,ND,NSD> ; 17094 ; closed ; verified ; 13220 ; 9713 ; 4958 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,dec,SO,ND,NSD> ; 8000 ; closed ; verified ; 9402 ; 6514 ; 4358 ; 19

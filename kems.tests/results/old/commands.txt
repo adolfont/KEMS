@@ -1,0 +1,3 @@
+gnuplot <script> > <filename>.jpg or .eps or .ps
+pdflatex teste.tex
+createDatafiles.sh <arquivodedados>.csv

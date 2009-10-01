@@ -1,0 +1,245 @@
+package satcnf;
+import formulasNew.*;
+import signedFormulasNew.*;
+import classicalLogic.*;
+import java.util.*;
+import java_cup.runtime.*;
+
+parser code {:
+
+    public void report_error(String message, Object info){
+
+        StringBuffer m = new StringBuffer("Error");
+
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+
+            if (s.left >= 0) {
+                m.append(" in line "+(s.left+1));
+                if (s.right >= 0)
+                    m.append(", column "+(s.right+1));
+            }
+        }
+
+        m.append(" : "+message);
+
+//      System.err.println(m);
+	throw new Error (m.toString());
+    }
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+        //System.exit(1);
+    }
+:};
+
+action code {:
+
+	String operator;
+
+	FormulaFactory ff = new FormulaFactory();
+	SignedFormulaFactory sff = new SignedFormulaFactory();
+	SignedFormulaList sfl = new SignedFormulaList();
+
+	public Formula createNary (FormulaFactory ff, String operator, List l){
+
+   		Connective connective;
+
+   		if (operator == "And"){
+   			connective = ClassicalConnectives.ANDN;
+   		}
+   		else if (operator == "Or"){
+   			connective = ClassicalConnectives.ORN;
+   		}
+   		else {
+				return null;
+   		}
+
+   		return ff.createCompositeFormula (connective, l);
+    }
+
+	public Formula createBinary (FormulaFactory ff, String operator, List l){
+
+   		Connective connective;
+
+   		if (operator == "And"){
+   			connective = ClassicalConnectives.AND;
+   		}
+   		else if (operator == "Or"){
+   			connective = ClassicalConnectives.OR;
+   		}
+   		else {
+   			connective = ClassicalConnectives.IMPLIES;
+   		}
+
+		return ff.createCompositeFormula (connective,
+   								(Formula) (l.get(0)), (Formula) (l.get(1)) );
+    }
+
+:};
+
+
+
+/* ------------Declaration of Terminals and Non Terminals Section----------- */
+
+
+terminal           NEG, ENDOFCLAUSE, FINAL;
+terminal String    VARIABLES, CLAUSES, NUMBER;
+
+non terminal satcnfResult 	file;
+non terminal Formula   		formula, clause, theFormula;
+non terminal SignedFormula      signedFormula;
+non terminal List      		listOfClauses, theClause;
+non terminal Object      	problemVariables, problemClauses, fim;
+non terminal void  		endOfFormula;
+
+/* -------------Precedence and Associatively of Terminals Section----------- */
+
+
+   file ::= problemVariables:pv problemClauses:pc signedFormula:sf fim
+   		{:
+   			satcnfResult sr = new satcnfResult();
+
+			sfl.add(sf);
+
+   			sr.setSignedFormulaList (sfl);
+   			sr.setSignedFormulaFactory(sff);
+   			sr.setFormulaFactory(ff);
+//   			sr.setNumberOfVariables ( (int) (Integer.parseInt (pv.toString())) );
+//   			sr.setNumberOfClauses ( (int) (Integer.parseInt (pc.toString())) );
+
+   			RESULT = sr;
+//   			System.out.println (ff.toString());
+   		:};
+
+   fim ::= FINAL NUMBER:numero
+   	{:
+		RESULT = numero;
+	:}
+	|
+	{:
+		RESULT = null;
+	:}
+	;
+
+   problemVariables ::= VARIABLES:number
+			{:
+				RESULT = number;
+			:} ;
+
+   problemClauses ::= CLAUSES:number
+			{:
+				RESULT = number;
+			:} ;
+
+   signedFormula ::= theFormula:f
+   	{:
+                 	RESULT = sff.createSignedFormula (ClassicalSigns.FALSE, f);
+	:}
+	;
+
+   theFormula ::= listOfClauses:l
+                 {:
+	   				if (l.size() >2)
+	   					{
+	    						RESULT = createNary (ff,
+							"And", l);
+	   					}
+	   				else if (l.size()==2)
+	   					{
+	   						RESULT = createBinary (ff,
+							"And", l);
+	   					}
+	   				else if (l.size()==1){
+	   						RESULT = (Formula) (l.get(0));
+	   					 }
+					else 	{
+	   						RESULT = ff.createCompositeFormula (
+                 					ClassicalConnectives.TOP );
+						}
+	             :}
+		    ;
+
+   listOfClauses ::=
+   		clause:c ENDOFCLAUSE listOfClauses:l
+                 {:
+		 	List auxClauses = new ArrayList();
+                 	auxClauses.add(c);
+                 	auxClauses.addAll(l);
+                 	RESULT = auxClauses;
+                 :}
+		 |
+   		clause:c
+                 {:
+                 	List auxClauses = new ArrayList();
+                 	auxClauses.add(c);
+                 	RESULT = auxClauses;
+                 :}
+		 |
+   		clause:c ENDOFCLAUSE
+                 {:
+                 	List auxClauses = new ArrayList();
+                 	auxClauses.add(c);
+                 	RESULT = auxClauses;
+                 :}
+		 |
+		 ENDOFCLAUSE listOfClauses:l
+		 {:
+                 	List auxClauses = new ArrayList();
+			auxClauses.add(ff.createCompositeFormula(ClassicalConnectives.BOTTOM));
+			auxClauses.addAll(l);
+                 	RESULT = auxClauses;
+		 :}
+		 ;
+
+
+
+  clause ::= theClause:l
+                 {:
+	   				if (l.size() >2)
+	   					{
+	    						RESULT = createNary (ff,
+							"Or", l);
+	   					}
+	   				else if (l.size()==2)
+	   					{
+	   						RESULT = createBinary (ff,
+							"Or", l);
+	   					}
+	   				else if (l.size()==1){
+	   						RESULT = (Formula) (l.get(0));
+	   					 }
+					else 	{
+	   						RESULT = ff.createCompositeFormula (
+                 					ClassicalConnectives.BOTTOM );
+						}
+	             :}
+		    ;
+
+  theClause ::= formula:f theClause:l
+                 {:
+                 	List auxFormulas = new ArrayList();
+                 	auxFormulas.add(f);
+                 	auxFormulas.addAll(l);
+                 	RESULT = auxFormulas;
+                 :}
+		 |
+   		formula:f
+                 {:
+                 	List auxFormulas = new ArrayList();
+                 	auxFormulas.add(f);
+                 	RESULT = auxFormulas;
+                 :}
+		 ;
+
+   formula      ::= NEG NUMBER:n
+                  {:
+                 	RESULT = ff.createCompositeFormula(ClassicalConnectives.NOT,
+                 					  ff.createAtomicFormula(n) );
+                  :}
+		  |
+		  NUMBER:n
+                  {:
+                 		RESULT = ff.createAtomicFormula(n);
+                  :}
+		 ;

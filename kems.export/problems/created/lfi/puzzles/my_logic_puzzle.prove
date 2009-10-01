@@ -1,0 +1,57 @@
+#all  are consistent
+#T @A_Is_Ph
+#T @A_Is_Ma
+#T @B_Is_Ph
+#T @B_Is_Ma
+#T @A_Li_CPQ
+#T @A_Li_Pa
+#T @B_Li_CPQ
+#T @B_Li_Pa
+#T @Ph_Li_CPQ
+#T @Ph_Li_Pa
+#T @Ma_Li_CPQ
+#T @Ma_Li_Pa
+#rules
+# about profession
+T A_Is_Ph | A_Is_Ma
+T B_Is_Ph | B_Is_Ma
+#
+T A_Is_Ph -> (!A_Is_Ma & !B_Is_Ph)
+T A_Is_Ma -> (!A_Is_Ph & !B_Is_Ma)
+#
+T B_Is_Ph -> (!B_Is_Ma & !A_Is_Ph)
+T B_Is_Ma -> (!B_Is_Ph & !A_Is_Ma)
+# about living - related to people
+T A_Li_CPQ | A_Li_Pa
+T B_Li_CPQ | B_Li_Pa
+#
+T A_Li_CPQ -> (!A_Li_Pa & !B_Li_CPQ)
+T A_Li_Pa -> (!A_Li_CPQ & !B_Li_Pa)
+#
+T B_Li_CPQ -> (!B_Li_Pa & !A_Li_CPQ)
+T B_Li_Pa -> (!B_Li_CPQ & !A_Li_Pa)
+# about living - related to professions
+T Ph_Li_CPQ | Ph_Li_Pa
+T Ma_Li_CPQ | Ma_Li_Pa
+#
+T Ph_Li_CPQ -> (!Ph_Li_Pa & !Ma_Li_CPQ)
+T Ph_Li_Pa -> (!Ph_Li_CPQ & !Ma_Li_Pa)
+#
+T Ma_Li_CPQ -> (!Ma_Li_Pa & !Ph_Li_CPQ)
+T Ma_Li_Pa -> (!Ma_Li_CPQ & !Ph_Li_Pa)
+## relating both
+T A_Is_Ma & Ma_Li_CPQ -> A_Li_CPQ
+T A_Is_Ma & Ma_LI_Pa -> A_Li_Pa
+T A_Is_Ph & Ph_Li_CPQ -> A_Li_CPQ
+T A_Is_Ph & Ph_LI_Pa -> A_Li_Pa
+#
+T B_Is_Ma & Ma_Li_CPQ -> B_Li_CPQ
+T B_Is_Ma & Ma_LI_Pa -> B_Li_Pa
+T B_Is_Ph & Ph_Li_CPQ -> AB_Li_CPQ
+T B_Is_Ph & Ph_LI_Pa -> B_Li_Pa
+## facts
+T Ph_Li_Pa
+T !A_Is_Ph
+#conclusions
+#F A_Is_Ma 
+#A_Li_CPQ | Ma_Li_CPQ | B_Is_Ph | B_Li_Pa | Ph_Li_Pa

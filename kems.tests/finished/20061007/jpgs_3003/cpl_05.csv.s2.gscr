@@ -1,0 +1,26 @@
+set title 'Data from cpl_05.csv'
+set term jpeg
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel 'proof size'
+
+
+set out "/dev/null"
+
+
+
+plot "cpl_05.csv" every 78::4 using 2:8 w lp title '<MSS,&,SO,ND,NSD>'
+replot "cpl_05.csv" every 78::10 using 2:8 w lp title '<MSS,F,SO,ND,NSD>'
+replot "cpl_05.csv" every 78::13 using 2:8 w lp title '<MSS,nfo,SO,ND,NSD>'
+replot "cpl_05.csv" every 78::55 using 2:8 w lp title '<LSS,rev,SO,ND,NSD>'
+replot "cpl_05.csv" every 78::63 using 2:8 w lp title '<LSS,inc,SO,ND,NSD>'
+replot "cpl_05.csv" every 78::66 using 2:8 w lp title '<LSS,rfo,SO,ND,NSD>'
+set output "cpl_05.csv.jpg"
+replot

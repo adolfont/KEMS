@@ -1,0 +1,25 @@
+set title 'Data from mbc_3.csv'
+set term jpeg
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel 'time spent (ms)'
+
+
+set out "/dev/null"
+
+
+
+plot "mbc_3.csv" every 22::2 using 2:5 w lp title '<MBCSS,ins,SO,ND,NSD>'
+replot "mbc_3.csv" every 22::3 using 2:5 w lp title '<MBCSS,rev,SO,ND,NSD>'
+replot "mbc_3.csv" every 22::13 using 2:5 w lp title '<MBCSWORS,ins,SO,ND,NSD>'
+replot "mbc_3.csv" every 22::14 using 2:5 w lp title '<MBCSWORS,rev,SO,ND,NSD>'
+replot "mbc_3.csv" every 22::18 using 2:5 w lp title '<MBCSWORS,T,SO,ND,NSD>'
+set output "mbc_3.csv.jpg"
+replot

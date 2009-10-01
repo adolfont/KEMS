@@ -1,0 +1,35 @@
+Processing file /home/kurumin/workspace//kems.tests/sequences/cpl/php/php_1_to_5.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height
+PHP_01.prove ; 01 ; 5 ; <SS,ins,SO,ND,NSD> ; 1143 ; closed ; verified ; 9 ; 6 ; 4 ; 0
+PHP_01.prove ; 01 ; 5 ; <SS,rev,SO,ND,NSD> ; 367 ; closed ; verified ; 9 ; 6 ; 4 ; 0
+PHP_01.prove ; 01 ; 5 ; <MSS,ins,SO,ND,NSD> ; 437 ; closed ; verified ; 9 ; 6 ; 4 ; 0
+PHP_01.prove ; 01 ; 5 ; <MSS,rev,SO,ND,NSD> ; 396 ; closed ; verified ; 9 ; 6 ; 4 ; 0
+PHP_01.prove ; 01 ; 5 ; <NLSS,ins,SO,ND,NSD> ; 396 ; closed ; verified ; 9 ; 6 ; 4 ; 0
+PHP_01.prove ; 01 ; 5 ; <NLSS,rev,SO,ND,NSD> ; 355 ; closed ; verified ; 9 ; 6 ; 4 ; 0
+PHP_02.prove ; 02 ; 27 ; <SS,ins,SO,ND,NSD> ; 452 ; closed ; verified ; 45 ; 25 ; 22 ; 1
+PHP_02.prove ; 02 ; 27 ; <SS,rev,SO,ND,NSD> ; 433 ; closed ; verified ; 45 ; 25 ; 22 ; 1
+PHP_02.prove ; 02 ; 27 ; <MSS,ins,SO,ND,NSD> ; 423 ; closed ; verified ; 45 ; 25 ; 22 ; 1
+PHP_02.prove ; 02 ; 27 ; <MSS,rev,SO,ND,NSD> ; 442 ; closed ; verified ; 45 ; 25 ; 22 ; 1
+PHP_02.prove ; 02 ; 27 ; <NLSS,ins,SO,ND,NSD> ; 436 ; closed ; verified ; 52 ; 27 ; 22 ; 1
+PHP_02.prove ; 02 ; 27 ; <NLSS,rev,SO,ND,NSD> ; 439 ; closed ; verified ; 52 ; 27 ; 22 ; 1
+PHP_03.prove ; 03 ; 74 ; <SS,ins,SO,ND,NSD> ; 534 ; closed ; verified ; 188 ; 107 ; 91 ; 4
+PHP_03.prove ; 03 ; 74 ; <SS,rev,SO,ND,NSD> ; 547 ; closed ; verified ; 178 ; 98 ; 85 ; 3
+PHP_03.prove ; 03 ; 74 ; <MSS,ins,SO,ND,NSD> ; 511 ; closed ; verified ; 188 ; 107 ; 91 ; 4
+PHP_03.prove ; 03 ; 74 ; <MSS,rev,SO,ND,NSD> ; 461 ; closed ; verified ; 178 ; 98 ; 85 ; 3
+PHP_03.prove ; 03 ; 74 ; <NLSS,ins,SO,ND,NSD> ; 583 ; closed ; verified ; 226 ; 118 ; 91 ; 4
+PHP_03.prove ; 03 ; 74 ; <NLSS,rev,SO,ND,NSD> ; 472 ; closed ; verified ; 207 ; 106 ; 85 ; 3
+PHP_04.prove ; 04 ; 155 ; <SS,ins,SO,ND,NSD> ; 1710 ; closed ; verified ; 1060 ; 701 ; 476 ; 9
+PHP_04.prove ; 04 ; 155 ; <SS,rev,SO,ND,NSD> ; 1161 ; closed ; verified ; 720 ; 420 ; 338 ; 6
+PHP_04.prove ; 04 ; 155 ; <MSS,ins,SO,ND,NSD> ; 1997 ; closed ; verified ; 1060 ; 701 ; 476 ; 9
+PHP_04.prove ; 04 ; 155 ; <MSS,rev,SO,ND,NSD> ; 833 ; closed ; verified ; 720 ; 420 ; 338 ; 6
+PHP_04.prove ; 04 ; 155 ; <NLSS,ins,SO,ND,NSD> ; 1555 ; closed ; verified ; 1348 ; 788 ; 479 ; 9
+PHP_04.prove ; 04 ; 155 ; <NLSS,rev,SO,ND,NSD> ; 1004 ; closed ; verified ; 848 ; 455 ; 338 ; 6
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_05.prove with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : Java heap space
+PHP_05.prove ; 05 ; 279 ; <SS,rev,SO,ND,NSD> ; 5204 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+PHP_05.prove ; 05 ; 279 ; <MSS,ins,SO,ND,NSD> ; 19359 ; closed ; verified ; 9456 ; 6993 ; 3767 ; 16
+PHP_05.prove ; 05 ; 279 ; <MSS,rev,SO,ND,NSD> ; 4535 ; closed ; verified ; 3512 ; 2182 ; 1608 ; 10
+ERROR [Thread-29] MemoryUsageTracker/265: Finishing due to lack of available memory
+ERROR [Thread-29] MemoryUsageTracker/265: Finishing due to lack of available memory
+Error while trying to prove problems/generated/cpl/php_several_formulas/PHP_05.prove with NewLearningSimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator : null
+PHP_05.prove ; 05 ; 279 ; <NLSS,rev,SO,ND,NSD> ; 6867 ; closed ; verified ; 4168 ; 2361 ; 1608 ; 10
+Finished!

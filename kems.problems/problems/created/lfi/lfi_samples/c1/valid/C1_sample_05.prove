@@ -1,0 +1,11 @@
+# paper, example 1
+# DOC_1
+T K->!L
+T L->!K
+T K->M
+T N->K
+T O->L
+# facts
+T N
+#
+F K&!L

@@ -1,0 +1,16 @@
+set term <terminal>
+
+set grid
+set palette color
+set datafile separator ";"
+set datafile missing "n/a"
+
+set key top left
+
+set xlabel 'problem instance number'
+set ylabel '<rotulovertical>'
+
+
+set out "/dev/null"
+
+

@@ -1,0 +1,12 @@
+Jun 07, 2006
+
+Instructions for setting kems.export:
+
+Create "lib" directory
+
+Create lib/ext link to kems.ext.lib/lib
+
+Create lib/generated link to kems.generated.lib/lib
+
+Create problems link to kems.problems/problems
+

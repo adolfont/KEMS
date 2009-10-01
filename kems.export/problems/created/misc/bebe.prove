@@ -1,0 +1,5 @@
+T (!chegouBaba)->(paiCuida|maeCuida)
+T (chegouBaba|paiCuida)->BebeVaiComerPapinha
+T maeCuida->BebeMama
+T !chegouBaba
+F BebeVaiComerPapinha|BebeMama

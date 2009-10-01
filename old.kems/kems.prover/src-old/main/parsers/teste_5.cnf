@@ -1,0 +1,11 @@
+c Formulas: [0 -(1)]
+c FormulaFactory: Formula Factory:{1=1}{-(1)=-(1)}
+c SignedFormulaFactory: [0 -(1)]
+c 
+c Funciona com o sem o 0 no final
+p cnf 1 1
+-1 0
+
+%
+
+1

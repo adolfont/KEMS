@@ -1,0 +1,26 @@
+# tamanho do problema x time spent
+set terminal jpeg
+set grid
+set palette color
+
+#set xrange [1:7]
+#set xtics 1
+set ylabel 'time spent (ms)'
+set xlabel 'problem instance size'
+
+set datafile separator ";"
+
+#set label "PHP" at 2,7500
+
+plot  "SS_INS.out" using 3:5 with linespoints  title '<SS,ins>'    ,\
+      "SS_REV.out" using 3:5 with linespoints  title '<SS,rev>'    ,\
+      "SS_AND.out" using 3:5 with linespoints  title '<SS,and>'    ,\
+      "SS_OR.out" using 3:5 with linespoints  title '<SS,or>'    ,\
+      "SS_IMP.out" using 3:5 with linespoints  title '<SS,imp>'    ,\
+      "SS_BIIMP.out" using 3:5 with linespoints  title '<SS,biimp>'    ,\
+      "SS_XOR.out" using 3:5 with linespoints  title '<SS,xor>'    ,\
+      "SS_T.out" using 3:5 with linespoints  title '<SS,T>'    ,\
+      "SS_F.out" using 3:5 with linespoints  title '<SS,F>'    ,\
+      "SS_INC.out" using 3:5 with linespoints  title '<SS,inc>'    ,\
+      "SS_DEC.out" using 3:5 with linespoints  title '<SS,dec>'    
+

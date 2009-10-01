@@ -1,0 +1,19 @@
+# A test for mbC rules
+# CONSISTENCY
+# this one will produce F C1
+T !C1
+T @C1
+# this one nothing
+T !C2
+F @C2
+# this one will produce F!C3 with optional rules
+T C3
+T @C3
+# this one nothing
+T C4
+F @C4
+# NEGATION
+# this one will produce F@N1 with optional rules
+T N1
+T !N1
+# End

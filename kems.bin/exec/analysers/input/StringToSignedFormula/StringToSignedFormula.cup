@@ -1,0 +1,127 @@
+/*
+Adolfo Gustavo Serra Seca Neto, November 2003
+
+
+Converts strings to signed formulas
+
+java java_cup.Main -parser StringToSignedFormulaParser
+	-symbols StringToSignedFormulasym StringToSignedFormula.cup
+
+generates StringToSignedFormulaParser.java and StringToSignedFormulasym.java
+
+*/
+package StringToSignedFormula;
+import java.util.*;
+import java_cup.runtime.*;
+import java.text.ParseException;
+
+parser code {:
+
+    public void report_error(String message, Object info){
+
+        StringBuffer m = new StringBuffer("Error");
+
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol) info);
+
+            if (s.left >= 0) {
+                m.append(" in line "+(s.left+1));
+                if (s.right >= 0)
+                    m.append(", column "+(s.right+1));
+            }
+        }
+
+        m.append(" : "+message);
+
+//      System.err.println(m);
+	throw new Error (m.toString());
+    }
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+        //System.exit(1);
+    }
+:};
+
+
+/* ------------Declaration of Terminals and Non Terminals Section----------- */
+
+terminal           SIGN, EOL, NEG, AND, OR, IMPLIES, BIIMPLIES, LPAREN, RPAREN;
+terminal String   ID;
+
+non terminal   end;
+non terminal String    formula_list, formula_part;
+non terminal String    expr, term, andExpr, orExpr;
+
+
+/* -------------Precedence and Associatively of Terminals Section----------- */
+
+precedence right IMPLIES, BIIMPLIES;
+precedence left  OR;
+precedence left  AND;
+precedence left  NEG;
+
+   formula_list ::= formula_list:l formula_part:f
+   				{: RESULT = l + "\n" + f; :}
+                 |
+                 formula_part:f
+                 {: RESULT = f; :}
+                 ;
+
+
+   formula_part ::= SIGN:s expr:e end
+                 {: RESULT = s + " " + e;:}
+                 ;
+
+   end ::= EOL | ;
+
+
+   expr      ::=
+           term:t1 AND term:t2
+                 {: RESULT = "*(" + t1 +  " " +  t2 + ")";:}
+           |
+           term:t1 AND term:t2 AND andExpr:ae
+                 {: RESULT = "*(" + t1 +  " " +  t2 + " " + ae;  :}
+           |
+           term:t1 OR term:t2
+                 {: RESULT = "+(" + t1 +  " " +  t2 + ")";:}
+           |
+           term:t1 OR term:t2 OR orExpr:oe
+                 {: RESULT = "+(" + t1 +  " " +  t2 + " " + oe;  :}
+           |
+           expr:e1 IMPLIES expr:e2
+                 {: RESULT = "->(" + e1 +  " " +  e2 + ")";:}
+           |
+           expr:e1 BIIMPLIES term:e2
+                 {: RESULT = "<=>(" + e1 +  " " +  e2 + ")";:}
+           |
+           NEG expr:e
+                 {: RESULT = "-(" + e + ")";:}
+           |
+           term:t
+                 {: RESULT = t; :}
+
+           ;
+           
+  andExpr ::=
+  		  term: t
+                 {: RESULT = t + ")"; :}
+  		  |     
+  		  term:t AND andExpr:ae    
+                 {: RESULT = t + " " + ae; :}
+          ;       
+
+  orExpr ::= 
+  		  term: t
+                 {: RESULT = t + ")"; :}
+  		  |     
+  		  term:t OR orExpr:oe    
+                 {: RESULT = t + " " + oe; :}
+          ;       
+
+   term      ::= LPAREN expr:e RPAREN
+                 {: RESULT = e; :}
+                 |
+                 ID:i
+                 {: RESULT = i; :}
+                 ;

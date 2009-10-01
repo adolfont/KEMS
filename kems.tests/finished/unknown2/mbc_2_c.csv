@@ -1,0 +1,307 @@
+Processing file /home/adolfo/kems.tests/sequences/lfi/mbc_2.seq
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,ins,SO,ND,NSD> ; 102 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,rev,SO,ND,NSD> ; 93 ; closed ; verified ; 35 ; 12 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,&,SO,ND,NSD> ; 96 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,|,SO,ND,NSD> ; 92 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,->,SO,ND,NSD> ; 92 ; closed ; verified ; 35 ; 12 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,T,SO,ND,NSD> ; 93 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,F,SO,ND,NSD> ; 91 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,inc,SO,ND,NSD> ; 93 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSS,dec,SO,ND,NSD> ; 93 ; closed ; verified ; 35 ; 12 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,ins,SO,ND,NSD> ; 101 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,rev,SO,ND,NSD> ; 93 ; closed ; verified ; 35 ; 12 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,&,SO,ND,NSD> ; 92 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,|,SO,ND,NSD> ; 94 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,->,SO,ND,NSD> ; 94 ; closed ; verified ; 35 ; 12 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,T,SO,ND,NSD> ; 94 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,F,SO,ND,NSD> ; 98 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,inc,SO,ND,NSD> ; 94 ; closed ; verified ; 36 ; 13 ; 10 ; 1
+SecondLFIFamily_01.prove ; 01 ; 17 ; <MBCSWORS,dec,SO,ND,NSD> ; 96 ; closed ; verified ; 35 ; 12 ; 10 ; 1
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,ins,SO,ND,NSD> ; 102 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,rev,SO,ND,NSD> ; 102 ; closed ; verified ; 103 ; 24 ; 21 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,&,SO,ND,NSD> ; 101 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,|,SO,ND,NSD> ; 104 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,->,SO,ND,NSD> ; 118 ; closed ; verified ; 114 ; 29 ; 25 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,T,SO,ND,NSD> ; 103 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,F,SO,ND,NSD> ; 103 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,inc,SO,ND,NSD> ; 105 ; closed ; verified ; 116 ; 31 ; 26 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSS,dec,SO,ND,NSD> ; 100 ; closed ; verified ; 113 ; 29 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,ins,SO,ND,NSD> ; 103 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,rev,SO,ND,NSD> ; 101 ; closed ; verified ; 103 ; 24 ; 21 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,&,SO,ND,NSD> ; 102 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,|,SO,ND,NSD> ; 104 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,->,SO,ND,NSD> ; 104 ; closed ; verified ; 114 ; 29 ; 25 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,T,SO,ND,NSD> ; 104 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,F,SO,ND,NSD> ; 107 ; closed ; verified ; 115 ; 31 ; 23 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,inc,SO,ND,NSD> ; 104 ; closed ; verified ; 116 ; 31 ; 26 ; 3
+SecondLFIFamily_02.prove ; 02 ; 34 ; <MBCSWORS,dec,SO,ND,NSD> ; 104 ; closed ; verified ; 113 ; 29 ; 23 ; 3
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,ins,SO,ND,NSD> ; 113 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,rev,SO,ND,NSD> ; 108 ; closed ; verified ; 211 ; 39 ; 33 ; 4
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,&,SO,ND,NSD> ; 113 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,|,SO,ND,NSD> ; 113 ; closed ; verified ; 264 ; 63 ; 46 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,->,SO,ND,NSD> ; 115 ; closed ; verified ; 288 ; 63 ; 52 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,T,SO,ND,NSD> ; 113 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,F,SO,ND,NSD> ; 112 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,inc,SO,ND,NSD> ; 114 ; closed ; verified ; 264 ; 62 ; 52 ; 4
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSS,dec,SO,ND,NSD> ; 115 ; closed ; verified ; 277 ; 63 ; 48 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,ins,SO,ND,NSD> ; 113 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,rev,SO,ND,NSD> ; 110 ; closed ; verified ; 211 ; 39 ; 33 ; 4
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,&,SO,ND,NSD> ; 113 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,|,SO,ND,NSD> ; 111 ; closed ; verified ; 264 ; 63 ; 46 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,->,SO,ND,NSD> ; 118 ; closed ; verified ; 288 ; 63 ; 52 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,T,SO,ND,NSD> ; 117 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,F,SO,ND,NSD> ; 113 ; closed ; verified ; 265 ; 63 ; 49 ; 5
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,inc,SO,ND,NSD> ; 114 ; closed ; verified ; 264 ; 62 ; 52 ; 4
+SecondLFIFamily_03.prove ; 03 ; 54 ; <MBCSWORS,dec,SO,ND,NSD> ; 116 ; closed ; verified ; 277 ; 63 ; 48 ; 5
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,ins,SO,ND,NSD> ; 138 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,rev,SO,ND,NSD> ; 123 ; closed ; verified ; 441 ; 70 ; 53 ; 6
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,&,SO,ND,NSD> ; 136 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,|,SO,ND,NSD> ; 133 ; closed ; verified ; 543 ; 125 ; 89 ; 8
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,->,SO,ND,NSD> ; 140 ; closed ; verified ; 683 ; 135 ; 107 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,T,SO,ND,NSD> ; 137 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,F,SO,ND,NSD> ; 137 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,inc,SO,ND,NSD> ; 136 ; closed ; verified ; 534 ; 120 ; 100 ; 5
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSS,dec,SO,ND,NSD> ; 141 ; closed ; verified ; 637 ; 141 ; 103 ; 8
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,ins,SO,ND,NSD> ; 140 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,rev,SO,ND,NSD> ; 124 ; closed ; verified ; 441 ; 70 ; 53 ; 6
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,&,SO,ND,NSD> ; 138 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,|,SO,ND,NSD> ; 144 ; closed ; verified ; 543 ; 125 ; 89 ; 8
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,->,SO,ND,NSD> ; 141 ; closed ; verified ; 683 ; 135 ; 107 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,T,SO,ND,NSD> ; 138 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,F,SO,ND,NSD> ; 140 ; closed ; verified ; 570 ; 128 ; 100 ; 7
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,inc,SO,ND,NSD> ; 138 ; closed ; verified ; 534 ; 120 ; 100 ; 5
+SecondLFIFamily_04.prove ; 04 ; 77 ; <MBCSWORS,dec,SO,ND,NSD> ; 144 ; closed ; verified ; 637 ; 141 ; 103 ; 8
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,ins,SO,ND,NSD> ; 197 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,rev,SO,ND,NSD> ; 155 ; closed ; verified ; 910 ; 130 ; 89 ; 7
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,&,SO,ND,NSD> ; 196 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,|,SO,ND,NSD> ; 178 ; closed ; verified ; 1072 ; 249 ; 172 ; 12
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,->,SO,ND,NSD> ; 201 ; closed ; verified ; 1637 ; 296 ; 224 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,T,SO,ND,NSD> ; 194 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,F,SO,ND,NSD> ; 194 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,inc,SO,ND,NSD> ; 179 ; closed ; verified ; 1028 ; 232 ; 192 ; 6
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSS,dec,SO,ND,NSD> ; 205 ; closed ; verified ; 1414 ; 311 ; 216 ; 11
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,ins,SO,ND,NSD> ; 201 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,rev,SO,ND,NSD> ; 157 ; closed ; verified ; 910 ; 130 ; 89 ; 7
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,&,SO,ND,NSD> ; 201 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,|,SO,ND,NSD> ; 182 ; closed ; verified ; 1072 ; 249 ; 172 ; 12
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,->,SO,ND,NSD> ; 206 ; closed ; verified ; 1637 ; 296 ; 224 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,T,SO,ND,NSD> ; 199 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,F,SO,ND,NSD> ; 202 ; closed ; verified ; 1266 ; 272 ; 207 ; 9
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,inc,SO,ND,NSD> ; 183 ; closed ; verified ; 1028 ; 232 ; 192 ; 6
+SecondLFIFamily_05.prove ; 05 ; 103 ; <MBCSWORS,dec,SO,ND,NSD> ; 214 ; closed ; verified ; 1414 ; 311 ; 216 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,ins,SO,ND,NSD> ; 342 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,rev,SO,ND,NSD> ; 217 ; closed ; verified ; 1882 ; 248 ; 157 ; 8
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,&,SO,ND,NSD> ; 340 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,|,SO,ND,NSD> ; 282 ; closed ; verified ; 2091 ; 499 ; 335 ; 17
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,->,SO,ND,NSD> ; 349 ; closed ; verified ; 4014 ; 658 ; 475 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,T,SO,ND,NSD> ; 337 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,F,SO,ND,NSD> ; 338 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,inc,SO,ND,NSD> ; 276 ; closed ; verified ; 1947 ; 452 ; 372 ; 7
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSS,dec,SO,ND,NSD> ; 365 ; closed ; verified ; 3211 ; 699 ; 463 ; 15
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,ins,SO,ND,NSD> ; 356 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,rev,SO,ND,NSD> ; 236 ; closed ; verified ; 1882 ; 248 ; 157 ; 8
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,&,SO,ND,NSD> ; 355 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,|,SO,ND,NSD> ; 289 ; closed ; verified ; 2091 ; 499 ; 335 ; 17
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,->,SO,ND,NSD> ; 367 ; closed ; verified ; 4014 ; 658 ; 475 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,T,SO,ND,NSD> ; 353 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,F,SO,ND,NSD> ; 357 ; closed ; verified ; 2983 ; 597 ; 436 ; 11
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,inc,SO,ND,NSD> ; 287 ; closed ; verified ; 1947 ; 452 ; 372 ; 7
+SecondLFIFamily_06.prove ; 06 ; 132 ; <MBCSWORS,dec,SO,ND,NSD> ; 392 ; closed ; verified ; 3211 ; 699 ; 463 ; 15
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,ins,SO,ND,NSD> ; 717 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,rev,SO,ND,NSD> ; 359 ; closed ; verified ; 3924 ; 482 ; 289 ; 9
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,&,SO,ND,NSD> ; 709 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,|,SO,ND,NSD> ; 493 ; closed ; verified ; 4080 ; 1003 ; 658 ; 23
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,->,SO,ND,NSD> ; 725 ; closed ; verified ; 9971 ; 1466 ; 1014 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,T,SO,ND,NSD> ; 721 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,F,SO,ND,NSD> ; 710 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,inc,SO,ND,NSD> ; 491 ; closed ; verified ; 3690 ; 888 ; 728 ; 8
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSS,dec,SO,ND,NSD> ; 747 ; closed ; verified ; 7035 ; 1509 ; 965 ; 19
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,ins,SO,ND,NSD> ; 734 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,rev,SO,ND,NSD> ; 381 ; closed ; verified ; 3924 ; 482 ; 289 ; 9
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,&,SO,ND,NSD> ; 743 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,|,SO,ND,NSD> ; 537 ; closed ; verified ; 4080 ; 1003 ; 658 ; 23
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,->,SO,ND,NSD> ; 774 ; closed ; verified ; 9971 ; 1466 ; 1014 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,T,SO,ND,NSD> ; 738 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,F,SO,ND,NSD> ; 774 ; closed ; verified ; 7350 ; 1328 ; 929 ; 13
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,inc,SO,ND,NSD> ; 514 ; closed ; verified ; 3690 ; 888 ; 728 ; 8
+SecondLFIFamily_07.prove ; 07 ; 164 ; <MBCSWORS,dec,SO,ND,NSD> ; 813 ; closed ; verified ; 7035 ; 1509 ; 965 ; 19
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,ins,SO,ND,NSD> ; 1635 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,rev,SO,ND,NSD> ; 690 ; closed ; verified ; 8251 ; 948 ; 549 ; 10
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,&,SO,ND,NSD> ; 1636 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,|,SO,ND,NSD> ; 1015 ; closed ; verified ; 7999 ; 2017 ; 1301 ; 30
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,->,SO,ND,NSD> ; 1655 ; closed ; verified ; 24795 ; 3254 ; 2169 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,T,SO,ND,NSD> ; 1644 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,F,SO,ND,NSD> ; 1633 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,inc,SO,ND,NSD> ; 983 ; closed ; verified ; 7052 ; 1756 ; 1436 ; 9
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSS,dec,SO,ND,NSD> ; 1672 ; closed ; verified ; 15558 ; 3251 ; 2024 ; 24
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,ins,SO,ND,NSD> ; 1658 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,rev,SO,ND,NSD> ; 789 ; closed ; verified ; 8251 ; 948 ; 549 ; 10
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,&,SO,ND,NSD> ; 1751 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,|,SO,ND,NSD> ; 1133 ; closed ; verified ; 7999 ; 2017 ; 1301 ; 30
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,->,SO,ND,NSD> ; 1783 ; closed ; verified ; 24795 ; 3254 ; 2169 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,T,SO,ND,NSD> ; 1724 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,F,SO,ND,NSD> ; 1727 ; closed ; verified ; 18478 ; 2959 ; 1990 ; 15
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,inc,SO,ND,NSD> ; 1037 ; closed ; verified ; 7052 ; 1756 ; 1436 ; 9
+SecondLFIFamily_08.prove ; 08 ; 199 ; <MBCSWORS,dec,SO,ND,NSD> ; 1792 ; closed ; verified ; 15558 ; 3251 ; 2024 ; 24
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,ins,SO,ND,NSD> ; 3950 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,rev,SO,ND,NSD> ; 1464 ; closed ; verified ; 17458 ; 1878 ; 1065 ; 11
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,&,SO,ND,NSD> ; 3902 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,|,SO,ND,NSD> ; 2219 ; closed ; verified ; 15768 ; 4053 ; 2584 ; 38
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,->,SO,ND,NSD> ; 3947 ; closed ; verified ; 61225 ; 7178 ; 4636 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,T,SO,ND,NSD> ; 3942 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,F,SO,ND,NSD> ; 3770 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,inc,SO,ND,NSD> ; 2071 ; closed ; verified ; 13620 ; 3488 ; 2848 ; 10
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSS,dec,SO,ND,NSD> ; 3852 ; closed ; verified ; 33398 ; 6819 ; 4165 ; 29
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,ins,SO,ND,NSD> ; 3958 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,rev,SO,ND,NSD> ; 1609 ; closed ; verified ; 17458 ; 1878 ; 1065 ; 11
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,&,SO,ND,NSD> ; 4131 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,|,SO,ND,NSD> ; 2493 ; closed ; verified ; 15768 ; 4053 ; 2584 ; 38
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,->,SO,ND,NSD> ; 4114 ; closed ; verified ; 61225 ; 7178 ; 4636 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,T,SO,ND,NSD> ; 4144 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,F,SO,ND,NSD> ; 3978 ; closed ; verified ; 46514 ; 6566 ; 4267 ; 17
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,inc,SO,ND,NSD> ; 2189 ; closed ; verified ; 13620 ; 3488 ; 2848 ; 10
+SecondLFIFamily_09.prove ; 09 ; 237 ; <MBCSWORS,dec,SO,ND,NSD> ; 3927 ; closed ; verified ; 33398 ; 6819 ; 4165 ; 29
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,ins,SO,ND,NSD> ; 9752 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,rev,SO,ND,NSD> ; 4729 ; closed ; verified ; 44212 ; 5519 ; 3367 ; 12
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,&,SO,ND,NSD> ; 9768 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,|,SO,ND,NSD> ; 5026 ; closed ; verified ; 31227 ; 8135 ; 5147 ; 47
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,->,SO,ND,NSD> ; 9503 ; closed ; verified ; 149504 ; 15726 ; 9887 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,T,SO,ND,NSD> ; 9722 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,F,SO,ND,NSD> ; 9733 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,inc,SO,ND,NSD> ; 4244 ; closed ; verified ; 26565 ; 6948 ; 5668 ; 11
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSS,dec,SO,ND,NSD> ; 8757 ; closed ; verified ; 71599 ; 14225 ; 8572 ; 35
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,ins,SO,ND,NSD> ; 10286 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,rev,SO,ND,NSD> ; 5202 ; closed ; verified ; 44212 ; 5519 ; 3367 ; 12
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,&,SO,ND,NSD> ; 10601 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,|,SO,ND,NSD> ; 5452 ; closed ; verified ; 31227 ; 8135 ; 5147 ; 47
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,->,SO,ND,NSD> ; 10735 ; closed ; verified ; 149504 ; 15726 ; 9887 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,T,SO,ND,NSD> ; 10242 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,F,SO,ND,NSD> ; 10294 ; closed ; verified ; 116037 ; 14477 ; 9136 ; 19
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,inc,SO,ND,NSD> ; 4901 ; closed ; verified ; 26565 ; 6948 ; 5668 ; 11
+SecondLFIFamily_10.prove ; 10 ; 278 ; <MBCSWORS,dec,SO,ND,NSD> ; 10080 ; closed ; verified ; 71599 ; 14225 ; 8572 ; 35
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,ins,SO,ND,NSD> ; 13205 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,rev,SO,ND,NSD> ; 5481 ; closed ; verified ; 123824 ; 11535 ; 7462 ; 13
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,&,SO,ND,NSD> ; 12665 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,|,SO,ND,NSD> ; 5674 ; closed ; verified ; 62056 ; 16311 ; 10270 ; 57
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,->,SO,ND,NSD> ; 10584 ; closed ; verified ; 360515 ; 34226 ; 21026 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,T,SO,ND,NSD> ; 12734 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,F,SO,ND,NSD> ; 12544 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,inc,SO,ND,NSD> ; 4465 ; closed ; verified ; 52226 ; 13864 ; 11304 ; 12
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSS,dec,SO,ND,NSD> ; 10230 ; closed ; verified ; 150246 ; 29223 ; 17440 ; 41
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,ins,SO,ND,NSD> ; 14128 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,rev,SO,ND,NSD> ; 6566 ; closed ; verified ; 123824 ; 11535 ; 7462 ; 13
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,&,SO,ND,NSD> ; 14133 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,|,SO,ND,NSD> ; 7191 ; closed ; verified ; 62056 ; 16311 ; 10270 ; 57
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,->,SO,ND,NSD> ; 13195 ; closed ; verified ; 360515 ; 34226 ; 21026 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,T,SO,ND,NSD> ; 14007 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,F,SO,ND,NSD> ; 14081 ; closed ; verified ; 285642 ; 31700 ; 19509 ; 21
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,inc,SO,ND,NSD> ; 5274 ; closed ; verified ; 52226 ; 13864 ; 11304 ; 12
+SecondLFIFamily_11.prove ; 11 ; 322 ; <MBCSWORS,dec,SO,ND,NSD> ; 12411 ; closed ; verified ; 150246 ; 29223 ; 17440 ; 41
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,ins,SO,ND,NSD> ; 35170 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,rev,SO,ND,NSD> ; 12092 ; closed ; verified ; 252886 ; 20753 ; 13096 ; 14
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,&,SO,ND,NSD> ; 35718 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,|,SO,ND,NSD> ; 15123 ; closed ; verified ; 123615 ; 32677 ; 20513 ; 68
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,->,SO,ND,NSD> ; 30900 ; closed ; verified ; 858549 ; 74038 ; 44581 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,T,SO,ND,NSD> ; 35083 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,F,SO,ND,NSD> ; 35002 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,inc,SO,ND,NSD> ; 11323 ; closed ; verified ; 103278 ; 27692 ; 22572 ; 13
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSS,dec,SO,ND,NSD> ; 25077 ; closed ; verified ; 314112 ; 59789 ; 35443 ; 48
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,ins,SO,ND,NSD> ; 38456 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,rev,SO,ND,NSD> ; 14529 ; closed ; verified ; 252886 ; 20753 ; 13096 ; 14
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,&,SO,ND,NSD> ; 38548 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,|,SO,ND,NSD> ; 18340 ; closed ; verified ; 123615 ; 32677 ; 20513 ; 68
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,->,SO,ND,NSD> ; 35618 ; closed ; verified ; 858549 ; 74038 ; 44581 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,T,SO,ND,NSD> ; 39066 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,F,SO,ND,NSD> ; 38068 ; closed ; verified ; 693124 ; 68955 ; 41530 ; 23
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,inc,SO,ND,NSD> ; 13292 ; closed ; verified ; 103278 ; 27692 ; 22572 ; 13
+SecondLFIFamily_12.prove ; 12 ; 369 ; <MBCSWORS,dec,SO,ND,NSD> ; 29816 ; closed ; verified ; 314112 ; 59789 ; 35443 ; 48
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,ins,SO,ND,NSD> ; 84279 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,rev,SO,ND,NSD> ; 27283 ; closed ; verified ; 528424 ; 39187 ; 23595 ; 15
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,&,SO,ND,NSD> ; 84678 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,|,SO,ND,NSD> ; 35998 ; closed ; verified ; 246624 ; 65425 ; 40996 ; 80
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,->,SO,ND,NSD> ; 70902 ; closed ; verified ; 2020697 ; 159290 ; 94248 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,T,SO,ND,NSD> ; 84309 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,F,SO,ND,NSD> ; 84814 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,inc,SO,ND,NSD> ; 26399 ; closed ; verified ; 205068 ; 55344 ; 45104 ; 14
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSS,dec,SO,ND,NSD> ; 63188 ; closed ; verified ; 647526 ; 121311 ; 71566 ; 55
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,ins,SO,ND,NSD> ; 91375 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,rev,SO,ND,NSD> ; 32271 ; closed ; verified ; 528424 ; 39187 ; 23595 ; 15
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,&,SO,ND,NSD> ; 92349 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,|,SO,ND,NSD> ; 44032 ; closed ; verified ; 246624 ; 65425 ; 40996 ; 80
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,->,SO,ND,NSD> ; 84236 ; closed ; verified ; 2020697 ; 159290 ; 94248 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,T,SO,ND,NSD> ; 91721 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,F,SO,ND,NSD> ; 91535 ; closed ; verified ; 1658742 ; 149090 ; 88127 ; 25
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,inc,SO,ND,NSD> ; 30453 ; closed ; verified ; 205068 ; 55344 ; 45104 ; 14
+SecondLFIFamily_13.prove ; 13 ; 419 ; <MBCSWORS,dec,SO,ND,NSD> ; 73681 ; closed ; verified ; 647526 ; 121311 ; 71566 ; 55
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSS,rev,SO,ND,NSD> ; 59679 ; closed ; verified ; 1115305 ; 76053 ; 43824 ; 16
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSS,|,SO,ND,NSD> ; 87828 ; closed ; verified ; 492523 ; 130939 ; 81959 ; 93
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSS,inc,SO,ND,NSD> ; 64062 ; closed ; verified ; 408287 ; 110644 ; 90164 ; 15
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSWORS,rev,SO,ND,NSD> ; 70376 ; closed ; verified ; 1115305 ; 76053 ; 43824 ; 16
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSWORS,|,SO,ND,NSD> ; 106351 ; closed ; verified ; 492523 ; 130939 ; 81959 ; 93
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_14.prove ; 14 ; 472 ; <MBCSWORS,inc,SO,ND,NSD> ; 73007 ; closed ; verified ; 408287 ; 110644 ; 90164 ; 15
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_14.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_15.prove ; 15 ; 528 ; <MBCSS,rev,SO,ND,NSD> ; 141383 ; closed ; verified ; 2361692 ; 149783 ; 83513 ; 17
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+SecondLFIFamily_15.prove ; 15 ; 528 ; <MBCSWORS,rev,SO,ND,NSD> ; 161619 ; closed ; verified ; 2361692 ; 149783 ; 83513 ; 17
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_15.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_16.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : Java heap space
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleStrategy,MBC,SO,ND,NSD,ComplexityComparator: decreasing order : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,InsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ReverseInsertionOrderComparator : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: & : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: | : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ConnectiveSignedFormulaComparator: -> : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: T : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,SignSignedFormulaComparator: F : 10 minute(s) 1 second(s)  time limit exceeded
+Error while trying to prove problems/generated/lfiProblems/second/SecondLFIFamily_17.prove with MBCSimpleWithOptionalRulesStrategy,MBC,SO,ND,NSD,ComplexityComparator: increasing order : 10 minute(s) 1 second(s)  time limit exceeded
