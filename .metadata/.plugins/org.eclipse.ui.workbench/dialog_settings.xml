@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="PreferencesExportWizard">
 		<item value="/home/adolfo/Desktop/eclipse.pref" key=""/>
-		<item value="true" key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID"/>
 		<item value="false" key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="true" key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID"/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="/home/adolfo/Desktop/eclipse.pref"/>
 		</list>
