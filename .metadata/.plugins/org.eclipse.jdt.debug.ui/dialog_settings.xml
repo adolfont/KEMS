@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="82" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
-	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
 	<item value="94" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
 	<item value="349" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="93" key="DIALOG_Y_ORIGIN"/>
+			<item value="423" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
 	<section name="AddExceptionDialog">
 		<item value="true" key="uncaughtChecked"/>
 		<item value="true" key="caughtChecked"/>
@@ -11,8 +22,8 @@
 	<section name="ADD_VM_DIALOG_SECTION">
 		<item value="572" key="DIALOG_WIDTH"/>
 		<item value="76" key="DIALOG_Y_ORIGIN"/>
-		<item value="89" key="DIALOG_X_ORIGIN"/>
 		<item value="479" key="DIALOG_HEIGHT"/>
+		<item value="89" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Bitstream Vera Sans|11|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

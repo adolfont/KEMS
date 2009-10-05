@@ -75,9 +75,9 @@
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
-<editorState selectionLength="0" selectionOffset="27"/>
+<editorState selectionLength="0" selectionOffset="1532"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1SimpleStrategy.java" partName="C1SimpleStrategy.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java" title="C1SimpleStrategy.java" tooltip="kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java"/>
@@ -314,7 +314,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="Java_Adolfo">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Java_Adolfo">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
