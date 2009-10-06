@@ -149,10 +149,10 @@
 		<item value="156" key="y"/>
 		<item value="272" key="x"/>
 		<section name="DialogBoundsSettings">
-			<item value="722" key="DIALOG_WIDTH"/>
+			<item value="728" key="DIALOG_WIDTH"/>
 			<item value="94" key="DIALOG_Y_ORIGIN"/>
 			<item value="302" key="DIALOG_X_ORIGIN"/>
-			<item value="566" key="DIALOG_HEIGHT"/>
+			<item value="569" key="DIALOG_HEIGHT"/>
 			<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>

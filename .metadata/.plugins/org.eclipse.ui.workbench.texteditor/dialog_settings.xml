@@ -2,19 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="341" key="DIALOG_WIDTH"/>
-		<item value="42" key="DIALOG_Y_ORIGIN"/>
-		<item value="555" key="DIALOG_X_ORIGIN"/>
+		<item value="186" key="DIALOG_Y_ORIGIN"/>
 		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="17" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="getPreReq" key="selection"/>
+		<item value="finishedProverConfigurations" key="selection"/>
 		<list key="findhistory">
+			<item value="finishedProverConfigurations"/>
 			<item value="getPreReq"/>
 			<item value="signature"/>
 			<item value="www.ime"/>
@@ -22,7 +23,6 @@
 			<item value="System.out"/>
 			<item value="System."/>
 			<item value="Proof"/>
-			<item value="proof"/>
 		</list>
 		<list key="replacehistory">
 			<item value="satlfiinconsdef"/>

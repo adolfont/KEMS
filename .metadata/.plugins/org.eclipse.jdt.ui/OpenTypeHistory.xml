@@ -7,4 +7,6 @@
 <typeInfo handle="=kems.prover/src&lt;logic.formulas{CompositeFormula.java[CompositeFormula" modifiers="1" timestamp="1239054984000"/>
 <typeInfo handle="=kems.prover/src&lt;logic.problem{Problem.java[Problem" modifiers="1" timestamp="1157595864000"/>
 <typeInfo handle="=kems.prover/src&lt;main.newstrategy.simple{SimpleStrategy.java[SimpleStrategy" modifiers="1" timestamp="1194960168000"/>
+<typeInfo handle="=kems.prover/\/usr\/lib\/jvm\/java-1.6.0-openjdk-1.6.0.0\/jre\/lib\/rt.jar&lt;sun.tools.jar(CommandLine.class[CommandLine" modifiers="33" timestamp="1252601170000"/>
+<typeInfo handle="=kems.prover/src&lt;proverinterface.commandline{CommandLineRunnable.java[CommandLineRunnable" modifiers="1" timestamp="1159625014000"/>
 </typeInfoHistroy>

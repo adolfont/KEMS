@@ -10879,3 +10879,29 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -clean -showsplash org.fedo
 
 !ENTRY org.eclipse.osgi 4 0 2009-10-05 09:56:54.435
 !MESSAGE Bundle org.eclipse.equinox.weaving.hook not found.
+!SESSION Tue Oct 06 13:02:15 GMT-03:00 2009 ------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2009-10-06 13:02:15.369
+!MESSAGE Could not find extension: org.eclipse.equinox.weaving.hook
+!SESSION 2009-10-06 13:02:15.115 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -clean -showsplash org.fedoraproject.ide.platform
+Command-line arguments:  -os linux -ws gtk -arch x86 -clean -showsplash org.fedoraproject.ide.platform
+
+!ENTRY org.eclipse.osgi 4 0 2009-10-06 13:02:17.267
+!MESSAGE Bundle org.eclipse.equinox.weaving.hook not found.
+!SESSION Tue Oct 06 13:23:17 GMT-03:00 2009 ------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2009-10-06 13:23:17.585
+!MESSAGE Could not find extension: org.eclipse.equinox.weaving.hook
+!SESSION 2009-10-06 13:23:17.325 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -clean -showsplash org.fedoraproject.ide.platform
+Command-line arguments:  -os linux -ws gtk -arch x86 -clean -showsplash org.fedoraproject.ide.platform
+
+!ENTRY org.eclipse.osgi 4 0 2009-10-06 13:23:19.277
+!MESSAGE Bundle org.eclipse.equinox.weaving.hook not found.

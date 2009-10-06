@@ -69,31 +69,17 @@
 <part id="25"/>
 <part id="26"/>
 <part id="27"/>
-<part id="28"/>
-<part id="29"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
-<editorState selectionLength="0" selectionOffset="1532"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1SimpleStrategy.java" partName="C1SimpleStrategy.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java" title="C1SimpleStrategy.java" tooltip="kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java"/>
-<editorState selectionLength="0" selectionOffset="1311"/>
+<editorState selectionLength="0" selectionOffset="2007"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1RuleStructures.java" partName="C1RuleStructures.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/logicalSystems/c1/C1RuleStructures.java" title="C1RuleStructures.java" tooltip="kems.prover/src/logicalSystems/c1/C1RuleStructures.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/logicalSystems/c1/C1RuleStructures.java"/>
 <editorState selectionLength="10" selectionOffset="6492"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverConfigurator.java" partName="ProverConfigurator.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/proverinterface/ProverConfigurator.java" title="ProverConfigurator.java" tooltip="kems.prover/src/proverinterface/ProverConfigurator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverConfigurator.java"/>
-<editorState selectionLength="7" selectionOffset="6106"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1Rules.java" partName="C1Rules.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/logicalSystems/c1/C1Rules.java" title="C1Rules.java" tooltip="kems.prover/src/logicalSystems/c1/C1Rules.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/logicalSystems/c1/C1Rules.java"/>
-<editorState selectionLength="18" selectionOffset="1952"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1_T_NOT_1_PBRuleApplicator.java" partName="C1_T_NOT_1_PBRuleApplicator.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/main/newstrategy/c1/simple/C1_T_NOT_1_PBRuleApplicator.java" title="C1_T_NOT_1_PBRuleApplicator.java" tooltip="kems.prover/src/main/newstrategy/c1/simple/C1_T_NOT_1_PBRuleApplicator.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/main/newstrategy/c1/simple/C1_T_NOT_1_PBRuleApplicator.java"/>
@@ -195,6 +181,10 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EstudoPadroesProjeto/src/Observer/ExemploObserver.java"/>
 <editorState selectionLength="0" selectionOffset="892"/>
 </editor>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RuleStructureMap.java" partName="RuleStructureMap.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/commandline/RuleStructureMap.java" title="RuleStructureMap.java" tooltip="kems.prover/src/proverinterface/commandline/RuleStructureMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/commandline/RuleStructureMap.java"/>
+<editorState selectionLength="0" selectionOffset="813"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
@@ -259,9 +249,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (1 item)"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="154" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -737,7 +725,7 @@
 <show_view_action id="org.eclipse.ant.ui.views.AntView"/>
 <show_view_action id="org.eclipse.pde.runtime.LogView"/>
 <show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<show_in_time id="org.eclipse.jdt.ui.PackageExplorer" time="1240528129239"/>
+<show_in_time id="org.eclipse.jdt.ui.PackageExplorer" time="1254858125192"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
@@ -836,167 +824,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Factory2/CriaFactory2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Factory2/clsImplementInterface.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Factory2/clsConcrete1.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Factory2/clsConcrete2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Factory2/clsConcrete3.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/main.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Facade/SistemaAcademico.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Proxy/ExemploProxy.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Observer/ExmeploObserver.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EstudoPadroesProjeto/src/Observer/ExemploObserver.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/ProverConfigurator.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=kems.prover/\/usr\/lib\/jvm\/java-1.6.0-openjdk-1.6.0.0\/jre\/lib\/rt.jar&lt;sun.tools.jar(CommandLine.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/commandline/CommandLineRunnable.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/commandline/CommandLineRunner.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/commandline/RuleStructureMap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java"/>
 </editors>
-<item historyLabel="clsConcrete1.java" index="2">
-<position info="not_deleted" x="132" y="0"/>
-</item>
-<item historyLabel="clsConcrete1.java" index="2">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="CriaFactory2.java" index="0">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="CriaFactory2.java" index="0">
-<position info="not_deleted" x="254" y="0"/>
-</item>
-<item historyLabel="clsConcrete1.java" index="2">
-<position info="not_deleted" x="0" y="140"/>
-</item>
-<item historyLabel="clsConcrete2.java" index="3">
-<position info="not_deleted" x="0" y="140"/>
-</item>
-<item historyLabel="clsConcrete3.java" index="4">
-<position/>
-</item>
-<item historyLabel="clsConcrete2.java" index="3">
-<position info="not_deleted" x="0" y="140"/>
-</item>
-<item historyLabel="clsConcrete1.java" index="2">
-<position info="not_deleted" x="0" y="140"/>
-</item>
-<item historyLabel="CriaFactory2.java" index="0">
-<position info="not_deleted" x="254" y="0"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="1231" y="0"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="517" y="13"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="1393" y="12"/>
-</item>
-<item historyLabel="CriaFactory2.java" index="0">
-<position info="not_deleted" x="138" y="13"/>
-</item>
-<item historyLabel="clsImplementInterface.java" index="1">
-<position info="not_deleted" x="32" y="21"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="1689" y="0"/>
-</item>
-<item historyLabel="CriaFactory2.java" index="0">
-<position info="not_deleted" x="60" y="16"/>
-</item>
-<item historyLabel="main.java" index="5">
-<position info="not_deleted" x="1689" y="0"/>
-</item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2047" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2861" y="0"/>
 </item>
-<item historyLabel="SistemaAcademico.java" index="6">
+<item historyLabel="SistemaAcademico.java" index="1">
 <position info="not_deleted" x="954" y="20"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2841" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="377" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="443" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="820" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="880" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="911" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="990" y="12"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2841" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2884" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="727" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="1018" y="10"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="727" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="727" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="820" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="985" y="0"/>
 </item>
-<item historyLabel="ExemploProxy.java" index="7">
+<item historyLabel="ExemploProxy.java" index="2">
 <position info="not_deleted" x="1562" y="0"/>
 </item>
-<item historyLabel="ExmeploObserver.java" index="8">
+<item historyLabel="ExmeploObserver.java" index="3">
 <position/>
 </item>
-<item historyLabel="ExemploObserver.java" index="9">
+<item historyLabel="ExemploObserver.java" index="4">
 <position info="not_deleted" x="2956" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="985" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="841" y="0"/>
 </item>
-<item historyLabel="ExemploObserver.java" index="9">
+<item historyLabel="ExemploObserver.java" index="4">
 <position info="not_deleted" x="2965" y="13"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="841" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position info="not_deleted" x="739" y="0"/>
 </item>
-<item historyLabel="ExemploObserver.java" index="9">
+<item historyLabel="ExemploObserver.java" index="4">
 <position info="not_deleted" x="2965" y="13"/>
 </item>
-<item historyLabel="ExemploObserver.java" index="9">
+<item historyLabel="ExemploObserver.java" index="4">
 <position info="not_deleted" x="3156" y="14"/>
 </item>
-<item historyLabel="ExemploObserver.java" index="9">
+<item historyLabel="ExemploObserver.java" index="4">
 <position info="not_deleted" x="892" y="0"/>
 </item>
-<item historyLabel="main.java" index="5">
+<item historyLabel="main.java" index="0">
 <position/>
 </item>
-<item historyLabel="ProverInterface.java" index="10">
+<item historyLabel="ProverInterface.java" index="5">
 <position info="not_deleted" x="3" y="0"/>
 </item>
-<item active="true" historyLabel="ProverInterface.java" index="10">
+<item historyLabel="ProverInterface.java" index="5">
 <position info="not_deleted" x="1649" y="0"/>
+</item>
+<item historyLabel="ProverConfigurator.java" index="6">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="ProverConfigurator.java" index="6">
+<position info="not_deleted" x="6106" y="7"/>
+</item>
+<item historyLabel="ProverInterface.java" index="5">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="CommandLine.class" index="7">
+<position/>
+</item>
+<item historyLabel="ProverInterface.java" index="5">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="CommandLineRunnable.java" index="8">
+<position/>
+</item>
+<item historyLabel="ProverInterface.java" index="5">
+<position info="not_deleted" x="2007" y="0"/>
+</item>
+<item historyLabel="CommandLineRunnable.java" index="8">
+<position info="not_deleted" x="563" y="19"/>
+</item>
+<item historyLabel="CommandLineRunnable.java" index="8">
+<position info="not_deleted" x="2259" y="0"/>
+</item>
+<item historyLabel="CommandLineRunnable.java" index="8">
+<position info="not_deleted" x="2932" y="28"/>
+</item>
+<item historyLabel="CommandLineRunner.java" index="9">
+<position/>
+</item>
+<item historyLabel="RuleStructureMap.java" index="10">
+<position/>
+</item>
+<item historyLabel="C1SimpleStrategy.java" index="11">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="C1SimpleStrategy.java" index="11">
+<position info="not_deleted" x="1311" y="0"/>
+</item>
+<item historyLabel="C1SimpleStrategy.java" index="11">
+<position info="not_deleted" x="788" y="16"/>
+</item>
+<item historyLabel="RuleStructureMap.java" index="10">
+<position/>
+</item>
+<item historyLabel="C1SimpleStrategy.java" index="11">
+<position info="not_deleted" x="788" y="16"/>
+</item>
+<item active="true" historyLabel="RuleStructureMap.java" index="10">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -1004,6 +993,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -1011,10 +1003,23 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RuleStructureMap.java" tooltip="kems.prover/src/proverinterface/commandline/RuleStructureMap.java">
+<persistable path="/kems.prover/src/proverinterface/commandline/RuleStructureMap.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandLineRunner.java" tooltip="kems.prover/src/proverinterface/commandline/CommandLineRunner.java">
+<persistable path="/kems.prover/src/proverinterface/commandline/CommandLineRunner.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandLineRunnable.java" tooltip="kems.prover/src/proverinterface/commandline/CommandLineRunnable.java">
+<persistable path="/kems.prover/src/proverinterface/commandline/CommandLineRunnable.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CommandLine.class" tooltip="sun.tools.jar.CommandLine">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=kems.prover/\/usr\/lib\/jvm\/java-1.6.0-openjdk-1.6.0.0\/jre\/lib\/rt.jar&lt;sun.tools.jar(CommandLine.class"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExmeploObserver.java" tooltip="EstudoPadroesProjeto/src/Observer/ExmeploObserver.java">
 <persistable path="/EstudoPadroesProjeto/src/Observer/ExmeploObserver.java"/>
 </file>
@@ -1047,18 +1052,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Consolegambijava.java" tooltip="EstudoPadroesProjeto/src/Consolegambijava.java">
 <persistable path="/EstudoPadroesProjeto/src/Consolegambijava.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Consolegambijava.java" tooltip="/home/emerson/Download/Consolegambijava.java">
-<persistable uri="file:/home/emerson/Download/Consolegambijava.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AloFactory.java" tooltip="EstudoPadroesProjeto/src/Factory/AloFactory.java">
-<persistable path="/EstudoPadroesProjeto/src/Factory/AloFactory.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GermanAloMundo.java" tooltip="EstudoPadroesProjeto/src/Factory/GermanAloMundo.java">
-<persistable path="/EstudoPadroesProjeto/src/Factory/GermanAloMundo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpanishAloMundo.java" tooltip="EstudoPadroesProjeto/src/Factory/SpanishAloMundo.java">
-<persistable path="/EstudoPadroesProjeto/src/Factory/SpanishAloMundo.java"/>
 </file>
 </mruList>
 </workbench>

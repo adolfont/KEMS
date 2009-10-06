@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import main.newstrategy.c1.simple.C1SimpleStrategy;
 import main.newstrategy.cpl.simple.configurable.ConfigurableSimpleStrategy;
 import main.newstrategy.mbc.simple.MBCSimpleStrategy;
 import main.newstrategy.mbc.simple.optional.MBCSimpleWithOptionalRulesStrategy;
@@ -37,6 +38,9 @@ public class RuleStructureMap {
 
 		ruleStructureMap.put(MCISimpleStrategy.class.getSimpleName(),RuleStructureFactory.MCI);
 		ruleStructureMap.put(MCISimpleWithOptionalRulesStrategy.class.getSimpleName(),RuleStructureFactory.MCI);
+
+		ruleStructureMap.put(C1SimpleStrategy.class.getSimpleName(),RuleStructureFactory.C1);
+
 	}
 
 	public String getRuleStructure(String name) {

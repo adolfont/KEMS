@@ -607,6 +607,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 					MCIConfigurableSimpleStrategy.class.getSimpleName())) {
 				signedFormulaComparatorCombo.setEnabled(true);
 			}
+			
 
 		}
 	}
