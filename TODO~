@@ -1,7 +1,6 @@
 
 = To do =
 
-- Change problem runner to be used by C1 Strategy
 
 - Instructions on how to run inside Eclipse
  run ProverInterface.java
@@ -20,4 +19,5 @@
 
 = Done =
 
+- Change problem runner to be used by C1 Strategy (6/10/09)
 - Point in home page to git repository (6/10/09)

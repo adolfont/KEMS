@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="718" maximized="true" width="1024" x="0" y="25">
 <fastViewData fastViewLocation="1024">
@@ -73,9 +73,9 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
-<editorState selectionLength="0" selectionOffset="2007"/>
+<editorState selectionLength="0" selectionOffset="3"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C1RuleStructures.java" partName="C1RuleStructures.java" path="/home/emerson/KEMS_eclipse_workspace_3.4/kems.prover/src/logicalSystems/c1/C1RuleStructures.java" title="C1RuleStructures.java" tooltip="kems.prover/src/logicalSystems/c1/C1RuleStructures.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/logicalSystems/c1/C1RuleStructures.java"/>
@@ -181,9 +181,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EstudoPadroesProjeto/src/Observer/ExemploObserver.java"/>
 <editorState selectionLength="0" selectionOffset="892"/>
 </editor>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RuleStructureMap.java" partName="RuleStructureMap.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/commandline/RuleStructureMap.java" title="RuleStructureMap.java" tooltip="kems.prover/src/proverinterface/commandline/RuleStructureMap.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RuleStructureMap.java" partName="RuleStructureMap.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/commandline/RuleStructureMap.java" title="RuleStructureMap.java" tooltip="kems.prover/src/proverinterface/commandline/RuleStructureMap.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/commandline/RuleStructureMap.java"/>
-<editorState selectionLength="0" selectionOffset="813"/>
+<editorState selectionLength="0" selectionOffset="0"/>
 </editor>
 </editors>
 <views>
@@ -302,7 +302,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="Java_Adolfo">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Java_Adolfo">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
@@ -836,10 +836,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/commandline/CommandLineRunner.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/commandline/RuleStructureMap.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/main/newstrategy/c1/simple/C1SimpleStrategy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
 </editors>
-<item historyLabel="main.java" index="0">
-<position info="not_deleted" x="2047" y="0"/>
-</item>
 <item historyLabel="main.java" index="0">
 <position info="not_deleted" x="2861" y="0"/>
 </item>
@@ -984,8 +982,11 @@
 <item historyLabel="C1SimpleStrategy.java" index="11">
 <position info="not_deleted" x="788" y="16"/>
 </item>
-<item active="true" historyLabel="RuleStructureMap.java" index="10">
+<item historyLabel="RuleStructureMap.java" index="10">
 <position/>
+</item>
+<item active="true" historyLabel="ProverInterface.java" index="12">
+<position info="not_deleted" x="3" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -993,9 +994,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -1003,7 +1001,6 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
