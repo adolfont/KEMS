@@ -80,4 +80,7 @@ git fetch
 - What exactly does this do?
 git merge origin/master
 
+- Add new files
+At the root folder
+git add .
 
