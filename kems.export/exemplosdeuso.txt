@@ -1,0 +1,115 @@
+** Deve estar no kems.export
+
+[adolfo@localhost kems.export]$ pwd
+/home/adolfo/Desktop/HD2/Software/KEMS_eclipse_workspace_3.4/kems.export
+
+
+** rodando teste.lfi.seq com apenas um problema
+
+[adolfo@localhost kems.export]$ java -jar kems.jar teste.lfi.seq 
+INFO  [main] ProverInterface/752: Starting KEMS
+Processing file teste.lfi.seq
+DEBUG [Thread-1] CommandLineRunnable/81: 10:46:02 - Starting to prove problems/generated/lfiProblems/family5/family5_05.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-1] CommandLineRunnable/86: Time limit: 3 minute(s)
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 1209928
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 428592
+DEBUG [Thread-1] ProverFacade/125: Starting proof procedure at 10:46:04
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 1064112
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 485744
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 567216
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 489360
+DEBUG [Thread-1] ProverFacade/144: Finishing proof procedure at 10:46:06
+DEBUG [Thread-1] ProverFacade/151: Starting proof verification at 10:46:06
+DEBUG [Thread-1] ProverFacade/165: Finishing proof verification at 10:46:06
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 991184
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 835824
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+family5_05.prove ; 05 ; 109 ; <CSS,ins,SO,ND,NSD> ; 436 ; closed ; verified ; 597 ; 70 ; 54 ; 4 ; Success
+DEBUG [main] CommandLineRunner/414: 10:46:09 - Finished proving problems/generated/lfiProblems/family5/family5_05.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+Finished!
+INFO  [main] ProverInterface/756: Finishing KEMS
+
+
+** rodando teste.lfi.seq com apenas um problema e um separador diferente (mudar o separador pode ser útil para importar para planilha ou para colocar como tabela no latex)
+
+[adolfo@localhost kems.export]$ java -jar kems.jar teste.lfi.seq -separator:==
+INFO  [main] ProverInterface/752: Starting KEMS
+Processing file teste.lfi.seq
+DEBUG [Thread-1] CommandLineRunnable/81: 10:45:28 - Starting to prove problems/generated/lfiProblems/family5/family5_05.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-1] CommandLineRunnable/86: Time limit: 3 minute(s)
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 1210048
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 428712
+DEBUG [Thread-1] ProverFacade/125: Starting proof procedure at 10:45:30
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 1064232
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 421640
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 503112
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 425256
+DEBUG [Thread-1] ProverFacade/144: Finishing proof procedure at 10:45:33
+DEBUG [Thread-1] ProverFacade/151: Starting proof verification at 10:45:33
+DEBUG [Thread-1] ProverFacade/165: Finishing proof verification at 10:45:33
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 931944
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 836336
+Problem name == Instance count == Problem size == Prover configuration == Time spent (in ms) == Result == Verification result == Proof size == Nodes count == Used nodes count == Proof tree height == Message
+family5_05.prove == 05 == 109 == <CSS,ins,SO,ND,NSD> == 449 == closed == verified == 597 == 70 == 54 == 4 == Success
+DEBUG [main] CommandLineRunner/414: 10:45:35 - Finished proving problems/generated/lfiProblems/family5/family5_05.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+Finished!
+INFO  [main] ProverInterface/756: Finishing KEMS
+
+** rodando teste.lfi.seq com apenas três problemas
+
+[adolfo@localhost kems.export]$ java -Xms200m -Xmx800m -jar kems.jar teste.lfi.seq 
+INFO  [main] ProverInterface/752: Starting KEMS
+Processing file teste.lfi.seq
+DEBUG [Thread-1] CommandLineRunnable/81: 10:48:08 - Starting to prove problems/generated/lfiProblems/family5/family5_05.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-1] CommandLineRunnable/86: Time limit: 3 minute(s)
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 5831152
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 673600
+DEBUG [Thread-1] ProverFacade/125: Starting proof procedure at 10:48:10
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 3843272
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 731104
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 731104
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 734720
+DEBUG [Thread-1] ProverFacade/144: Finishing proof procedure at 10:48:11
+DEBUG [Thread-1] ProverFacade/151: Starting proof verification at 10:48:11
+DEBUG [Thread-1] ProverFacade/165: Finishing proof verification at 10:48:11
+DEBUG [Thread-1] MemoryManager/31: Forcing garbage collection - Used memory: 8245232
+DEBUG [Thread-1] MemoryManager/39: After garbage collection - Used memory: 1145160
+Problem name ; Instance count ; Problem size ; Prover configuration ; Time spent (in ms) ; Result ; Verification result ; Proof size ; Nodes count ; Used nodes count ; Proof tree height ; Message
+family5_05.prove ; 05 ; 109 ; <CSS,ins,SO,ND,NSD> ; 373 ; closed ; verified ; 597 ; 70 ; 54 ; 4 ; Success
+DEBUG [main] CommandLineRunner/414: 10:48:13 - Finished proving problems/generated/lfiProblems/family5/family5_05.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-2] CommandLineRunnable/81: 10:48:13 - Starting to prove problems/generated/lfiProblems/family5/family5_10.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-2] CommandLineRunnable/86: Time limit: 3 minute(s)
+DEBUG [Thread-2] MemoryManager/31: Forcing garbage collection - Used memory: 12361112
+DEBUG [Thread-2] MemoryManager/39: After garbage collection - Used memory: 893160
+DEBUG [Thread-2] ProverFacade/125: Starting proof procedure at 10:48:15
+DEBUG [Thread-2] MemoryManager/31: Forcing garbage collection - Used memory: 11603160
+DEBUG [Thread-2] MemoryManager/39: After garbage collection - Used memory: 981608
+DEBUG [Thread-2] MemoryManager/31: Forcing garbage collection - Used memory: 981608
+DEBUG [Thread-2] MemoryManager/39: After garbage collection - Used memory: 981608
+DEBUG [Thread-2] ProverFacade/144: Finishing proof procedure at 10:48:17
+DEBUG [Thread-2] ProverFacade/151: Starting proof verification at 10:48:17
+DEBUG [Thread-2] ProverFacade/165: Finishing proof verification at 10:48:18
+DEBUG [Thread-2] MemoryManager/31: Forcing garbage collection - Used memory: 14537600
+DEBUG [Thread-2] MemoryManager/39: After garbage collection - Used memory: 2093928
+family5_10.prove ; 10 ; 209 ; <CSS,ins,SO,ND,NSD> ; 956 ; closed ; verified ; 1847 ; 135 ; 104 ; 9 ; Success
+DEBUG [main] CommandLineRunner/414: 10:48:20 - Finished proving problems/generated/lfiProblems/family5/family5_10.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-3] CommandLineRunnable/81: 10:48:20 - Starting to prove problems/generated/lfiProblems/family5/family5_15.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+DEBUG [Thread-3] CommandLineRunnable/86: Time limit: 3 minute(s)
+DEBUG [Thread-3] MemoryManager/31: Forcing garbage collection - Used memory: 7707296
+DEBUG [Thread-3] MemoryManager/39: After garbage collection - Used memory: 1180616
+DEBUG [Thread-3] ProverFacade/125: Starting proof procedure at 10:48:22
+DEBUG [Thread-3] MemoryManager/31: Forcing garbage collection - Used memory: 6331128
+DEBUG [Thread-3] MemoryManager/39: After garbage collection - Used memory: 1314656
+DEBUG [Thread-3] MemoryManager/31: Forcing garbage collection - Used memory: 1314656
+DEBUG [Thread-3] MemoryManager/39: After garbage collection - Used memory: 1314656
+DEBUG [Thread-3] ProverFacade/144: Finishing proof procedure at 10:48:26
+DEBUG [Thread-3] ProverFacade/151: Starting proof verification at 10:48:26
+DEBUG [Thread-3] ProverFacade/165: Finishing proof verification at 10:48:27
+DEBUG [Thread-3] MemoryManager/31: Forcing garbage collection - Used memory: 7775896
+DEBUG [Thread-3] MemoryManager/39: After garbage collection - Used memory: 3465304
+family5_15.prove ; 15 ; 309 ; <CSS,ins,SO,ND,NSD> ; 1664 ; closed ; verified ; 3747 ; 200 ; 154 ; 14 ; Success
+DEBUG [main] CommandLineRunner/414: 10:48:30 - Finished proving problems/generated/lfiProblems/family5/family5_15.prove with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
+Finished!
+INFO  [main] ProverInterface/756: Finishing KEMS
+
+

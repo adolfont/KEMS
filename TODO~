@@ -1,0 +1,23 @@
+
+= To do =
+
+- Change problem runner to be used by C1 Strategy
+
+- Instructions on how to run inside Eclipse
+ run ProverInterface.java
+
+- Make a new kems.zip with all that is needed (and only that)
+ - how to store this at github?
+
+- Minimize changes to several classes when a strategy is added
+ - Currently we have to change:
+  - ProverConfigurator
+   - add the class name to one of the *_STRATEGY_NAMES constants as well as references in methods, depending on the strategy
+  - RuleStructureMap
+   - add an association in the constructor
+  
+
+
+= Done =
+
+- Point in home page to git repository (6/10/09)
