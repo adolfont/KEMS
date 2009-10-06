@@ -1,6 +1,10 @@
 
 = To do =
 
+- How to remove files from git repository using .gitignore
+ - Searche google for .gitignore
+ - http://linux.die.net/man/5/gitignore
+ - See GIT CHEAT SHEET:http://github.com/guides/git-cheat-sheet
 
 - Create new branches using git
 

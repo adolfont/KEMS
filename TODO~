@@ -1,6 +1,11 @@
 
 = To do =
 
+- How to remove files from git repository using .gitignore
+ - Searche google for .gitignore
+ - http://linux.die.net/man/5/gitignore
+
+- Create new branches using git
 
 - Instructions on how to run inside Eclipse
  run ProverInterface.java
