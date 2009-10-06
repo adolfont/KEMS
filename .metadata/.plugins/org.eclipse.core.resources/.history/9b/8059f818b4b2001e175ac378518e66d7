@@ -1,0 +1,11 @@
+version=0.9.8	
+release.date=2009-10-06
+
+about.link=http://www.ime.usp.br/~adolfo/KEMS/
+help.link=http://www.ime.usp.br/~adolfo/KEMS/help.html
+
+site=http://www.dainf.ct.utfpr.edu.br/~adolfo/KEMS
+
+check.lock=false
+
+
