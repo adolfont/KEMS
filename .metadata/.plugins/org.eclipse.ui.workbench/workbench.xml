@@ -46,7 +46,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProverInterface.java" partName="ProverInterface.java" path="/home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.prover/src/proverinterface/ProverInterface.java" title="ProverInterface.java" tooltip="kems.prover/src/proverinterface/ProverInterface.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kems.prover/src/proverinterface/ProverInterface.java"/>
 <editorState selectionLength="15" selectionOffset="1667"/>
 </editor>
@@ -114,7 +114,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="481" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -167,7 +167,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="Java_Adolfo">
+<perspectives activePart="org.eclipse.ui.views.ProblemView" activePerspective="Java_Adolfo">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
@@ -645,7 +645,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.26613703" ratioLeft="268" ratioRight="739" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.69982237" ratioLeft="394" ratioRight="169" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
