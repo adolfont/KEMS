@@ -1,4 +1,0 @@
-T Q->R
-T R->(P&Q)
-T P->(Q|R)
-F P<=>Q

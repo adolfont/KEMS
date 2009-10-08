@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;logicalSystems.c1.MCIRulesTest&apos; to &apos;C1RulesTest&apos;&#x0A;- Original project: &apos;kems.prover&apos;&#x0A;- Original element: &apos;logicalSystems.c1.MCIRulesTest&apos;&#x0A;- Renamed element: &apos;logicalSystems.c1.C1RulesTest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MCIRulesTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/tests&lt;logicalSystems.c1{MCIRulesTest.java[MCIRulesTest" matchStrategy="1" name="C1RulesTest" qualified="false" references="true" similarDeclarations="false" stamp="1239650511494" textual="false" version="1.0"/>
-</session>

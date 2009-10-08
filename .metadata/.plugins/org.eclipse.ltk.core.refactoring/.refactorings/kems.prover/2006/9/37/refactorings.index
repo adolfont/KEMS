@@ -1,8 +1,0 @@
-1157638767680	Rename resource 'build.ajproperties'
-1157655395784	Rename field 'comparatorMap'
-1157654773347	Rename local variable 'itStrategies'
-1157654761665	Rename local variable 'it'
-1157654651966	Rename local variable 'pc'
-1157654348722	Rename method 'getFileNames'
-1157654091507	Rename method 'getProblemsAndRun'
-1157654049822	Rename method 'initializeConfiguration'

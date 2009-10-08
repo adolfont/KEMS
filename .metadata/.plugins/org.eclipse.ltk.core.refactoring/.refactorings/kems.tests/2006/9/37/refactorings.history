@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource '/kems.tests/sequences/cpl/php/php_1_to_5.seq' to 'php_5_to_7.seq'&#10;- Original element: 'php_1_to_5.seq'" description="Rename resource 'php_1_to_5.seq'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="sequences/cpl/php/php_1_to_5.seq" name="php_5_to_7.seq" stamp="1157668744238" version="1.0"/>
-</session>

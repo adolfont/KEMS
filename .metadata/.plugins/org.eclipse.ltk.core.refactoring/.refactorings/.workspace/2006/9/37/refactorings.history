@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource '/kems.old' to 'old.kems'&#10;- Original element: 'kems.old'" description="Rename resource 'kems.old'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="/kems.old" name="old.kems" stamp="1157629975621" version="1.0"/>
-<refactoring comment="Rename resource '/kems.analysers' to 'kems.bin'&#10;- Original element: 'kems.analysers'" description="Rename resource 'kems.analysers'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="/kems.analysers" name="kems.bin" stamp="1157630057173" version="1.0"/>
-<refactoring comment="Rename resource '/kems.results' to 'kems.tests'&#10;- Original element: 'kems.results'" description="Rename resource 'kems.results'" flags="7" id="org.eclipse.jdt.ui.rename.resource" input="/kems.results" name="kems.tests" stamp="1157645391359" version="1.0"/>
-</session>

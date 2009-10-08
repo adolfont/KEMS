@@ -1,7 +1,0 @@
-# A second test for mCi exclusive rules
-# NEGATION AND CONSISTENCY
-# It closes the left side
-T A1->!(@!@X1)
-# It closes the left side
-T A2->!(@!!@X2)
-# End

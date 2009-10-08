@@ -1,8 +1,0 @@
-T A->B
-T A2->B2
-T C->(A->A2->D)
-T E->F
-T E&A->NADA
-T NADA->NOTHING
-T G->H
-T (F&H)->(A1&!A1)

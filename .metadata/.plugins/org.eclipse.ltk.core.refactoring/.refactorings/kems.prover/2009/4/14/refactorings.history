@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 4 element(s) from project &apos;kems.prover&apos;&#x0A;- Original project: &apos;kems.prover&apos;&#x0A;- Original elements:&#x0A;     cw.jar&#x0A;     satcnf2.jar&#x0A;     satlfiinconsdef.jar&#x0A;     sats5.jar" description="Delete elements" element1="cw.jar" element2="satcnf2.jar" element3="satlfiinconsdef.jar" element4="sats5.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1238929475402" subPackages="false" version="1.0"/>
-</session>

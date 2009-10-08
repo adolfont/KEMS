@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 0 elements(s) to &apos;etc&apos;&#x0A;- Destination element: &apos;etc&apos;" description="Copy compilation units" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1242351658776" target="/kems.prover/etc" units="0" version="1.0"/>
-</session>

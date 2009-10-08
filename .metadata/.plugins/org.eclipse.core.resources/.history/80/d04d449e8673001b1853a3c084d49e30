@@ -1,4 +1,0 @@
-T A->B
-T C->D
-T E->F
-T A&B&C&D&E&F->(G&!G)

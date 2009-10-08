@@ -1,5 +1,0 @@
-package Factory2;
-
-interface class IFact2 {
-	void print();
-}

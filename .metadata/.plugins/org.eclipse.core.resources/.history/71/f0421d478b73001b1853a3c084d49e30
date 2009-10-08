@@ -1,7 +1,0 @@
-T (estaChovendo|(!tenhoDinheiro))->(!vouAoTeatro)
-T (tenhoDinheiro & estaPassandoBoaPeca & tenhoTempo)->vouAoTeatro
-T estaChovendo->levarGuardaChuva
-T tenhoDinheiro
-T tenhoTempo & estaPassandoBoaPeca
-T estaChovendo
-F vouAoTeatro & levarGuardaChuva
