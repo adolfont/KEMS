@@ -1,4 +1,5 @@
 *.class 
-kems.prover/bin/* 
+kems.prover/bin/
+kems.prover/log.txt
 *~
 .metadata/*
