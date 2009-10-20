@@ -33,6 +33,7 @@ import logic.valuation.MBCValuation;
 import logicalSystems.classicalLogic.ClassicalConnectives;
 import logicalSystems.classicalLogic.ClassicalSigns;
 import main.newstrategy.c1.simple.C1SimpleStrategy;
+import main.newstrategy.c1.simple.comparator.ConsistencyComplexityComparator;
 import main.newstrategy.cpl.configurable.comparator.ComplexitySignedFormulaComparator;
 import main.newstrategy.cpl.configurable.comparator.ConnectiveSignedFormulaComparator;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
@@ -117,27 +118,33 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private static final String[] EMPTY_LIST = new String[] { "Empty prover configuration list" };
 
 	// whenever a strategy is added here, verify createValuation method
-	private static final String[] CPL_STRATEGY_NAMES = new String[] { SimpleStrategy.class.getName(),
-			MemorySaverStrategy.class.getName(), ConfigurableSimpleStrategy.class.getName(),
-			BackjumpingSimpleStrategy.class.getName(), LearningSimpleStrategy.class.getName(),
+	private static final String[] CPL_STRATEGY_NAMES = new String[] {
+			SimpleStrategy.class.getName(),
+			MemorySaverStrategy.class.getName(),
+			ConfigurableSimpleStrategy.class.getName(),
+			BackjumpingSimpleStrategy.class.getName(),
+			LearningSimpleStrategy.class.getName(),
 			NewLearningSimpleStrategy.class.getName(),
 
 	};
 
 	private static final String[] MBC_STRATEGY_NAMES = new String[] {
-			MBCSimpleStrategy.class.getName(), MBCSimpleWithOptionalRulesStrategy.class.getName(),
+			MBCSimpleStrategy.class.getName(),
+			MBCSimpleWithOptionalRulesStrategy.class.getName(),
 	// MBCConfigurableSimpleStrategy.class.getName(),
 	};
 
 	private static final String[] MCI_STRATEGY_NAMES = new String[] {
-			MCISimpleStrategy.class.getName(), MCISimpleWithOptionalRulesStrategy.class.getName(),
+			MCISimpleStrategy.class.getName(),
+			MCISimpleWithOptionalRulesStrategy.class.getName(),
 	// MCIConfigurableSimpleStrategy.class.getName()
 	};
 
-	private static final String[] C1_STRATEGY_NAMES = new String[] { C1SimpleStrategy.class.getName() };
+	private static final String[] C1_STRATEGY_NAMES = new String[] { C1SimpleStrategy.class
+			.getName() };
 
-	private static final String[] LOGIC_NAMES = new String[] { CPL_LOGIC, MBC_LOGIC, MCI_LOGIC,
-			C1_LOGIC };
+	private static final String[] LOGIC_NAMES = new String[] { CPL_LOGIC,
+			MBC_LOGIC, MCI_LOGIC, C1_LOGIC };
 
 	private final Map<String, String> strategyMap;
 
@@ -231,8 +238,8 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		addSelectionPanel.add(addSelectionPanelAux, BorderLayout.NORTH);
 		addSelectionPanel.add(selectionListPane, BorderLayout.SOUTH);
 
-		addSelectionPanel.setBorder((BorderFactory.createTitledBorder(BorderFactory
-				.createBevelBorder(BevelBorder.RAISED),
+		addSelectionPanel.setBorder((BorderFactory.createTitledBorder(
+				BorderFactory.createBevelBorder(BevelBorder.RAISED),
 				"Prover configuration list for Several Problems Runner")));
 		JPanel allPanel = new JPanel(new BorderLayout());
 		allPanel.add(panel, BorderLayout.CENTER);
@@ -243,26 +250,31 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 
 	private void setBorder(JPanel panel) {
 		// Setting border with name
-		panel.setBorder(BorderFactory.createTitledBorder(BorderFactory
-				.createBevelBorder(BevelBorder.RAISED), "Prover configuration"));
+		panel
+				.setBorder(BorderFactory.createTitledBorder(BorderFactory
+						.createBevelBorder(BevelBorder.RAISED),
+						"Prover configuration"));
 	}
 
 	private JPanel createOptionPanel() {
 		// Options area
 		JPanel optionsPanel = new JPanel(new GridLayout(0, 3));
 		saveOriginCheckbox = new JCheckBox("Save formula origins");
-		saveOriginCheckbox.setToolTipText("Saves origin information for every formula");
+		saveOriginCheckbox
+				.setToolTipText("Saves origin information for every formula");
 		saveOriginCheckbox.setSelected(true);
 		saveOriginCheckbox.addActionListener(this);
 		optionsPanel.add(saveOriginCheckbox);
 
 		discardBranchesCheckbox = new JCheckBox("Discard closed branches");
-		discardBranchesCheckbox.setToolTipText("Discards closed branches from memory");
+		discardBranchesCheckbox
+				.setToolTipText("Discards closed branches from memory");
 		discardBranchesCheckbox.addActionListener(this);
 		optionsPanel.add(discardBranchesCheckbox);
 
 		saveDiscardedBranchesCheckbox = new JCheckBox("Save discarded branches");
-		saveDiscardedBranchesCheckbox.setToolTipText("Saves discarded closed branches from memory");
+		saveDiscardedBranchesCheckbox
+				.setToolTipText("Saves discarded closed branches from memory");
 		saveDiscardedBranchesCheckbox.addActionListener(this);
 		optionsPanel.add(saveDiscardedBranchesCheckbox);
 
@@ -277,21 +289,31 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private JPanel createComparatorArea() {
 		// Signed formula comparator area
 		JPanel signedFormulaComparatorPanel = new JPanel(new GridLayout(0, 2));
-		JLabel signedFormulaComparatorLabel = new JLabel("Signed formula comparator:");
-		signedFormulaComparatorCombo = new JComboBox(new Comparator[] {
-				new InsertionOrderSignedFormulaComparator(),
-				new ReverseInsertionOrderSignedFormulaComparator(),
-				new ConnectiveSignedFormulaComparator(ClassicalConnectives.AND),
-				new ConnectiveSignedFormulaComparator(ClassicalConnectives.OR),
-				new ConnectiveSignedFormulaComparator(ClassicalConnectives.IMPLIES),
-				new ConnectiveSignedFormulaComparator(ClassicalConnectives.BIIMPLIES),
-				new ConnectiveSignedFormulaComparator(ClassicalConnectives.XOR),
-				new SignSignedFormulaComparator(ClassicalSigns.TRUE),
-				new SignSignedFormulaComparator(ClassicalSigns.FALSE),
-				new ComplexitySignedFormulaComparator(ComplexitySignedFormulaComparator.ASCENDING),
-				new ComplexitySignedFormulaComparator(ComplexitySignedFormulaComparator.DESCENDING),
-				new NormalFormulaOrderSignedFormulaComparator(),
-				new ReverseFormulaOrderSignedFormulaComparator() });
+		JLabel signedFormulaComparatorLabel = new JLabel(
+				"Signed formula comparator:");
+		signedFormulaComparatorCombo = new JComboBox(
+				new Comparator[] {
+						new InsertionOrderSignedFormulaComparator(),
+						new ReverseInsertionOrderSignedFormulaComparator(),
+						new ConnectiveSignedFormulaComparator(
+								ClassicalConnectives.AND),
+						new ConnectiveSignedFormulaComparator(
+								ClassicalConnectives.OR),
+						new ConnectiveSignedFormulaComparator(
+								ClassicalConnectives.IMPLIES),
+						new ConnectiveSignedFormulaComparator(
+								ClassicalConnectives.BIIMPLIES),
+						new ConnectiveSignedFormulaComparator(
+								ClassicalConnectives.XOR),
+						new SignSignedFormulaComparator(ClassicalSigns.TRUE),
+						new SignSignedFormulaComparator(ClassicalSigns.FALSE),
+						new ComplexitySignedFormulaComparator(
+								ComplexitySignedFormulaComparator.ASCENDING),
+						new ComplexitySignedFormulaComparator(
+								ComplexitySignedFormulaComparator.DESCENDING),
+						new NormalFormulaOrderSignedFormulaComparator(),
+						new ReverseFormulaOrderSignedFormulaComparator(),
+						new ConsistencyComplexityComparator() });
 		signedFormulaComparatorCombo.setEnabled(true);
 		// signedFormulaComparatorCombo.addActionListener(this);
 		signedFormulaComparatorPanel.add(signedFormulaComparatorLabel);
@@ -303,8 +325,11 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		// Rule structure area
 		// JPanel rulesStructureNamePanel = new JPanel(new GridLayout(0, 2));
 		// JLabel rulesStructureNameLabel = new JLabel("Rule structure name:");
-		rulesStructureNameCombo = new JComboBox(new String[] { RuleStructureFactory.CPL_NORMAL_BX,
-				RuleStructureFactory.MBC, RuleStructureFactory.MCI, RuleStructureFactory.CPL_CONFIGURABLE , RuleStructureFactory.C1});
+		rulesStructureNameCombo = new JComboBox(
+				new String[] { RuleStructureFactory.CPL_NORMAL_BX,
+						RuleStructureFactory.MBC, RuleStructureFactory.MCI,
+						RuleStructureFactory.CPL_CONFIGURABLE,
+						RuleStructureFactory.C1 });
 		// rulesStructureNameCombo.addActionListener(this);
 		// rulesStructureNamePanel.add(rulesStructureNameLabel);
 		// rulesStructureNamePanel.add(rulesStructureNameCombo);
@@ -327,8 +352,10 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private JPanel createTimeLimitChooserArea() {
 		// "Time limit" chooser area
 		JPanel timeLimitPanel = new JPanel(new GridLayout(0, 2));
-		JLabel timeLimitLabel = new JLabel("Maximum number of minutes to run each problem:");
-		timeLimitCombo = new JComboBox(new String[] { "1", "3", "10", "60", "600" });
+		JLabel timeLimitLabel = new JLabel(
+				"Maximum number of minutes to run each problem:");
+		timeLimitCombo = new JComboBox(new String[] { "1", "3", "10", "60",
+				"600" });
 		timeLimitPanel.add(timeLimitLabel);
 		timeLimitPanel.add(timeLimitCombo);
 		return (timeLimitPanel);
@@ -461,10 +488,12 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		// for all strategy choices
 		for (int i = 0; i < strategyNameCombo.getModel().getSize(); i++) {
 			ProverConfiguration baseStrategyProverConfiguration = createProverConfigurationWithCurrentChoices();
-			baseStrategyProverConfiguration.setStrategyName((String) strategyNameCombo.getModel()
-					.getElementAt(i));
-			baseStrategyProverConfiguration.setStrategyFullClassName(strategyMap.get(strategyNameCombo
-					.getModel().getElementAt(i)));
+			baseStrategyProverConfiguration
+					.setStrategyName((String) strategyNameCombo.getModel()
+							.getElementAt(i));
+			baseStrategyProverConfiguration
+					.setStrategyFullClassName(strategyMap.get(strategyNameCombo
+							.getModel().getElementAt(i)));
 
 			// TODO melhorar relacionamento entre estrat�gia e conjunto de
 			// regras
@@ -481,10 +510,12 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		selectionList.setListData(selectionListData.toArray());
 	}
 
-	private void addAllComparatorChoices(ProverConfiguration baseStrategyProverConfiguration) {
+	private void addAllComparatorChoices(
+			ProverConfiguration baseStrategyProverConfiguration) {
 		for (int j = 0; j < signedFormulaComparatorCombo.getModel().getSize(); j++) {
 			ProverConfiguration comparatorStrategyPC;
-			comparatorStrategyPC = (ProverConfiguration) baseStrategyProverConfiguration.clone();
+			comparatorStrategyPC = (ProverConfiguration) baseStrategyProverConfiguration
+					.clone();
 
 			ISignedFormulaComparator comparator = (ISignedFormulaComparator) signedFormulaComparatorCombo
 					.getModel().getElementAt(j);
@@ -501,9 +532,12 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		proverConfig.setDiscardClosedBranches(getDiscardClosedBranches());
 		proverConfig.setSaveDiscardedBranches(getSaveDiscardedBranches());
 
-		if ((proverConfig.getStrategyName().equals(BackjumpingSimpleStrategy.class.getSimpleName())
-				|| proverConfig.getStrategyName().equals(LearningSimpleStrategy.class.getSimpleName()) || proverConfig
-				.getStrategyName().equals(NewLearningSimpleStrategy.class.getSimpleName()))) {
+		if ((proverConfig.getStrategyName().equals(
+				BackjumpingSimpleStrategy.class.getSimpleName())
+				|| proverConfig.getStrategyName().equals(
+						LearningSimpleStrategy.class.getSimpleName()) || proverConfig
+				.getStrategyName().equals(
+						NewLearningSimpleStrategy.class.getSimpleName()))) {
 			proverConfig.setSaveOrigin(true);
 			proverConfig.setSaveDiscardedBranches(false);
 		}
@@ -570,29 +604,37 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 
 	private void manageStrategyChoices(ActionEvent e) {
 		// Performs associated actions when a strategy is chosen
-		if (e.getSource() == strategyNameCombo || e.getSource() == logicNameCombo) {
+		if (e.getSource() == strategyNameCombo
+				|| e.getSource() == logicNameCombo) {
 
 			signedFormulaComparatorCombo.setEnabled(true);
 
 			// Simple and MemorySaver for CPL
 			// or Backjumping and Learning for CPL
-			if ((strategyNameCombo.getSelectedItem().equals(SimpleStrategy.class.getSimpleName()))
-					|| (strategyNameCombo.getSelectedItem().equals(MemorySaverStrategy.class.getSimpleName()))
-					|| (strategyNameCombo.getSelectedItem().equals(BackjumpingSimpleStrategy.class
-							.getSimpleName()))
-					|| (strategyNameCombo.getSelectedItem().equals(LearningSimpleStrategy.class
-							.getSimpleName()))
-					|| (strategyNameCombo.getSelectedItem().equals(NewLearningSimpleStrategy.class
-							.getSimpleName()))
+			if ((strategyNameCombo.getSelectedItem()
+					.equals(SimpleStrategy.class.getSimpleName()))
+					|| (strategyNameCombo.getSelectedItem()
+							.equals(MemorySaverStrategy.class.getSimpleName()))
+					|| (strategyNameCombo.getSelectedItem()
+							.equals(BackjumpingSimpleStrategy.class
+									.getSimpleName()))
+					|| (strategyNameCombo.getSelectedItem()
+							.equals(LearningSimpleStrategy.class
+									.getSimpleName()))
+					|| (strategyNameCombo.getSelectedItem()
+							.equals(NewLearningSimpleStrategy.class
+									.getSimpleName()))
 
 			) {
-				rulesStructureNameCombo.setSelectedItem(RuleStructureFactory.CPL_NORMAL_BX);
+				rulesStructureNameCombo
+						.setSelectedItem(RuleStructureFactory.CPL_NORMAL_BX);
 			}
 
 			// Configurable for CPL
 			if (strategyNameCombo.getSelectedItem().equals(
 					ConfigurableSimpleStrategy.class.getSimpleName())) {
-				rulesStructureNameCombo.setSelectedItem(RuleStructureFactory.CPL_CONFIGURABLE);
+				rulesStructureNameCombo
+						.setSelectedItem(RuleStructureFactory.CPL_CONFIGURABLE);
 				signedFormulaComparatorCombo.setEnabled(true);
 			}
 
@@ -607,7 +649,6 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 					MCIConfigurableSimpleStrategy.class.getSimpleName())) {
 				signedFormulaComparatorCombo.setEnabled(true);
 			}
-			
 
 		}
 	}
@@ -630,35 +671,43 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	}
 
 	private void setCPLAsCurrentLogicOption() {
-		parsingLibNameCombo.setModel(new DefaultComboBoxModel(new String[] { SATS5_PARSER,
-				SATCNF_PARSER }));
+		parsingLibNameCombo.setModel(new DefaultComboBoxModel(new String[] {
+				SATS5_PARSER, SATCNF_PARSER }));
 		parsingLibNameCombo.setSelectedItem(SATS5_PARSER);
 		strategyNameCombo.invalidate();
-		strategyNameCombo.setModel(new DefaultComboBoxModel(getSimpleNames(CPL_STRATEGY_NAMES)));
-		rulesStructureNameCombo.setSelectedItem(RuleStructureFactory.CPL_NORMAL_BX);
+		strategyNameCombo.setModel(new DefaultComboBoxModel(
+				getSimpleNames(CPL_STRATEGY_NAMES)));
+		rulesStructureNameCombo
+				.setSelectedItem(RuleStructureFactory.CPL_NORMAL_BX);
 	}
 
 	private void setMBCAsCurrentLogicOption() {
-		parsingLibNameCombo.setModel(new DefaultComboBoxModel(new String[] { SATLFIINCONSDEF_PARSER }));
+		parsingLibNameCombo.setModel(new DefaultComboBoxModel(
+				new String[] { SATLFIINCONSDEF_PARSER }));
 		parsingLibNameCombo.setSelectedItem(SATLFIINCONSDEF_PARSER);
 		strategyNameCombo.invalidate();
-		strategyNameCombo.setModel(new DefaultComboBoxModel(getSimpleNames(MBC_STRATEGY_NAMES)));
+		strategyNameCombo.setModel(new DefaultComboBoxModel(
+				getSimpleNames(MBC_STRATEGY_NAMES)));
 		rulesStructureNameCombo.setSelectedItem(RuleStructureFactory.MBC);
 	}
 
 	private void setMCIAsCurrentLogicOption() {
-		parsingLibNameCombo.setModel(new DefaultComboBoxModel(new String[] { SATLFIINCONSDEF_PARSER }));
+		parsingLibNameCombo.setModel(new DefaultComboBoxModel(
+				new String[] { SATLFIINCONSDEF_PARSER }));
 		parsingLibNameCombo.setSelectedItem(SATLFIINCONSDEF_PARSER);
 		strategyNameCombo.invalidate();
-		strategyNameCombo.setModel(new DefaultComboBoxModel(getSimpleNames(MCI_STRATEGY_NAMES)));
+		strategyNameCombo.setModel(new DefaultComboBoxModel(
+				getSimpleNames(MCI_STRATEGY_NAMES)));
 		rulesStructureNameCombo.setSelectedItem(RuleStructureFactory.MCI);
 	}
 
 	private void setC1AsCurrentLogicOption() {
-		parsingLibNameCombo.setModel(new DefaultComboBoxModel(new String[] { SATLFIINCONSDEF_PARSER }));
+		parsingLibNameCombo.setModel(new DefaultComboBoxModel(
+				new String[] { SATLFIINCONSDEF_PARSER }));
 		parsingLibNameCombo.setSelectedItem(SATLFIINCONSDEF_PARSER);
 		strategyNameCombo.invalidate();
-		strategyNameCombo.setModel(new DefaultComboBoxModel(getSimpleNames(C1_STRATEGY_NAMES)));
+		strategyNameCombo.setModel(new DefaultComboBoxModel(
+				getSimpleNames(C1_STRATEGY_NAMES)));
 		rulesStructureNameCombo.setSelectedItem(RuleStructureFactory.C1);
 	}
 
@@ -679,7 +728,8 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		try {
 			return Class.forName(className).getSimpleName();
 		} catch (ClassNotFoundException e) {
-			throw new RuntimeException(this.getClass().getName() + "- Class not found " + e.getMessage());
+			throw new RuntimeException(this.getClass().getName()
+					+ "- Class not found " + e.getMessage());
 		}
 	}
 
@@ -719,11 +769,12 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 
 		// if the strategy is backjumping or learning, one cannot use the
 		// options. The options are preset.
-		if (strategyNameCombo.getSelectedItem().equals(BackjumpingSimpleStrategy.class.getSimpleName())
+		if (strategyNameCombo.getSelectedItem().equals(
+				BackjumpingSimpleStrategy.class.getSimpleName())
 				|| (strategyNameCombo.getSelectedItem()
 						.equals(LearningSimpleStrategy.class.getSimpleName()))
-				|| (strategyNameCombo.getSelectedItem().equals(NewLearningSimpleStrategy.class
-						.getSimpleName()))
+				|| (strategyNameCombo.getSelectedItem()
+						.equals(NewLearningSimpleStrategy.class.getSimpleName()))
 
 		) {
 			saveOriginCheckbox.setSelected(true);
@@ -737,7 +788,8 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 
 	public ISignedFormulaComparator getSignedFormulaComparator() {
 		if (signedFormulaComparatorCombo.isEnabled()) {
-			return (ISignedFormulaComparator) signedFormulaComparatorCombo.getSelectedItem();
+			return (ISignedFormulaComparator) signedFormulaComparatorCombo
+					.getSelectedItem();
 		} else {
 			return null;
 		}
@@ -782,11 +834,15 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 
 	public AbstractValuation createValuation(String strategyName) {
 		if (strategyName.equals(MBCSimpleStrategy.class.getSimpleName())
-				|| strategyName.equals(MBCSimpleWithOptionalRulesStrategy.class.getName())
-				|| strategyName.equals(MBCConfigurableSimpleStrategy.class.getSimpleName())
+				|| strategyName.equals(MBCSimpleWithOptionalRulesStrategy.class
+						.getName())
+				|| strategyName.equals(MBCConfigurableSimpleStrategy.class
+						.getSimpleName())
 				|| strategyName.equals(MCISimpleStrategy.class.getSimpleName())
-				|| strategyName.equals(MCISimpleWithOptionalRulesStrategy.class.getSimpleName())
-				|| strategyName.equals(MCIConfigurableSimpleStrategy.class.getSimpleName())
+				|| strategyName.equals(MCISimpleWithOptionalRulesStrategy.class
+						.getSimpleName())
+				|| strategyName.equals(MCIConfigurableSimpleStrategy.class
+						.getSimpleName())
 				|| strategyName.equals(C1SimpleStrategy.class.getSimpleName())
 
 		) {
