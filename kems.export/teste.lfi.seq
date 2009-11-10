@@ -9,6 +9,7 @@ problems=
 problems/generated/lfiProblems/family7/c1/family7_01.prove
 problems/generated/lfiProblems/family7/c1/family7_02.prove
 problems/generated/lfiProblems/family7/c1/family7_03.prove
+problems/generated/lfiProblems/family7/c1/family7_04.prove
 
 strategies=
 C1SimpleStrategy
