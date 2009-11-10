@@ -7,6 +7,8 @@ timeLimit=10
 
 problems=
 problems/generated/lfiProblems/family7/c1/family7_01.prove
+problems/generated/lfiProblems/family7/c1/family7_02.prove
+problems/generated/lfiProblems/family7/c1/family7_03.prove
 
 strategies=
 C1SimpleStrategy
