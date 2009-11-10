@@ -26,10 +26,10 @@ public class ConsistencyComplexityComparator implements
 
 		int rt = 0;
 
-		if (getGrauConsistencia(sf0) == getGrauConsistencia(sf1)) {
+		if (getConsistencyDegree(sf0) == getConsistencyDegree(sf1)) {
 			rt = 0; // mesmo grau
 		} else {
-			if (getGrauConsistencia(sf0) >= getGrauConsistencia(sf1)) {
+			if (getConsistencyDegree(sf0) >= getConsistencyDegree(sf1)) {
 				rt = -1;
 			} else {
 				rt = 1;
@@ -40,16 +40,6 @@ public class ConsistencyComplexityComparator implements
 
 		return rt;
 
-		/*
-		 * if (f0 instanceof AtomicFormula && f1 instanceof AtomicFormula) {
-		 * return f0.toString().compareTo(f1.toString()); } else { if (f0
-		 * instanceof AtomicFormula) { return -1; } else { if (f1 instanceof
-		 * AtomicFormula) { return 1; } else { FormulaSign s0 = sf0.getSign();
-		 * FormulaSign s1 = sf1.getSign();
-		 * 
-		 * if (s0.equals(sign)) { return -1; } else { if (s1.equals(sign)) {
-		 * return 1; } else { return 0; } } } } }
-		 */
 	}
 
 	/*
@@ -65,7 +55,7 @@ public class ConsistencyComplexityComparator implements
 		return DESCRIPTOR;
 	}
 
-	private int getGrauConsistencia(SignedFormula f) {
+	private int getConsistencyDegree(SignedFormula f) {
 		String frase = f.getFormula().toString();
 		// .{1,2} - pois pode ser uma fórmula do tipo: !(A&!A)
 		// ou do tipo: !(A1&!A1)

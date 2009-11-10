@@ -1,7 +1,31 @@
-2009-05-13 00:23:19.831 - INFO: Prover interface started.
-2009-05-13 00:24:06.21 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
-2009-05-13 00:24:08.921 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
-2009-05-13 00:24:08.989 - INFO: Additional information about proof procedure for problem description in Problem Editor window: closed with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator in 0.81 seconds
-proof size: 1651
-number of nodes: 152
+2009-11-10 08:35:01.063 - INFO: Prover interface started.
+2009-11-10 08:38:36.565 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:decreasingOrder
+2009-11-10 08:38:39.413 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:decreasingOrder
+2009-11-10 08:38:39.416 - INFO: Additional information about proof procedure for problem description in Problem Editor window: closed with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:decreasingOrder in 0.768 seconds
+proof size: 18
+number of nodes: 7
+verification result: verified
+2009-11-10 08:38:55.891 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:decreasingOrder
+2009-11-10 08:38:58.564 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:decreasingOrder
+2009-11-10 08:38:58.566 - INFO: Additional information about proof procedure for problem description in Problem Editor window: open and completed with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:decreasingOrder in 0.558 seconds
+proof size: 42
+number of nodes: 19
+verification result: verified
+2009-11-10 08:39:38.656 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:increasingOrder
+2009-11-10 08:39:41.139 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:increasingOrder
+2009-11-10 08:39:41.141 - INFO: Additional information about proof procedure for problem description in Problem Editor window: open and completed with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,ComplexityComparator:increasingOrder in 0.598 seconds
+proof size: 42
+number of nodes: 19
+verification result: verified
+2009-11-10 08:40:32.541 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator:increasingOrder
+2009-11-10 08:40:35.111 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator:increasingOrder
+2009-11-10 08:40:35.112 - INFO: Additional information about proof procedure for problem description in Problem Editor window: open and completed with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator:increasingOrder in 0.645 seconds
+proof size: 40
+number of nodes: 18
+verification result: verified
+2009-11-10 08:40:58.841 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator:increasingOrder
+2009-11-10 08:41:02.499 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator:increasingOrder
+2009-11-10 08:41:02.501 - INFO: Additional information about proof procedure for problem description in Problem Editor window: open and completed with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,ComplexityComparator:increasingOrder in 1.403 seconds
+proof size: 41
+number of nodes: 19
 verification result: verified
