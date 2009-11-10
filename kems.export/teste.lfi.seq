@@ -2,25 +2,24 @@ parser=satlfiinconsdef
 saveOrigin=true
 discardClosedBranches=false
 saveDiscardedBranches=false
-times=1
+times=5
 timeLimit=10
 
 problems=
-problems/generated/lfiProblems/family5/family5_05.prove
-problems/generated/lfiProblems/family5/family5_10.prove
-problems/generated/lfiProblems/family5/family5_15.prove
+problems/generated/lfiProblems/family7/c1/family7_01.prove
 
 strategies=
 C1SimpleStrategy
 
 comparators=
-InsertionOrderComparator
-ReverseInsertionOrderComparator
+ConsistencyComplexityComparator
+#InsertionOrderComparator
+#ReverseInsertionOrderComparator
 #AndComparator
 #OrComparator
 #ImpliesComparator
-##BiimpliesComparator
-##XorComparator
+#BiimpliesComparator
+#XorComparator
 #TrueComparator
 #FalseComparator
 #AscendingComparator
