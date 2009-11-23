@@ -7,7 +7,8 @@ import logic.signedFormulas.SignedFormula;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
 
 /**
- * A comparator that ...
+ * A signed formula comparator that gives preference to formulas whose
+ * complexity degree is higher.
  * 
  * @author Emerson Shigueo Sugimoto
  * 
@@ -16,6 +17,13 @@ public class ConsistencyComplexityComparator implements
 		ISignedFormulaComparator {
 
 	public static final String DESCRIPTOR = "ccc";
+	
+	private Pattern p;
+	
+	public ConsistencyComplexityComparator() {
+	  p = Pattern.compile("!\\(.{1,2}&!.{1,2}\\)");
+
+	}
 
 	/*
 	 * (non-Javadoc)
@@ -27,16 +35,14 @@ public class ConsistencyComplexityComparator implements
 		int rt = 0;
 
 		if (getConsistencyDegree(sf0) == getConsistencyDegree(sf1)) {
-			rt = 0; // mesmo grau
+			rt = 0;
 		} else {
-			if (getConsistencyDegree(sf0) >= getConsistencyDegree(sf1)) {
+			if (getConsistencyDegree(sf0) > getConsistencyDegree(sf1)) {
 				rt = -1;
 			} else {
 				rt = 1;
 			}
 		}
-		// System.out.println("- " + sf0 + " ("+sf0.getGrauConsistencia()+"), "
-		// + sf1 + " ("+sf1.getGrauConsistencia()+"), rt: " + rt);
 
 		return rt;
 
@@ -56,36 +62,22 @@ public class ConsistencyComplexityComparator implements
 	}
 
 	private int getConsistencyDegree(SignedFormula f) {
-		String frase = f.getFormula().toString();
+		String formulaText = f.getFormula().toString();
 		// .{1,2} - pois pode ser uma fórmula do tipo: !(A&!A)
 		// ou do tipo: !(A1&!A1)
-		return grauConsistencia("!\\(.{1,2}&!.{1,2}\\)", frase);
+		return grauConsistencia(formulaText);
 	}
 
 	/**
-	 * Retorna o grau de consistência
-	 * */
+	 * Returns consistency degree
+	 */
 	private int grauConsistencia(String frase) {
-		// .{1,2} - pois pode ser uma fórmula do tipo: !(A&!A)
-		// ou do tipo: !(A1&!A1)
-		return grauConsistencia("!\\(.{1,2}&!.{1,2}\\)", frase);
-	}
-
-	/**
-	 * Retorna o grau de consistência
-	 * */
-	private int grauConsistencia(String ER, String frase) {
-		Pattern p = Pattern.compile(ER);
 		Matcher m = p.matcher(frase);
 		String formula = "";
 		int cont = 0;
 		while (m.find()) {
 			try {
-				formula = m.group();
-				// System.out.println(formula+ " \ti:" + m.start()+
-				// " \tf:"+m.end());
-
-				if (formulaValida(formula)) {
+				if (formulaValida(m.group())) {
 					cont++;
 				}
 

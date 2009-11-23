@@ -6,6 +6,7 @@ import java.util.Set;
 
 import logicalSystems.classicalLogic.ClassicalConnectives;
 import logicalSystems.classicalLogic.ClassicalSigns;
+import main.newstrategy.c1.simple.comparator.ConsistencyComplexityComparator;
 import main.newstrategy.cpl.configurable.comparator.ComplexitySignedFormulaComparator;
 import main.newstrategy.cpl.configurable.comparator.ConnectiveSignedFormulaComparator;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
@@ -58,6 +59,8 @@ public class ComparatorMap {
 				new NormalFormulaOrderSignedFormulaComparator());
 		comparatorMap.put("ReverseFormulaComparator",
 				new ReverseFormulaOrderSignedFormulaComparator());
+		comparatorMap.put("ConsistencyComplexityComparator",
+				new ConsistencyComplexityComparator());
 	}
 
 	public ISignedFormulaComparator getComparator(String name) {
