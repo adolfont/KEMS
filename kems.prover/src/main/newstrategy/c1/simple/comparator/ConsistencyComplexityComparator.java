@@ -10,6 +10,8 @@ import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
  * A signed formula comparator that gives preference to formulas whose
  * complexity degree is higher.
  * 
+ * Limitation: only atomic formulas whose size as string is less than 2
+ * 
  * @author Emerson Shigueo Sugimoto
  * 
  */
@@ -17,11 +19,11 @@ public class ConsistencyComplexityComparator implements
 		ISignedFormulaComparator {
 
 	public static final String DESCRIPTOR = "ccc";
-	
-	private Pattern p;
-	
+
+	private Pattern consistencyPattern;
+
 	public ConsistencyComplexityComparator() {
-	  p = Pattern.compile("!\\(.{1,2}&!.{1,2}\\)");
+		consistencyPattern = Pattern.compile("!\\(.*&!.*\\)");
 
 	}
 
@@ -38,9 +40,9 @@ public class ConsistencyComplexityComparator implements
 			rt = 0;
 		} else {
 			if (getConsistencyDegree(sf0) > getConsistencyDegree(sf1)) {
-				rt = -1;
-			} else {
 				rt = 1;
+			} else {
+				rt = -1;
 			}
 		}
 
@@ -62,30 +64,13 @@ public class ConsistencyComplexityComparator implements
 	}
 
 	private int getConsistencyDegree(SignedFormula f) {
-		String formulaText = f.getFormula().toString();
-		// .{1,2} - pois pode ser uma fórmula do tipo: !(A&!A)
-		// ou do tipo: !(A1&!A1)
-		return grauConsistencia(formulaText);
-	}
-
-	/**
-	 * Returns consistency degree
-	 */
-	private int grauConsistencia(String frase) {
-		Matcher m = p.matcher(frase);
-		String formula = "";
+		Matcher m = consistencyPattern.matcher(f.getFormula().toString());
 		int cont = 0;
 		while (m.find()) {
-			try {
-				if (formulaValida(m.group())) {
-					cont++;
-				}
-
-			} catch (Exception err) {
-				// System.err.println("Erro - " + err.getMessage());
+			if (validFormula(m.group())) {
+				cont++;
 			}
 		}
-
 		return cont;
 	}
 
@@ -95,18 +80,43 @@ public class ConsistencyComplexityComparator implements
 	 * !(A&!B) <br />
 	 * Verifica também fórmulas do tipo: !(A1&!A1)
 	 * */
-	private boolean formulaValida(String formula) {
-		if (formula.length() == 7) { // !(A&!A)
-			char X = formula.charAt(2);
-			char Y = formula.charAt(5);
-			return X == Y;
-		} else if (formula.length() == 9) { // !(A1&!A1)
-			String X = formula.substring(2, 4);
-			String Y = formula.substring(6, 8);
-			return X.equals(Y);
+	private boolean validFormula(String formula) {
+		int length = formula.length();
+
+		// System.out.println(formula);
+
+		if ((length - 5) % 2 == 0) {
+			int middleAndPosition = ((length - 3) / 2);
+			String part0 = formula.substring(2 + middleAndPosition - 1,
+					2 + middleAndPosition + 1);
+
+			if (!("&!".equals(part0)))
+				return false;
+
+			String part1 = formula.substring(2, 2 + middleAndPosition - 1);
+			String part2 = formula.substring(2 + middleAndPosition + 1,
+					length - 1);
+
+			// System.out.println(part0 + " - " + part1 + " - " + part2);
+			//
+			// System.out.println(part1.equals(part2));
+			return part1.equals(part2);
+
 		} else {
+			// System.out.println(false);
 			return false;
 		}
-	}
 
+		// if (formula.length() == 7) { // !(A&!A)
+		// char X = formula.charAt(2);
+		// char Y = formula.charAt(5);
+		// return X == Y;
+		// } else if (formula.length() == 9) { // !(A1&!A1)
+		// String X = formula.substring(2, 4);
+		// String Y = formula.substring(6, 8);
+		// return X.equals(Y);
+		// } else {
+		// return false;
+		// }
+	}
 }
