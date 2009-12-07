@@ -76,7 +76,7 @@ public class ConsistencyComplexityComparatorTest {
 		SignedFormula sf0, sf1, sf2, sf3, sf4, sf5, sf6, sf7, sf8, sf9, sf10, sf11, sf12, sf13, sf14, sf15, sf16, sf17;
 
 		sf0 = sfc.parseString("T !(A&!ABC)"); // invalid
-		sf1 = sfc.parseString("F !(B&!B)");
+		sf1 = sfc.parseString("F !(B&!B)"); //valid
 		sf2 = sfc.parseString("F !(!B&!!B)");
 		sf3 = sfc.parseString("F !((A&B)&!(A&B))");
 		sf4 = sfc.parseString("F !((A&B)&!(A&A))"); //invalid
