@@ -86,3 +86,7 @@ git merge origin/master
 At the project root folder
 git add .
 
+
+
+- (for the owner) To download updates from collaborators
+  git pull git://github.com/adolfont/KEMS.git experimental

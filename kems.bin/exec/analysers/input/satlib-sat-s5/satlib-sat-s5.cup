@@ -72,7 +72,6 @@ action code {:
 	public Formula createNary (FormulaFactory ff, String operator, List l){
 
    		Connective connective;
-
    		if (operator.equals("And")){
    			connective = ClassicalConnectives.AND;
    		}
@@ -94,9 +93,9 @@ action code {:
 			fl.add((Formula) l.get(i));
 		}
 
-		Formula result = fl.get(fl.size()-1);
-		for (int i=fl.size()-2; i>=0;i--){
-			result = ff.createCompositeFormula(connective, fl.get(i), result);
+		Formula result = fl.get(0);
+		for (int i=1; i<fl.size();i++){
+			result = ff.createCompositeFormula(connective, result, fl.get(i));
 		}
 
 		return result;
