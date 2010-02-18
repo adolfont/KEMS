@@ -6,20 +6,22 @@ times=5
 timeLimit=10
 
 problems=
-problems/generated/lfiProblems/family7/c1/family7_01.prove
-problems/generated/lfiProblems/family7/c1/family7_02.prove
-problems/generated/lfiProblems/family7/c1/family7_03.prove
-problems/generated/lfiProblems/family7/c1/family7_04.prove
+#problems/generated/lfiProblems/family5/family5_10.prove
+#problems/generated/lfiProblems/family6/family6_10.prove
+#problems/generated/lfiProblems/family1/c1/family1_10.prove
+#problems/generated/lfiProblems/family2/c1/family2_05.prove
+problems/generated/lfiProblems/family3/c1/family3_05.prove
+problems/generated/lfiProblems/family4/c1/family4_05.prove
 problems/generated/lfiProblems/family7/c1/family7_05.prove
-problems/generated/lfiProblems/family7/c1/family7_06.prove
-problems/generated/lfiProblems/family7/c1/family7_08.prove
+problems/generated/lfiProblems/family8/c1/family8_05.prove
+#problems/generated/lfiProblems/family9/c1/family9_05.prove
 
 strategies=
 C1SimpleStrategy
 
 comparators=
 ConsistencyComplexityComparator
-#InsertionOrderComparator
+InsertionOrderComparator
 #ReverseInsertionOrderComparator
 #AndComparator
 #OrComparator

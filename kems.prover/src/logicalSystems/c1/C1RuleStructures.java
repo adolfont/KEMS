@@ -130,6 +130,8 @@ public class C1RuleStructures {
 		addToTwoPremiseRules(C1Signs.TRUE, C1Connectives.IMPLIES, KERuleRole.RIGHT,
 				C1Rules.T_IMPLIES_RIGHT);
 		addToTwoPremiseRules(C1Signs.TRUE, C1Connectives.NOT, KERuleRole.LEFT, C1Rules.T_NOT_2);
+		// TODO: how to differentiate T_NOT_2B from T_NOT_2 here?
+//		addToTwoPremiseRules(C1Signs.TRUE, C1Connectives.NOT, KERuleRole.LEFT, C1Rules.T_NOT_2B);
 		return twoPremiseRules;
 	}
 
