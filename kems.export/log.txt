@@ -1,7 +1,4 @@
-2009-05-13 00:23:19.831 - INFO: Prover interface started.
-2009-05-13 00:24:06.21 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
-2009-05-13 00:24:08.921 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator
-2009-05-13 00:24:08.989 - INFO: Additional information about proof procedure for problem description in Problem Editor window: closed with C1SimpleStrategy,C1,SO,ND,NSD,InsertionOrderComparator in 0.81 seconds
-proof size: 1651
-number of nodes: 152
-verification result: verified
+2010-03-16 10:46:02.132 - INFO: Prover interface started.
+2010-03-16 10:46:17.754 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator
+2010-03-16 10:47:19.406 - INFO: 1 minute(s)  time limit exceeded
+2010-03-16 10:47:19.499 - INFO: Finished with error proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator
