@@ -68,6 +68,10 @@ public class ProverInterface extends JFrame implements ActionListener {
 	 */
 	public static Logger logger = Logger.getLogger(ProverInterface.class);
 
+	private static final String DEFAULT_VERSION = "1.1";
+	private static final String DEFAULT_RELASE_DATE = "Sep 30th, 2010";
+	private static final String DEFAULT_SITE = "http://www.dainf.ct.utfpr.edu.br/~adolfo/KEMS";
+
 	// lock file name
 	private static final String LOCK_FILENAME = ".lock";
 
@@ -145,6 +149,7 @@ public class ProverInterface extends JFrame implements ActionListener {
 		super();
 
 		try {
+			logViewer = new LogViewer(this, "log.txt");
 			loadProperties();
 			checkLock();
 
@@ -158,8 +163,6 @@ public class ProverInterface extends JFrame implements ActionListener {
 			this.setJMenuBar(createMenuBar());
 
 			drawsMainWindow();
-
-			logViewer = new LogViewer(this, "log.txt");
 			logViewer.appendInfoMessage("Prover interface started.");
 		} catch (Throwable e) {
 			if (e instanceof OutOfMemoryError) {
@@ -200,7 +203,8 @@ public class ProverInterface extends JFrame implements ActionListener {
 
 		// a group of JMenuItems
 		menuItem = new JMenuItem(EDITOR_OPTION, KeyEvent.VK_E);
-		menuItem.getAccessibleContext().setAccessibleDescription("Opens the problem editor");
+		menuItem.getAccessibleContext().setAccessibleDescription(
+				"Opens the problem editor");
 		menu.add(menuItem);
 		menuItem.addActionListener(this);
 
@@ -211,12 +215,14 @@ public class ProverInterface extends JFrame implements ActionListener {
 		// menuItem.addActionListener(this);
 
 		menuItem = new JMenuItem(INSTANCE_OPTION, KeyEvent.VK_I);
-		menuItem.getAccessibleContext().setAccessibleDescription("Opens the problem instance chooser");
+		menuItem.getAccessibleContext().setAccessibleDescription(
+				"Opens the problem instance chooser");
 		menu.add(menuItem);
 		menuItem.addActionListener(this);
 
 		menuItem = new JMenuItem(SEVERAL_OPTION, KeyEvent.VK_S);
-		menuItem.getAccessibleContext().setAccessibleDescription("Opens the several problems chooser");
+		menuItem.getAccessibleContext().setAccessibleDescription(
+				"Opens the several problems chooser");
 		menu.add(menuItem);
 		menuItem.addActionListener(this);
 	}
@@ -227,15 +233,18 @@ public class ProverInterface extends JFrame implements ActionListener {
 		// Build second menu in the menu bar.
 		menu = new JMenu("Configure");
 		menu.setMnemonic(KeyEvent.VK_C);
-		menu.getAccessibleContext().setAccessibleDescription("Configures the prover");
+		menu.getAccessibleContext().setAccessibleDescription(
+				"Configures the prover");
 
 		menuItem = new JMenuItem(CONFIGURE_OPTION, KeyEvent.VK_P);
-		menuItem.getAccessibleContext().setAccessibleDescription("Configures the prover");
+		menuItem.getAccessibleContext().setAccessibleDescription(
+				"Configures the prover");
 		menu.add(menuItem);
 		menuItem.addActionListener(this);
 
 		menuItem = new JMenuItem(LOGGER_OPTION, KeyEvent.VK_L);
-		menuItem.getAccessibleContext().setAccessibleDescription("Show log viewer");
+		menuItem.getAccessibleContext().setAccessibleDescription(
+				"Show log viewer");
 		menu.add(menuItem);
 		menuItem.addActionListener(this);//
 
@@ -264,16 +273,18 @@ public class ProverInterface extends JFrame implements ActionListener {
 		JMenuItem menuItem;
 		menu = new JMenu("Help");
 		menu.setMnemonic(KeyEvent.VK_H);
-		menu.getAccessibleContext().setAccessibleDescription("Help about the prover");
+		menu.getAccessibleContext().setAccessibleDescription(
+				"Help about the prover");
 
-		menuItem = new JMenuItem(CONTENTS_OPTION, KeyEvent.VK_I);
-		menuItem.getAccessibleContext().setAccessibleDescription(
-				"Important information about the prover");
-		menu.add(menuItem);
-		menuItem.addActionListener(this);
+//		menuItem = new JMenuItem(CONTENTS_OPTION, KeyEvent.VK_I);
+//		menuItem.getAccessibleContext().setAccessibleDescription(
+//				"Important information about the prover");
+//		menu.add(menuItem);
+//		menuItem.addActionListener(this);
 
 		menuItem = new JMenuItem(ABOUT_OPTION, KeyEvent.VK_A);
-		menuItem.getAccessibleContext().setAccessibleDescription("Information about the prover");
+		menuItem.getAccessibleContext().setAccessibleDescription(
+				"Information about the prover");
 		menu.add(menuItem);
 		menuItem.addActionListener(this);
 
@@ -293,19 +304,22 @@ public class ProverInterface extends JFrame implements ActionListener {
 
 			// if there is a lock file, show an error message
 			if (_lockFile.isFile()) {
-				JOptionPane.showMessageDialog(null, "A lock file ( " + _lockFile.getAbsolutePath()
-						+ " ) was found!" + System.getProperty("line.separator")
+				JOptionPane.showMessageDialog(null, "A lock file ( "
+						+ _lockFile.getAbsolutePath() + " ) was found!"
+						+ System.getProperty("line.separator")
 						+ "If there is no other KEMS instance running, "
-						+ "remove this lock file and restart the system.", "KEMS Initialization Error",
-						JOptionPane.ERROR_MESSAGE);
+						+ "remove this lock file and restart the system.",
+						"KEMS Initialization Error", JOptionPane.ERROR_MESSAGE);
 				logger.error("Lock file found");
 				System.exit(0);
 			} else {
 				try {
 					new FileWriter(LOCK_FILENAME);
 				} catch (IOException e) {
-					JOptionPane.showMessageDialog(null, "Unable to create lock file!",
-							"KEMS Initialization Error", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null,
+							"Unable to create lock file!",
+							"KEMS Initialization Error",
+							JOptionPane.ERROR_MESSAGE);
 					logger.error("Problem opening lock file", e);
 				}
 			}
@@ -323,10 +337,17 @@ public class ProverInterface extends JFrame implements ActionListener {
 		try {
 			properties.load(new FileInputStream(propertiesFilename));
 		} catch (FileNotFoundException e) {
-			logger.error("Properties file \"" + propertiesFilename + "\" not found in "
-					+ System.getProperty("user.dir"));
+			logger.error("Properties file \"" + propertiesFilename
+					+ "\" not found in " + System.getProperty("user.dir"));
+			showDebugMessage("Properties file \"" + propertiesFilename
+					+ "\" not found in " + System.getProperty("user.dir"));
+			properties = System.getProperties();
 		} catch (IOException e) {
-			logger.error("Problem reading properties file: \"" + propertiesFilename + "\".");
+			logger.error("Problem reading properties file: \""
+					+ propertiesFilename + "\".");
+			showDebugMessage("Problem reading properties file: \""
+					+ propertiesFilename + "\".");
+			properties = System.getProperties();
 		}
 
 	}
@@ -341,14 +362,17 @@ public class ProverInterface extends JFrame implements ActionListener {
 		JPanel panel = new JPanel(new GridLayout(3, 1));
 		JLabel label = new JLabel("  " + PROVER_NAME + "  ", JLabel.CENTER);
 		label.setFont(label.getFont().deriveFont(40.0f));
-		
+
 		panel.setBackground(Color.YELLOW);
 		label.setForeground(Color.BLUE);
 		panel.add(new JLabel());
 		panel.add(label);
-		panel.add(new JLabel("   Version: " + properties.getProperty("version", "??")
-				+ "    Release date: " + properties.getProperty("release.date", "??") + "   Site: "
-				+ properties.getProperty("site", "http://kems.iv.fapesp.br") + "   ", JLabel.CENTER));
+		panel.add(new JLabel("   Version: "
+				+ properties.getProperty("version", DEFAULT_VERSION)
+				+ "    Release date: "
+				+ properties.getProperty("release.date", DEFAULT_RELASE_DATE)
+				+ "   Site: " + properties.getProperty("site", DEFAULT_SITE)
+				+ "   ", JLabel.CENTER));
 
 		// coloca imagem - mas n�o animada
 		// File f = new File("/home/kurumin/kems/lib/ext/ampulheta.gif");
@@ -365,8 +389,8 @@ public class ProverInterface extends JFrame implements ActionListener {
 
 		this.pack();
 
-		Rectangle maximumBounds = GraphicsEnvironment.getLocalGraphicsEnvironment()
-				.getMaximumWindowBounds();
+		Rectangle maximumBounds = GraphicsEnvironment
+				.getLocalGraphicsEnvironment().getMaximumWindowBounds();
 		double x = (maximumBounds.getWidth() / 2) - (getWidth() / 2);
 		double y = (maximumBounds.getHeight() / 2) - (getHeight() / 2);
 		this.setLocation((int) x + 10, (int) y - 100);
@@ -379,13 +403,15 @@ public class ProverInterface extends JFrame implements ActionListener {
 		this.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
 
-				if (properties.getProperty("check.lock", "false").equals("true")) {
+				if (properties.getProperty("check.lock", "false")
+						.equals("true")) {
 
 					boolean result = _lockFile.delete();
 					if (result) {
 						logger.debug("Lock file successfully removed!");
 					} else {
-						logger.error("Could not remove lock file: " + _lockFile.getAbsolutePath()
+						logger.error("Could not remove lock file: "
+								+ _lockFile.getAbsolutePath()
 								+ "    Please do it manually.");
 					}
 					logViewer.closeLogFile();
@@ -403,10 +429,11 @@ public class ProverInterface extends JFrame implements ActionListener {
 		stopFrame.setLayout(new GridLayout(2, 1));
 		stopFrame.add(new JLabel("Running the prover..."));
 		stopFrame.add(stopButton = new JButton("Stop"));
-		stopFrame.setLocation(this.getLocation().x + 10, this.getLocation().y + 10);
+		stopFrame.setLocation(this.getLocation().x + 10,
+				this.getLocation().y + 10);
 		stopFrame.pack();
-		stopFrame.setSize((int) (stopFrame.getSize().getWidth() * 2), (int) stopFrame.getSize()
-				.getHeight());
+		stopFrame.setSize((int) (stopFrame.getSize().getWidth() * 2),
+				(int) stopFrame.getSize().getHeight());
 		stopFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		stopFrame.setVisible(false);
 		stopFrame.setResizable(false);
@@ -457,68 +484,73 @@ public class ProverInterface extends JFrame implements ActionListener {
 	 */
 	private void openAboutFrame() {
 		JEditorPane about = null;
-		String defaultLink = properties
-				.getProperty("about.link", "http://www.dainf.ct.utfpr.edu.br/~adolfo/KEMS/");
-		try {
-			about = new JEditorPane(defaultLink);
-			about.setPreferredSize(new Dimension(800, 600));
-		} catch (IOException e) {
+		String defaultLink = DEFAULT_SITE;
+//		try {
+//			about = new JEditorPane(defaultLink);
+//			about.setPreferredSize(new Dimension(800, 600));
+//		} catch (IOException e) {
 			about = new JEditorPane();
 			about.setFont(about.getFont().deriveFont(14.0f));
 			about.setFont(about.getFont().deriveFont(Font.BOLD));
-			String aboutString = "This is the " + PROVER_FULL_NAME + "," + StringUtil.LINE_SEPARATOR;
+			String aboutString = "This is the " + PROVER_FULL_NAME + ","
+					+ StringUtil.LINE_SEPARATOR;
 
-			aboutString += "a KE-tableau based prover for classical and " + "paraconsistent "
-					+ StringUtil.LINE_SEPARATOR + "propositional logics that allows one "
-					+ "to use different strategies." + StringUtil.LINE_SEPARATOR;
+			aboutString += "a KE-tableau based prover for classical and "
+					+ "paraconsistent " + StringUtil.LINE_SEPARATOR
+					+ "propositional logics that allows one "
+					+ "to use different strategies."
+					+ StringUtil.LINE_SEPARATOR+ StringUtil.LINE_SEPARATOR;
 			aboutString += "See " + defaultLink + " for more information.";
 			about.setText(aboutString);
-			about.setPreferredSize(new Dimension(480, 80));
-		}
-
+			about.setPreferredSize(new Dimension(580, 200));
+//	}
 		about.setEditable(false);
 		JFrame aboutFrame = new JFrame("About");
 		JScrollPane aboutScroller = new JScrollPane(about);
 		aboutFrame.setContentPane(aboutScroller);
 		aboutFrame.pack();
-		aboutFrame.setLocation(this.getLocation().x + 10, this.getLocation().y + 10);
+		aboutFrame.setLocation(this.getLocation().x + 10,
+				this.getLocation().y + 10);
 		aboutFrame.setVisible(true);
 
 	}
 
 	private void openContentsFrame() {
-		JEditorPane about = null;
+		JEditorPane contents = null;
 
 		String propertiesLink = properties.getProperty("help.link");
 
 		String secondOptionLink = "file:///" + System.getProperty("user.dir")
-				+ StringUtil.FILE_SEPARATOR + "KEMS_ help.html";
+				+ StringUtil.FILE_SEPARATOR + "KEMS_help.html";
 		try {
-			about = new JEditorPane(propertiesLink);
-			about.setPreferredSize(new Dimension(800, 600));
+			contents = new JEditorPane(propertiesLink);
+			contents.setPreferredSize(new Dimension(800, 600));
 		} catch (IOException e1) {
 			try {
-				about = new JEditorPane(secondOptionLink);
-				about.setPreferredSize(new Dimension(800, 600));
+				contents = new JEditorPane(secondOptionLink);
+				contents.setPreferredSize(new Dimension(800, 600));
 			} catch (IOException e2) {
-				about = new JEditorPane();
-				about.setFont(about.getFont().deriveFont(14.0f));
-				about.setFont(about.getFont().deriveFont(Font.BOLD));
-				String aboutString = "The " + PROVER_FULL_NAME + " help" + " page is not available now."
+				contents = new JEditorPane();
+				contents.setFont(contents.getFont().deriveFont(14.0f));
+				contents.setFont(contents.getFont().deriveFont(Font.BOLD));
+				String helpString = "The " + PROVER_FULL_NAME + " help"
+						+ " page is not available now."
 						+ StringUtil.LINE_SEPARATOR;
 
-				aboutString += "See " + propertiesLink + " for more information.";
-				about.setText(aboutString);
-				about.setPreferredSize(new Dimension(580, 80));
+				helpString += "See " + propertiesLink
+						+ " for more information.";
+				contents.setText(helpString);
+				contents.setPreferredSize(new Dimension(580, 80));
 			}
 		}
 
-		about.setEditable(false);
-		JFrame aboutFrame = new JFrame("About");
-		JScrollPane aboutScroller = new JScrollPane(about);
+		contents.setEditable(false);
+		JFrame aboutFrame = new JFrame("Help");
+		JScrollPane aboutScroller = new JScrollPane(contents);
 		aboutFrame.setContentPane(aboutScroller);
 		aboutFrame.pack();
-		aboutFrame.setLocation(this.getLocation().x + 10, this.getLocation().y + 10);
+		aboutFrame.setLocation(this.getLocation().x + 10,
+				this.getLocation().y + 10);
 		aboutFrame.setVisible(true);
 
 	}
@@ -562,6 +594,7 @@ public class ProverInterface extends JFrame implements ActionListener {
 		if (problemEditor == null) {
 			problemEditor = new ProblemEditor(this);
 			problemEditor.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+			problemEditor.setLocation(100, 100);
 			problemEditor.pack();
 			problemEditor.setVisible(true);
 		} else {
@@ -633,14 +666,15 @@ public class ProverInterface extends JFrame implements ActionListener {
 	 * Shows a proof in the proof viewer
 	 * 
 	 * @param proof
-	 *          - the proof to be shown
+	 *            - the proof to be shown
 	 */
 	public void showProofViewer(IProof proof) {
 
 		if (proof != null) {
 			ProofViewer proofViewer = new ProofViewer(this);
-			proofViewer.setValuation(proverConfigurator.createValuation(((ExtendedProof) proof)
-					.getProverConfiguration().getStrategyName()));
+			proofViewer.setValuation(proverConfigurator
+					.createValuation(((ExtendedProof) proof)
+							.getProverConfiguration().getStrategyName()));
 
 			proofViewer.setProof(proof);
 			proofViewer.showOn();
@@ -651,7 +685,8 @@ public class ProverInterface extends JFrame implements ActionListener {
 	 * @return directory with problem files
 	 */
 	public String getProblemsDir() {
-		return System.getProperty("user.dir") + System.getProperty("file.separator") + "problems";
+		return System.getProperty("user.dir")
+				+ System.getProperty("file.separator") + "problems";
 	}
 
 	/**
@@ -662,13 +697,12 @@ public class ProverInterface extends JFrame implements ActionListener {
 	 * @return a proof
 	 */
 	public void executeProver(boolean fileOrString, String filenameOrString) {
-		
-		
-		//Emerson
-		//executeProver(false, problemString);
-		//System.out.println("Este código quando o KEMS vai \"resolver\" um problema");
-		//# fim Emerson
-		
+
+		// Emerson
+		// executeProver(false, problemString);
+		// System.out.println("Este código quando o KEMS vai \"resolver\" um problema");
+		// # fim Emerson
+
 		// shows stop frame
 		stopFrame.setVisible(true);
 
@@ -678,9 +712,11 @@ public class ProverInterface extends JFrame implements ActionListener {
 
 		OneProblemRunnable oneProblemRunnable = null;
 		if (fileOrString) {
-			oneProblemRunnable = new OneProblemInFileRunnable(filenameOrString, pf, this);
+			oneProblemRunnable = new OneProblemInFileRunnable(filenameOrString,
+					pf, this);
 		} else {
-			oneProblemRunnable = new OneProblemAsStringRunnable(filenameOrString, pf, this);
+			oneProblemRunnable = new OneProblemAsStringRunnable(
+					filenameOrString, pf, this);
 		}
 
 		// enables stop button to stop proof
@@ -696,7 +732,8 @@ public class ProverInterface extends JFrame implements ActionListener {
 	}
 
 	public void showIsExecutingMessage() {
-		JOptionPane.showMessageDialog(this, "There is already one problem being executed!", "Error",
+		JOptionPane.showMessageDialog(this,
+				"There is already one problem being executed!", "Error",
 				JOptionPane.ERROR_MESSAGE);
 	}
 
@@ -765,7 +802,8 @@ public class ProverInterface extends JFrame implements ActionListener {
 		}
 
 		try {
-			UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.MetalLookAndFeel");
+			UIManager
+					.setLookAndFeel("com.sun.java.swing.plaf.gtk.MetalLookAndFeel");
 		} catch (Exception e) {
 			// nothing to do
 		}

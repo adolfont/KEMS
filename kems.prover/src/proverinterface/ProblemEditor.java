@@ -5,6 +5,7 @@
 package proverinterface;
 
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -74,11 +75,11 @@ public class ProblemEditor extends JFrame implements ActionListener, WindowListe
 		super("Problem Editor");
 		this.proverConfigurator = proverConfigurator;
 
-		// editorPane.setFont(new Font("Roman",0,20));
 
 		editorPane = new JTextPane();
 		editorPane.setEditable(false);
 		// editorPane.setText("Here you can edit a problem...");
+		editorPane.setFont(new Font("Roman",0,20));
 		editorPane.setText("");
 		editorPane.setEditable(true);
 		editorPane.addKeyListener(this);

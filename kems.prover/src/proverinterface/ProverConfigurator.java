@@ -118,10 +118,11 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private static final String[] EMPTY_LIST = new String[] { "Empty prover configuration list" };
 
 	// whenever a strategy is added here, verify createValuation method
+	// TODO: the order here matters in setCPLAsCurrentLogicOption() (last command)
 	private static final String[] CPL_STRATEGY_NAMES = new String[] {
+			ConfigurableSimpleStrategy.class.getName(),
 			SimpleStrategy.class.getName(),
 			MemorySaverStrategy.class.getName(),
-			ConfigurableSimpleStrategy.class.getName(),
 			BackjumpingSimpleStrategy.class.getName(),
 			LearningSimpleStrategy.class.getName(),
 			NewLearningSimpleStrategy.class.getName(),
@@ -322,18 +323,11 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	}
 
 	private void createRuleStructureChooser() {
-		// Rule structure area
-		// JPanel rulesStructureNamePanel = new JPanel(new GridLayout(0, 2));
-		// JLabel rulesStructureNameLabel = new JLabel("Rule structure name:");
 		rulesStructureNameCombo = new JComboBox(
 				new String[] { RuleStructureFactory.CPL_NORMAL_BX,
 						RuleStructureFactory.MBC, RuleStructureFactory.MCI,
 						RuleStructureFactory.CPL_CONFIGURABLE,
 						RuleStructureFactory.C1 });
-		// rulesStructureNameCombo.addActionListener(this);
-		// rulesStructureNamePanel.add(rulesStructureNameLabel);
-		// rulesStructureNamePanel.add(rulesStructureNameCombo);
-		// return (rulesStructureNamePanel);
 	}
 
 	private JPanel createParserChooser() {
@@ -447,20 +441,6 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		manageSelectionList(e);
 	}
 
-	// private void manageRuleStructureChoice(ActionEvent e) {
-	// if (e.getSource() == rulesStructureNameCombo) {
-	// // signedFormulaComparatorCombo.setEnabled(false);
-	// if (rulesStructureNameCombo.getSelectedItem() ==
-	// RuleStructureFactory.CPL_CONFIGURABLE) {
-	// strategyNameCombo
-	// .setSelectedItem(ConfigurableSimpleStrategy.class
-	// .getName());
-	// parsingLibNameCombo.setSelectedItem(SATS5_PARSER);
-	// signedFormulaComparatorCombo.invalidate();
-	// signedFormulaComparatorCombo.setEnabled(true);
-	// }
-	// }
-	// }
 
 	private void manageSelectionList(ActionEvent e) {
 		if (e.getActionCommand().equals(ADD_CONFIGURATION_TO_LIST)) {
@@ -546,51 +526,6 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 			selectionListData.addLast(proverConfig);
 		}
 
-		// // only two options:
-		// // 1. save origin without discarding branches
-		// proverConfig.setSaveOrigin(true);
-		// proverConfig.setDiscardClosedBranches(false);
-		// proverConfig.setSaveDiscardedBranches(false);
-
-		// if (!selectionListData.contains(proverConfig)) {
-		// selectionListData.addLast(proverConfig);
-		// }
-		//
-		// ProverConfiguration discardBranchesProverConfig =
-		// proverConfig.clone();
-		// discardBranchesProverConfig.setSaveOrigin(false);
-		// // TODO this is a concern that is also in manageStrategyOptions
-		// // Backjumping and Learning Strategy must save origin
-		// if ((proverConfig.getStrategyName().equals(
-		// BackjumpingSimpleStrategy.class.getSimpleName())
-		// || proverConfig.getStrategyName().equals(
-		// LearningSimpleStrategy.class.getSimpleName()) || proverConfig
-		// .getStrategyName().equals(
-		// NewLearningSimpleStrategy.class.getSimpleName()))) {
-		// discardBranchesProverConfig.setSaveOrigin(true);
-		// }
-		// discardBranchesProverConfig.setDiscardClosedBranches(true);
-		//
-		// if (!selectionListData.contains(discardBranchesProverConfig)) {
-		// selectionListData.addLast(discardBranchesProverConfig);
-		// }
-
-		// if (!(proverConfig.getStrategyName().equals(
-		// BackjumpingSimpleStrategy.class.getSimpleName())
-		// || proverConfig.getStrategyName().equals(
-		// LearningSimpleStrategy.class.getSimpleName()) || proverConfig
-		// .getStrategyName().equals(
-		// NewLearningSimpleStrategy.class.getSimpleName()))) {
-		// // 2. discard branches without saving origins
-		// ProverConfiguration discardBranchesProverConfig = proverConfig
-		// .clone();
-		// discardBranchesProverConfig.setSaveOrigin(false);
-		// discardBranchesProverConfig.setDiscardClosedBranches(true);
-		//
-		// if (!selectionListData.contains(discardBranchesProverConfig)) {
-		// selectionListData.addLast(discardBranchesProverConfig);
-		// }
-		// }
 	}
 
 	private void removeSelectedConfigurations() {
@@ -678,7 +613,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		strategyNameCombo.setModel(new DefaultComboBoxModel(
 				getSimpleNames(CPL_STRATEGY_NAMES)));
 		rulesStructureNameCombo
-				.setSelectedItem(RuleStructureFactory.CPL_NORMAL_BX);
+				.setSelectedItem(RuleStructureFactory.CPL_CONFIGURABLE);
 	}
 
 	private void setMBCAsCurrentLogicOption() {

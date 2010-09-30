@@ -1,2 +1,14 @@
-2010-03-22 12:06:43.168 - INFO: Properties file "application.properties" not found in /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.export
-2010-03-22 12:06:43.693 - INFO: Prover interface started.
+2010-06-09 06:28:55.915 - INFO: Properties file "application.properties" not found in /home/adolfo/Desktop/NTFS/Essencial/Desenvolvimento/KEMS/kems.export
+2010-06-09 06:28:56.643 - INFO: Prover interface started.
+2010-06-09 06:29:52.205 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,InsertionOrderComparator
+2010-06-09 06:30:40.521 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,InsertionOrderComparator
+2010-06-09 06:30:40.581 - INFO: Additional information about proof procedure for problem description in Problem Editor window: closed with ConfigurableSimpleStrategy,CPL_CONFIGURABLE,SO,ND,NSD,InsertionOrderComparator in 35.066 seconds
+proof size: 27602
+number of nodes: 11989
+verification result: verified
+2010-06-09 06:31:13.97 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator
+2010-06-09 06:31:45.191 - INFO: Finished with success proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator
+2010-06-09 06:31:45.193 - INFO: Additional information about proof procedure for problem description in Problem Editor window: closed with SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator in 10.765 seconds
+proof size: 9456
+number of nodes: 6993
+verification result: verified
