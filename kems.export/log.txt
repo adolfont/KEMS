@@ -1,4 +1,0 @@
-2010-03-16 10:46:02.132 - INFO: Prover interface started.
-2010-03-16 10:46:17.754 - INFO: Started proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator
-2010-03-16 10:47:19.406 - INFO: 1 minute(s)  time limit exceeded
-2010-03-16 10:47:19.499 - INFO: Finished with error proof and verify procedure for problem description in Problem Editor window with current prover configuration: SimpleStrategy,CPL_NORMAL_BX,SO,ND,NSD,InsertionOrderComparator

@@ -147,6 +147,12 @@ public class C1Rules {
 	public static TwoPremisesOneConclusionRule T_NOT_2 = new TwoPremisesOneConclusionRule("T_NOT_2",
 			new C1_Sign_T_NOT_1_Pattern(C1Signs.TRUE), new KEAction(ActionType.ADD_NODE,
 					new C1_T_NOT_1_Getter(C1Signs.FALSE)));
+	
+	// TODO write tests and see how to apply this rule
+	public static TwoPremisesOneConclusionRule T_NOT_2B = new TwoPremisesOneConclusionRule("T_NOT_2B",
+			new C1_Sign_T_NOT_1_Pattern(C1Signs.FALSE), new KEAction(ActionType.ADD_NODE,
+					new C1_T_NOT_1_Getter(C1Signs.TRUE)));
+
 	// old version: T!A, ToA ---> FA
 	// public static TwoPremisesOneConclusionRule T_NOT_1 = new
 	// TwoPremisesOneConclusionRule(

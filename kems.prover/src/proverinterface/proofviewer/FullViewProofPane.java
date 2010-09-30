@@ -53,7 +53,7 @@ public class FullViewProofPane extends JPanel {
 
 	private Dimension myPreferredSize;
 
-	private boolean showCircles = true;
+	private boolean showCircles = false;
 
 	private boolean showNumbers = false;
 

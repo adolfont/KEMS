@@ -1,23 +1,23 @@
 
 April 5th 2006
-Geração de um analyser a partir de outro
-Descrição geral e exemplo da criação de satlib-lfi-inconsdef a partir de satlib-lfi
+GeraÃ§Ã£o de um analyser a partir de outro
+DescriÃ§Ã£o geral e exemplo da criaÃ§Ã£o de satlib-lfi-inconsdef a partir de satlib-lfi
 
-1. Criar diretório com o nome do analyser em $MSTP_HOME/original/analysers/input
+1. Criar diretÃ³rio com o nome do analyser em $MSTP_HOME/original/analysers/input
    Criei satlib-lfi-inconsdef
 
-2. Copiar arquivos que estavam no diretório do analyser base para o novo diretório
+2. Copiar arquivos que estavam no diretï¿½rio do analyser base para o novo diretÃ³rio
    Copiei de satlib-lfi para satlib-lfi-inconsdef
    
 3. Modificar os arquivos
    3.1 Modificar o arquivo .flex
       3.1.1. Mudar o nome do pacote
-              	Mudei o nome do pacote para satlfiinconsdef - só no início
+              	Mudei o nome do pacote para satlfiinconsdef - sï¿½ no inï¿½cio
       3.1.2  Mudar o nome da classe do Lexer
-              	Mudei o nome da classe do lexer para satlfiinconsdefLexer - várias ocorrências
-      3.1.3  Mudar o nome da classe dos símbolos
- 		Mudei o nome da classe dos símbolos para satlfiinconsdefsym  - várias ocorrências
-      3.1.4  Acrescentar. excluir ou modificar símbolos
+              	Mudei o nome da classe do lexer para satlfiinconsdefLexer - vï¿½rias ocorrï¿½ncias
+      3.1.3  Mudar o nome da classe dos sï¿½mbolos
+ 		Mudei o nome da classe dos sï¿½mbolos para satlfiinconsdefsym  - vï¿½rias ocorrï¿½ncias
+      3.1.4  Acrescentar. excluir ou modificar sï¿½mbolos
                 Acrescentei 
 		  Inconsistency = "#"
       3.1.5  Acrescentar, excluir ou modificar regras
@@ -29,11 +29,11 @@ Descrição geral e exemplo da criação de satlib-lfi-inconsdef a partir de satlib-
       3.2.1 Modificar o nome do pacote
              	igual
       3.2.2  Mudar o nome da classe do Lexer
-              	Mudei o nome da classe do lexer para satlfiinconsdefLexer - várias ocorrências
-      3.2.3  Mudar o nome da classe dos símbolos
- 		Mudei o nome da classe dos símbolos para satlfiinconsdefsym  - várias ocorrências
-      3.2.4  Acrescentar, excluir ou modificar novos símbolos
-   		Acrescentei INCONSISTENCY à seguinte linha:
+              	Mudei o nome da classe do lexer para satlfiinconsdefLexer - vï¿½rias ocorrï¿½ncias
+      3.2.3  Mudar o nome da classe dos sï¿½mbolos
+ 		Mudei o nome da classe dos sï¿½mbolos para satlfiinconsdefsym  - vï¿½rias ocorrï¿½ncias
+      3.2.4  Acrescentar, excluir ou modificar novos sï¿½mbolos
+   		Acrescentei INCONSISTENCY ï¿½ seguinte linha:
    terminal           NEG, AND, OR, XOR, BIIMPLIES, IMPLIES, LPAREN, RPAREN, EOL, TOP, BOTTOM, CONSISTENCY, INCONSISTENCY;
    
       3.2.5  Acrescentar, excluir ou modificar regras
@@ -56,7 +56,7 @@ Descrição geral e exemplo da criação de satlib-lfi-inconsdef a partir de satlib-
    
      3.3.1 conversor-wagner-SATLIB.flex
      
-     	Acrescentei esta linha para novo símbolo
+     	Acrescentei esta linha para novo sï¿½mbolo
 
    
        "*"                { //System.out.print("!");
@@ -79,7 +79,7 @@ Descrição geral e exemplo da criação de satlib-lfi-inconsdef a partir de satlib-
 
 4. Incorporar ao sistema
 
-  4.1 Compilar os dois pares lexer/parser com a versão do Java usada pelo provador
+  4.1 Compilar os dois pares lexer/parser com a versï¿½o do Java usada pelo provador
   4.2 Acrescentar o analyser ao Java Build Path do projeto
    4.2.1 Usar "Add Variable" TP_LIB_GENERATED "Extend" <nome do analyser>.jar
          Acrescentei satlibinconsdef.jar
