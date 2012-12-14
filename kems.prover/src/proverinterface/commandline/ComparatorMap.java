@@ -15,6 +15,7 @@ import main.newstrategy.cpl.configurable.comparator.NormalFormulaOrderSignedForm
 import main.newstrategy.cpl.configurable.comparator.ReverseFormulaOrderSignedFormulaComparator;
 import main.newstrategy.cpl.configurable.comparator.ReverseInsertionOrderSignedFormulaComparator;
 import main.newstrategy.cpl.configurable.comparator.SignSignedFormulaComparator;
+import main.newstrategy.simple.ag.comparator.ComplexityComparatorAGElitista;
 
 public class ComparatorMap {
 
@@ -61,6 +62,11 @@ public class ComparatorMap {
 				new ReverseFormulaOrderSignedFormulaComparator());
 		comparatorMap.put("ConsistencyComplexityComparator",
 				new ConsistencyComplexityComparator());
+		
+		//EMERSON: Temporário Algoritmo Genético
+		comparatorMap.put("ComplexityComparatorAGElitista",
+				new ComplexityComparatorAGElitista());
+		
 	}
 
 	public ISignedFormulaComparator getComparator(String name) {

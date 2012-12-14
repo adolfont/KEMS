@@ -51,6 +51,7 @@ import main.newstrategy.mci.simple.configurable.MCIConfigurableSimpleStrategy;
 import main.newstrategy.mci.simple.optional.MCISimpleWithOptionalRulesStrategy;
 import main.newstrategy.memorysaver.MemorySaverStrategy;
 import main.newstrategy.simple.SimpleStrategy;
+import main.newstrategy.simple.ag.comparator.ComplexityComparatorAGElitista;
 import main.newstrategy.simple.backjumping.BackjumpingSimpleStrategy;
 import main.newstrategy.simple.learning.LearningSimpleStrategy;
 import main.newstrategy.simple.newlearning.NewLearningSimpleStrategy;
@@ -98,7 +99,11 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private LinkedList<ProverConfiguration> selectionListData;
 
 	private JComboBox timeLimitCombo;
+	
 
+	//EMERSON: Temporário Algoritmo Genético
+	private JCheckBox chkEstocastic;
+	
 	private static final String CPL_LOGIC = "Classical Propositional Logic";
 
 	private static final String MBC_LOGIC = "mbC - A Propositional Logic of Formal Inconcistency";
@@ -116,7 +121,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private static final String SATLFIINCONSDEF_PARSER = "satlfiinconsdef";
 
 	private static final String[] EMPTY_LIST = new String[] { "Empty prover configuration list" };
-
+	
 	// whenever a strategy is added here, verify createValuation method
 	// TODO: the order here matters in setCPLAsCurrentLogicOption() (last command)
 	private static final String[] CPL_STRATEGY_NAMES = new String[] {
@@ -187,6 +192,8 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		createRuleStructureChooser();
 
 		panel.add(createComparatorArea());
+		//EMERSON: Temporário Algoritmo Genético
+		panel.add(createChkEstocastico());
 
 		panel.add(createOptionPanel());
 
@@ -314,14 +321,56 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 								ComplexitySignedFormulaComparator.DESCENDING),
 						new NormalFormulaOrderSignedFormulaComparator(),
 						new ReverseFormulaOrderSignedFormulaComparator(),
-						new ConsistencyComplexityComparator() });
-		signedFormulaComparatorCombo.setEnabled(true);
+						new ConsistencyComplexityComparator(),
+						new ComplexityComparatorAGElitista()});
 		// signedFormulaComparatorCombo.addActionListener(this);
 		signedFormulaComparatorPanel.add(signedFormulaComparatorLabel);
 		signedFormulaComparatorPanel.add(signedFormulaComparatorCombo);
 		return (signedFormulaComparatorPanel);
 	}
-
+	
+	/**
+	 * EMERSON: Temporário Algoritmo Genético
+	 * */
+	private JPanel createChkEstocastico() {
+		// Signed formula comparator area
+		JPanel signedFormulaComparatorPanel = new JPanel(new GridLayout(0, 2));
+		JLabel signedFormulaComparatorLabel = new JLabel("Algoritmo Genético:");
+		
+		chkEstocastic = new JCheckBox("Estocástico");
+		//final JCheckBox chkElitista = new JCheckBox("Estocástico");
+		
+		chkEstocastic.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				//chkElitista.setSelected(!chkEstocastic.isSelected());
+				//JOptionPane.showMessageDialog(null, "Estocastico Selecionado", "Estocastico", JOptionPane.INFORMATION_MESSAGE);
+				
+				if (signedFormulaComparatorCombo.getItemCount() > 0) {
+					signedFormulaComparatorCombo.setSelectedIndex(signedFormulaComparatorCombo.getItemCount()-1);
+				}
+				signedFormulaComparatorCombo.setVisible(!chkEstocastic.isSelected());
+				//signedFormulaComparatorCombo.setEditable(!chkEstocastic.isSelected());
+				//signedFormulaComparatorCombo.setEnabled(!chkEstocastic.isSelected());
+				
+			}
+		});
+		chkEstocastic.setToolTipText("Estocástico");
+		
+//		chkElitista.addActionListener(new ActionListener() {
+//			public void actionPerformed(ActionEvent arg0) {
+//				chkEstocastic.setSelected(!chkElitista.isSelected());
+//			}
+//		});
+//		chkElitista.setToolTipText("Estocástico");
+//		chkElitista.setSelected(false);
+		
+		//optionsPanel.add(chkEstocastic);
+		signedFormulaComparatorPanel.add(signedFormulaComparatorLabel);
+		signedFormulaComparatorPanel.add(chkEstocastic);
+//		signedFormulaComparatorPanel.add(chkElitista);
+		return (signedFormulaComparatorPanel);
+	}
+	
 	private void createRuleStructureChooser() {
 		rulesStructureNameCombo = new JComboBox(
 				new String[] { RuleStructureFactory.CPL_NORMAL_BX,
@@ -668,6 +717,11 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		}
 	}
 
+	//EMERSON: Temporário Algoritmo Genético
+	public boolean getEstocasticMode() {
+		return chkEstocastic.isSelected();
+	}
+	
 	private void manageStrategyOptions(ActionEvent e) {
 
 		// TODO: how to better implement this concern?
@@ -759,6 +813,10 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		pc.setSaveDiscardedBranches(getSaveDiscardedBranches());
 		pc.setSignedFormulaComparator(getSignedFormulaComparator());
 		// pc.setUseBackjumping(getUseBackjumping());
+		
+		//EMERSON: Temporário Algoritmo Genético
+		pc.setModoEstocastico(getEstocasticMode());
+		
 		return pc;
 	}
 

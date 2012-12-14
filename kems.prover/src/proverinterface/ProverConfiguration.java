@@ -33,7 +33,12 @@ public class ProverConfiguration implements Cloneable{
 	private ISignedFormulaComparator signedFormulaComparator;
 
 	private boolean twoPhasesParserOption;
-
+	
+	//EMERSON: Temporário Algoritmo Genético
+	private boolean _modoEstocastico;
+	public boolean getModoEstocastico() {return _modoEstocastico;}
+	public void setModoEstocastico(boolean option) {this._modoEstocastico = option;}
+	
 	/**
 	 * @param strategyName
 	 */

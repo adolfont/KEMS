@@ -358,6 +358,9 @@ public class ProverFacade {
 		strategy
 				.setComparator(proverConfiguration.getSignedFormulaComparator());
 
+		//EMERSON: Temporário Algoritmo Genético
+		strategy.setModoEstocastico(proverConfiguration.getModoEstocastico());
+		
 		// if (strategy instanceof ConfigurableSimpleStrategy) {
 		// ((ConfigurableSimpleStrategy) strategy)
 		// .setComparator(proverConfiguration

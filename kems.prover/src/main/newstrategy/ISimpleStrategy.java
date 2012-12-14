@@ -206,5 +206,8 @@ public interface ISimpleStrategy extends IStrategy {
 	 */
 	public SignedFormula getTTopFormula();
 
+	//EMERSON: Temporário Algoritmo Genético
+	public boolean getModoEstocastico();
+	public void setModoEstocastico(boolean option);
 
 }

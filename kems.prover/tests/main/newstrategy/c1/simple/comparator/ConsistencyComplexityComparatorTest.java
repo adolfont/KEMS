@@ -45,7 +45,6 @@ public class ConsistencyComplexityComparatorTest {
 		assertEquals(0, ccc.compare(sf0, sf0));
 		assertEquals(0, ccc.compare(sf1, sf1));
 		assertEquals(0, ccc.compare(sf2, sf2));
-
 	}
 
 	@Test
@@ -173,4 +172,16 @@ public class ConsistencyComplexityComparatorTest {
 		
 	}
 
+	@Test
+	public void testCompare_IV() {
+		SignedFormula sf0 = sfc.parseString("F(A->B)->C"); //5
+		SignedFormula sf1 = sfc.parseString("T ((A & B) -> (B & C)) -> (A & C)"); //11
+		
+		assertEquals(5, sf0.getComplexity());
+		assertEquals(11, sf1.getComplexity());
+		
+		//System.out.println(sf0.toString() + ", c: " + sf0.getComplexity());
+		//System.out.println(sf1.toString() + ", c: " + sf1.getComplexity());
+	}
+	
 }

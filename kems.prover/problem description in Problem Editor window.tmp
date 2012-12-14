@@ -1,0 +1,4 @@
+BRANCH ID: *ll*
+T ((A&B)->(B&C))
+T (A&C)
+T C

@@ -4,6 +4,8 @@
  */
 package main.strategy.applicator;
 
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import logic.formulas.CompositeFormula;
 import logic.signedFormulas.PBCandidateList;
 import logic.signedFormulas.SignedFormula;
@@ -13,6 +15,7 @@ import logicalSystems.classicalLogic.ClassicalRules;
 import main.newstrategy.CPLPBRuleChooser;
 import main.newstrategy.IPBRuleChooser;
 import main.newstrategy.ISimpleStrategy;
+import main.newstrategy.simple.ag.comparator.AGEstocastico;
 import main.proofTree.SignedFormulaNode;
 import main.proofTree.SignedFormulaNodeState;
 import main.strategy.ClassicalProofTree;
@@ -30,9 +33,7 @@ import rules.structures.PBRuleList;
 public class PBRuleApplicator implements IProofTransformation {
 
 	private ISimpleStrategy strategy;
-
 	private String ruleListName;
-
 	private IPBRuleChooser pbRuleChooser;
 
 	/**
@@ -70,33 +71,107 @@ public class PBRuleApplicator implements IProofTransformation {
 		TwoPremisesOneConclusionRule r = null;
 		SignedFormula auxOpposite = null, conclusion = null;
 		int candidateIndex = 0;
-
-		// looks for a rule that can be applied
-		while (candidateIndex < candidates.size()) {
-			candidateChosen = candidates.get(candidateIndex);
-//			 System.out.println("main candidate chosen: "+ candidateChosen);
-			candidateIndex++;
-			ruleChosen = choosePBRule(PBRules, candidateChosen);
-//			 System.out.println("rule chosen:"+ruleChosen);
-			if (ruleChosen != NullRule.INSTANCE) {
-				aux = ((TwoPremisesOneConclusionRule) ruleChosen).getAuxiliaryCandidates(
-						sfb.getSignedFormulaFactory(), sfb.getFormulaFactory(), candidateChosen).get(0);
-				if ((strategy.getCurrent().contains(aux) || strategy.getCurrent().contains(
-						sfb.createOppositeSignedFormula(aux)))) {
-					continue;
+		
+		//EMERSON: Temporário Algoritmo Genético
+		boolean modoEsto = this.strategy.getModoEstocastico();
+		
+		JOptionPane.showMessageDialog(null,
+				"Aplicação de Regra PB\n" + 
+				 "modo estocástico: " + (modoEsto?"TRUE":"FALSE"), 
+				 "Aplicação PB", JOptionPane.INFORMATION_MESSAGE);
+		
+		if (modoEsto){
+			//Modo estocástico
+			AGEstocastico agEst = new AGEstocastico(candidates);
+			ArrayList<Integer> indicesEscolhidos = new ArrayList<Integer>();
+			int indiceRoleta;
+			
+			//esta funcionando
+			
+			// looks for a rule that can be applied
+			while (indicesEscolhidos.size() < candidates.size()) {
+				indiceRoleta = agEst.Roleta();
+				while(indicesEscolhidos.contains(indiceRoleta)){ //índice já escolhido
+					indiceRoleta = agEst.Roleta(); //escolhe um novo índice
 				}
-				if (pbRuleChooser.canApply(ruleChosen, candidateChosen, sfb)) {
-					r = (TwoPremisesOneConclusionRule) ruleChosen;
-					auxOpposite = sfb.createOppositeSignedFormula(aux);
-					// Verifica se conclusao ja esta na ProofTree - se ja
-					// estiver, nao aplica PB
-					SignedFormulaList sfl = new SignedFormulaList(candidateChosen);
-					sfl.add(aux);
-					conclusion = r.getPossibleConclusions(sfb.getSignedFormulaFactory(),
-							sfb.getFormulaFactory(), sfl).get(0);
-					if (strategy.getCurrent().getNode(conclusion) == null) {
-						foundRule = true;
-						break;
+				indicesEscolhidos.add(indiceRoleta);
+				
+				candidateChosen = agEst.GetIndividuoRoleta(indiceRoleta);  //candidates.get(candidateIndex);
+				
+				JOptionPane.showMessageDialog(null,
+						candidateChosen, "candidateChosen", JOptionPane.INFORMATION_MESSAGE);
+				
+				// System.out.println("main candidate chosen: "+
+				// candidateChosen);
+				ruleChosen = choosePBRule(PBRules, candidateChosen);
+				// System.out.println("rule chosen:"+ruleChosen);
+				if (ruleChosen != NullRule.INSTANCE) {
+					aux = ((TwoPremisesOneConclusionRule) ruleChosen)
+							.getAuxiliaryCandidates(
+									sfb.getSignedFormulaFactory(),
+									sfb.getFormulaFactory(), candidateChosen)
+							.get(0);
+					if ((strategy.getCurrent().contains(aux) || strategy
+							.getCurrent().contains(
+									sfb.createOppositeSignedFormula(aux)))) {
+						continue;
+					}
+					if (pbRuleChooser
+							.canApply(ruleChosen, candidateChosen, sfb)) {
+						r = (TwoPremisesOneConclusionRule) ruleChosen;
+						auxOpposite = sfb.createOppositeSignedFormula(aux);
+						// Verifica se conclusao ja esta na ProofTree - se ja
+						// estiver, nao aplica PB
+						SignedFormulaList sfl = new SignedFormulaList(
+								candidateChosen);
+						sfl.add(aux);
+						conclusion = r.getPossibleConclusions(
+								sfb.getSignedFormulaFactory(),
+								sfb.getFormulaFactory(), sfl).get(0);
+						if (strategy.getCurrent().getNode(conclusion) == null) {
+							foundRule = true;
+							break;
+						}
+					}
+				}
+			}
+			agEst = null;
+		} else {
+			// looks for a rule that can be applied
+			while (candidateIndex < candidates.size()) {
+				candidateChosen = candidates.get(candidateIndex);
+				// System.out.println("main candidate chosen: "+
+				// candidateChosen);
+				candidateIndex++;
+				ruleChosen = choosePBRule(PBRules, candidateChosen);
+				// System.out.println("rule chosen:"+ruleChosen);
+				if (ruleChosen != NullRule.INSTANCE) {
+					aux = ((TwoPremisesOneConclusionRule) ruleChosen)
+							.getAuxiliaryCandidates(
+									sfb.getSignedFormulaFactory(),
+									sfb.getFormulaFactory(), candidateChosen)
+							.get(0);
+					if ((strategy.getCurrent().contains(aux) || strategy
+							.getCurrent().contains(
+									sfb.createOppositeSignedFormula(aux)))) {
+						continue;
+					}
+					if (pbRuleChooser
+							.canApply(ruleChosen, candidateChosen, sfb)) {
+						r = (TwoPremisesOneConclusionRule) ruleChosen;
+						auxOpposite = sfb.createOppositeSignedFormula(aux);
+						// Verifica se conclusao ja esta na ProofTree - se ja
+						// estiver, nao aplica PB
+						SignedFormulaList sfl = new SignedFormulaList(
+								candidateChosen);
+						sfl.add(aux);
+						conclusion = r.getPossibleConclusions(
+								sfb.getSignedFormulaFactory(),
+								sfb.getFormulaFactory(), sfl).get(0);
+						if (strategy.getCurrent().getNode(conclusion) == null) {
+							foundRule = true;
+							break;
+						}
 					}
 				}
 			}

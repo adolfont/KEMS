@@ -11,9 +11,7 @@ import main.newstrategy.cpl.configurable.comparator.InsertionOrderSignedFormulaC
 import main.newstrategy.mbc.simple.MBCSimpleStrategy;
 import main.tableau.Method;
 import main.tableau.Proof;
-
 import org.junit.Test;
-
 import proverinterface.RuleStructureFactory;
 
 public class C1SimpleStrategyTest {

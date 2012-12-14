@@ -23,7 +23,6 @@ public class ConsistencyComplexityComparator implements
 
 	public ConsistencyComplexityComparator() {
 		consistencyPattern = Pattern.compile("!\\(.*&!.*\\)");
-
 	}
 
 	/*

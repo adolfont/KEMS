@@ -137,7 +137,8 @@ public class PBCandidateList {
 	}
 
 	public void sort(ISignedFormulaComparator comparator) {
-
+		//EMERSON Ordenação do vetor
+		
 		if (!comparator.getComparatorDescriptor().equals(
 				InsertionOrderSignedFormulaComparator.DESCRIPTOR)
 				&& _changed) {
