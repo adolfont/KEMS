@@ -15,6 +15,8 @@ import java.util.ListIterator;
 
 import logic.problem.Problem;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
+import main.newstrategy.simple.ag.util.AGConfiguration;
+import main.newstrategy.simple.ag.util.AGConfiguration.Abordagens;
 import main.proofTree.ProofTree;
 import main.tableau.verifier.ExtendedProof;
 
@@ -51,6 +53,10 @@ public class CommandLineRunner {
 	// private static final String COMPARATOR_KEYWORD = "comparator";
 	//
 	// private static final String RULES_KEYWORD = "ruleStructure";
+	
+	//EMERSON: Temporário Algoritmo Genético
+	private static final String MODO_AG = "modoag";
+	//private static long _mem0 = 0; //Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
 	private static final String PARSER_KEYWORD = "parser";
 
@@ -105,7 +111,7 @@ public class CommandLineRunner {
 		SIGNED_FORMULA_COMPARATOR_MAP = new ComparatorMap();
 		RULE_STRUCTURE_MAP = new RuleStructureMap();
 		firstResult = true;
-
+	
 		// Verifies if second argument is a new separator
 		if (args.length > 1
 				&& args[args.length - 1].startsWith(SEPARATOR_ARGUMENT)) {
@@ -132,6 +138,7 @@ public class CommandLineRunner {
 				System.out.println("Finished!");
 			}
 		} catch (Throwable t) {
+			System.err.println("Error: " + t);
 			logger.error("Error", t);
 		}
 
@@ -168,21 +175,20 @@ public class CommandLineRunner {
 	}
 
 	private static void processCommands(List<String> commands) throws Exception {
-
 		ProverConfiguration pc = null;
 
 		pc = initializeBaseConfiguration(commands);
 		getOtherCommandsAndRun(pc, commands);
-
 	}
 
 	private static void getOtherCommandsAndRun(ProverConfiguration pc,
 			List<String> commands) {
 		ListIterator<String> it = commands.listIterator();
-		List<String> filenames = null, comparators = null, strategies = null;
+		List<String> filenames = null, comparators = null, strategies = null, modoAG = null;
 		List<String> problemLines = null;
 
 		while (it.hasNext()) {
+
 			String command = it.next();
 
 			if (command.startsWith(ONE_PROBLEM_KEYWORD + EQUALS)) {
@@ -197,16 +203,19 @@ public class CommandLineRunner {
 			} else if (command.startsWith(STRATEGIES_KEYWORD + EQUALS)) {
 				it.remove();
 				strategies = getLines(it, commands);
+			} else if (command.startsWith(MODO_AG + EQUALS)) {
+				it.remove();
+				modoAG = getLines(it, commands);
 			} else
 
 			if (command.startsWith(RUN_KEYWORD)) {
 				if (comparators != null && strategies != null) {
 					if (filenames != null) {
-						runProblems(pc, filenames, strategies, comparators);
+						runProblems(pc, filenames, strategies, comparators, modoAG);
 					} else {
 						if (problemLines != null) {
 							runOneProblem(pc, problemLines, strategies,
-									comparators);
+									comparators, modoAG);
 						} else {
 							System.out.println("No problem to run");
 						}
@@ -224,7 +233,8 @@ public class CommandLineRunner {
 
 	private static void runOneProblem(ProverConfiguration pc,
 			List<String> problemLines, List<String> strategies,
-			List<String> comparators) {
+			List<String> comparators,
+			List<String> modoAG) {
 		File f = new File("."+System.currentTimeMillis() + ".kems.temp.problem");
 
 		while (f.exists()) {
@@ -248,14 +258,16 @@ public class CommandLineRunner {
 		List<String> problems = new ArrayList<String>();
 		problems.add(f.getAbsolutePath());
 
-		runProblems(pc, problems, strategies, comparators);
+		runProblems(pc, problems, strategies, comparators, modoAG);
 
 		f.deleteOnExit();
 	}
 
+	@SuppressWarnings("unused")
 	private static ProverConfiguration changeConfiguration(
 			ProverConfiguration pc, ListIterator<String> it,
-			List<String> commands) {
+			List<String> commands,
+			List<String> modoAG) {
 		try {
 			while (it.hasNext()) {
 				String command = it.next();
@@ -301,6 +313,8 @@ public class CommandLineRunner {
 					pc.setTimeLimit(TIME_UNIT
 							* Long.parseLong(getValueFor(command,
 									TIME_LIMIT_KEYWORD)) + TIME_LIMIT_INCREASE);
+				//} else if (command.startsWith(MODO_AG)) {
+					
 				} else {
 					it.previous();
 					return pc;
@@ -316,56 +330,114 @@ public class CommandLineRunner {
 
 	private static void runProblems(ProverConfiguration basePC,
 			List<String> filenames, List<String> strategies,
-			List<String> comparators) {
-		// ProverFacade pf = new ProverFacade();
+			List<String> comparators,
+			List<String> modoAG) {
 		Iterator<String> problemIterator = filenames.iterator();
-
+		
+		CommandLineRunnable clr = null;
+		
 		while (problemIterator.hasNext()) {
-
-			// ExtendedProof ep;
-
 			String problem = problemIterator.next();
 
 			Iterator<String> strategyIterator = strategies.iterator();
 			while (strategyIterator.hasNext()) {
 				String strategyName = strategyIterator.next();
+				
+				//EMERSON: Temporário Algoritmo Genético
+				if (modoAG!=null && modoAG.size() > 0) {
+					//estocastico,elitista
+					Iterator<String> comparatorIterator = comparators.iterator();
+					while (comparatorIterator.hasNext()) {
+						String comparator = comparatorIterator.next();
+						Iterator<String> modoAGIterator = modoAG.iterator();
+						while (modoAGIterator.hasNext()) {
+							String agMode = modoAGIterator.next();
+							
+							//-string agMode
+							basePC.setAbordagemAG(AGConfiguration.GetAbordagemFromString(agMode));
+							
+							//strategyName = "SimpleStrategy";
+							//comparator = "OrComparator";
+							if (basePC.getAbordagensAG() == Abordagens.NotApplyAG) {
+								//limpa o modo AG
+								//strategyName = "ConfigurableSimpleStrategy";
+								//comparator = "InsertionOrderComparator";
+							}
+						
+							main.newstrategy.simple.ag.util.MemoriaCompartilhada.Clear();
 
-				Iterator<String> comparatorIterator = comparators.iterator();
+							//System.out.println("comparator: " + comparator);
+							
+							basePC.setStrategyName(strategyName);
+							basePC.setStrategyFullClassName(STRATEGY_FACTORY
+									.getFullStrategyClassName(strategyName));
 
-				while (comparatorIterator.hasNext()) {
-					String comparator = comparatorIterator.next();
-
-					basePC.setStrategyName(strategyName);
-					basePC.setStrategyFullClassName(STRATEGY_FACTORY
-							.getFullStrategyClassName(strategyName));
-
-					basePC
-							.setSignedFormulaComparator(SIGNED_FORMULA_COMPARATOR_MAP
+							basePC.setSignedFormulaComparator(SIGNED_FORMULA_COMPARATOR_MAP
 									.getComparator(comparator));
 
-					basePC.setRulesStructureName(RULE_STRUCTURE_MAP
-							.getRuleStructure(strategyName));
+							basePC.setRulesStructureName(RULE_STRUCTURE_MAP
+									.getRuleStructure(strategyName));
 
-					CommandLineRunnable clr = new CommandLineRunnable(problem,
-							basePC);
-					Thread t = new Thread(clr);
-					t.start();
+							clr = new CommandLineRunnable(problem, basePC);
+							Thread t = new Thread(clr);
+							t.start();
 
-					while (!clr.isFinished()) {
-						try {
-							Thread.sleep(1000);
-						} catch (InterruptedException e) {
-							e.printStackTrace();
+							while (!clr.isFinished()) {
+								try {
+									Thread.sleep(1000);
+								} catch (InterruptedException e) {
+									e.printStackTrace();
+								}
+							}
+
+							// if (clr.getProof() != null) {
+							showResultsLine(clr.getProof(), clr.getProblem(),
+									basePC, clr.getMessage());
+							if (showProof)
+								System.out.println(clr.getProof());
+							// }
+							clr = null;
+						
 						}
+						
+					} //end while comparator
+					
+					//end modo ag
+				} else {
+					
+					Iterator<String> comparatorIterator = comparators.iterator();
+					while (comparatorIterator.hasNext()) {
+						String comparator = comparatorIterator.next();
+
+						basePC.setStrategyName(strategyName);
+						basePC.setStrategyFullClassName(STRATEGY_FACTORY
+								.getFullStrategyClassName(strategyName));
+
+						basePC.setSignedFormulaComparator(SIGNED_FORMULA_COMPARATOR_MAP
+								.getComparator(comparator));
+
+						basePC.setRulesStructureName(RULE_STRUCTURE_MAP
+								.getRuleStructure(strategyName));
+
+						clr = new CommandLineRunnable(problem, basePC);
+						Thread t = new Thread(clr);
+						t.start();
+						while (!clr.isFinished()) {
+							try {
+								Thread.sleep(1000);
+							} catch (InterruptedException e) {
+								e.printStackTrace();
+							}
+						}
+
+						// if (clr.getProof() != null) {
+						showResultsLine(clr.getProof(), clr.getProblem(),
+								basePC, clr.getMessage());
+						if (showProof)
+							System.out.println(clr.getProof());
+						// }
+						clr = null;
 					}
-
-					// if (clr.getProof() != null) {
-					showResultsLine(clr.getProof(), clr.getProblem(), basePC,
-							clr.getMessage());
-					if (showProof)
-						System.out.println(clr.getProof());
-					// }
-
 				}
 
 			}
@@ -376,9 +448,8 @@ public class CommandLineRunner {
 			// } catch (Throwable e) {
 			// e.printStackTrace();
 			// }
-
 		}
-
+		
 	}
 
 	private static void showResultsLine(ExtendedProof ep, Problem problem,
@@ -411,27 +482,46 @@ public class CommandLineRunner {
 		// }
 		// }
 
+//		System.out.println(
+//				new Time(System.currentTimeMillis())
+//				+ " - Finished proving " + problem.getFilename() + " with "
+//				+ pc
+//				);
+		
 		logger.debug(new Time(System.currentTimeMillis())
 				+ " - Finished proving " + problem.getFilename() + " with "
 				+ pc);
-		// println(result);
+		 //println(result);
 	}
 
 	private static void showColumnNames() {
 		String result = "";
 
-		result = result + "Problem name" + resultSeparator;
-		result = result + "Instance count" + resultSeparator;
-		result = result + "Problem size" + resultSeparator;
-		result = result + "Prover configuration" + resultSeparator;
-		result = result + "Time spent (in ms)" + resultSeparator;
+		//result = result + "Problem name" + resultSeparator;
+		result = result + "Problem" + resultSeparator; //Emerson
+		
+		//result = result + "Instance count" + resultSeparator;
+		result = result + "Ins. count" + resultSeparator; //Emerson
+		
+		//result = result + "Problem size" + resultSeparator;
+		result = result + "Tam" + resultSeparator; //Emerson
+		
+		//result = result + "Prover configuration" + resultSeparator;
+		result = result + "Configuracao" + resultSeparator; //Emerson
+		
+		//result = result + "Time spent (in ms)" + resultSeparator;
+		result += "Tempo" + resultSeparator; //Emerson
+		
 		result = result + "Result" + resultSeparator;
-		result = result + "Verification result" + resultSeparator;
+		//result = result + "Verification result" + resultSeparator;
 		result = result + "Proof size" + resultSeparator;
 		result = result + "Nodes count" + resultSeparator;
-		result = result + "Used nodes count" + resultSeparator;
+		//result = result + "Used nodes count" + resultSeparator;
 		result = result + "Proof tree height" + resultSeparator;
-		result = result + "Message";
+		result = result + "Message" + resultSeparator;
+		result = result + "AG" + resultSeparator;
+		//result = result + "Memory";
+		result += "Numero Bif.";
 
 		println(result);
 	}
@@ -457,24 +547,36 @@ public class CommandLineRunner {
 		result = result + ((ep != null) ? ep.getTimeSpent() : NOT_AVAILABLE)
 				+ resultSeparator;
 		result = result
-				+ ((ep != null) ? (ep.isClosed() ? "closed" : "open")
+				+ ((ep != null) ? (ep.isClosed() ? "y" : "n")
 						: NOT_AVAILABLE) + resultSeparator;
-		result = result
-				+ ((ep != null) ? (ep.getVerificationResult() == Boolean.TRUE ? "verified"
-						: "not verified")
-						: NOT_AVAILABLE) + resultSeparator;
+//		result = result
+//				+ ((ep != null) ? (ep.getVerificationResult() == Boolean.TRUE ? "verified"
+//						: "not verified")
+//						: NOT_AVAILABLE) + resultSeparator;
 		result = result + ((ep != null) ? ep.getSize() : NOT_AVAILABLE)
 				+ resultSeparator;
 		result = result
 				+ ((ep != null) ? ep.getNodesQuantity() : NOT_AVAILABLE)
 				+ resultSeparator;
-		result = result + ((ep != null) ? ep.getUsedQuantity() : NOT_AVAILABLE)
-				+ resultSeparator;
+//		result = result + ((ep != null) ? ep.getUsedQuantity() : NOT_AVAILABLE)
+//				+ resultSeparator;
 		result = result
 				+ ((ep != null) ? ((ProofTree) ep.getProofTree()).getHeight()
 						: NOT_AVAILABLE) + resultSeparator;
-		result = result + message;
-
+		result = result + message + resultSeparator;
+		
+		if (pc.getAbordagensAG() == AGConfiguration.Abordagens.NotApplyAG ){
+			result += "KEMS" + resultSeparator;
+		} else {
+			result += pc.getAbordagensAG().toString() + resultSeparator;
+		}
+		
+		//result += (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) - _mem0;
+		
+		result += main.newstrategy.simple.ag.util.MemoriaCompartilhada.getNumero();
+		
+		//main.newstrategy.simple.ag.util.MemoriaCompartilhada.Clear();
+		
 		println(result);
 
 	}
@@ -532,6 +634,7 @@ public class CommandLineRunner {
 		}
 	}
 
+	@SuppressWarnings("unused")
 	private static void showResultsColumnNames(
 			SeveralProblemProofResultsFrameTableLine line) {
 		String result = "";
@@ -560,7 +663,9 @@ public class CommandLineRunner {
 					|| command.startsWith(ONE_PROBLEM_KEYWORD + EQUALS)
 					|| command.startsWith(PROBLEMS_KEYWORD + EQUALS)
 					|| command.startsWith(STRATEGIES_KEYWORD + EQUALS)
-					|| command.startsWith(COMPARATORS_KEYWORD + EQUALS)) {
+					|| command.startsWith(COMPARATORS_KEYWORD + EQUALS)
+					|| command.startsWith(MODO_AG + EQUALS)
+				) {
 				it.previous();
 				return result;
 			} else {

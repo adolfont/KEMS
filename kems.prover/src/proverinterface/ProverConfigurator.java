@@ -51,7 +51,7 @@ import main.newstrategy.mci.simple.configurable.MCIConfigurableSimpleStrategy;
 import main.newstrategy.mci.simple.optional.MCISimpleWithOptionalRulesStrategy;
 import main.newstrategy.memorysaver.MemorySaverStrategy;
 import main.newstrategy.simple.SimpleStrategy;
-import main.newstrategy.simple.ag.comparator.ComplexityComparatorAGElitista;
+import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.newstrategy.simple.backjumping.BackjumpingSimpleStrategy;
 import main.newstrategy.simple.learning.LearningSimpleStrategy;
 import main.newstrategy.simple.newlearning.NewLearningSimpleStrategy;
@@ -102,6 +102,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	
 
 	//EMERSON: Temporário Algoritmo Genético
+	private JCheckBox chkElitista;
 	private JCheckBox chkEstocastic;
 	
 	private static final String CPL_LOGIC = "Classical Propositional Logic";
@@ -321,8 +322,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 								ComplexitySignedFormulaComparator.DESCENDING),
 						new NormalFormulaOrderSignedFormulaComparator(),
 						new ReverseFormulaOrderSignedFormulaComparator(),
-						new ConsistencyComplexityComparator(),
-						new ComplexityComparatorAGElitista()});
+						new ConsistencyComplexityComparator()});
 		// signedFormulaComparatorCombo.addActionListener(this);
 		signedFormulaComparatorPanel.add(signedFormulaComparatorLabel);
 		signedFormulaComparatorPanel.add(signedFormulaComparatorCombo);
@@ -334,41 +334,45 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	 * */
 	private JPanel createChkEstocastico() {
 		// Signed formula comparator area
-		JPanel signedFormulaComparatorPanel = new JPanel(new GridLayout(0, 2));
-		JLabel signedFormulaComparatorLabel = new JLabel("Algoritmo Genético:");
+		JPanel signedFormulaComparatorPanel = new JPanel(new GridLayout(0, 3));
+		JLabel lblModoAG = new JLabel("Modo AG:");
+		
+		chkElitista = new JCheckBox("Elitista");
+		chkElitista.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				chkEstocastic.setSelected(false);  //desmarca de qualquer forma
+				signedFormulaComparatorCombo.setEnabled(!chkElitista.isSelected());
+				
+				if (!chkElitista.isSelected()) {
+					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
+				} else {
+					setAbordagemAG(AGConfiguration.Abordagens.ElitistaMaiorComplexidade);
+				}
+				
+			}
+		});
+		chkElitista.setToolTipText("Elitista");
 		
 		chkEstocastic = new JCheckBox("Estocástico");
-		//final JCheckBox chkElitista = new JCheckBox("Estocástico");
-		
 		chkEstocastic.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				//chkElitista.setSelected(!chkEstocastic.isSelected());
-				//JOptionPane.showMessageDialog(null, "Estocastico Selecionado", "Estocastico", JOptionPane.INFORMATION_MESSAGE);
+				chkElitista.setSelected(false); //desmarca de qualquer forma
+				signedFormulaComparatorCombo.setEnabled(!chkEstocastic.isSelected());
 				
-				if (signedFormulaComparatorCombo.getItemCount() > 0) {
-					signedFormulaComparatorCombo.setSelectedIndex(signedFormulaComparatorCombo.getItemCount()-1);
+				if (!chkEstocastic.isSelected()) {
+					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
+				} else {
+					setAbordagemAG(AGConfiguration.Abordagens.Estocastica);
 				}
-				signedFormulaComparatorCombo.setVisible(!chkEstocastic.isSelected());
-				//signedFormulaComparatorCombo.setEditable(!chkEstocastic.isSelected());
-				//signedFormulaComparatorCombo.setEnabled(!chkEstocastic.isSelected());
 				
 			}
 		});
 		chkEstocastic.setToolTipText("Estocástico");
 		
-//		chkElitista.addActionListener(new ActionListener() {
-//			public void actionPerformed(ActionEvent arg0) {
-//				chkEstocastic.setSelected(!chkElitista.isSelected());
-//			}
-//		});
-//		chkElitista.setToolTipText("Estocástico");
-//		chkElitista.setSelected(false);
-		
-		//optionsPanel.add(chkEstocastic);
-		signedFormulaComparatorPanel.add(signedFormulaComparatorLabel);
+		signedFormulaComparatorPanel.add(lblModoAG);
+		signedFormulaComparatorPanel.add(chkElitista);
 		signedFormulaComparatorPanel.add(chkEstocastic);
-//		signedFormulaComparatorPanel.add(chkElitista);
-		return (signedFormulaComparatorPanel);
+		return signedFormulaComparatorPanel;
 	}
 	
 	private void createRuleStructureChooser() {
@@ -718,9 +722,9 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	}
 
 	//EMERSON: Temporário Algoritmo Genético
-	public boolean getEstocasticMode() {
-		return chkEstocastic.isSelected();
-	}
+	private AGConfiguration.Abordagens _abordagemAG = AGConfiguration.Abordagens.NotApplyAG;
+	public AGConfiguration.Abordagens getAbordagensAG() {return _abordagemAG;}
+	public void setAbordagemAG(AGConfiguration.Abordagens abordagemAG) {this._abordagemAG = abordagemAG;}
 	
 	private void manageStrategyOptions(ActionEvent e) {
 
@@ -815,7 +819,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		// pc.setUseBackjumping(getUseBackjumping());
 		
 		//EMERSON: Temporário Algoritmo Genético
-		pc.setModoEstocastico(getEstocasticMode());
+		pc.setAbordagemAG(this.getAbordagensAG());
 		
 		return pc;
 	}

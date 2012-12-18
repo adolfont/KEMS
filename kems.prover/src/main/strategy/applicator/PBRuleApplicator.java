@@ -4,8 +4,6 @@
  */
 package main.strategy.applicator;
 
-import java.util.ArrayList;
-import javax.swing.JOptionPane;
 import logic.formulas.CompositeFormula;
 import logic.signedFormulas.PBCandidateList;
 import logic.signedFormulas.SignedFormula;
@@ -15,7 +13,8 @@ import logicalSystems.classicalLogic.ClassicalRules;
 import main.newstrategy.CPLPBRuleChooser;
 import main.newstrategy.IPBRuleChooser;
 import main.newstrategy.ISimpleStrategy;
-import main.newstrategy.simple.ag.comparator.AGEstocastico;
+import main.newstrategy.simple.ag.util.AGConfiguration;
+import main.newstrategy.simple.ag.util.estrategias.IEstrategiaAG;
 import main.proofTree.SignedFormulaNode;
 import main.proofTree.SignedFormulaNodeState;
 import main.strategy.ClassicalProofTree;
@@ -55,7 +54,10 @@ public class PBRuleApplicator implements IProofTransformation {
 	 */
 	public boolean apply(ClassicalProofTree current, SignedFormulaBuilder sfb) {
 		if (current.getPBCandidates().size() > 0) {
-			current.getPBCandidates().sort(strategy.getComparator());
+			//EMERSON: Temporário Algoritmo Genético
+			if (strategy.getAbordagensAG() == AGConfiguration.Abordagens.NotApplyAG) {
+				current.getPBCandidates().sort(strategy.getComparator());
+			}
 			return tryToApplyPBOnce(current, sfb, current.getPBCandidates());
 		}
 		return false;
@@ -72,34 +74,21 @@ public class PBRuleApplicator implements IProofTransformation {
 		SignedFormula auxOpposite = null, conclusion = null;
 		int candidateIndex = 0;
 		
+		//counter PB
+		main.newstrategy.simple.ag.util.MemoriaCompartilhada.Add();
+		
 		//EMERSON: Temporário Algoritmo Genético
-		boolean modoEsto = this.strategy.getModoEstocastico();
-		
-		JOptionPane.showMessageDialog(null,
-				"Aplicação de Regra PB\n" + 
-				 "modo estocástico: " + (modoEsto?"TRUE":"FALSE"), 
-				 "Aplicação PB", JOptionPane.INFORMATION_MESSAGE);
-		
-		if (modoEsto){
-			//Modo estocástico
-			AGEstocastico agEst = new AGEstocastico(candidates);
-			ArrayList<Integer> indicesEscolhidos = new ArrayList<Integer>();
-			int indiceRoleta;
+		//System.out.println(" # strategy.getAbordagensAG(): " + strategy.getAbordagensAG());
+		if (strategy.getAbordagensAG() != AGConfiguration.Abordagens.NotApplyAG) {
+			//System.out.println("Apply AG .... ");
 			
-			//esta funcionando
-			
-			// looks for a rule that can be applied
-			while (indicesEscolhidos.size() < candidates.size()) {
-				indiceRoleta = agEst.Roleta();
-				while(indicesEscolhidos.contains(indiceRoleta)){ //índice já escolhido
-					indiceRoleta = agEst.Roleta(); //escolhe um novo índice
-				}
-				indicesEscolhidos.add(indiceRoleta);
-				
-				candidateChosen = agEst.GetIndividuoRoleta(indiceRoleta);  //candidates.get(candidateIndex);
-				
-				JOptionPane.showMessageDialog(null,
-						candidateChosen, "candidateChosen", JOptionPane.INFORMATION_MESSAGE);
+			IEstrategiaAG strategiaAG = AGConfiguration.GetEstrategiaAG(strategy.getAbordagensAG());
+			strategiaAG.setPblist(candidates);
+			strategiaAG.setStrategy(strategy);
+
+			while (strategiaAG.getListaFormulasJaSelecionadas().size() < candidates.size()) {
+				candidateChosen = strategiaAG.getSignedFormula();
+				//System.out.println("AG candidateChosen: " + candidateChosen);
 				
 				// System.out.println("main candidate chosen: "+
 				// candidateChosen);
@@ -135,11 +124,15 @@ public class PBRuleApplicator implements IProofTransformation {
 					}
 				}
 			}
-			agEst = null;
+			strategiaAG = null;
 		} else {
+			
 			// looks for a rule that can be applied
 			while (candidateIndex < candidates.size()) {
 				candidateChosen = candidates.get(candidateIndex);
+				
+				//System.out.println("Not AG PB: " + candidateChosen);
+				
 				// System.out.println("main candidate chosen: "+
 				// candidateChosen);
 				candidateIndex++;
@@ -178,8 +171,9 @@ public class PBRuleApplicator implements IProofTransformation {
 		}
 		if (!foundRule || ruleChosen == NullRule.INSTANCE) {
 			return false;
-		} else
+		} else {
 			return applyPB(current, sfb, PBRules, candidateChosen, aux, r, auxOpposite, conclusion);
+		}
 	}
 
 	private boolean applyPB(ClassicalProofTree current, SignedFormulaBuilder sfb, PBRuleList PBRules,

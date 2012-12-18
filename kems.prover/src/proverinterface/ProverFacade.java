@@ -33,6 +33,11 @@ import util.MemoryManager;
  */
 public class ProverFacade {
 
+	//EMERSON: Temporário Algoritmo Genético
+	private Prover _p;
+	public Prover getProver(){return _p;}
+	public void setProver(Prover p){_p=p;}
+	
 	/**
 	 * logger
 	 */
@@ -116,10 +121,12 @@ public class ProverFacade {
 		ISimpleStrategy s = createStrategy(proverConfiguration, method);
 
 		// creating and configuring a prover
-		Prover prover = new Prover();
+		//EMERSON: Temporário Algoritmo Genético
+		setProver(null);
+		setProver(new Prover());
 
-		prover.setMethod(method);
-		prover.setStrategy(s);
+		getProver().setMethod(method);
+		getProver().setStrategy(s);
 
 		if (logger.isDebugEnabled()) {
 			logger.debug("Starting proof procedure at "
@@ -135,7 +142,7 @@ public class ProverFacade {
 
 			begin = System.currentTimeMillis();
 
-			proof = prover.prove(problem);
+			proof = getProver().prove(problem);
 
 			interval += System.currentTimeMillis() - begin;
 		}
@@ -152,9 +159,9 @@ public class ProverFacade {
 						+ new Time(System.currentTimeMillis()));
 			}
 
-			ProofVerifier verifier = new ProofVerifier(prover);
+			ProofVerifier verifier = new ProofVerifier(getProver());
 
-			proof.setProofTree(rebuildProof(prover.getStrategy(), proof
+			proof.setProofTree(rebuildProof(getProver().getStrategy(), proof
 					.getProofTree()));
 
 			// System.err.println(proof.toStringShort());
@@ -359,7 +366,7 @@ public class ProverFacade {
 				.setComparator(proverConfiguration.getSignedFormulaComparator());
 
 		//EMERSON: Temporário Algoritmo Genético
-		strategy.setModoEstocastico(proverConfiguration.getModoEstocastico());
+		strategy.setAbordagemAG(proverConfiguration.getAbordagensAG());
 		
 		// if (strategy instanceof ConfigurableSimpleStrategy) {
 		// ((ConfigurableSimpleStrategy) strategy)

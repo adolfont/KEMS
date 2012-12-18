@@ -36,6 +36,9 @@ public class PBCandidateList {
 
 	private List<SignedFormula> _sfl;
 
+	//EMERSON: Temporário Algoritmo Genético
+	public List<SignedFormula> getListSignedFormula(){return _sfl;}
+	
 	private Map<SignedFormula, Long> _orderFormulaIndexMap;
 
 	private Map<Long, SignedFormula> _orderIndexFormulaMap;

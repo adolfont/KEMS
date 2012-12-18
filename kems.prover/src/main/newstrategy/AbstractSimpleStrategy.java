@@ -161,7 +161,8 @@ public abstract class AbstractSimpleStrategy implements ISimpleStrategy {
 	 * @param sfb
 	 * @return
 	 */
-	protected IProofTree createProofTree(Problem p, SignedFormulaBuilder sfb) {
+	//EMERSON: Temporário Algoritmo Genético
+	public IProofTree createProofTree(Problem p, SignedFormulaBuilder sfb) {
 
 		tTopFormula = p.getSignedFormulaFactory().createSignedFormula(ClassicalSigns.TRUE,
 				p.getFormulaFactory().createCompositeFormula(ClassicalConnectives.TOP));
@@ -424,7 +425,8 @@ public abstract class AbstractSimpleStrategy implements ISimpleStrategy {
 		return tTopFormula;
 	}
 
-	protected void setProofTree(ClassicalProofTree cpt) {
+	//EMERSON: Temporário Algoritmo Genético
+	public void setProofTree(ClassicalProofTree cpt) {
 		proofTree = cpt;
 	}
 }

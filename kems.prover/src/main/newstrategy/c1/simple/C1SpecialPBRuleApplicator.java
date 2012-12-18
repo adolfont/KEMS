@@ -13,6 +13,7 @@ import logicalSystems.classicalLogic.ClassicalRules;
 import main.newstrategy.CPLPBRuleChooser;
 import main.newstrategy.IPBRuleChooser;
 import main.newstrategy.ISimpleStrategy;
+import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.proofTree.SignedFormulaNode;
 import main.proofTree.SignedFormulaNodeState;
 import main.strategy.ClassicalProofTree;
@@ -62,7 +63,10 @@ public class C1SpecialPBRuleApplicator implements IProofTransformation {
 		
 		// TODO SORT ASPECT
 //		System.out.println("PB SORT");
-		candidates.sort(strategy.getComparator());
+		//EMERSON: Temporário Algoritmo Genético
+		if (strategy.getAbordagensAG() == AGConfiguration.Abordagens.NotApplyAG) {
+			candidates.sort(strategy.getComparator());
+		}
 
 		if (candidates.size() > 0) {
 			return applyPBOnce(current, sfb, candidates);

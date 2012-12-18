@@ -23,9 +23,9 @@ public class FormulaFactory {
     private Map<String, Formula> _atomicFormulas;
 
     private Map<String, Formula> _compositeFormulas;
-
+    
     private Set<Connective> _connectives;
-
+    
     /**
      * creates a formula factory
      */

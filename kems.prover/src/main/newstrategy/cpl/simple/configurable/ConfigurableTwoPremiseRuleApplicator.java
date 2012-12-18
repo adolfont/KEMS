@@ -14,6 +14,7 @@ import logic.signedFormulas.SignedFormulaList;
 import logicalSystems.classicalLogic.ClassicalSigns;
 import main.newstrategy.ISimpleStrategy;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
+import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.proofTree.SignedFormulaNode;
 import main.proofTree.SignedFormulaNodeState;
 import main.proofTree.iterator.IProofTreeVeryBasicIterator;
@@ -169,7 +170,10 @@ public class ConfigurableTwoPremiseRuleApplicator implements IRuleApplicator {
 
 		// TODO SORT ASPECT
 		// sorts PB candidates before aplying linear rules
-		proofTree.getPBCandidates().sort(signedFormulaComparator);
+		//EMERSON: Temporário Algoritmo Genético
+		if (strategy.getAbordagensAG() == AGConfiguration.Abordagens.NotApplyAG) {
+			proofTree.getPBCandidates().sort(signedFormulaComparator);
+		}
 
 		mainCandidates = proofTree.getPBCandidates();
 
@@ -290,8 +294,11 @@ public class ConfigurableTwoPremiseRuleApplicator implements IRuleApplicator {
 			// TODO SORT aspect
 			// sorts PB candidates after applying a two premise rule
 			
-			strategy.getCurrent().getPBCandidates().sort(
-					signedFormulaComparator);
+			//EMERSON: Temporário Algoritmo Genético
+			if (strategy.getAbordagensAG() == AGConfiguration.Abordagens.NotApplyAG) {
+				strategy.getCurrent().getPBCandidates().sort(
+						signedFormulaComparator);
+			}
 
 			hasApplied = true;
 		}

@@ -10,6 +10,7 @@ import logic.signedFormulas.SignedFormula;
 import logic.signedFormulas.SignedFormulaList;
 import logicalSystems.classicalLogic.ClassicalRuleStructures;
 import main.newstrategy.AbstractSimpleStrategy;
+import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.proofTree.IProofTree;
 import main.proofTree.SignedFormulaNode;
 import main.strategy.IClassicalProofTree;
@@ -90,8 +91,8 @@ public class SimpleStrategy extends AbstractSimpleStrategy {
 	}
 
 	//EMERSON: Temporário Algoritmo Genético
-	private boolean _modoEstocastico;
-	public boolean getModoEstocastico() {return _modoEstocastico;}
-	public void setModoEstocastico(boolean option) {this._modoEstocastico = option;}
+	private AGConfiguration.Abordagens _abordagemAG = AGConfiguration.Abordagens.NotApplyAG;
+	public AGConfiguration.Abordagens getAbordagensAG() {return _abordagemAG;}
+	public void setAbordagemAG(AGConfiguration.Abordagens abordagemAG) {this._abordagemAG = abordagemAG;}
 
 }

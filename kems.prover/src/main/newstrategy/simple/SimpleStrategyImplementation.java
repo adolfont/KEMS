@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 import main.newstrategy.ISimpleStrategy;
+import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.proofTree.IProofTree;
 import main.proofTree.ProofTree;
 import main.strategy.ClassicalProofTree;
@@ -124,11 +125,13 @@ public class SimpleStrategyImplementation {
 	 * @param current
 	 * @return true if this is the right branch of another branch
 	 */
-	protected boolean isRightBranch(IClassicalProofTree current) {
+	//EMERSON: Temporário Algoritmo Genético
+	public boolean isRightBranch(IClassicalProofTree current) {
 		return (current.getParent() != null) && (current == current.getParent().getRight());
 	}
-
-	protected boolean isLeftBrotherOpen(IClassicalProofTree current) {
+	
+	//EMERSON: Temporário Algoritmo Genético
+	public boolean isLeftBrotherOpen(IClassicalProofTree current) {
 		return (!((IClassicalProofTree) current.getParent().getLeft()).isClosed());
 	}
 
@@ -137,7 +140,8 @@ public class SimpleStrategyImplementation {
 	 * 
 	 * @param pt
 	 */
-	protected void initialPBCandidatesActions(ClassicalProofTree pt, ISimpleStrategy strategy) {
+	//EMERSON: Temporário Algoritmo Genético
+	public void initialPBCandidatesActions(ClassicalProofTree pt, ISimpleStrategy strategy) {
 		pt.removeFromPBCandidates(strategy.getTTopFormula());
 		pt.removeFromPBCandidates(strategy.getFBottomFormula());
 	}
@@ -150,7 +154,8 @@ public class SimpleStrategyImplementation {
 	 * @param list
 	 * @return
 	 */
-	protected boolean applyLinearRules(ISimpleStrategy strategy) {
+	//EMERSON: Temporário Algoritmo Genético
+	public boolean applyLinearRules(ISimpleStrategy strategy) {
 		boolean hasApplied = false;
 
 		boolean hasAppliedInALoop;
@@ -170,7 +175,10 @@ public class SimpleStrategyImplementation {
 
 				// TODO SORT ASPECT
 				// sorts before every linear rule applicator
-				strategy.getCurrent().getPBCandidates().sort(strategy.getComparator());
+				//EMERSON: Temporário Algoritmo Genético
+				if (strategy.getAbordagensAG() == AGConfiguration.Abordagens.NotApplyAG) {
+					strategy.getCurrent().getPBCandidates().sort(strategy.getComparator());
+				}
 
 				boolean hasAppliedThis = ra.applyAll(strategy.getCurrent(), strategy
 						.getSignedFormulaBuilder());
@@ -186,13 +194,19 @@ public class SimpleStrategyImplementation {
 		} while (hasAppliedInALoop);
 		return hasApplied;
 	}
-
+	
+	//EMERSON: Temporário Algoritmo Genético
+//	private int _numeroBifurcacoes=0;
+//	public int getNumeroBifurcacoes(){return _numeroBifurcacoes;}
+//	public void setNumeroBifurcacoes(int numeroBifurcacoes){_numeroBifurcacoes = numeroBifurcacoes;}
+	
 	/**
 	 * @param openBranches
 	 * @param sfb
 	 * @return
 	 */
-	protected boolean applyPBRule(ISimpleStrategy strategy) {
+	//EMERSON: Temporário Algoritmo Genético
+	public boolean applyPBRule(ISimpleStrategy strategy) {
 
 		boolean hasApplied;
 
@@ -203,6 +217,7 @@ public class SimpleStrategyImplementation {
 
 			boolean hasAppliedThis = pt.apply(strategy.getCurrent(), strategy.getSignedFormulaBuilder());
 			if (hasAppliedThis) {
+				//setNumeroBifurcacoes(getNumeroBifurcacoes()+1);
 				hasApplied = true;
 				break;
 			}

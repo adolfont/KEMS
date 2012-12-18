@@ -23,7 +23,12 @@ import util.MemoryManager;
  * 
  */
 public class CommandLineRunnable extends AbstractProblemRunnable {
-
+	
+	//EMERSON: Temporário Algoritmo Genético
+	private ProverFacade _proverFacade;
+	public ProverFacade getProverFacade(){return _proverFacade;}
+	public void setProverFacade(ProverFacade proverFacade){_proverFacade=proverFacade;}
+	
 	/**
 	 * logger
 	 */
@@ -75,8 +80,10 @@ public class CommandLineRunnable extends AbstractProblemRunnable {
 	public void run() {
 		startTime = System.currentTimeMillis();
 		finished = false;
-
-		ProverFacade pf = new ProverFacade(40, 1000);
+		
+		setProverFacade(null);
+		setProverFacade(new ProverFacade(40, 1000));
+		
 		try {
 			logger.debug(new Time(System.currentTimeMillis())
 					+ " - Starting to prove " + problemFilename + " with "
@@ -89,7 +96,7 @@ public class CommandLineRunnable extends AbstractProblemRunnable {
 
 			try {
 
-				problem = pf.analyse(problemFilename, proverConfiguration);
+				problem = getProverFacade().analyse(problemFilename, proverConfiguration);
 			} catch (Throwable e) {
 				e.printStackTrace();
 				throw new ParseException("Problems while parsing "
@@ -105,7 +112,7 @@ public class CommandLineRunnable extends AbstractProblemRunnable {
 			proof = null;
 			MemoryManager.runGC(40, 1000);
 
-			proof = pf.proveAndVerifyFile(problemFilename, proverConfiguration);
+			proof = getProverFacade().proveAndVerifyFile(problemFilename, proverConfiguration);
 			finished = true;
 			message = "Success";
 		} catch (Throwable e) {

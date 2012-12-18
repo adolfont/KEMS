@@ -13,6 +13,7 @@ import logic.signedFormulas.SignedFormula;
 import logic.signedFormulas.SignedFormulaBuilder;
 import logic.signedFormulas.SignedFormulaList;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
+import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.newstrategy.util.ProofSaverLoader;
 import main.proofTree.IProofTree;
 import main.proofTree.SignedFormulaNode;
@@ -207,7 +208,6 @@ public interface ISimpleStrategy extends IStrategy {
 	public SignedFormula getTTopFormula();
 
 	//EMERSON: Temporário Algoritmo Genético
-	public boolean getModoEstocastico();
-	public void setModoEstocastico(boolean option);
-
+	public AGConfiguration.Abordagens getAbordagensAG();
+	public void setAbordagemAG(AGConfiguration.Abordagens abordagemAG);
 }
