@@ -2,6 +2,10 @@ package main.newstrategy.simple.ag.util.estrategias;
 
 import logic.signedFormulas.SignedFormula;
 
+/**
+ * Seleciona fórmula de maior complexidade da lista PBCandidateList
+ * @author Emerson Shigueo Sugimoto
+ * */
 public class AGElitistaMaiorComplexidade extends AGEstrategia {
 
 	/**

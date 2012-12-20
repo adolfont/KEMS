@@ -35,7 +35,7 @@ public class AnaliseNumeroAtomos {
 	 * Converte em list as fórmulas de uma estratégia
 	 * @listaPbIgnore: itens a serem ignorados por pertencem a lista PB
 	 * */
-	public ArrayList<SignedFormula> toList(ISimpleStrategy strategy, ArrayList<SignedFormula> listaPbIgnore){
+	public ArrayList<SignedFormula> toList(ISimpleStrategy strategy, List<SignedFormula> listaPbIgnore){
 		return toList(strategy.getProofTree().getSignedFormulasToNodes(), listaPbIgnore);
 	}
 	
@@ -44,11 +44,15 @@ public class AnaliseNumeroAtomos {
 	 * @return Seleciona a SignedFormula com a maior frequência de átomos da base de conhecimentos  
 	 * */
 	public SignedFormula getSFAnaliseAtomos(
-			ArrayList<SignedFormula> listaPB,
+			ArrayList<SignedFormula> listaFormulasJaSelecionadas,
+			List<SignedFormula> listaPB,
 			ISimpleStrategy strategy,
 			boolean sumPbFrequency,
 			boolean ignoreEmptyAtoms){
-		return getSFAnaliseAtomos(getHashFromList(listaPB), getHashAtomosEstrategia(toList(strategy, listaPB)), 
+		return getSFAnaliseAtomos(
+				listaFormulasJaSelecionadas,
+				getHashFromList(listaPB), 
+				getHashAtomosEstrategia(toList(strategy, listaPB)), 
 				sumPbFrequency, ignoreEmptyAtoms);
 	}
 	
@@ -57,11 +61,13 @@ public class AnaliseNumeroAtomos {
 	 * @return Seleciona a SignedFormula com a maior frequência de átomos da base de conhecimentos  
 	 * */
 	public SignedFormula getSFAnaliseAtomos(
+			ArrayList<SignedFormula> listaFormulasJaSelecionadas,
 			List<SignedFormula> listaPB,
 			Map<SignedFormula, INode> map,
 			boolean sumPbFrequency,
 			boolean ignoreEmptyAtoms){
 		return getSFAnaliseAtomos(
+				listaFormulasJaSelecionadas,
 				getHashFromList(listaPB), 
 				getHashAtomosEstrategia(toList(map, listaPB)), 
 				sumPbFrequency, ignoreEmptyAtoms);
@@ -72,6 +78,7 @@ public class AnaliseNumeroAtomos {
 	 * @return Seleciona a SignedFormula com a maior frequência de átomos da base de conhecimentos  
 	 * */
 	public SignedFormula getSFAnaliseAtomos(
+			ArrayList<SignedFormula> listaFormulasJaSelecionadas,
 			HashMap<SignedFormula, HashMap<AtomicFormula, Integer>> hListaAtomicPB, 
 			HashMap<AtomicFormula, Integer> lAtomosEstrategia,
 			boolean sumPbFrequency,
@@ -80,6 +87,7 @@ public class AnaliseNumeroAtomos {
 		SignedFormula rt = null;
 		int analiseEscolhida = 0, tmpAnalise = 0;
 		for (Map.Entry<SignedFormula, HashMap<AtomicFormula, Integer>> pairPB : hListaAtomicPB.entrySet()) {
+			if (listaFormulasJaSelecionadas.contains(pairPB.getKey())) {continue;} //já selecionado
 			tmpAnalise = CompareMapFrequenciasAtomos(pairPB.getValue(), lAtomosEstrategia, sumPbFrequency, ignoreEmptyAtoms);
 			if (rt==null){
 				rt = pairPB.getKey();
@@ -95,6 +103,7 @@ public class AnaliseNumeroAtomos {
 		}
 		if (rt==null && !ignoreEmptyAtoms) { //ignora átomos que não estão na base de conhecimentos
 			for (Map.Entry<SignedFormula, HashMap<AtomicFormula, Integer>> pairPB : hListaAtomicPB.entrySet()) {
+				if (listaFormulasJaSelecionadas.contains(pairPB.getKey())) {continue;} //já selecionado
 				tmpAnalise = CompareMapFrequenciasAtomos(pairPB.getValue(), lAtomosEstrategia, sumPbFrequency, true);
 				if (rt==null){
 					rt = pairPB.getKey();

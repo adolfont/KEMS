@@ -1,5 +1,7 @@
 package main.newstrategy.simple.ag.util;
 
+import main.newstrategy.simple.ag.util.estrategias.AGElitistaConectivos;
+import main.newstrategy.simple.ag.util.estrategias.AGElitistaFrequenciaAtomos;
 import main.newstrategy.simple.ag.util.estrategias.AGElitistaMaiorComplexidade;
 import main.newstrategy.simple.ag.util.estrategias.AGEstocasticoSimple;
 import main.newstrategy.simple.ag.util.estrategias.IEstrategiaAG;
@@ -12,6 +14,8 @@ public class AGConfiguration {
 	public static enum Abordagens {
 		Estocastica,
 		ElitistaMaiorComplexidade,
+		ElitistaConectivos,
+		ElitistaFrequenciaAtomos,
 		
 		NotApplyAG
 	}
@@ -21,6 +25,10 @@ public class AGConfiguration {
 			return Abordagens.Estocastica;
 		} else if (abordagem.equalsIgnoreCase("ElitistaMaiorComplexidade")) {
 			return Abordagens.ElitistaMaiorComplexidade;
+		} else if (abordagem.equalsIgnoreCase("ElitistaConectivos")) {
+			return Abordagens.ElitistaConectivos;
+		} else if (abordagem.equalsIgnoreCase("ElitistaFrequenciaAtomos")) {
+			return Abordagens.ElitistaFrequenciaAtomos;
 		}
 		
 		return Abordagens.NotApplyAG;
@@ -40,6 +48,10 @@ public class AGConfiguration {
 			return new AGElitistaMaiorComplexidade();
 		case Estocastica:
 			return new AGEstocasticoSimple();
+		case ElitistaConectivos:
+			return new AGElitistaConectivos();
+		case ElitistaFrequenciaAtomos:
+			return new AGElitistaFrequenciaAtomos();
 		case NotApplyAG:
 		default:
 			return null;

@@ -1,7 +1,5 @@
 package main.newstrategy.simple.ag.util;
 
-import java.util.ArrayList;
-
 import logic.formulas.CompositeFormula;
 import logic.formulas.Formula;
 import logic.signedFormulas.PBCandidateList;
@@ -33,27 +31,7 @@ public class AGUtil {
 		return rt;
 	}
 	
-	/**
-	 * @return a fórmula de maior complexidade da lista PBCandidateList
-	 * */
-	public SignedFormula getSignedFormulaMaiorComplexidade(ArrayList<SignedFormula> selecionados, PBCandidateList pbList){
-		SignedFormula rt = null;
-		int i = 0; SignedFormula posSig;
-		for(i = 0; i < pbList.size(); ++i){
-			posSig = pbList.get(i);
-			if (selecionados.contains(posSig)) {continue;} //já selecionado
-			
-			if (rt == null) {
-				rt = posSig;
-			} else {
-				if (rt.getComplexity() < posSig.getComplexity()){
-					rt = posSig; //update
-				}
-			}
-		}
-		return rt;
-	}
-	
+
 	/**
 	 * @return Retorna a fórmula com o maior número de conectivos prioritários
 	 * @see getNumeroConectivosPrioridade(SignedFormula sf);
@@ -95,94 +73,6 @@ public class AGUtil {
 				nCpSel = nCp;
 				rt = sgF;
 			}
-		}
-		return rt;
-	}
-	
-	/**
-	 * @return a fórmula com o maior número de conectivos
-	 * */
-	public SignedFormula getSignedFormulaMaiorNumeroConectivos(ArrayList<SignedFormula> selecionados, PBCandidateList pbList){
-		SignedFormula rt = null;
-		int i = 0; SignedFormula posSig;
-		for(i = 0; i < pbList.size(); ++i){
-			posSig = pbList.get(i);
-			if (selecionados.contains(posSig)) {continue;} //já selecionado
-			
-			if (rt == null) {
-				rt = posSig;
-			} else {
-				if (getNumeroConectivos(rt) < getNumeroConectivos(posSig)){
-					rt = posSig; //update
-				}
-			}
-		}
-		return rt;
-	}
-	
-	/**
-	 * @return a fórmula de menor complexidade da lista PBCandidateList
-	 * */
-	public SignedFormula getSignedFormulaMenorComplexidade(ArrayList<SignedFormula> selecionados, PBCandidateList pbList){
-		SignedFormula rt = null;
-		int i = 0; SignedFormula posSig;
-		for(i = 0; i < pbList.size(); ++i){
-			posSig = pbList.get(i);
-			if (selecionados.contains(posSig)) {continue;} //já selecionado
-			
-			if (rt == null) {
-				rt = posSig;
-			} else {
-				if (rt.getComplexity() > posSig.getComplexity()){
-					rt = posSig; //update
-				}
-			}
-		}
-		return rt;
-	}
-	
-	public  int getFrequenciaAtomos(ArrayList<Formula> listaAtomosArvore, ArrayList<Formula> listaAtomosRegrasPB){
-		int rt = 0;
-		int i=0,j=0;
-		for(i=0;i<listaAtomosArvore.size();i++){
-			for(j=0;j<listaAtomosRegrasPB.size();j++){
-				if (listaAtomosRegrasPB.get(j).equals(listaAtomosArvore.get(i))){
-					rt++;
-				}
-			}
-		}
-		return rt;
-	}
-	public ArrayList<Formula> getAtomos(Formula f){
-		ArrayList<Formula> rt = new ArrayList<Formula>();
-		if (f.getImmediateSubformulas().size()==0) {
-			//if (rt.contains(f)) {return rt;}
-			rt.add(f);
-		}
-		for (int i = 0; i < f.getImmediateSubformulas().size(); ++i) {
-			rt.addAll(getAtomos(f.getImmediateSubformulas().get(i)));
-		}
-		return rt;
-	}
-	
-	public int getNumeroConectivos(SignedFormula sf){
-		return getNumeroConectivos(sf.getFormula());
-	}
-	private int getNumeroConectivos(Formula f){
-		int rt = 0;
-		if (!(f instanceof CompositeFormula)){ 
-			//System.out.println("r1: " + f.toString());
-			return rt;
-		} else {
-			rt++;
-		}
-		
-		if (f.getImmediateSubformulas().size()==0) {
-			rt++;
-			return rt;
-		}
-		for (int i = 0; i < f.getImmediateSubformulas().size(); ++i) {
-			rt += getNumeroConectivos(f.getImmediateSubformulas().get(i));
 		}
 		return rt;
 	}

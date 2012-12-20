@@ -102,7 +102,8 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	
 
 	//EMERSON: Temporário Algoritmo Genético
-	private JCheckBox chkElitista;
+	private JCheckBox chkElitistaMaiorComplexidade;
+	private JCheckBox chkElitistaFrequenciaAtomos;
 	private JCheckBox chkEstocastic;
 	
 	private static final String CPL_LOGIC = "Classical Propositional Logic";
@@ -334,16 +335,17 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	 * */
 	private JPanel createChkEstocastico() {
 		// Signed formula comparator area
-		JPanel signedFormulaComparatorPanel = new JPanel(new GridLayout(0, 3));
+		JPanel signedFormulaComparatorPanel = new JPanel(new GridLayout(0, 4));
 		JLabel lblModoAG = new JLabel("Modo AG:");
 		
-		chkElitista = new JCheckBox("Elitista");
-		chkElitista.addActionListener(new ActionListener() {
+		chkElitistaMaiorComplexidade = new JCheckBox("Elitista Complex");
+		chkElitistaMaiorComplexidade.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				chkEstocastic.setSelected(false);  //desmarca de qualquer forma
-				signedFormulaComparatorCombo.setEnabled(!chkElitista.isSelected());
+				chkElitistaFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
+				signedFormulaComparatorCombo.setEnabled(!chkElitistaMaiorComplexidade.isSelected());
 				
-				if (!chkElitista.isSelected()) {
+				if (!chkElitistaMaiorComplexidade.isSelected()) {
 					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
 				} else {
 					setAbordagemAG(AGConfiguration.Abordagens.ElitistaMaiorComplexidade);
@@ -351,13 +353,31 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 				
 			}
 		});
-		chkElitista.setToolTipText("Elitista");
+		chkElitistaMaiorComplexidade.setToolTipText("Elitista Complexi");
+		
+		chkElitistaFrequenciaAtomos = new JCheckBox("Elitista Freq. Átomos");
+		chkElitistaFrequenciaAtomos.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				chkEstocastic.setSelected(false);  //desmarca de qualquer forma
+				chkElitistaMaiorComplexidade.setSelected(false); //desmarca de qualquer forma
+				signedFormulaComparatorCombo.setEnabled(!chkElitistaFrequenciaAtomos.isSelected());
+				
+				if (!chkElitistaFrequenciaAtomos.isSelected()) {
+					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
+				} else {
+					setAbordagemAG(AGConfiguration.Abordagens.ElitistaFrequenciaAtomos);
+				}
+				
+			}
+		});
+		chkElitistaFrequenciaAtomos.setToolTipText("Elitista Freq. Átomos");
 		
 		chkEstocastic = new JCheckBox("Estocástico");
 		chkEstocastic.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				chkElitista.setSelected(false); //desmarca de qualquer forma
+				chkElitistaMaiorComplexidade.setSelected(false); //desmarca de qualquer forma
 				signedFormulaComparatorCombo.setEnabled(!chkEstocastic.isSelected());
+				chkElitistaFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				
 				if (!chkEstocastic.isSelected()) {
 					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
@@ -370,7 +390,8 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		chkEstocastic.setToolTipText("Estocástico");
 		
 		signedFormulaComparatorPanel.add(lblModoAG);
-		signedFormulaComparatorPanel.add(chkElitista);
+		signedFormulaComparatorPanel.add(chkElitistaMaiorComplexidade);
+		signedFormulaComparatorPanel.add(chkElitistaFrequenciaAtomos);
 		signedFormulaComparatorPanel.add(chkEstocastic);
 		return signedFormulaComparatorPanel;
 	}

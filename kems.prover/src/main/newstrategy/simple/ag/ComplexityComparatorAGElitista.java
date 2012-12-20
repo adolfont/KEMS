@@ -23,6 +23,7 @@ class ComplexityComparatorAGElitista /*implements ISignedFormulaComparator*/ {
 	 * 
 	 * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
 	 */
+	@SuppressWarnings("unused")
 	private int compare(SignedFormula sf0, SignedFormula sf1) {
 		//System.out.println("Comparando sf0: " + sf0.toString() + "[" + sf0.getComplexity() + "]" +
 		//		", sf1: " + sf1.toString() + "[" + sf1.getComplexity() + "] ==> " + rtTeste(sf0, sf1));
@@ -52,6 +53,7 @@ class ComplexityComparatorAGElitista /*implements ISignedFormulaComparator*/ {
 //		return "ComplexityComparatorAGElitista";
 //	}
 
+	@SuppressWarnings("unused")
 	private String getComparatorDescriptor() {
 		return DESCRIPTOR;
 	}
