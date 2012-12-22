@@ -7,6 +7,7 @@ import main.newstrategy.simple.ag.util.estrategias.AGEstocasticoFrequenciaAtomos
 import main.newstrategy.simple.ag.util.estrategias.AGEstocasticoMaiorComplexidade;
 import main.newstrategy.simple.ag.util.estrategias.IEstrategiaAG;
 import main.newstrategy.simple.ag.util.estrategias.hibrido.AGElitistaHibridoComplexidadeFreqAtomos;
+import main.newstrategy.simple.ag.util.estrategias.hibrido.AGElitistaHibridoFreqAtomosComplexidade;
 
 /**
  * Configuração das estratégias de AG
@@ -22,6 +23,7 @@ public class AGConfiguration {
 		//ElitistaConectivos,
 		
 		ElitistaHibridoComplexidadeFreqAtomos,
+		ElitistaHibridoFreqAtomosComplexidade,
 		
 		NotApplyAG
 	}
@@ -40,6 +42,8 @@ public class AGConfiguration {
 			
 		} else if (abordagem.equalsIgnoreCase("ElitistaHibridoComplexidadeFreqAtomos")) {
 			return Abordagens.ElitistaHibridoComplexidadeFreqAtomos;
+		} else if (abordagem.equalsIgnoreCase("ElitistaHibridoFreqAtomosComplexidade")) {
+			return Abordagens.ElitistaHibridoFreqAtomosComplexidade;
 		}
 		
 		return Abordagens.NotApplyAG;
@@ -69,6 +73,8 @@ public class AGConfiguration {
 
 		case ElitistaHibridoComplexidadeFreqAtomos:
 			return new AGElitistaHibridoComplexidadeFreqAtomos();
+		case ElitistaHibridoFreqAtomosComplexidade:
+			return new AGElitistaHibridoFreqAtomosComplexidade();
 			
 		case NotApplyAG:
 		default:

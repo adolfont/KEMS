@@ -1,9 +1,15 @@
 package main.newstrategy.simple.ag.util;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import logic.formulas.AtomicFormula;
 import logic.formulas.CompositeFormula;
 import logic.formulas.Formula;
 import logic.signedFormulas.PBCandidateList;
 import logic.signedFormulas.SignedFormula;
+import main.newstrategy.ISimpleStrategy;
+import main.proofTree.INode;
 
 public class AGUtil {
 	
@@ -22,6 +28,85 @@ public class AGUtil {
 			if (formulaComparar.getComplexity() != posSig.getComplexity()) {
 				continue;
 			}
+			if (rt == null) {
+				rt = new PBCandidateList();
+				rt.add(formulaComparar);
+			}
+			rt.add(posSig);
+		}
+		return rt;
+	}
+	
+	/**
+	 * Retorna uma lista de SignedFormula que tenham a mesma frequência de átomos
+	 * que o param formulaComparar a partir da lista PBCandidateList
+	 * */
+	public PBCandidateList getListaMesmaFrequenciaAtomos(
+			SignedFormula formulaComparar, 
+			PBCandidateList pbList,
+			AnaliseNumeroAtomos ana,
+			ISimpleStrategy strategy
+			) {
+		return getListaMesmaFrequenciaAtomos(
+				formulaComparar,
+				pbList,
+				ana,
+				strategy.getProofTree().getSignedFormulasToNodes()
+				);		
+	}
+
+	/**
+	 * Retorna uma lista de SignedFormula que tenham a mesma frequência de átomos
+	 * que o param formulaComparar a partir da lista PBCandidateList
+	 * */
+	public PBCandidateList getListaMesmaFrequenciaAtomos(
+			SignedFormula formulaComparar, 
+			PBCandidateList pbList,
+			AnaliseNumeroAtomos ana,
+			Map<SignedFormula, INode> map
+			) {
+		return getListaMesmaFrequenciaAtomos(
+				formulaComparar, 
+				pbList,
+				ana,
+				ana.getHashAtomosEstrategia(ana.toList(map, pbList.getListSignedFormula()))
+				);
+	}
+	
+	/**
+	 * Retorna uma lista de SignedFormula que tenham a mesma frequência de átomos
+	 * que o param formulaComparar a partir da lista PBCandidateList
+	 * */
+	public PBCandidateList getListaMesmaFrequenciaAtomos(
+			SignedFormula formulaComparar, 
+			PBCandidateList pbList,
+			AnaliseNumeroAtomos ana,
+			HashMap<AtomicFormula, Integer> hAtomosEstrategia
+			) {
+
+		PBCandidateList rt = null;
+		SignedFormula posSig;
+		for (int i = 0; i < pbList.size(); ++i) {
+			posSig = pbList.get(i);
+			if (formulaComparar.equals(posSig)) {
+				continue;
+			}
+			
+			if (ana.GetAvaliacaoIndividual(
+					formulaComparar, 
+					hAtomosEstrategia,
+					true, true
+				)
+				!= 
+				ana.GetAvaliacaoIndividual(
+						posSig, 
+						hAtomosEstrategia,
+						true, true
+					)
+					) {
+				continue;
+			}
+			
 			if (rt == null) {
 				rt = new PBCandidateList();
 				rt.add(formulaComparar);
