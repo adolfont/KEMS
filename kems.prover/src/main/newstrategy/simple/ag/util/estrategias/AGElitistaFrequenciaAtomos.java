@@ -16,7 +16,7 @@ public class AGElitistaFrequenciaAtomos extends AGEstrategia {
 		//if (rt == null){rt = ana.getSFAnaliseAtomos(getListaFormulasJaSelecionadas(), getPblist().getListSignedFormula(),getStrategy(),false,false);}
 		//evitar a re-seleção
 		while(getListaFormulasJaSelecionadas().contains(rt)) {
-			rt = ana.getSFAnaliseAtomos(getListaFormulasJaSelecionadas(), getPblist().getListSignedFormula(),getStrategy(),true,false);
+			rt = ana.getSFAnaliseAtomos(getListaFormulasJaSelecionadas(), getPblist().getListSignedFormula(),getStrategy(),true,true);
 		}
 		if (rt!=null) getListaFormulasJaSelecionadas().add(rt);
 		return rt;

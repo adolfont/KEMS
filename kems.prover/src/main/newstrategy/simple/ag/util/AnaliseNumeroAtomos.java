@@ -18,19 +18,44 @@ import main.proofTree.INode;
 public class AnaliseNumeroAtomos {
 	
 	/**
-	 * @param listaPbIgnore: itens a serem ignorados por pertencem a lista PB
+	 * @listaPbIgnore: itens da lista PB devem ser ignorados
 	 * */
 	public ArrayList<SignedFormula> toList(Map<SignedFormula, INode> map, List<SignedFormula> listaPbIgnore){
 		ArrayList<SignedFormula> rt = new ArrayList<SignedFormula>();
 		for (Map.Entry<SignedFormula, INode> pair : map.entrySet()) {
+			
+			if (pair.getKey().toString().indexOf("BOTTOM") >= 0 ||
+					pair.getKey().toString().indexOf("TOP") >= 0) {
+				continue;
+			}
+			
 			if (rt.contains(pair.getKey())) continue;
 			if (listaPbIgnore!=null){
 				if (listaPbIgnore.contains(pair.getKey())){continue;}
 			}
+			//System.out.println(" -> pair.getKey(): " + pair.getKey());
+			rt.add(pair.getKey());
+		}
+		
+		if (rt!=null && rt.size() > 0) {return rt;}
+		
+		//problemas da família PHP
+		for (Map.Entry<SignedFormula, INode> pair : map.entrySet()) {
+			if (pair.getKey().toString().indexOf("BOTTOM") >= 0 ||
+					pair.getKey().toString().indexOf("TOP") >= 0) {
+				continue;
+			}
+			if (rt.contains(pair.getKey())) continue;
+			//System.out.println(" -> pair.getKey(): " + pair.getKey());
 			rt.add(pair.getKey());
 		}
 		return rt;
 	}
+	
+	public ArrayList<SignedFormula> toList(Map<SignedFormula, INode> map){
+		return toList(map, null);
+	}
+	
 	/**
 	 * Converte em list as fórmulas de uma estratégia
 	 * @listaPbIgnore: itens a serem ignorados por pertencem a lista PB
@@ -118,6 +143,40 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
+	 * @author Emerson Shigueo Sugimoto
+	 * */
+	public int GetAvaliacaoIndividual(
+			SignedFormula signedFormulaPBAvaliar,
+			Map<SignedFormula, INode> map,
+			List<SignedFormula> listaPbIgnore,
+			boolean sumPbFrequency,
+			boolean ignoreEmptyAtoms
+			){
+		return GetAvaliacaoIndividual(
+				signedFormulaPBAvaliar,
+				getHashAtomosEstrategia(toList(map, listaPbIgnore)),
+				sumPbFrequency, ignoreEmptyAtoms
+				);
+	}
+	
+	/**
+	 * para conseguir 'HashMap<AtomicFormula, Integer> hAtomosEstrategia' a partir do
+	 * 'Map<SignedFormula, INode> map':
+	 * AnaliseNumeroAtomos ana = new AnaliseNumeroAtomos();
+	 * HashMap<AtomicFormula, Integer> hAtomosEstrategia = ana.getHashAtomosEstrategia(ana.toList(map, listaPB));
+	 * @author Emerson Shigueo Sugimoto
+	 * */
+	public int GetAvaliacaoIndividual(
+			SignedFormula signedFormulaPBAvaliar,
+			HashMap<AtomicFormula, Integer> hAtomosEstrategia,
+			boolean sumPbFrequency,
+			boolean ignoreEmptyAtoms){
+		return CompareMapFrequenciasAtomos(
+				getHashFromFormula(signedFormulaPBAvaliar.getFormula()), 
+						hAtomosEstrategia, sumPbFrequency, ignoreEmptyAtoms);
+	}
+	
+	/**
 	 * Compara as frequências de átomos de 2 hashmaps
 	 * */
 	public int CompareMapFrequenciasAtomos(
@@ -153,6 +212,7 @@ public class AnaliseNumeroAtomos {
 		for(int i = 0; i <lista.size(); i++){
 			tmp = getHashFromFormula(lista.get(i).getFormula());
 			if (tmp==null){continue;}
+			if (tmp.toString().contains("TOP") || tmp.toString().contains("BOTTOM")){continue;}
 			addHash(tmp, rt);
 		}
 		return rt;

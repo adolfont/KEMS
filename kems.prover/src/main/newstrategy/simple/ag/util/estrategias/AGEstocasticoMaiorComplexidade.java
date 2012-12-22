@@ -9,7 +9,7 @@ import logic.signedFormulas.SignedFormula;
  * @author Emerson Shigueo Sugimoto
  * adaptado de Ricardo Linden, 2006
  * */
-public class AGEstocasticoSimple extends AGEstrategia {
+public class AGEstocasticoMaiorComplexidade extends AGEstrategia {
 
 	/**
 	 * @return a SignedFormula de acordo com a roleta

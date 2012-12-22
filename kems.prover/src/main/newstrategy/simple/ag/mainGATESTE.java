@@ -22,9 +22,61 @@ public class mainGATESTE {
 	 */
 	public static void main(String[] args) {
 		sfc = new SignedFormulaCreator(packageName);
-		testeAnaliseDeAtomos();
-		testeAnaliseAtomos();
+//		testeAnaliseDeAtomos();
+//		testeAnaliseAtomos();
+		
+		TestGetAvaliacaoFrequencia();
 	}
+	
+	private static void TestGetAvaliacaoFrequencia(){
+		ArrayList<SignedFormula> listaPB = new ArrayList<SignedFormula>();
+		listaPB.add(sfc.parseString("F(B->C)&(D|A)"));
+		listaPB.add(sfc.parseString("T(C->B)&(B|D)"));
+		
+		Map<SignedFormula, INode> map = new HashMap<SignedFormula, INode>();
+		map.put(sfc.parseString("F(B->C)&(D|A)"), null);
+		map.put(sfc.parseString("TC|D"), null);
+		map.put(sfc.parseString("TB"), null);
+		map.put(sfc.parseString("T(C->B)&(B|D)"), null);
+		
+		AnaliseNumeroAtomos ana = new AnaliseNumeroAtomos();
+		HashMap<AtomicFormula, Integer> hAtomosEstrategia = ana.getHashAtomosEstrategia(ana.toList(map, listaPB));
+		
+		System.out.println(
+				ana.GetAvaliacaoIndividual(
+					listaPB.get(0), 
+					hAtomosEstrategia,
+					true, true
+				)
+				);
+		System.out.println(
+				ana.GetAvaliacaoIndividual(
+					listaPB.get(1), 
+					hAtomosEstrategia,
+					true, true
+				)
+				);
+		
+	}
+	
+	
+	public static int GetAvaliacaoIndividual(
+			SignedFormula signedFormulaPBAvaliar,
+			HashMap<AtomicFormula, Integer> hAtomosEstrategia,
+			boolean sumPbFrequency,
+			boolean ignoreEmptyAtoms){
+		
+		//para conseguir 'HashMap<AtomicFormula, Integer> hAtomosEstrategia' a partir do
+		//'Map<SignedFormula, INode> map':
+		//AnaliseNumeroAtomos ana = new AnaliseNumeroAtomos();
+		//HashMap<AtomicFormula, Integer> hAtomosEstrategia = ana.getHashAtomosEstrategia(ana.toList(map, listaPB));
+		
+		AnaliseNumeroAtomos ana = new AnaliseNumeroAtomos();
+		return ana.CompareMapFrequenciasAtomos(
+				ana.getHashFromFormula(signedFormulaPBAvaliar.getFormula()), 
+						hAtomosEstrategia, sumPbFrequency,ignoreEmptyAtoms);
+	}
+	
 	
 	private void TesteNotCompareAgain(){
 		ArrayList<SignedFormula> ListaFormulasJaSelecionadas = new ArrayList<SignedFormula>();
