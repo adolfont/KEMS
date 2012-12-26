@@ -1,14 +1,17 @@
-package main.newstrategy.simple.ag.util.estrategias;
+package main.ag.strategy;
 
 import logic.signedFormulas.SignedFormula;
-import main.newstrategy.simple.ag.util.AnaliseNumeroAtomos;
+import main.ag.strategy.util.AnaliseNumeroAtomos;
 
 /**
- * Seleciona com base na frequência de átomos das regras PB e das fórmulas da árvore
- * @author Emerson Shigueo Sugimoto
+ * Seleciona com base na frequ&ecirc;ncia de &aacute;tomos das regras PB e das f&oacute;rmulas da &aacute;rvore
+ * @author Emerson Shigueo Sugimoto 10-12-2012
  * */
 public class AGElitistaFrequenciaAtomos extends AGEstrategia {
-
+	
+	/**
+	 * @return SignedFormula com maior frequ&ecirc;ncia da &aacute;rvore 
+	 * */
 	@Override
 	public SignedFormula getSignedFormula() {
 		AnaliseNumeroAtomos ana = new AnaliseNumeroAtomos();

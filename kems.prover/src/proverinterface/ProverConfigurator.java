@@ -32,6 +32,7 @@ import logic.valuation.CPLValuation;
 import logic.valuation.MBCValuation;
 import logicalSystems.classicalLogic.ClassicalConnectives;
 import logicalSystems.classicalLogic.ClassicalSigns;
+import main.ag.strategy.util.AGConfiguration;
 import main.newstrategy.c1.simple.C1SimpleStrategy;
 import main.newstrategy.c1.simple.comparator.ConsistencyComplexityComparator;
 import main.newstrategy.cpl.configurable.comparator.ComplexitySignedFormulaComparator;
@@ -51,7 +52,6 @@ import main.newstrategy.mci.simple.configurable.MCIConfigurableSimpleStrategy;
 import main.newstrategy.mci.simple.optional.MCISimpleWithOptionalRulesStrategy;
 import main.newstrategy.memorysaver.MemorySaverStrategy;
 import main.newstrategy.simple.SimpleStrategy;
-import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.newstrategy.simple.backjumping.BackjumpingSimpleStrategy;
 import main.newstrategy.simple.learning.LearningSimpleStrategy;
 import main.newstrategy.simple.newlearning.NewLearningSimpleStrategy;
@@ -446,7 +446,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 				if (!chkElitistaHibridoComplexidadeFreqAtomos.isSelected()) {
 					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
 				} else {
-					setAbordagemAG(AGConfiguration.Abordagens.ElitistaHibridoComplexidadeFreqAtomos);
+					setAbordagemAG(AGConfiguration.Abordagens.HibrMaiorComplexidadeElitEsto);
 				}
 				
 			}

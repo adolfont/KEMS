@@ -1,5 +1,4 @@
-package main.newstrategy.simple.ag.comparator;
-
+package main.ag.strategy.testes;
 
 /**
  * Testes das classes de Algoritmos Genéticos
@@ -7,7 +6,6 @@ package main.newstrategy.simple.ag.comparator;
  * */
 public class TestesAg {
 	
-//	private AGEstocastico _agEst;
 //	private SignedFormulaCreator sfc;
 //	
 //	@Before

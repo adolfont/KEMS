@@ -7,8 +7,8 @@ package main.newstrategy.simple;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+import main.ag.strategy.util.AGConfiguration;
 import main.newstrategy.ISimpleStrategy;
-import main.newstrategy.simple.ag.util.AGConfiguration;
 import main.proofTree.IProofTree;
 import main.proofTree.ProofTree;
 import main.strategy.ClassicalProofTree;

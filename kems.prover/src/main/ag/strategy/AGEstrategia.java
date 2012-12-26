@@ -1,4 +1,4 @@
-package main.newstrategy.simple.ag.util.estrategias;
+package main.ag.strategy;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,8 @@ import logic.signedFormulas.SignedFormula;
 import main.newstrategy.ISimpleStrategy;
 
 /**
- * Classe Base das estratégias
+ * Classe Abstrata das estrat&eacute;gias
+ * @author Emerson Shigueo Sugimoto 10-12-2012
  * */
 public abstract class AGEstrategia implements IEstrategiaAG {
 	private PBCandidateList _pbList;

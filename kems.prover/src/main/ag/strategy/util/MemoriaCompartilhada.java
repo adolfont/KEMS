@@ -1,4 +1,4 @@
-package main.newstrategy.simple.ag.util;
+package main.ag.strategy.util;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,16 +6,34 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * Contador de Bifurca&ccedil;&otilde;es da prova (aplica&ccedil;&atilde;o regra PB)
+ * @author Emerson Shigueo Sugimoto 10-12-2012
+ * */
 public class MemoriaCompartilhada {
 	private static final String _nomeArquivo = "MemoryTempPB.txt";
 	
+	/**
+	 * @return N&uacute;mero de Bifurca&ccedil;&otilde;es
+	 * */
 	public static int getNumero() {return LerArquivo();}
+	/**
+	 * @param numero Set N&uacute;mero de Bifurca&ccedil;&otilde;es
+	 * */
 	public static void setNumero(int numero) {SalvarArquivo(numero);}
 
+	/**
+	 * Adiciona uma bifurca&ccedil;&atilde;o
+	 * */
 	public static void Add(){setNumero(getNumero()+1);}
+	/**
+	 * Limpa a contagem
+	 * */
 	public static void Clear(){ClearFile();}
 	
-	
+	/**
+	 * @return N&uacute;mero de Bifurca&ccedil;&otilde;es
+	 * */
 	private static int LerArquivo(){
 		int rt = 0;
 		File arquivo = new File(_nomeArquivo);
@@ -45,6 +63,9 @@ public class MemoriaCompartilhada {
 		return rt;
 	}
 	
+	/**
+	 * @param valor N&uacute;mero de Bifurca&ccedil;&otilde;es
+	 * */
 	private static void SalvarArquivo(int valor){
 		File arquivo = new File(_nomeArquivo);
         FileOutputStream fos;
@@ -61,6 +82,9 @@ public class MemoriaCompartilhada {
 		arquivo = null;
 	}
 	
+	/**
+	 * Limpa a contagem
+	 * */
 	private static void ClearFile(){
 		File arquivo = new File(_nomeArquivo);
 		if (arquivo.exists()) {

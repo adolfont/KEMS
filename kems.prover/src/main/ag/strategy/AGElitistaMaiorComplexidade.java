@@ -1,16 +1,16 @@
-package main.newstrategy.simple.ag.util.estrategias;
+package main.ag.strategy;
 
 import logic.signedFormulas.SignedFormula;
 
 /**
- * Seleciona fórmula de maior complexidade da lista PBCandidateList
+ * Seleciona f&oacute;rmula de maior complexidade da lista PBCandidateList
  * @author Emerson Shigueo Sugimoto
  * */
 public class AGElitistaMaiorComplexidade extends AGEstrategia {
 
 	/**
-	 * @return a SignedFormula de maior valor de fitness,<br />
-	 * no caso, de maior número de conectivos
+	 * @return a SignedFormula de maior valor de <i>fitness</i>,<br />
+	 * no caso, de maior n&uacute;mero de conectivos
 	 * @author Emerson Shigueo Sugimoto
 	 * */
 	@Override
@@ -21,7 +21,7 @@ public class AGElitistaMaiorComplexidade extends AGEstrategia {
 	}
 
 	/**
-	 * @return a fórmula de maior complexidade da lista PBCandidateList
+	 * @return a f&oacute;rmula de maior complexidade da lista PBCandidateList
 	 * */
 	public SignedFormula getSignedFormulaMaiorComplexidade(){
 		SignedFormula rt = null;

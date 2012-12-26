@@ -4,8 +4,8 @@
  */
 package proverinterface;
 
+import main.ag.strategy.util.AGConfiguration;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
-import main.newstrategy.simple.ag.util.AGConfiguration;
 
 /**
  * An object that contains all information used to configure a prover.

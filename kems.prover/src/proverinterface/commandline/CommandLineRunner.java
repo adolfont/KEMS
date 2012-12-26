@@ -14,9 +14,10 @@ import java.util.List;
 import java.util.ListIterator;
 
 import logic.problem.Problem;
+import main.ag.strategy.util.AGConfiguration;
+import main.ag.strategy.util.AGConfiguration.Abordagens;
+import main.ag.strategy.util.MemoriaToFile;
 import main.newstrategy.cpl.configurable.comparator.ISignedFormulaComparator;
-import main.newstrategy.simple.ag.util.AGConfiguration;
-import main.newstrategy.simple.ag.util.AGConfiguration.Abordagens;
 import main.proofTree.ProofTree;
 import main.tableau.verifier.ExtendedProof;
 
@@ -105,7 +106,18 @@ public class CommandLineRunner {
 	private static boolean firstResult;
 
 	private static boolean showProof = false;
-
+	
+	//Emerson - memory
+	private final static Runtime runtime = Runtime.getRuntime();
+	//private static long _heap1 = 0;
+	private static long getMemoriaUsada(){return runtime.totalMemory() - runtime.freeMemory();} 
+	private static long getTotalUsadoBytes(){
+		long rt = getMemoriaUsada() - MemoriaToFile.getNumero();
+		MemoriaToFile.Clear(); 
+		if (rt<0){rt= Math.abs(rt);}
+		return rt;
+	}
+	
 	public static void main(String[] args) {
 		STRATEGY_FACTORY = new StrategyFactory();
 		SIGNED_FORMULA_COMPARATOR_MAP = new ComparatorMap();
@@ -141,7 +153,6 @@ public class CommandLineRunner {
 			System.err.println("Error: " + t);
 			logger.error("Error", t);
 		}
-
 	}
 
 	private static void processFile(String filename) throws Exception {
@@ -364,8 +375,9 @@ public class CommandLineRunner {
 								//comparator = "InsertionOrderComparator";
 							}
 						
-							main.newstrategy.simple.ag.util.MemoriaCompartilhada.Clear();
-
+							main.ag.strategy.util.MemoriaCompartilhada.Clear();
+							MemoriaToFile.setNumero(getMemoriaUsada());
+							
 							//System.out.println("comparator: " + comparator);
 							
 							basePC.setStrategyName(strategyName);
@@ -521,8 +533,9 @@ public class CommandLineRunner {
 		result = result + "Message" + resultSeparator;
 		result = result + "AG" + resultSeparator;
 		//result = result + "Memory";
-		result += "Numero Bif.";
-
+		result += "Numero Bif." + resultSeparator;
+		result += "Memoria (kB)";
+		
 		println(result);
 	}
 
@@ -573,9 +586,21 @@ public class CommandLineRunner {
 		
 		//result += (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) - _mem0;
 		
-		result += main.newstrategy.simple.ag.util.MemoriaCompartilhada.getNumero();
+		result +=
+				(ep.isClosed() ?
+				main.ag.strategy.util.MemoriaCompartilhada.getNumero()
+				:
+				"-"
+				) + 
+				resultSeparator;
+		result += 
+				(ep.isClosed() ?
+				//Kilobyte - kB
+				("" + getTotalUsadoBytes()/1024.0).replace(",", "").replace('.', ',')  
+				: 
+				"-");
 		
-		//main.newstrategy.simple.ag.util.MemoriaCompartilhada.Clear();
+		//main.ag.strategy.util.MemoriaCompartilhada.Clear();
 		
 		println(result);
 

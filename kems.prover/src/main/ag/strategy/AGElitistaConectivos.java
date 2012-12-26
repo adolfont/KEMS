@@ -1,14 +1,15 @@
-package main.newstrategy.simple.ag.util.estrategias;
+package main.ag.strategy;
 
 import logic.formulas.CompositeFormula;
 import logic.formulas.Formula;
 import logic.signedFormulas.SignedFormula;
 
 /**
- * Seleciona a fórmula com maior número de conectivos da lista PBCandidateList
+ * Seleciona a f&oacute;rmula com maior n&uacute;mero de conectivos da lista PBCandidateList
  * @Deprecated Resultados semelhantes a abordagem Elitista de Maior complexidade, pois, de forma semelhante,
- * quanto maior o número de conectivos, maior a complexidade. Desta forma use a classe AGElitistaMaiorComplexidade. 
- * @author Emerson Shigueo Sugimoto
+ * quanto maior o n&uacute;mero de conectivos, maior a complexidade. Desta forma use a classe AGElitistaMaiorComplexidade. 
+ * @author Emerson Shigueo Sugimoto 10-12-2012
+ * @see main.ag.strategy.AGElitistaMaiorComplexidade
  * */
 @Deprecated
 public class AGElitistaConectivos extends AGEstrategia {
@@ -22,7 +23,7 @@ public class AGElitistaConectivos extends AGEstrategia {
 	}
 	
 	/**
-	 * @return a fórmula com maior número de conectivos da lista PBCandidateList
+	 * @return a f&oacute;rmula com maior n&uacute;mero de conectivos da lista PBCandidateList
 	 * */
 	@Deprecated
 	public SignedFormula getSignedFormulaMaiorNumeroConectivos(){
@@ -44,7 +45,7 @@ public class AGElitistaConectivos extends AGEstrategia {
 	}
 	
 	/**
-	 * @return numero de conectivos de uma SignedFormula
+	 * @return n&uacute;mero de conectivos de uma SignedFormula
 	 * */
 	@Deprecated
 	public int getNumeroConectivos(SignedFormula sf){

@@ -10,11 +10,11 @@ import logic.signedFormulas.SignedFormula;
 import logic.signedFormulas.SignedFormulaBuilder;
 import logic.signedFormulas.SignedFormulaList;
 import logicalSystems.classicalLogic.ClassicalRules;
+import main.ag.strategy.IEstrategiaAG;
+import main.ag.strategy.util.AGConfiguration;
 import main.newstrategy.CPLPBRuleChooser;
 import main.newstrategy.IPBRuleChooser;
 import main.newstrategy.ISimpleStrategy;
-import main.newstrategy.simple.ag.util.AGConfiguration;
-import main.newstrategy.simple.ag.util.estrategias.IEstrategiaAG;
 import main.proofTree.SignedFormulaNode;
 import main.proofTree.SignedFormulaNodeState;
 import main.strategy.ClassicalProofTree;
@@ -75,7 +75,7 @@ public class PBRuleApplicator implements IProofTransformation {
 		int candidateIndex = 0;
 		
 		//counter PB
-		main.newstrategy.simple.ag.util.MemoriaCompartilhada.Add();
+		main.ag.strategy.util.MemoriaCompartilhada.Add();
 		
 		//EMERSON: Temporário Algoritmo Genético
 		//System.out.println(" # strategy.getAbordagensAG(): " + strategy.getAbordagensAG());

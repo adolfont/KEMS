@@ -1,9 +1,10 @@
-package main.newstrategy.simple.ag.util;
+package main.ag.strategy.util;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import logic.formulas.AtomicFormula;
 import logic.formulas.Formula;
 import logic.signedFormulas.SignedFormula;
@@ -11,14 +12,22 @@ import main.newstrategy.ISimpleStrategy;
 import main.proofTree.INode;
 
 /**
- * Análisa a frequência dos átomos das regras PB (PBCandidateList) e compara com
- * os átomos das demais fórmulas da base de conhecimentos
- * @author Emerson Shigueo Sugimoto
+ * An&aacute;lisa a frequ&ecirc;ncia dos &aacute;tomos das regras PB (PBCandidateList) e compara com
+ * os &aacute;tomos das demais f&oacute;rmulas da base de conhecimentos
+ * @author Emerson Shigueo Sugimoto 10-12-2012
  * */
 public class AnaliseNumeroAtomos {
-	
+
 	/**
-	 * @listaPbIgnore: itens da lista PB devem ser ignorados
+	 * {@link map} pode ser obtido a partir de ISimpleStrategy strategy
+	 * @param map Map&lt;SignedFormula, INode&gt; - SignedFormula da &aacute;rvore de prova
+	 * @param listaPbIgnore SignedFormula da lista PB que devem ser ignorados
+	 * @return Cria uma lista de SignedFormula a partir de {@link map}, ignorando as SignedFormula de {@link listaPbIgnore}
+	 * @author Emerson Shigueo Sugimoto 10-12-2012
+	 * @see main.newstrategy.ISimpleStrategy
+	 * @see main.strategy.ClassicalProofTree
+	 * @see <code>main.newstrategy.ISimpleStrategy.getProofTree()</code>
+	 * @see <code>main.strategy.ClassicalProofTree.getSignedFormulasToNodes()</code>
 	 * */
 	public ArrayList<SignedFormula> toList(Map<SignedFormula, INode> map, List<SignedFormula> listaPbIgnore){
 		ArrayList<SignedFormula> rt = new ArrayList<SignedFormula>();
@@ -52,21 +61,39 @@ public class AnaliseNumeroAtomos {
 		return rt;
 	}
 	
+	/**
+	 * {@link map} pode ser obtido a partir de ISimpleStrategy strategy
+	 * @param map Map&lt;SignedFormula, INode&gt; - SignedFormula da &aacute;rvore de prova
+	 * @return Cria uma lista de SignedFormula a partir de {@link map}, sem ignorar as SignedFormula da lista PB
+	 * @author Emerson Shigueo Sugimoto 10-12-2012
+	 * @see main.newstrategy.ISimpleStrategy
+	 * @see main.strategy.ClassicalProofTree
+	 * @see <code>main.newstrategy.ISimpleStrategy.getProofTree()</code>
+	 * @see <code>main.strategy.ClassicalProofTree.getSignedFormulasToNodes()</code>
+	 * */
 	public ArrayList<SignedFormula> toList(Map<SignedFormula, INode> map){
 		return toList(map, null);
 	}
 	
 	/**
-	 * Converte em list as fórmulas de uma estratégia
-	 * @listaPbIgnore: itens a serem ignorados por pertencem a lista PB
+	 * Converte em list as f&oacute;rmulas de uma estrat&eacute;gia
+	 * @param strategy ISimpleStrategy
+	 * @param listaPbIgnore SignedFormula a serem ignorados da lista PB
+	 * @see main.newstrategy.ISimpleStrategy
 	 * */
 	public ArrayList<SignedFormula> toList(ISimpleStrategy strategy, List<SignedFormula> listaPbIgnore){
 		return toList(strategy.getProofTree().getSignedFormulasToNodes(), listaPbIgnore);
 	}
 	
 	/**
-	 * Método final
-	 * @return Seleciona a SignedFormula com a maior frequência de átomos da base de conhecimentos  
+	 * M&eacute;todo final
+	 * @param listaFormulasJaSelecionadas lista de SignedFormula selecionadas
+	 * @param listaPB lista de SignedFormula da lista PB
+	 * @param strategy ISimpleStrategy
+	 * @param sumPbFrequency <strong>true</strong>: soma a frequ&ecirc;ncia dos &aacute;tomos das SignedFormula contidas na lista PBCandidateList<br />
+	 * @param ignoreEmptyAtoms <strong>true</strong>: SignedFormulas da PBCandidateList com &aacute;tomos que n&atilde;o existem na &aacute;rvore de prova
+	 * n&atilde;o possuem seu <i>fitness</i> zerados.<br />
+	 * @return Seleciona a SignedFormula com a maior frequ&ecirc;ncia de &aacute;tomos da base de conhecimentos  
 	 * */
 	public SignedFormula getSFAnaliseAtomos(
 			ArrayList<SignedFormula> listaFormulasJaSelecionadas,
@@ -82,8 +109,15 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * Método final
-	 * @return Seleciona a SignedFormula com a maior frequência de átomos da base de conhecimentos  
+	 * M&eacute;todo final<br>
+	 * {@link map} pode ser obtido a partir de ISimpleStrategy strategy
+	 * @param listaFormulasJaSelecionadas lista de SignedFormula selecionadas
+	 * @param listaPB lista de SignedFormula da lista PB
+	 * @param map Map&lt;SignedFormula, INode&gt; - SignedFormula da &aacute;rvore de prova
+	 * @param sumPbFrequency <strong>true</strong>: soma a frequ&ecirc;ncia dos &aacute;tomos das SignedFormula contidas na lista PBCandidateList<br />
+	 * @param ignoreEmptyAtoms <strong>true</strong>: SignedFormulas da PBCandidateList com &aacute;tomos que n&atilde;o existem na &aacute;rvore de prova
+	 * n&atilde;o possuem seu <i>fitness</i> zerados.<br />
+	 * @return Seleciona a SignedFormula com a maior frequ&ecirc;ncia de &aacute;tomos da base de conhecimentos  
 	 * */
 	public SignedFormula getSFAnaliseAtomos(
 			ArrayList<SignedFormula> listaFormulasJaSelecionadas,
@@ -99,8 +133,18 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * Método final
-	 * @return Seleciona a SignedFormula com a maior frequência de átomos da base de conhecimentos  
+	 * M&eacute;todo final<br>
+	 * @param listaFormulasJaSelecionadas lista de SignedFormula selecionadas
+	 * @param hListaAtomicPB HashMap&lt;SignedFormula, HashMap&lt;AtomicFormula, Integer&gt;&gt;<br>
+	 * <code>Hash</code> contendo, para cada SignedFormula da lista PB, um <code>Hash</code> com as frequ&ecirc;ncias
+	 * dos respectivos &aacute;tomos das SignedFormulas da lista PB
+	 * @param lAtomosEstrategia <code>Hash</code> contendo as frequ&ecirc;ncias dos &aacute;tomos de
+	 * todas as SignedFormulas da &aacute;rvore de prova, exceto as frequ&ecirc;ncias dos &aacute;tomos das
+	 * SignedFormula da lista PB.
+	 * @param sumPbFrequency <strong>true</strong>: soma a frequ&ecirc;ncia dos &aacute;tomos das SignedFormula contidas na lista PBCandidateList<br />
+	 * @param ignoreEmptyAtoms <strong>true</strong>: SignedFormulas da PBCandidateList com &aacute;tomos que n&atilde;o existem na &aacute;rvore de prova
+	 * n&atilde;o possuem seu <i>fitness</i> zerados.<br />
+	 * @return Seleciona a SignedFormula com a maior frequ&ecirc;ncia de &aacute;tomos da base de conhecimentos  
 	 * */
 	public SignedFormula getSFAnaliseAtomos(
 			ArrayList<SignedFormula> listaFormulasJaSelecionadas,
@@ -143,6 +187,18 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
+	 * {@link map} pode ser obtido a partir de ISimpleStrategy strategy
+	 * @param signedFormulaPBAvaliar SignedFormula a ser avaliada
+	 * @param map Map&lt;SignedFormula, INode&gt; - SignedFormula da &aacute;rvore de prova
+	 * @param listaPbIgnore lista de SignedFormula da lista PB
+	 * @param sumPbFrequency <strong>true</strong>: soma a frequ&ecirc;ncia dos &aacute;tomos das SignedFormula contidas na lista PBCandidateList<br />
+	 * @param ignoreEmptyAtoms <strong>true</strong>: SignedFormulas da PBCandidateList com &aacute;tomos que n&atilde;o existem na &aacute;rvore de prova
+	 * n&atilde;o possuem seu <i>fitness</i> zerados.<br />
+	 * @return a avalia&ccedil;&atilde;o indiv&iacute;dual de uma SignedFormula
+	 * @see main.newstrategy.ISimpleStrategy
+	 * @see main.strategy.ClassicalProofTree
+	 * @see <code>main.newstrategy.ISimpleStrategy.getProofTree()</code>
+	 * @see <code>main.strategy.ClassicalProofTree.getSignedFormulasToNodes()</code>
 	 * @author Emerson Shigueo Sugimoto
 	 * */
 	public int GetAvaliacaoIndividual(
@@ -160,10 +216,24 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * para conseguir 'HashMap<AtomicFormula, Integer> hAtomosEstrategia' a partir do
-	 * 'Map<SignedFormula, INode> map':
-	 * AnaliseNumeroAtomos ana = new AnaliseNumeroAtomos();
-	 * HashMap<AtomicFormula, Integer> hAtomosEstrategia = ana.getHashAtomosEstrategia(ana.toList(map, listaPB));
+	 * 
+	 * HashMap&lt;AtomicFormula, Integer&gt; {@link hAtomosEstrategia} pode ser obtido de
+	 * Map&lt;SignedFormula, INode&gt; map:
+	 * <p>
+	 * <code>
+	 * HashMap&lt;AtomicFormula, Integer&gt; hAtomosEstrategia = {@link #getHashAtomosEstrategia(ArrayList)}<br>
+	 * Onde {@link ArrayList} prov&eacute;m de: {@link #toList(Map, List)};
+	 * </code>
+	 * </p>
+	 * @param signedFormulaPBAvaliar SignedFormula da lista Pb a ser avaliada
+	 * @param hAtomosEstrategia <code>Hash</code> com a frequ&ecirc;ncia dos &aacute;tomos da &aacute;rvore de prova
+	 * @param sumPbFrequency <strong>true</strong>: soma a frequ&ecirc;ncia dos &aacute;tomos das SignedFormula contidas na lista PBCandidateList<br />
+	 * @param ignoreEmptyAtoms <strong>true</strong>: SignedFormulas da PBCandidateList com &aacute;tomos que n&atilde;o existem na &aacute;rvore de prova
+	 * n&atilde;o possuem seu <i>fitness</i> zerados.<br />
+	 * @see main.newstrategy.ISimpleStrategy
+	 * @see main.strategy.ClassicalProofTree
+	 * @see <code>main.newstrategy.ISimpleStrategy.getProofTree()</code>
+	 * @see <code>main.strategy.ClassicalProofTree.getSignedFormulasToNodes()</code>
 	 * @author Emerson Shigueo Sugimoto
 	 * */
 	public int GetAvaliacaoIndividual(
@@ -177,7 +247,16 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * Compara as frequências de átomos de 2 hashmaps
+	 * Compara as frequ&ecirc;ncias de &aacute;tomos de 2 hashmaps <code>HashMap&lt;AtomicFormula, Integer&gt;</code>
+	 * @param hPb <code>HashMap&lt;AtomicFormula, Integer&gt;</code> de frequ&ecirc;ncias de SignedFormula da lista PB
+	 * @param hFormulasEstrategia <code>HashMap&lt;AtomicFormula, Integer&gt;</code> 
+	 * de frequ&ecirc;ncias de SignedFormula da &aacute;rvore de prova
+	 * @param sumPbFrequency <strong>true</strong>: soma a frequ&ecirc;ncia dos &aacute;tomos das SignedFormula contidas na lista PBCandidateList<br />
+	 * @param ignoreEmptyAtoms <strong>true</strong>: SignedFormulas da PBCandidateList com &aacute;tomos que n&atilde;o existem na &aacute;rvore de prova
+	 * n&atilde;o possuem seu <i>fitness</i> zerados.<br />
+	 * @return A frequ&ecirc;ncia do <code>Hash</code> PB no <code>Hash</code> da &aacute;rvore de prova.
+	 * Ser&aacute; o <i>fitness</i> da SignedFormula (A qual deu origem ao {@link hPb}).
+	 * @author Emerson Shigueo Sugimoto
 	 * */
 	public int CompareMapFrequenciasAtomos(
 			HashMap<AtomicFormula, Integer> hPb, 
@@ -203,7 +282,9 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * Retorna uma lista de átomos das fórmulas da estratégia
+	 * Converte uma lista de SignedFormula em um <code>Hash</code> de frequ&ecirc;ncia dos &aacute;tomos
+	 * @param lista Lista de SignedFormula
+	 * @return Retorna uma lista de &aacute;tomos das f&oacute;rmulas da estrat&eacute;gia
 	 * */
 	public HashMap<AtomicFormula, Integer> getHashAtomosEstrategia(ArrayList<SignedFormula> lista){
 		if (lista==null || lista.size() <= 0) {return null;}
@@ -219,7 +300,9 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * Para Cada SignedFormula cria um map com as frequências das fórmulas atômicas
+	 * @param lista Lista de SignedFormula
+	 * @return Para Cada SignedFormula cria um map com as frequ&ecirc;ncias das f&oacute;rmulas at&ocirc;micas
+	 * @author Emerson Shigueo Sugimoto
 	 * */
 	public HashMap<SignedFormula, HashMap<AtomicFormula, Integer>> getHashFromList(
 			List<SignedFormula> lista){
@@ -235,7 +318,9 @@ public class AnaliseNumeroAtomos {
 	}
 	
 	/**
-	 * Retorna um Map com as frequências de uma fórmula
+	 * M&eacute;todo recursivo
+	 * @param f Formula
+	 * @return Retorna um Map com as frequ&ecirc;ncias de uma f&oacute;rmula
 	 * */
 	public HashMap<AtomicFormula, Integer> getHashFromFormula(Formula f){
 		HashMap<AtomicFormula, Integer> rt = new HashMap<AtomicFormula, Integer>();
@@ -253,11 +338,23 @@ public class AnaliseNumeroAtomos {
 		return rt;
 	}
 	
+	/**
+	 * M&eacute;todo auxiliar para controle das frequ&ecirc;ncias dos &aacute;tomos
+	 * @param hMap HashMap&lt;AtomicFormula, Integer&gt; <code>Hash</code>
+	 * de frequ&ecirc;ncias a ser adicionado em {@link hMapFinal} 
+	 * @param hMapFinal HashMap&lt;AtomicFormula, Integer&gt; <code>Hash</code> final
+	 * */
 	private void addHash(HashMap<AtomicFormula, Integer> hMap, HashMap<AtomicFormula, Integer> hMapFinal){
 		for (Map.Entry<AtomicFormula, Integer> pair : hMap.entrySet()) {
 			addHash(pair.getKey(), pair.getValue(), hMapFinal);
 		}
 	}
+	/**
+	 * M&eacute;todo auxiliar para controle das frequ&ecirc;ncias dos &aacute;tomos
+	 * @param f Formula
+	 * @param freq frequ&ecirc;ncia
+	 * @param hMapFinal HashMap&lt;AtomicFormula, Integer&gt; <code>Hash</code> final
+	 * */
 	private void addHash(Formula f, int freq, HashMap<AtomicFormula, Integer> hMapFinal){
 		if (hMapFinal.containsKey((AtomicFormula)f)) {
 			hMapFinal.put((AtomicFormula)f, (hMapFinal.get((AtomicFormula)f)+freq));
@@ -266,18 +363,29 @@ public class AnaliseNumeroAtomos {
 		}
 	}
 	
+	/**
+	 * M&eacute;todo auxiliar para print() com System.out.println(); de uma lista
+	 * @param lista lista de SignedFormula
+	 * */
 	public void print(ArrayList<SignedFormula> lista){
 		for(int i = 0; i < lista.size(); i++) {
 			System.out.println(lista.get(i));
 		}
 	}
-	
+	/**
+	 * M&eacute;todo auxiliar para print() com System.out.println(); de um <code>HashMap</code>
+	 * @param hMap <code>HashMap</code>
+	 * */
 	public void print(HashMap<AtomicFormula, Integer> hMap) {
 		for (Map.Entry<AtomicFormula, Integer> pair : hMap.entrySet()) {
 			System.out.println(pair.getKey() + " : " + pair.getValue());
 		}
 	}
-	
+	/**
+	 * M&eacute;todo auxiliar para print() com System.out.println(); de um 
+	 * <code>HashMap&lt;SignedFormula, HashMap&lt;AtomicFormula, Integer&gt;&gt;</code>
+	 * @param hMap <code>HashMap&lt;SignedFormula, HashMap&lt;AtomicFormula, Integer&gt;&gt;</code>
+	 * */
 	public void printHMapList(HashMap<SignedFormula, HashMap<AtomicFormula, Integer>> hMap){
 		for (Map.Entry<SignedFormula, HashMap<AtomicFormula, Integer>> pair : hMap.entrySet()) {
 			System.out.println("-" + pair.getKey());
