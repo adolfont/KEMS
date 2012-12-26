@@ -55,6 +55,7 @@ import main.newstrategy.simple.SimpleStrategy;
 import main.newstrategy.simple.backjumping.BackjumpingSimpleStrategy;
 import main.newstrategy.simple.learning.LearningSimpleStrategy;
 import main.newstrategy.simple.newlearning.NewLearningSimpleStrategy;
+import java.awt.Color;
 
 /**
  * The frame that allows the user to configure the prover. It allows him/her to
@@ -107,6 +108,7 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	private JCheckBox chkEstocasticMaiorComplexidade;
 	private JCheckBox chkEstocasticoFrequenciaAtomos;
 	private JCheckBox chkElitistaHibridoComplexidadeFreqAtomos;
+	private JCheckBox chkHibFreqAtomosElitEsto;
 	
 	private static final String CPL_LOGIC = "Classical Propositional Logic";
 
@@ -334,21 +336,24 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	}
 	
 	/**
-	 * Painel Algoritmo Genético
+	 * Painel Algoritmo Gen&eacute;tico
 	 * @author Emerson Shigueo Sugimoto
 	 * */
 	private JPanel createPainelAG() {
 		// Signed formula comparator area
 		JPanel pnlAG = new JPanel(new GridLayout(0, 5));
-		JLabel lblModoAG = new JLabel("Modo AG:");
+		pnlAG.setBackground(Color.WHITE);
+		JLabel lblModoAG = new JLabel("Abordagem AG:");
 		
 		chkElitistaMaiorComplexidade = new JCheckBox("Elitista Complex");
+		chkElitistaMaiorComplexidade.setBackground(Color.WHITE);
 		chkElitistaMaiorComplexidade.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				chkEstocasticMaiorComplexidade.setSelected(false);  //desmarca de qualquer forma
 				chkElitistaFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				chkEstocasticoFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				chkElitistaHibridoComplexidadeFreqAtomos.setSelected(false);
+				chkHibFreqAtomosElitEsto.setSelected(false);
 				signedFormulaComparatorCombo.setEnabled(!chkElitistaMaiorComplexidade.isSelected());
 				
 				if (!chkElitistaMaiorComplexidade.isSelected()) {
@@ -362,12 +367,14 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		chkElitistaMaiorComplexidade.setToolTipText("Elitista Complexi");
 		
 		chkElitistaFrequenciaAtomos = new JCheckBox("Elitista Freq. Átomos");
+		chkElitistaFrequenciaAtomos.setBackground(Color.WHITE);
 		chkElitistaFrequenciaAtomos.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				chkEstocasticMaiorComplexidade.setSelected(false);  //desmarca de qualquer forma
 				chkEstocasticoFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				chkElitistaMaiorComplexidade.setSelected(false); //desmarca de qualquer forma
 				chkElitistaHibridoComplexidadeFreqAtomos.setSelected(false);
+				chkHibFreqAtomosElitEsto.setSelected(false);
 				signedFormulaComparatorCombo.setEnabled(!chkElitistaFrequenciaAtomos.isSelected());
 				
 				if (!chkElitistaFrequenciaAtomos.isSelected()) {
@@ -381,12 +388,14 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		chkElitistaFrequenciaAtomos.setToolTipText("Elitista Freq. Átomos");
 		
 		chkEstocasticMaiorComplexidade = new JCheckBox("Estocástico Complex.");
+		chkEstocasticMaiorComplexidade.setBackground(Color.WHITE);
 		chkEstocasticMaiorComplexidade.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				chkElitistaMaiorComplexidade.setSelected(false); //desmarca de qualquer forma
 				chkElitistaFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				chkEstocasticoFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				chkElitistaHibridoComplexidadeFreqAtomos.setSelected(false);
+				chkHibFreqAtomosElitEsto.setSelected(false);
 				signedFormulaComparatorCombo.setEnabled(!chkEstocasticMaiorComplexidade.isSelected());
 				
 				if (!chkEstocasticMaiorComplexidade.isSelected()) {
@@ -400,12 +409,14 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		chkEstocasticMaiorComplexidade.setToolTipText("Estocástico");
 		
 		chkEstocasticoFrequenciaAtomos = new JCheckBox("Estocástico Freq. Átomos");
+		chkEstocasticoFrequenciaAtomos.setBackground(Color.WHITE);
 		chkEstocasticoFrequenciaAtomos.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				chkElitistaMaiorComplexidade.setSelected(false); //desmarca de qualquer forma
 				chkElitistaFrequenciaAtomos.setSelected(false);  //desmarca de qualquer forma
 				chkEstocasticMaiorComplexidade.setSelected(false);  //desmarca de qualquer forma
 				chkElitistaHibridoComplexidadeFreqAtomos.setSelected(false);
+				chkHibFreqAtomosElitEsto.setSelected(false);
 				signedFormulaComparatorCombo.setEnabled(!chkEstocasticoFrequenciaAtomos.isSelected());
 				
 				if (!chkEstocasticoFrequenciaAtomos.isSelected()) {
@@ -427,20 +438,23 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 	}
 	
 	/**
-	 * Painel Ag Híbrido
+	 * Painel Ag Abordagem H&iacute;brida
 	 * @author Emerson Shigueo Sugimoto
 	 * */
 	private JPanel createPnlAGHibrido() {
 		JPanel pnlAGHibrido = new JPanel(new GridLayout(0, 5));
+		pnlAGHibrido.setBackground(Color.WHITE);
 		JLabel lblAGHibrido = new JLabel("AG Híbrido:");
 		
-		chkElitistaHibridoComplexidadeFreqAtomos = new JCheckBox("Hibrido Compl. Freq.");
+		chkElitistaHibridoComplexidadeFreqAtomos = new JCheckBox("Hibrido Compl. Elit Est");
+		chkElitistaHibridoComplexidadeFreqAtomos.setBackground(Color.WHITE);
 		chkElitistaHibridoComplexidadeFreqAtomos.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				chkEstocasticMaiorComplexidade.setSelected(false);
 				chkElitistaFrequenciaAtomos.setSelected(false);
 				chkEstocasticoFrequenciaAtomos.setSelected(false);
 				chkElitistaMaiorComplexidade.setSelected(false);
+				chkHibFreqAtomosElitEsto.setSelected(false);
 				signedFormulaComparatorCombo.setEnabled(!chkElitistaHibridoComplexidadeFreqAtomos.isSelected());
 				
 				if (!chkElitistaHibridoComplexidadeFreqAtomos.isSelected()) {
@@ -453,8 +467,30 @@ public class ProverConfigurator extends JFrame implements ActionListener {
 		});
 		chkElitistaHibridoComplexidadeFreqAtomos.setToolTipText("Elitista Complexi");
 	
+		chkHibFreqAtomosElitEsto = new JCheckBox("Hibrido Freq. Átomos Elit Est");
+		chkHibFreqAtomosElitEsto.setBackground(Color.WHITE);
+		chkHibFreqAtomosElitEsto.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				chkEstocasticMaiorComplexidade.setSelected(false);
+				chkElitistaFrequenciaAtomos.setSelected(false);
+				chkEstocasticoFrequenciaAtomos.setSelected(false);
+				chkElitistaMaiorComplexidade.setSelected(false);
+				chkElitistaHibridoComplexidadeFreqAtomos.setSelected(false);
+				signedFormulaComparatorCombo.setEnabled(!chkHibFreqAtomosElitEsto.isSelected());
+				
+				if (!chkHibFreqAtomosElitEsto.isSelected()) {
+					setAbordagemAG(AGConfiguration.Abordagens.NotApplyAG);
+				} else {
+					setAbordagemAG(AGConfiguration.Abordagens.HibFreqAtomosElitEsto);
+				}
+				
+			}
+		});
+		chkHibFreqAtomosElitEsto.setToolTipText("Hib Freq Atomos Elit Esto");
+		
 		pnlAGHibrido.add(lblAGHibrido);
 		pnlAGHibrido.add(chkElitistaHibridoComplexidadeFreqAtomos);
+		pnlAGHibrido.add(chkHibFreqAtomosElitEsto);
 		return pnlAGHibrido;
 	}
 	
