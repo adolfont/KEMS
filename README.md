@@ -4,6 +4,7 @@ More info about KEMS can be found in http://adolfoneto.wikidot.com/KEMS
 
 Publications:
 - Serra-Seca-Neto, Adolfo G; Finger, Marcelo. Effective Prover for Minimal Inconsistency Logic. http://dx.doi.org/10.1007/978-0-387-34747-9_48
+- Serra-Seca-Neto, Adolfo G; Finger, Marcelo.  A KE tableau for a logic of formal inconsistency. https://www.ime.usp.br/~mfinger/home/papers/conf/NF07.pdf
 - Serra-Seca-Neto, Adolfo G. Multi-Stratategy Tableau Prover, PhD. Thesis: http://www.teses.usp.br/teses/disponiveis/45/45134/tde-04052007-175943/en.php
 - Serra-Seca-Neto, Adolfo G; Finger, Marcelo. Implementing a Multi-Strategy Theorem Prover. http://www.ime.usp.br/~adolfo/trabalhos/enia2005.pdf
 - Serra-Seca-Neto, Adolfo G; Finger, Marcelo. KEMS - A Multi-Strategy Tableau Prover. http://www.dainf.ct.utfpr.edu.br/~adolfo/publications/2008/wtdia_2008_neto_finger.pdf
