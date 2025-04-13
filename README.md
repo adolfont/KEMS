@@ -1,6 +1,5 @@
-This is the README file for KEMS, a KE-based multi-strategy tableau prover.
+KEMS is a KE-based multi-strategy tableau prover.
 
-More info about KEMS can be found in http://adolfoneto.wikidot.com/KEMS
 
 Publications:
 - Serra-Seca-Neto, Adolfo G; Finger, Marcelo. Effective Prover for Minimal Inconsistency Logic. http://dx.doi.org/10.1007/978-0-387-34747-9_48
